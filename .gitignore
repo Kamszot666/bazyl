@@ -1,0 +1,35 @@
+# Wyniki i pliki tymczasowe
+wyniki/
+logi.csv
+checkpoint.json
+config.json
+scraping.log
+scraping_log.txt
+checkpoint.txt
+skrypt.bat
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Pliki wynikowe Excel generowane przez skrypty
+dane_firm_*.xlsx
+*_checkpoint.xlsx
+*_uzupelniona_*.xlsx
+baza_firm_final_uzupelniona_v2.xlsx
+baza_firm_uzupelniona_web.xlsx
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
