@@ -306,11 +306,22 @@ class SkryptScraper:
     # ----- EKSTRAKCJA DANYCH -----
 
     @staticmethod
+    def _jest_domena(href: str, domena: str) -> bool:
+        """Sprawdza czy URL nalezy do podanej domeny (np. facebook.com)."""
+        from urllib.parse import urlparse
+        try:
+            parsed = urlparse(href)
+            host = parsed.hostname or ""
+            return host == domena or host.endswith("." + domena)
+        except Exception:
+            return False
+
+    @staticmethod
     def wyodrebnij_facebook(soup: BeautifulSoup) -> Optional[str]:
         """Wyodrebnia link do Facebooka."""
         for link in soup.find_all("a", href=True):
             href = link["href"]
-            if "facebook.com" in href.lower() and href.startswith("http"):
+            if href.startswith("http") and SkryptScraper._jest_domena(href, "facebook.com"):
                 return href
         return None
 
@@ -319,7 +330,7 @@ class SkryptScraper:
         """Wyodrebnia link do LinkedIn."""
         for link in soup.find_all("a", href=True):
             href = link["href"]
-            if "linkedin.com" in href.lower() and href.startswith("http"):
+            if href.startswith("http") and SkryptScraper._jest_domena(href, "linkedin.com"):
                 return href
         return None
 
