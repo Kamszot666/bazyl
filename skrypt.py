@@ -449,7 +449,7 @@ class SkryptScraper:
         ]
 
         wzorzec_imienia = (
-            r"\b[A-ZACELNOSZZZ\u0104\u0106\u0118\u0141\u0143\u00d3\u015a\u0179\u017b]"
+            r"\b[A-Z\u0104\u0106\u0118\u0141\u0143\u00d3\u015a\u0179\u017b]"
             r"[a-z\u0105\u0107\u0119\u0142\u0144\u00f3\u015b\u017a\u017c]{2,}"
             r"\s+"
             r"[A-Z\u0104\u0106\u0118\u0141\u0143\u00d3\u015a\u0179\u017b]"
@@ -558,9 +558,8 @@ class SkryptScraper:
             if wynik["email"] and wynik["imie_nazwisko"]:
                 break
 
-            time.sleep(
-                OPOZNIENIE_MIN + (OPOZNIENIE_MAX - OPOZNIENIE_MIN) * (hash(url) % 100 / 100.0)
-            )
+            import random as _rand
+            time.sleep(_rand.uniform(OPOZNIENIE_MIN, OPOZNIENIE_MAX))
 
         return wynik
 
@@ -642,7 +641,7 @@ def przetworz_firme(
         wynik = scraper.scrapuj_firme(driver, nazwa, www)
 
         # Sprawdz brakujace dane i szukaj w DuckDuckGo
-        brakujace = [k for k in ["facebook", "linkedin", "email"] if not wynik.get(k)]
+        brakujace = [k for k in ["facebook", "linkedin", "email", "telefon", "nip"] if not wynik.get(k)]
         if brakujace and nazwa:
             ddg = scraper.szukaj_duckduckgo(driver, nazwa, brakujace)
             for klucz, wartosc in ddg.items():

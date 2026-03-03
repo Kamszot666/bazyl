@@ -172,7 +172,6 @@ class TestHelpers(unittest.TestCase):
 
     def test_zapisz_wczytaj_checkpoint(self):
         from skrypt import zapisz_checkpoint, wczytaj_checkpoint, SCIEZKA_CHECKPOINT
-        import os
 
         zapisz_checkpoint(42)
         wynik = wczytaj_checkpoint()
@@ -180,11 +179,10 @@ class TestHelpers(unittest.TestCase):
 
         # Cleanup
         if SCIEZKA_CHECKPOINT.exists():
-            os.unlink(SCIEZKA_CHECKPOINT)
+            SCIEZKA_CHECKPOINT.unlink()
 
     def test_zapisz_log_csv(self):
         from skrypt import zapisz_log_csv, SCIEZKA_LOGU
-        import os
 
         zapisz_log_csv("Test zdarzenie")
         self.assertTrue(SCIEZKA_LOGU.exists())
@@ -195,7 +193,7 @@ class TestHelpers(unittest.TestCase):
 
         # Cleanup
         if SCIEZKA_LOGU.exists():
-            os.unlink(SCIEZKA_LOGU)
+            SCIEZKA_LOGU.unlink()
 
 
 if __name__ == "__main__":
