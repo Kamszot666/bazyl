@@ -441,71 +441,203 @@ class SkryptScraper:
         return None
 
     @staticmethod
+    def _jest_prawdziwe_imie(kandydat: str) -> bool:
+        """Sprawdza czy kandydat na imie i nazwisko nie jest falszywym pozytywem."""
+        fałszywe = {
+            "lorem ipsum", "jan kowalski", "anna nowak",
+            "więcej informacji", "prosimy kontakt", "nasza oferta",
+            "polityka prywatności", "regulamin serwisu",
+            "strona główna", "wszystkie prawa", "prawa zastrzeżone",
+            "dane osobowe", "ochrona danych", "warunki współpracy",
+            "formularz kontaktowy", "nasz zespół", "nasz firma",
+            "prezes zarządu", "wiceprezes zarządu", "członek zarządu",
+            "dyrektor generalny", "dyrektor handlowy",
+            "dyrektor zarządzający", "dyrektor operacyjny",
+            "kierownik działu", "kierownik biura",
+        }
+        if kandydat.lower() in fałszywe:
+            return False
+        # Odrzuc kandydatow gdzie oba slowa sa popularnymi rzeczownikami
+        slowa = kandydat.split()
+        if len(slowa) != 2:
+            return False
+        # Kazde slowo musi miec co najmniej 2 znaki (poza tytulami)
+        if len(slowa[0]) < 2 or len(slowa[1]) < 2:
+            return False
+        return True
+
+    @staticmethod
+    def _wyodrebnij_stanowisko(tekst: str) -> Optional[str]:
+        """Wyodrebnia stanowisko z tekstu."""
+        stanowiska_pl = [
+            "kierownik", "dyrektor", "prezes", "manager", "menedżer",
+            "specjalista", "koordynator", "właściciel", "zastępca",
+            "handlowiec", "przedstawiciel", "sekretariat", "asystent",
+            "wiceprezes", "członek zarządu", "referent", "ekspert",
+            "doradca", "konsultant", "inspektor", "analityk",
+        ]
+        tekst_lower = tekst.lower()
+        for s in stanowiska_pl:
+            if s in tekst_lower:
+                return s.capitalize()
+        return None
+
+    @staticmethod
     def wyodrebnij_osobe_kontaktowa(soup: BeautifulSoup) -> Tuple[Optional[str], Optional[str]]:
         """Wyodrebnia imie, nazwisko i stanowisko osoby kontaktowej.
 
         Returns:
             Tuple (imie_nazwisko, stanowisko)
         """
+        # Slowa kluczowe do szukania sekcji kontaktowych (z polskimi znakami)
         slowa_kontakt = [
             "kontakt", "osoba do kontaktu", "osoba kontaktowa",
-            "handel", "marketing", "biuro", "sprzedaz",
-            "kierownik", "dyrektor", "prezes", "manager",
-            "wlasciciel", "sekretariat",
-        ]
-        stanowiska = [
-            "kierownik", "dyrektor", "prezes", "manager", "specjalista",
-            "koordynator", "wlasciciel", "zastepca", "handlowiec",
-            "przedstawiciel", "sekretariat", "asystent",
+            "handel", "marketing", "biuro", "sprzedaż", "sprzedaz",
+            "kierownik", "dyrektor", "prezes", "manager", "menedżer",
+            "właściciel", "wlasciciel", "sekretariat", "recepcja",
+            "zespół", "zespol", "zarząd", "zarzad",
+            "dział handlowy", "dzial handlowy",
+            "przedstawiciel", "pracownik", "obsługa klienta",
+            "contact", "team", "staff", "about",
         ]
 
+        # Wzorzec: Imie Nazwisko (z polskimi znakami diakrytycznymi)
+        _UPPER_PL = r"A-ZĄĆĘŁŃÓŚŹŻ"
+        _LOWER_PL = r"a-ząćęłńóśźż"
         wzorzec_imienia = (
-            r"\b[A-Z\u0104\u0106\u0118\u0141\u0143\u00d3\u015a\u0179\u017b]"
-            r"[a-z\u0105\u0107\u0119\u0142\u0144\u00f3\u015b\u017a\u017c]{2,}"
+            r"\b([" + _UPPER_PL + r"][" + _LOWER_PL + r"]{2,}"
             r"\s+"
-            r"[A-Z\u0104\u0106\u0118\u0141\u0143\u00d3\u015a\u0179\u017b]"
-            r"[a-z\u0105\u0107\u0119\u0142\u0144\u00f3\u015b\u017a\u017c]{2,}\b"
+            r"[" + _UPPER_PL + r"][" + _LOWER_PL + r"]{2,})\b"
         )
 
-        # 1. Szukaj w sekcjach kontaktowych
-        for sekcja in soup.find_all(["div", "section", "article", "p", "span"]):
-            tekst_sekcji = sekcja.get_text()
+        # Tagi HTML do przeszukania
+        tagi_sekcji = [
+            "div", "section", "article", "p", "span",
+            "li", "td", "tr", "table", "dl", "dd", "dt",
+            "strong", "em", "label", "figcaption", "footer",
+        ]
+
+        def _znajdz_imie_w_tekscie(tekst: str) -> Optional[str]:
+            """Znajduje imie i nazwisko w tekscie, filtruje falszywe pozytywy."""
+            kandydaci = re.findall(wzorzec_imienia, tekst)
+            for k in kandydaci:
+                if SkryptScraper._jest_prawdziwe_imie(k):
+                    return k
+            return None
+
+        # === 1. Dane strukturalne: schema.org Person ===
+        for elem in soup.find_all(attrs={"itemprop": "name"}):
+            rodzic = elem.find_parent(attrs={"itemtype": re.compile(r"Person", re.I)})
+            if rodzic:
+                imie = elem.get_text().strip()
+                if imie and SkryptScraper._jest_prawdziwe_imie(imie):
+                    stanowisko_el = rodzic.find(attrs={"itemprop": "jobTitle"})
+                    stanowisko = stanowisko_el.get_text().strip() if stanowisko_el else None
+                    return imie, stanowisko
+
+        # === 2. vCard / hCard ===
+        for vcard in soup.find_all(class_=re.compile(r"vcard|h-card", re.I)):
+            fn_elem = vcard.find(class_=re.compile(r"\bfn\b|p-name", re.I))
+            if fn_elem:
+                imie = fn_elem.get_text().strip()
+                if imie and SkryptScraper._jest_prawdziwe_imie(imie):
+                    title_elem = vcard.find(class_=re.compile(r"\btitle\b|p-job-title", re.I))
+                    stanowisko = title_elem.get_text().strip() if title_elem else None
+                    return imie, stanowisko
+
+        # === 3. CSS klasy sugerujace osobe (person, team-member, pracownik, etc.) ===
+        wzorce_klas = re.compile(
+            r"person|team.?member|pracownik|employee|staff|kontakt.?osob|author|speaker",
+            re.I,
+        )
+        for elem in soup.find_all(class_=wzorce_klas):
+            # Szukaj imienia w podrzednych h3/h4/span z klasa "name"/"imie"
+            name_el = elem.find(class_=re.compile(r"name|imie|nazwisko|fn", re.I))
+            if name_el:
+                imie = name_el.get_text().strip()
+                if imie and SkryptScraper._jest_prawdziwe_imie(imie):
+                    role_el = elem.find(
+                        class_=re.compile(r"role|position|stanowisko|title|job", re.I)
+                    )
+                    stanowisko = role_el.get_text().strip() if role_el else None
+                    return imie, stanowisko
+            # Szukaj imienia w tekscie elementu
+            tekst = elem.get_text(separator=" ")
+            imie = _znajdz_imie_w_tekscie(tekst)
+            if imie:
+                stanowisko = SkryptScraper._wyodrebnij_stanowisko(tekst)
+                return imie, stanowisko
+
+        # === 4. Sekcje kontaktowe (wyszukiwanie po slowach kluczowych) ===
+        for sekcja in soup.find_all(tagi_sekcji):
+            tekst_sekcji = sekcja.get_text(separator=" ")
             tekst_lower = tekst_sekcji.lower()
             if any(kw in tekst_lower for kw in slowa_kontakt):
-                imiona = re.findall(wzorzec_imienia, tekst_sekcji)
-                wykluczone = ["Lorem Ipsum", "Jan Kowalski", "Anna Nowak"]
-                poprawne = [i for i in imiona if i not in wykluczone]
-                if poprawne:
-                    stanowisko = None
-                    for s in stanowiska:
-                        if s in tekst_lower:
-                            stanowisko = s.capitalize()
-                            break
-                    return poprawne[0], stanowisko
+                imie = _znajdz_imie_w_tekscie(tekst_sekcji)
+                if imie:
+                    stanowisko = SkryptScraper._wyodrebnij_stanowisko(tekst_sekcji)
+                    return imie, stanowisko
 
-        # 2. Szukaj w naglowkach sekcji kontaktowych
-        for naglowek in soup.find_all(["h1", "h2", "h3", "h4"]):
+        # === 5. Naglowki z sekcjami kontaktowymi ===
+        for naglowek in soup.find_all(["h1", "h2", "h3", "h4", "h5"]):
             tekst_nag = naglowek.get_text().lower()
             if any(kw in tekst_nag for kw in slowa_kontakt):
-                nastepny = naglowek.find_next(["p", "div", "span"])
-                if nastepny:
-                    imiona = re.findall(wzorzec_imienia, nastepny.get_text())
-                    if imiona:
-                        return imiona[0], None
+                # Przeszukaj kolejne elementy po naglowku
+                for nastepny in naglowek.find_all_next(
+                    ["p", "div", "span", "li", "td", "strong"]
+                ):
+                    # Ogranicz do 5 elementow po naglowku
+                    if nastepny == naglowek:
+                        continue
+                    tekst_n = nastepny.get_text(separator=" ")
+                    imie = _znajdz_imie_w_tekscie(tekst_n)
+                    if imie:
+                        stanowisko = SkryptScraper._wyodrebnij_stanowisko(tekst_n)
+                        return imie, stanowisko
+                    # Nie szukaj dalej niz 5 elementow
+                    siblings_count = len(list(naglowek.find_all_next(
+                        ["p", "div", "span", "li", "td", "strong"]
+                    )[:6]))
+                    if siblings_count > 5:
+                        break
 
-        # 3. Wzorzec "Osoba: Imie Nazwisko"
-        wzorzec_kontakt = (
-            r"(?:kontakt|osoba|kierownik|dyrektor|prezes)"
-            r"[\s:]+"
-            r"([A-Z\u0104\u0106\u0118\u0141\u0143\u00d3\u015a\u0179\u017b]"
-            r"[a-z\u0105\u0107\u0119\u0142\u0144\u00f3\u015b\u017a\u017c]+"
-            r"\s+"
-            r"[A-Z\u0104\u0106\u0118\u0141\u0143\u00d3\u015a\u0179\u017b]"
-            r"[a-z\u0105\u0107\u0119\u0142\u0144\u00f3\u015b\u017a\u017c]+)"
-        )
-        m = re.search(wzorzec_kontakt, soup.get_text(), re.IGNORECASE)
-        if m:
-            return m.group(1), None
+        # === 6. Wzorzec "Etykieta: Imie Nazwisko" w pelnym tekscie ===
+        wzorce_etykiet = [
+            r"(?:osoba\s+kontaktowa|osoba\s+do\s+kontaktu|kontakt)"
+            r"[\s:–\-]+([" + _UPPER_PL + r"][" + _LOWER_PL + r"]+"
+            r"\s+[" + _UPPER_PL + r"][" + _LOWER_PL + r"]+)",
+            r"(?:kierownik|dyrektor|prezes|manager|właściciel|wlasciciel)"
+            r"[\s:–\-]+([" + _UPPER_PL + r"][" + _LOWER_PL + r"]+"
+            r"\s+[" + _UPPER_PL + r"][" + _LOWER_PL + r"]+)",
+            r"(?:przedstawiciel|handlowiec|specjalista|koordynator)"
+            r"[\s:–\-]+([" + _UPPER_PL + r"][" + _LOWER_PL + r"]+"
+            r"\s+[" + _UPPER_PL + r"][" + _LOWER_PL + r"]+)",
+        ]
+        pelny_tekst = soup.get_text(separator=" ")
+        for wzorzec in wzorce_etykiet:
+            m = re.search(wzorzec, pelny_tekst, re.IGNORECASE)
+            if m:
+                kandydat = m.group(1).strip()
+                if SkryptScraper._jest_prawdziwe_imie(kandydat):
+                    return kandydat, None
+
+        # === 7. Imie z adresu email (fallback: jan.kowalski@firma.pl -> Jan Kowalski) ===
+        for link in soup.find_all("a", href=True):
+            href = link.get("href", "")
+            if href.startswith("mailto:"):
+                email = href.replace("mailto:", "").split("?")[0].strip()
+                # Wzorzec: imie.nazwisko@domena.pl
+                m = re.match(
+                    r"([a-ząćęłńóśźż]+)\.([a-ząćęłńóśźż]+)@",
+                    email,
+                    re.IGNORECASE,
+                )
+                if m:
+                    imie_raw = m.group(1).capitalize()
+                    nazwisko_raw = m.group(2).capitalize()
+                    kandydat = f"{imie_raw} {nazwisko_raw}"
+                    if len(imie_raw) >= 3 and len(nazwisko_raw) >= 3:
+                        return kandydat, None
 
         return None, None
 

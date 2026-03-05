@@ -166,6 +166,144 @@ class TestWyodrebnijOsobeKontaktowa(unittest.TestCase):
         imie, stanowisko = SkryptScraper.wyodrebnij_osobe_kontaktowa(soup)
         self.assertIsNone(imie)
 
+    def test_sprzedaz_polskie_znaki(self):
+        """Keyword 'sprzedaż' (z polskim ż) musi byc rozpoznawany."""
+        html = (
+            "<html><body>"
+            '<div><h3>Dział sprzedaży</h3>'
+            "<p>Katarzyna Pawlak - specjalista</p></div>"
+            "</body></html>"
+        )
+        soup = BeautifulSoup(html, "html.parser")
+        imie, stanowisko = SkryptScraper.wyodrebnij_osobe_kontaktowa(soup)
+        self.assertEqual(imie, "Katarzyna Pawlak")
+
+    def test_wlasciciel_polskie_znaki(self):
+        """Keyword 'właściciel' (z polskim ł/ś) musi byc rozpoznawany."""
+        html = (
+            "<html><body>"
+            "<div><p>Właściciel: Andrzej Kowalski</p></div>"
+            "</body></html>"
+        )
+        soup = BeautifulSoup(html, "html.parser")
+        imie, stanowisko = SkryptScraper.wyodrebnij_osobe_kontaktowa(soup)
+        self.assertEqual(imie, "Andrzej Kowalski")
+
+    def test_team_page_cards(self):
+        """Strona zespolu z kartami osob."""
+        html = (
+            "<html><body>"
+            '<section class="team"><h2>Nasz zespół</h2>'
+            '<div class="team-member"><h3>Marek Wiśniewski</h3>'
+            '<span class="position">Dyrektor handlowy</span></div>'
+            "</section></body></html>"
+        )
+        soup = BeautifulSoup(html, "html.parser")
+        imie, stanowisko = SkryptScraper.wyodrebnij_osobe_kontaktowa(soup)
+        self.assertEqual(imie, "Marek Wiśniewski")
+
+    def test_tabela_kontakt(self):
+        """Imie w komorce tabeli."""
+        html = (
+            "<html><body>"
+            "<table><tr><td>Osoba kontaktowa:</td>"
+            "<td>Tomasz Mazur</td></tr></table>"
+            "</body></html>"
+        )
+        soup = BeautifulSoup(html, "html.parser")
+        imie, stanowisko = SkryptScraper.wyodrebnij_osobe_kontaktowa(soup)
+        self.assertEqual(imie, "Tomasz Mazur")
+
+    def test_schema_org_person(self):
+        """Dane strukturalne schema.org Person."""
+        html = (
+            "<html><body>"
+            '<div itemscope itemtype="http://schema.org/Person">'
+            '<span itemprop="name">Ewa Kowalska</span>'
+            '<span itemprop="jobTitle">Kierownik biura</span>'
+            "</div></body></html>"
+        )
+        soup = BeautifulSoup(html, "html.parser")
+        imie, stanowisko = SkryptScraper.wyodrebnij_osobe_kontaktowa(soup)
+        self.assertEqual(imie, "Ewa Kowalska")
+        self.assertEqual(stanowisko, "Kierownik biura")
+
+    def test_vcard(self):
+        """Format vCard/hCard."""
+        html = (
+            "<html><body>"
+            '<div class="vcard">'
+            '<span class="fn">Marek Wójcik</span>'
+            '<span class="title">Dyrektor</span>'
+            "</div></body></html>"
+        )
+        soup = BeautifulSoup(html, "html.parser")
+        imie, stanowisko = SkryptScraper.wyodrebnij_osobe_kontaktowa(soup)
+        self.assertEqual(imie, "Marek Wójcik")
+        self.assertEqual(stanowisko, "Dyrektor")
+
+    def test_email_name_inference(self):
+        """Odczytanie imienia z adresu email (jan.kowalczyk@firma.pl)."""
+        html = (
+            "<html><body>"
+            '<div class="kontakt">'
+            '<a href="mailto:jan.kowalczyk@firma.pl">jan.kowalczyk@firma.pl</a>'
+            "</div></body></html>"
+        )
+        soup = BeautifulSoup(html, "html.parser")
+        imie, stanowisko = SkryptScraper.wyodrebnij_osobe_kontaktowa(soup)
+        self.assertEqual(imie, "Jan Kowalczyk")
+
+    def test_lista_kontakt(self):
+        """Imie w elemencie listy <li>."""
+        html = (
+            "<html><body>"
+            '<div class="kontakt"><ul>'
+            "<li>Biuro obsługi</li>"
+            "<li>Agnieszka Pawlak</li>"
+            "</ul></div></body></html>"
+        )
+        soup = BeautifulSoup(html, "html.parser")
+        imie, stanowisko = SkryptScraper.wyodrebnij_osobe_kontaktowa(soup)
+        self.assertEqual(imie, "Agnieszka Pawlak")
+
+    def test_false_positive_wiecej_informacji(self):
+        """Nie powinno rozpoznawac 'Więcej Informacji' jako imie."""
+        html = (
+            "<html><body><div>"
+            "<p>Kontakt telefoniczny: Więcej Informacji na stronie głównej</p>"
+            "</div></body></html>"
+        )
+        soup = BeautifulSoup(html, "html.parser")
+        imie, stanowisko = SkryptScraper.wyodrebnij_osobe_kontaktowa(soup)
+        self.assertIsNone(imie)
+
+    def test_zarzad_nie_jako_imie(self):
+        """'Prezes Zarządu' nie powinno byc rozpoznane jako imie."""
+        html = (
+            "<html><body><div>"
+            "<h3>Zarząd firmy</h3>"
+            "<p>Prezes Zarządu: Adam Nowicki</p>"
+            "</div></body></html>"
+        )
+        soup = BeautifulSoup(html, "html.parser")
+        imie, stanowisko = SkryptScraper.wyodrebnij_osobe_kontaktowa(soup)
+        self.assertEqual(imie, "Adam Nowicki")
+
+    def test_css_person_card(self):
+        """Imie w CSS klasie person-card z podklasa name."""
+        html = (
+            "<html><body>"
+            '<div class="person-card">'
+            '<span class="name">Joanna Mazurek</span>'
+            '<span class="role">Handlowiec</span>'
+            "</div></body></html>"
+        )
+        soup = BeautifulSoup(html, "html.parser")
+        imie, stanowisko = SkryptScraper.wyodrebnij_osobe_kontaktowa(soup)
+        self.assertEqual(imie, "Joanna Mazurek")
+        self.assertEqual(stanowisko, "Handlowiec")
+
 
 class TestHelpers(unittest.TestCase):
     """Testy funkcji pomocniczych."""
