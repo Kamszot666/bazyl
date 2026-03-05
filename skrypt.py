@@ -443,7 +443,7 @@ class SkryptScraper:
     @staticmethod
     def _jest_prawdziwe_imie(kandydat: str) -> bool:
         """Sprawdza czy kandydat na imie i nazwisko nie jest falszywym pozytywem."""
-        fałszywe = {
+        falszywe = {
             "lorem ipsum", "jan kowalski", "anna nowak",
             "więcej informacji", "prosimy kontakt", "nasza oferta",
             "polityka prywatności", "regulamin serwisu",
@@ -455,7 +455,7 @@ class SkryptScraper:
             "dyrektor zarządzający", "dyrektor operacyjny",
             "kierownik działu", "kierownik biura",
         }
-        if kandydat.lower() in fałszywe:
+        if kandydat.lower() in falszywe:
             return False
         # Odrzuc kandydatow gdzie oba slowa sa popularnymi rzeczownikami
         slowa = kandydat.split()
@@ -579,27 +579,20 @@ class SkryptScraper:
                     return imie, stanowisko
 
         # === 5. Naglowki z sekcjami kontaktowymi ===
+        _MAX_ELEMS_PO_NAGLOWKU = 5
         for naglowek in soup.find_all(["h1", "h2", "h3", "h4", "h5"]):
             tekst_nag = naglowek.get_text().lower()
             if any(kw in tekst_nag for kw in slowa_kontakt):
-                # Przeszukaj kolejne elementy po naglowku
-                for nastepny in naglowek.find_all_next(
+                # Przeszukaj kolejne elementy po naglowku (max 5)
+                nastepne = naglowek.find_all_next(
                     ["p", "div", "span", "li", "td", "strong"]
-                ):
-                    # Ogranicz do 5 elementow po naglowku
-                    if nastepny == naglowek:
-                        continue
+                )[:_MAX_ELEMS_PO_NAGLOWKU]
+                for nastepny in nastepne:
                     tekst_n = nastepny.get_text(separator=" ")
                     imie = _znajdz_imie_w_tekscie(tekst_n)
                     if imie:
                         stanowisko = SkryptScraper._wyodrebnij_stanowisko(tekst_n)
                         return imie, stanowisko
-                    # Nie szukaj dalej niz 5 elementow
-                    siblings_count = len(list(naglowek.find_all_next(
-                        ["p", "div", "span", "li", "td", "strong"]
-                    )[:6]))
-                    if siblings_count > 5:
-                        break
 
         # === 6. Wzorzec "Etykieta: Imie Nazwisko" w pelnym tekscie ===
         wzorce_etykiet = [
@@ -622,6 +615,7 @@ class SkryptScraper:
                     return kandydat, None
 
         # === 7. Imie z adresu email (fallback: jan.kowalski@firma.pl -> Jan Kowalski) ===
+        _MIN_NAME_PART_LEN = 3
         for link in soup.find_all("a", href=True):
             href = link.get("href", "")
             if href.startswith("mailto:"):
@@ -636,7 +630,7 @@ class SkryptScraper:
                     imie_raw = m.group(1).capitalize()
                     nazwisko_raw = m.group(2).capitalize()
                     kandydat = f"{imie_raw} {nazwisko_raw}"
-                    if len(imie_raw) >= 3 and len(nazwisko_raw) >= 3:
+                    if len(imie_raw) >= _MIN_NAME_PART_LEN and len(nazwisko_raw) >= _MIN_NAME_PART_LEN:
                         return kandydat, None
 
         return None, None
