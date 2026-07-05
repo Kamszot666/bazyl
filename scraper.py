@@ -26,7 +26,9 @@ from datetime import datetime, timedelta
 from pathlib import Path
 
 import requests
+import pdfplumber
 from bs4 import BeautifulSoup
+from io import BytesIO
 from openpyxl import Workbook, load_workbook
 from openpyxl.styles import Alignment, Font, PatternFill
 from tqdm import tqdm
@@ -42,6 +44,67 @@ CONFIG = {
     "rejected_file": "output/odrzucone.xlsx",
     "log_file": "scraper_log.txt",
     "progress_file": "progress.json",
+
+    # --- ETAP 1: ZBIERANIE NAZW OFERENTÓW Z WYNIKÓW KONKURSÓW MSZ/KPRM ---
+    # Plik pośredni — tylko nazwa organizacji, projekt, kwota i status.
+    # Adres korespondencyjny, KRS, telefon, e-mail itd. uzupełnia dopiero
+    # kolejny etap (wzbogacanie przez API KRS/REGON), którego jeszcze nie ma.
+    "seed_file": "output/oferenci_konkursy_polonijne.xlsx",
+
+    # Każdy adres poniżej zweryfikowano ręcznie przez realne pobranie strony
+    # (patrz historia rozmowy — nazwa i podział konkursu zmienia się rok do
+    # roku, więc NIE da się zbudować jednego wzorca adresu zależnego od roku).
+    "konkursy_polonijne": [
+        {
+            "url": "https://www.gov.pl/web/dyplomacja/wyniki-konkursu-polonia-i-polacy-za-granica-2026",
+            "rok": 2026,
+            "nazwa_konkursu": "Polonia i Polacy za Granicą 2026",
+            "archiwum_wayback": False,
+        },
+        {
+            "url": "https://www.gov.pl/web/dyplomacja/ogloszenie-wynikow-konkursu-wsparcie-srodowisk-polonijnych-w-obszarze-aktywizacji-postaw-obywatelskich",
+            "rok": 2025,
+            "nazwa_konkursu": "Wsparcie środowisk polonijnych w obszarze aktywizacji postaw obywatelskich 2025",
+            "archiwum_wayback": False,
+        },
+        {
+            "url": "https://www.gov.pl/web/dyplomacja/wyniki-konkursu-infrastruktura-polonijna-2025",
+            "rok": 2025,
+            "nazwa_konkursu": "Infrastruktura Polonijna 2025",
+            "archiwum_wayback": False,
+        },
+        {
+            "url": "https://www.gov.pl/web/dyplomacja/wyniki-konkursu-polonia-i-polacy-za-granica-2024--media-i-struktury2",
+            "rok": 2024,
+            "nazwa_konkursu": "Polonia i Polacy za Granicą 2024 – Media i Struktury",
+            "archiwum_wayback": False,
+        },
+        {
+            "url": "https://www.gov.pl/web/dyplomacja/ogloszenie-wynikow-konkursu-polonia-i-polacy-za-granica-2024---wydarzenia-i-inicjatywy-polonijne",
+            "rok": 2024,
+            "nazwa_konkursu": "Polonia i Polacy za Granicą 2024 – Wydarzenia i inicjatywy polonijne",
+            "archiwum_wayback": False,
+        },
+        {
+            "url": "https://www.gov.pl/web/dyplomacja/ogloszenie-wynikow-konkursu-polonia-i-polacy-za-granica-2024---regranting",
+            "rok": 2024,
+            "nazwa_konkursu": "Polonia i Polacy za Granicą 2024 – Regranting",
+            "archiwum_wayback": False,
+        },
+        {
+            # Strona oryginalna KPRM już nie istnieje (kompetencje przejęło MSZ
+            # w połowie 2024 roku) — dane pobieramy z Wayback Machine.
+            "url": "https://web.archive.org/web/20240201084241/https://www.gov.pl/web/polonia/wyniki-konkursu-polonia-i-polacy-za-granica-2023",
+            "rok": 2023,
+            "nazwa_konkursu": "Polonia i Polacy za Granicą 2023",
+            "archiwum_wayback": True,
+        },
+    ],
+
+    # Załączniki o tytułach zawierających te frazy pomijamy — to zbiorcze
+    # listy "wszystkich zgłoszonych ofert", które nie mówią nic o wyniku
+    # (dublują się z listą przyznanych + listą odrzuconych/nieprzyjętych).
+    "zalaczniki_pomijane_frazy": ["zgłoszon", "wpłynęł"],
 
     # --- ŹRÓDŁA DANYCH (w kolejności priorytetu) ---
     # Uzupełnij przed uruchomieniem po konsultacji z użytkownikiem.
@@ -122,6 +185,19 @@ OUTPUT_COLUMNS = [
     "KRS",
     "REGON",
     "NIP",
+]
+
+# Kolumny pliku pośredniego z etapu 1 (zbieranie oferentów z konkursów).
+# To NIE jest jeszcze formatka — brakuje adresu, KRS, kontaktu itd.
+SEED_COLUMNS = [
+    "Rok",
+    "Nazwa konkursu",
+    "Lista źródłowa (status)",
+    "Oferent",
+    "Nazwa projektu",
+    "Kwota",
+    "URL artykułu",
+    "URL załącznika PDF",
 ]
 
 
@@ -482,6 +558,239 @@ def is_based_in_poland(record: dict) -> bool:
 
 
 # =============================================================================
+# ETAP 1: OFERENCI Z WYNIKÓW KONKURSÓW POLONIJNYCH MSZ/KPRM (dane w PDF)
+# =============================================================================
+# Selektory i struktura zweryfikowane przez realne pobranie stron i
+# załączników (nie zgadywane). Szczegóły patrz historia rozmowy z 05.07.2026.
+
+def pobierz_zalaczniki_pdf(article_url: str, session: requests.Session, archiwum_wayback: bool) -> list[dict]:
+    """
+    Pobiera stronę artykułu z wynikami konkursu i zwraca listę załączników PDF.
+
+    Każdy element listy to słownik z kluczami: etykieta, url.
+    Selektor a.file-download jest identyczny na stronach MSZ i na
+    zarchiwizowanych stronach KPRM w Wayback Machine (ten sam szablon CMS gov.pl).
+    """
+    soup = fetch_page(article_url, session)
+    if soup is None:
+        log_event("ZALACZNIKI_ARTYKULU", False, f"Nie można pobrać artykułu: {article_url}")
+        return []
+
+    baza_url = "https://web.archive.org" if archiwum_wayback else "https://www.gov.pl"
+
+    zalaczniki = []
+    for a in soup.select("a.file-download"):
+        href = a.get("href", "")
+        if not href:
+            continue
+        etykieta = a.get("aria-label", "") or a.get_text(strip=True)
+        etykieta = re.sub(r"\s*Rozmiar.*$", "", etykieta, flags=re.S).strip()
+        etykieta = re.sub(r"^Pobierz plik\s*", "", etykieta).strip()
+        if archiwum_wayback:
+            # Tryb surowy "id_" — zwykły tryb odtwarzania Wayback Machine
+            # potrafi zwrócić błąd 500 dla dużych plików binarnych (PDF).
+            href = re.sub(r"^(/web/\d{14})/", r"\1id_/", href)
+        url_pelny = href if href.startswith("http") else baza_url + href
+        zalaczniki.append({"etykieta": etykieta, "url": url_pelny})
+
+    log_event("ZALACZNIKI_ARTYKULU", True, f"{article_url} — znaleziono {len(zalaczniki)} załączników PDF")
+    return zalaczniki
+
+
+def _naglowek_pasuje(naglowek: str, slowa_kluczowe: list[str]) -> bool:
+    """Sprawdza, czy nagłówek kolumny (po usunięciu znaków nowej linii) zawiera któreś ze słów kluczowych."""
+    znorm = (naglowek or "").replace("\n", " ").strip().lower()
+    return any(slowo in znorm for slowo in slowa_kluczowe)
+
+
+def _znajdz_indeks_kolumny(naglowki: list[str], slowa_kluczowe: list[str]) -> int | None:
+    """Zwraca indeks pierwszej kolumny pasującej do słów kluczowych, albo None."""
+    for i, naglowek in enumerate(naglowki):
+        if _naglowek_pasuje(naglowek, slowa_kluczowe):
+            return i
+    return None
+
+
+def _komorka(wiersz: list, idx: int | None) -> str:
+    """Bezpiecznie zwraca komórkę o danym indeksie (część wierszy w PDF bywa krótsza niż nagłówek)."""
+    if idx is None or idx >= len(wiersz):
+        return ""
+    return (wiersz[idx] or "").replace("\n", " ").strip()
+
+
+def wyciagnij_wiersze_z_pdf(zawartosc_pdf: bytes, zrodlo_opis: str) -> list[dict] | None:
+    """
+    Wyciąga z pliku PDF listę ofert: Oferent, Nazwa projektu, Kwota.
+
+    Układ kolumn różni się między latami (np. 5 kolumn w 2026 roku,
+    12 kolumn w 2023 roku), dlatego kolumny znajdujemy po treści nagłówka,
+    a nie po stałej pozycji. Niektóre pliki mają dodatkowo wiersz tytułowy
+    NAD właściwym nagłówkiem tabeli, dlatego szukamy wiersza nagłówkowego
+    w całym dokumencie po dosłownej treści "Oferent", a nie zakładamy, że
+    to zawsze pierwszy wiersz pierwszej strony.
+    Jeśli nigdzie nie znajdziemy takiej kolumny, zwraca None i loguje
+    zdarzenie — NIE zgadujemy układu.
+    """
+    wszystkie_wiersze = []
+    with pdfplumber.open(BytesIO(zawartosc_pdf)) as pdf:
+        for strona in pdf.pages:
+            tabela = strona.extract_table()
+            if tabela:
+                wszystkie_wiersze.extend(tabela)
+
+    if not wszystkie_wiersze:
+        log_event("PARSOWANIE_PDF", False, f"{zrodlo_opis} — nie wykryto żadnej tabeli")
+        return None
+
+    idx_naglowka = next(
+        (i for i, w in enumerate(wszystkie_wiersze) if _znajdz_indeks_kolumny(w, ["oferent"]) is not None),
+        None,
+    )
+    if idx_naglowka is None:
+        log_event("PARSOWANIE_PDF", False, f"{zrodlo_opis} — nie znaleziono kolumny 'Oferent'")
+        return None
+
+    naglowki = wszystkie_wiersze[idx_naglowka]
+    dane = wszystkie_wiersze[idx_naglowka + 1:]
+
+    idx_oferent = _znajdz_indeks_kolumny(naglowki, ["oferent"])
+    idx_projekt = _znajdz_indeks_kolumny(naglowki, ["nazwa projektu", "tytuł oferty", "tytul oferty"])
+
+    # Niektóre lata mają osobną kolumnę kwoty przyznanej na każdy rok
+    # realizacji projektu (np. 2023: kolumny na 2023, 2024 i 2025 rok).
+    # Bierzemy WSZYSTKIE takie kolumny, nie tylko pierwszą — inaczej
+    # projekt sfinansowany dopiero w kolejnym roku wyglądałby jak odrzucony.
+    idx_kwota_lista = [
+        i for i, h in enumerate(naglowki) if _naglowek_pasuje(h, ["proponowana", "dotacj"])
+    ]
+    if not idx_kwota_lista:
+        idx_kwota_lista = [i for i, h in enumerate(naglowki) if _naglowek_pasuje(h, ["kwota"])]
+
+    wiersze = []
+    for wiersz in dane:
+        if not wiersz or not any(wiersz):
+            continue
+        # Pomiń ewentualne powtórzenie wiersza nagłówkowego na kolejnej stronie.
+        if _komorka(wiersz, idx_oferent).lower() == "oferent":
+            continue
+
+        oferent = _komorka(wiersz, idx_oferent)
+        if not oferent:
+            continue
+        projekt = _komorka(wiersz, idx_projekt) or "nie ustalono"
+
+        czesci_kwoty = []
+        for idx in idx_kwota_lista:
+            wartosc = _komorka(wiersz, idx)
+            if wartosc:
+                etykieta_kolumny = (naglowki[idx] or "").replace("\n", " ").strip() if idx < len(naglowki) else ""
+                czesci_kwoty.append(
+                    f"{etykieta_kolumny}: {wartosc}" if len(idx_kwota_lista) > 1 else wartosc
+                )
+        kwota = "; ".join(czesci_kwoty) if czesci_kwoty else "nie ustalono"
+
+        wiersze.append({
+            "oferent": oferent,
+            "projekt": projekt or "nie ustalono",
+            "kwota": kwota or "nie ustalono",
+        })
+
+    return wiersze
+
+
+def zbierz_oferentow_z_konkursow(session: requests.Session, progress: dict):
+    """
+    Etap 1: dla każdego skonfigurowanego artykułu z wynikami konkursu polonijnego
+    pobiera załączniki PDF (pomijając zbiorcze listy "wszystkich zgłoszonych"),
+    wyciąga z nich oferentów — zarówno tych, którym przyznano dotację, jak i
+    odrzuconych/nieprzyjętych do dofinansowania — i zapisuje do pliku pośredniego.
+    """
+    seed_wb, seed_ws, seed_row = create_seed_workbook()
+    przetworzone = set(progress.get("przetworzone_zalaczniki", []))
+
+    for konkurs in CONFIG["konkursy_polonijne"]:
+        zalaczniki = pobierz_zalaczniki_pdf(konkurs["url"], session, konkurs["archiwum_wayback"])
+        polite_delay()
+
+        zalaczniki_do_wziecia = [
+            z for z in zalaczniki
+            if not any(fraza in z["etykieta"].lower() for fraza in CONFIG["zalaczniki_pomijane_frazy"])
+        ]
+
+        for zalacznik in tqdm(zalaczniki_do_wziecia, desc=f"[{konkurs['rok']}] {konkurs['nazwa_konkursu'][:30]}", unit="zal"):
+            if zalacznik["url"] in przetworzone:
+                continue
+
+            try:
+                resp = session.get(zalacznik["url"], headers=HEADERS, timeout=CONFIG["request_timeout"])
+                resp.raise_for_status()
+            except requests.RequestException as e:
+                log_event("POBIERANIE_ZALACZNIKA", False, f"{zalacznik['url']} — {e}")
+                przetworzone.add(zalacznik["url"])
+                progress["przetworzone_zalaczniki"] = list(przetworzone)
+                save_progress(progress)
+                polite_delay()
+                continue
+
+            wiersze = wyciagnij_wiersze_z_pdf(resp.content, zalacznik["url"])
+
+            if wiersze is None:
+                log_event(
+                    "STRUKTURA_NIEROZPOZNANA", False,
+                    f"{zalacznik['url']} ({zalacznik['etykieta']}) — wymaga ręcznej weryfikacji, pominięto",
+                )
+            else:
+                for wiersz in wiersze:
+                    seed_ws.cell(row=seed_row, column=1, value=konkurs["rok"])
+                    seed_ws.cell(row=seed_row, column=2, value=konkurs["nazwa_konkursu"])
+                    seed_ws.cell(row=seed_row, column=3, value=zalacznik["etykieta"])
+                    seed_ws.cell(row=seed_row, column=4, value=wiersz["oferent"])
+                    seed_ws.cell(row=seed_row, column=5, value=wiersz["projekt"])
+                    seed_ws.cell(row=seed_row, column=6, value=wiersz["kwota"])
+                    seed_ws.cell(row=seed_row, column=7, value=konkurs["url"])
+                    seed_ws.cell(row=seed_row, column=8, value=zalacznik["url"])
+                    seed_row += 1
+                    seed_wb.save(CONFIG["seed_file"])
+                    progress["total_scraped"] += 1
+                    save_progress(progress)
+
+                log_event("ZALACZNIK_PRZETWORZONY", True, f"{zalacznik['url']} — {len(wiersze)} ofert")
+
+            przetworzone.add(zalacznik["url"])
+            progress["przetworzone_zalaczniki"] = list(przetworzone)
+            save_progress(progress)
+            polite_delay()
+
+    seed_wb.save(CONFIG["seed_file"])
+    log_event("KONIEC_ETAPU_1", True, f"Plik pośredni: {CONFIG['seed_file']}")
+
+
+def create_seed_workbook() -> tuple:
+    """Tworzy nowy plik pośredni etapu 1 albo wczytuje istniejący (dopisywanie, nie nadpisywanie)."""
+    seed_path = Path(CONFIG["seed_file"])
+    seed_path.parent.mkdir(parents=True, exist_ok=True)
+
+    if seed_path.exists():
+        wb = load_workbook(seed_path)
+        ws = wb.active
+        next_row = ws.max_row + 1
+        log_event("WCZYTANIE_PLIKU_POSREDNIEGO", True, f"Kontynuacja od wiersza {next_row}")
+    else:
+        wb = Workbook()
+        ws = wb.active
+        ws.title = "Oferenci — konkursy polonijne"
+        for col_idx, col_name in enumerate(SEED_COLUMNS, start=1):
+            cell = ws.cell(row=1, column=col_idx, value=col_name)
+            cell.font = Font(bold=True, name="Arial")
+            cell.fill = PatternFill("solid", fgColor="D9E1F2")
+            cell.alignment = Alignment(wrap_text=True, vertical="center")
+        next_row = 2
+        log_event("UTWORZENIE_PLIKU_POSREDNIEGO", True, CONFIG["seed_file"])
+
+    return wb, ws, next_row
+
+
+# =============================================================================
 # ZAPIS DO XLSX
 # =============================================================================
 
@@ -680,6 +989,11 @@ def main():
         action="store_true",
         help="Usuń postęp i zacznij od nowa",
     )
+    parser.add_argument(
+        "--zbierz-oferentow",
+        action="store_true",
+        help="Etap 1: zbierz nazwy oferentów z wyników konkursów polonijnych MSZ/KPRM (plik pośredni, nie formatka)",
+    )
     args = parser.parse_args()
 
     if args.reset:
@@ -690,6 +1004,15 @@ def main():
 
     # Wczytaj postęp (wznowienie lub nowy start)
     progress = load_progress()
+    progress.setdefault("przetworzone_zalaczniki", [])
+
+    if args.zbierz_oferentow:
+        session = requests.Session()
+        try:
+            zbierz_oferentow_z_konkursow(session, progress)
+        finally:
+            session.close()
+        return
 
     # Inicjalizuj pliki wyjściowe
     out_wb, out_ws, next_out_row = create_output_workbook()

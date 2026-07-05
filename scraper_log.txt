@@ -1,0 +1,62 @@
+START_SKRYPTU — Zadanie: organizacje_polonijne | INFO | 2026-07-05 19:34:43
+UTWORZENIE_PLIKU_POSREDNIEGO — output/oferenci_konkursy_polonijne.xlsx | INFO | 2026-07-05 19:34:43
+POBIERANIE https://www.gov.pl/web/dyplomacja/wyniki-konkursu-polonia-i- | INFO | 2026-07-05 19:34:44
+ZALACZNIKI_ARTYKULU — https://www.gov.pl/web/dyplomacja/wyniki-konkursu-polonia-i-polacy-za-granica-2026 — znaleziono 5 załączników PDF | INFO | 2026-07-05 19:34:44
+ZALACZNIK_PRZETWORZONY — https://www.gov.pl/attachment/6b563bf3-0412-4034-a038-3097cc48f0eb — 25 ofert | INFO | 2026-07-05 19:34:46
+ZALACZNIK_PRZETWORZONY — https://www.gov.pl/attachment/7c4bfd2c-d810-4902-a5e5-940b9496f78b — 25 ofert | INFO | 2026-07-05 19:34:49
+ZALACZNIK_PRZETWORZONY — https://www.gov.pl/attachment/aa282ade-18f0-41aa-a276-d0b8774f6085 — 16 ofert | INFO | 2026-07-05 19:34:51
+ZALACZNIK_PRZETWORZONY — https://www.gov.pl/attachment/087817fa-8662-4518-bbdb-2a034f5be028 — 34 ofert | INFO | 2026-07-05 19:34:54
+POBIERANIE https://www.gov.pl/web/dyplomacja/ogloszenie-wynikow-konkurs | INFO | 2026-07-05 19:34:56
+ZALACZNIKI_ARTYKULU — https://www.gov.pl/web/dyplomacja/ogloszenie-wynikow-konkursu-wsparcie-srodowisk-polonijnych-w-obszarze-aktywizacji-postaw-obywatelskich — znaleziono 4 załączników PDF | INFO | 2026-07-05 19:34:56
+ZALACZNIK_PRZETWORZONY — https://www.gov.pl/attachment/8d10e4a1-57aa-4064-9741-94ec41ae5213 — 10 ofert | INFO | 2026-07-05 19:34:58
+ZALACZNIK_PRZETWORZONY — https://www.gov.pl/attachment/2f5db8ab-1ac4-43ab-b2ad-013d8e201a6b — 8 ofert | INFO | 2026-07-05 19:35:01
+ZALACZNIK_PRZETWORZONY — https://www.gov.pl/attachment/43bb02a2-154d-4cf2-bbde-62236fb923b1 — 8 ofert | INFO | 2026-07-05 19:35:03
+POBIERANIE https://www.gov.pl/web/dyplomacja/wyniki-konkursu-infrastruk | INFO | 2026-07-05 19:35:04
+ZALACZNIKI_ARTYKULU — https://www.gov.pl/web/dyplomacja/wyniki-konkursu-infrastruktura-polonijna-2025 — znaleziono 2 załączników PDF | INFO | 2026-07-05 19:35:04
+ZALACZNIK_PRZETWORZONY — https://www.gov.pl/attachment/b770be82-7774-41f1-b89e-578c340bb0f0 — 17 ofert | INFO | 2026-07-05 19:35:07
+ZALACZNIK_PRZETWORZONY — https://www.gov.pl/attachment/134ea84c-a5dd-4777-a759-45ded9b6db3d — 15 ofert | INFO | 2026-07-05 19:35:10
+POBIERANIE https://www.gov.pl/web/dyplomacja/wyniki-konkursu-polonia-i- | INFO | 2026-07-05 19:35:13
+ZALACZNIKI_ARTYKULU — https://www.gov.pl/web/dyplomacja/wyniki-konkursu-polonia-i-polacy-za-granica-2024--media-i-struktury2 — znaleziono 4 załączników PDF | INFO | 2026-07-05 19:35:13
+ZALACZNIK_PRZETWORZONY — https://www.gov.pl/attachment/9237211e-5a9e-4912-a814-6fa5e60980a5 — 21 ofert | INFO | 2026-07-05 19:35:15
+ZALACZNIK_PRZETWORZONY — https://www.gov.pl/attachment/f997baa6-f432-485a-9b76-b454f4d28dcf — 8 ofert | INFO | 2026-07-05 19:35:17
+ZALACZNIK_PRZETWORZONY — https://www.gov.pl/attachment/eda45005-3925-4eeb-9718-01e4250d11e4 — 47 ofert | INFO | 2026-07-05 19:35:21
+ZALACZNIK_PRZETWORZONY — https://www.gov.pl/attachment/6a1ccc08-0d11-419d-a4ef-852b86c63ea8 — 41 ofert | INFO | 2026-07-05 19:35:25
+POBIERANIE https://www.gov.pl/web/dyplomacja/ogloszenie-wynikow-konkurs | INFO | 2026-07-05 19:35:26
+ZALACZNIKI_ARTYKULU — https://www.gov.pl/web/dyplomacja/ogloszenie-wynikow-konkursu-polonia-i-polacy-za-granica-2024---wydarzenia-i-inicjatywy-polonijne — znaleziono 3 załączników PDF | INFO | 2026-07-05 19:35:26
+ZALACZNIK_PRZETWORZONY — https://www.gov.pl/attachment/649871c7-08ff-42ef-8f3f-baaa07073b9b — 169 ofert | INFO | 2026-07-05 19:35:33
+ZALACZNIK_PRZETWORZONY — https://www.gov.pl/attachment/3e9ecc2d-a8eb-46da-b385-718c3e73f4d4 — 9 ofert | INFO | 2026-07-05 19:35:37
+ZALACZNIK_PRZETWORZONY — https://www.gov.pl/attachment/b75475ab-6748-45ad-8d9d-94f3dfd688bb — 462 ofert | INFO | 2026-07-05 19:36:02
+POBIERANIE https://www.gov.pl/web/dyplomacja/ogloszenie-wynikow-konkurs | INFO | 2026-07-05 19:36:04
+ZALACZNIKI_ARTYKULU — https://www.gov.pl/web/dyplomacja/ogloszenie-wynikow-konkursu-polonia-i-polacy-za-granica-2024---regranting — znaleziono 6 załączników PDF | INFO | 2026-07-05 19:36:04
+ZALACZNIK_PRZETWORZONY — https://www.gov.pl/attachment/4b76e72b-b1b2-4ce8-92cd-644708eed3df — 14 ofert | INFO | 2026-07-05 19:36:07
+ZALACZNIK_PRZETWORZONY — https://www.gov.pl/attachment/61b6769d-f6a4-4766-bcd3-c1b2e66f0138 — 7 ofert | INFO | 2026-07-05 19:36:08
+ZALACZNIK_PRZETWORZONY — https://www.gov.pl/attachment/e5f2d9df-13d8-4eca-9b26-4c754e5d7b54 — 11 ofert | INFO | 2026-07-05 19:36:11
+ZALACZNIK_PRZETWORZONY — https://www.gov.pl/attachment/6220361c-6b9e-4125-b272-4fcfa074ae6f — 3 ofert | INFO | 2026-07-05 19:36:14
+ZALACZNIK_PRZETWORZONY — https://www.gov.pl/attachment/873574bf-4de4-4677-980c-e4dbfc4d2798 — 30 ofert | INFO | 2026-07-05 19:36:19
+POBIERANIE https://web.archive.org/web/20240201084241/https://www.gov.p | INFO | 2026-07-05 19:36:22
+ZALACZNIKI_ARTYKULU — https://web.archive.org/web/20240201084241/https://www.gov.pl/web/polonia/wyniki-konkursu-polonia-i-polacy-za-granica-2023 — znaleziono 8 załączników PDF | INFO | 2026-07-05 19:36:22
+START_SKRYPTU — Zadanie: organizacje_polonijne | INFO | 2026-07-05 19:38:34
+WCZYTANIE_PLIKU_POSREDNIEGO — Kontynuacja od wiersza 982 | INFO | 2026-07-05 19:38:34
+POBIERANIE https://www.gov.pl/web/dyplomacja/wyniki-konkursu-polonia-i- | INFO | 2026-07-05 19:38:35
+ZALACZNIKI_ARTYKULU — https://www.gov.pl/web/dyplomacja/wyniki-konkursu-polonia-i-polacy-za-granica-2026 — znaleziono 5 załączników PDF | INFO | 2026-07-05 19:38:35
+POBIERANIE https://www.gov.pl/web/dyplomacja/ogloszenie-wynikow-konkurs | INFO | 2026-07-05 19:38:38
+ZALACZNIKI_ARTYKULU — https://www.gov.pl/web/dyplomacja/ogloszenie-wynikow-konkursu-wsparcie-srodowisk-polonijnych-w-obszarze-aktywizacji-postaw-obywatelskich — znaleziono 4 załączników PDF | INFO | 2026-07-05 19:38:38
+POBIERANIE https://www.gov.pl/web/dyplomacja/wyniki-konkursu-infrastruk | INFO | 2026-07-05 19:38:40
+ZALACZNIKI_ARTYKULU — https://www.gov.pl/web/dyplomacja/wyniki-konkursu-infrastruktura-polonijna-2025 — znaleziono 2 załączników PDF | INFO | 2026-07-05 19:38:40
+POBIERANIE https://www.gov.pl/web/dyplomacja/wyniki-konkursu-polonia-i- | INFO | 2026-07-05 19:38:42
+ZALACZNIKI_ARTYKULU — https://www.gov.pl/web/dyplomacja/wyniki-konkursu-polonia-i-polacy-za-granica-2024--media-i-struktury2 — znaleziono 4 załączników PDF | INFO | 2026-07-05 19:38:42
+POBIERANIE https://www.gov.pl/web/dyplomacja/ogloszenie-wynikow-konkurs | INFO | 2026-07-05 19:38:45
+ZALACZNIKI_ARTYKULU — https://www.gov.pl/web/dyplomacja/ogloszenie-wynikow-konkursu-polonia-i-polacy-za-granica-2024---wydarzenia-i-inicjatywy-polonijne — znaleziono 3 załączników PDF | INFO | 2026-07-05 19:38:45
+POBIERANIE https://www.gov.pl/web/dyplomacja/ogloszenie-wynikow-konkurs | INFO | 2026-07-05 19:38:48
+ZALACZNIKI_ARTYKULU — https://www.gov.pl/web/dyplomacja/ogloszenie-wynikow-konkursu-polonia-i-polacy-za-granica-2024---regranting — znaleziono 6 załączników PDF | INFO | 2026-07-05 19:38:48
+POBIERANIE https://web.archive.org/web/20240201084241/https://www.gov.p | INFO | 2026-07-05 19:38:52
+ZALACZNIKI_ARTYKULU — https://web.archive.org/web/20240201084241/https://www.gov.pl/web/polonia/wyniki-konkursu-polonia-i-polacy-za-granica-2023 — znaleziono 8 załączników PDF | INFO | 2026-07-05 19:38:52
+ZALACZNIK_PRZETWORZONY — https://web.archive.org/web/20240201084241id_/https://www.gov.pl/attachment/1f13b6b8-1450-4e2b-9174-a5ce94e74f42 — 78 ofert | INFO | 2026-07-05 19:39:00
+ZALACZNIK_PRZETWORZONY — https://web.archive.org/web/20240201084241id_/https://www.gov.pl/attachment/430de511-a4fd-4d2a-a542-216d71695b89 — 82 ofert | INFO | 2026-07-05 19:39:12
+ZALACZNIK_PRZETWORZONY — https://web.archive.org/web/20240201084241id_/https://www.gov.pl/attachment/e2b17542-c94d-410b-ba94-6c5c04196cc9 — 75 ofert | INFO | 2026-07-05 19:39:21
+ZALACZNIK_PRZETWORZONY — https://web.archive.org/web/20240201084241id_/https://www.gov.pl/attachment/a9d79008-0472-4388-8ef4-5867b30a09da — 226 ofert | INFO | 2026-07-05 19:39:43
+ZALACZNIK_PRZETWORZONY — https://web.archive.org/web/20240201084241id_/https://www.gov.pl/attachment/97215510-9448-45d9-87b2-8eb19592eff6 — 70 ofert | INFO | 2026-07-05 19:39:52
+ZALACZNIK_PRZETWORZONY — https://web.archive.org/web/20240201084241id_/https://www.gov.pl/attachment/b153a07e-d26f-439c-8772-3f5f992db8a6 — 74 ofert | INFO | 2026-07-05 19:40:02
+ZALACZNIK_PRZETWORZONY — https://web.archive.org/web/20240201084241id_/https://www.gov.pl/attachment/8c3242a8-b46f-4217-8c6f-c557177e464b — 9 ofert | INFO | 2026-07-05 19:40:06
+ZALACZNIK_PRZETWORZONY — https://web.archive.org/web/20240201084241id_/https://www.gov.pl/attachment/3e651e8d-9daf-4fd4-b1d4-83f69c905144 — 23 ofert | INFO | 2026-07-05 19:40:11
+KONIEC_ETAPU_1 — Plik pośredni: output/oferenci_konkursy_polonijne.xlsx | INFO | 2026-07-05 19:40:12
