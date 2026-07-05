@@ -465,8 +465,8 @@
       "Fundacja Kultury i Sztuki"
     ],
     "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "status": "niejednoznaczne_kilka_pasujacych_podmiotow",
+    "zrodlo_potwierdzenia": "Kilka roznych podmiotow o tej nazwie w KRS, brak w naszych danych cechy pozwalajacej jednoznacznie wybrac (np. NIP, adres) - wymaga recznej weryfikacji"
   },
   {
     "nazwa_znormalizowana": "STOWARZYSZENIE ŁAGIERNIKÓW ŻOŁNIERZY ARMII KRAJOWEJ",
@@ -484,9 +484,9 @@
     "warianty_zapisu": [
       "Fundacja Kulturalna Turystyka"
     ],
-    "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "krs": "0001018453",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "zweryfikowano API"
   },
   {
     "nazwa_znormalizowana": "FUNDACJA POLSKA-EUROPA-POLONIA",
@@ -496,9 +496,9 @@
       "\"Fundacja Polska-Europa-Polonia\"",
       "Fundacja Polska - Europa - Polonia"
     ],
-    "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "krs": "0000224827",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "zweryfikowano API"
   },
   {
     "nazwa_znormalizowana": "INSTYTUT INNOWACJI",
@@ -507,8 +507,8 @@
       "Instytut Innowacji"
     ],
     "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "status": "niejednoznaczne_kilka_pasujacych_podmiotow",
+    "zrodlo_potwierdzenia": "Kilka roznych podmiotow o tej nazwie w KRS, brak w naszych danych cechy pozwalajacej jednoznacznie wybrac (np. NIP, adres) - wymaga recznej weryfikacji"
   },
   {
     "nazwa_znormalizowana": "FUNDACJA POLSKIE MAKI",
@@ -516,9 +516,9 @@
     "warianty_zapisu": [
       "Fundacja \"Polskie Maki\""
     ],
-    "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "krs": "0000698336",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "zweryfikowano API"
   },
   {
     "nazwa_znormalizowana": "FUNDACJA GOLGOTA WSCHODU",
@@ -526,9 +526,9 @@
     "warianty_zapisu": [
       "Fundacja \"Golgota Wschodu\""
     ],
-    "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "krs": "0000185365",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "zweryfikowano API"
   },
   {
     "nazwa_znormalizowana": "FUNDACJA POLSKIEJ AKADEMII NAUK SPOŁECZNYCH I HUMANISTYCZNYCH",
@@ -536,9 +536,9 @@
     "warianty_zapisu": [
       "Fundacja Polskiej Akademii Nauk Społecznych i Humanistycznych"
     ],
-    "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "krs": "0000860094",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "zweryfikowano API"
   },
   {
     "nazwa_znormalizowana": "STOWARZYSZENIE W TROSCE O DOM OJCZYSTY IM. ANNY WALENTYNOWICZ",
@@ -549,9 +549,9 @@
       "Stowarzyszenie W Trosce o Dom Ojczysty imienia Anny Walentynowicz",
       "Stowarzyszenie w Trosce o Dom Ojczysty Imienia Anny Walentynowicz"
     ],
-    "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "krs": "0001003714",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "zweryfikowano API"
   },
   {
     "nazwa_znormalizowana": "FUNDACJA BRAT SŁOŃCE",
@@ -559,9 +559,9 @@
     "warianty_zapisu": [
       "Fundacja Brat Słońce"
     ],
-    "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "krs": "0000397954",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "zweryfikowano API"
   },
   {
     "nazwa_znormalizowana": "STOWARZYSZENIE GRUPA INICJATYW KULTURALNYCH",
@@ -570,9 +570,9 @@
       "Stowarzyszenie Grupa Inicjatyw Kulturalnych",
       "Stowarzyszenie Grupa Inicjatyw kulturalnych"
     ],
-    "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "krs": "0000394365",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "zweryfikowano API"
   },
   {
     "nazwa_znormalizowana": "SZKOŁA LIDERSTWA IM. ZBIGNIEWA PEŁCZYŃSKIEGO",
@@ -580,9 +580,9 @@
     "warianty_zapisu": [
       "Szkoła Liderstwa im. Zbigniewa Pełczyńskiego"
     ],
-    "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "krs": "0000509561",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "zweryfikowano API"
   },
   {
     "nazwa_znormalizowana": "FUNDACJA KADR",
@@ -590,9 +590,9 @@
     "warianty_zapisu": [
       "Fundacja KADR"
     ],
-    "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "krs": "0000841814",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "zweryfikowano API"
   },
   {
     "nazwa_znormalizowana": "FUNDACJA OPEN HEARTS",
@@ -601,9 +601,9 @@
       "Fundacja OPen Hearts",
       "Fundacja Open Hearts"
     ],
-    "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "krs": "0001054227",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "zweryfikowano API"
   },
   {
     "nazwa_znormalizowana": "PALLOTYŃSKA FUNDACJA MISYJNA SALVATTI.PL",
@@ -611,9 +611,9 @@
     "warianty_zapisu": [
       "Pallotyńska Fundacja Misyjna Salvatti.pl"
     ],
-    "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "krs": "0000309499",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "zweryfikowano API"
   },
   {
     "nazwa_znormalizowana": "FUNDACJA KULTURY PARYSKIEJ",
@@ -621,9 +621,9 @@
     "warianty_zapisu": [
       "Fundacja Kultury Paryskiej"
     ],
-    "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "krs": "0000472791",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "zweryfikowano API"
   },
   {
     "nazwa_znormalizowana": "ZGROMADZENIE SIÓSTR OD ANIOŁÓW",
@@ -632,8 +632,8 @@
       "Zgromadzenie Sióstr od Aniołów"
     ],
     "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "status": "nie_dotyczy_brak_w_KRS",
+    "zrodlo_potwierdzenia": "Zgromadzenie zakonne - osoba prawna kosciola katolickiego, nie podlega rejestracji w KRS"
   },
   {
     "nazwa_znormalizowana": "FUNDACJA POGOŃ LWÓW",
@@ -642,9 +642,9 @@
       "FUNDACJA POGOŃ LWÓW",
       "Fundacja Pogoń Lwów"
     ],
-    "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "krs": "0000855921",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "zweryfikowano API"
   },
   {
     "nazwa_znormalizowana": "FUNDACJA TAK-TEMAT AKTUALNY KULTURA",
@@ -662,9 +662,9 @@
     "warianty_zapisu": [
       "Fundacja Studio Wschód"
     ],
-    "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "krs": "0000570948",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "zweryfikowano API"
   },
   {
     "nazwa_znormalizowana": "MUZYKA ZAKORZENIONA",
