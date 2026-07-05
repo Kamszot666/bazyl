@@ -1,0 +1,73 @@
+## Mechanizm checkpointu projektu (hasło: „skleroza")
+
+Gdy w wiadomości pojawi się słowo **skleroza** (samodzielnie lub w zdaniu
+typu „zrób sklerozę", „czas na sklerozę"), potraktuj to jako polecenie
+wygenerowania kompletnego pliku stanu projektu o nazwie
+`STAN_PROJEKTU.md`. Wygeneruj go jako artefakt/plik do pobrania, w
+języku polskim, ściśle według poniższego formatu.
+
+### Zasada nadrzędna: najważniejsze na górze
+
+Plik trafia do Wiedzy projektu, z której Claude wciąga do kontekstu tylko
+najbardziej relewantne fragmenty (pełne pobranie nie jest gwarantowane).
+Dlatego kolejność sekcji jest odwrócona względem intuicji: **stan,
+otwarte pytania i cofnięte decyzje idą NA GÓRĘ, a dosłowny kod NA DÓŁ.**
+Gdyby kontekst miał zostać obcięty, ma przetrwać to, co najtrudniej
+odtworzyć z samego kodu — czyli ustalenia i historia decyzji.
+
+### Wymagany format pliku STAN_PROJEKTU.md (dokładnie te sekcje, w tej kolejności)
+
+1. **NAGŁÓWEK** — nazwa projektu, data wygenerowania, jednozdaniowy cel
+   projektu, oraz jawna informacja: „Ten plik zastępuje poprzedni
+   STAN_PROJEKTU.md — to jedyne aktualne źródło stanu."
+
+2. **STAN NA TERAZ** — punktowo: co jest zrobione i działa, co jest
+   w trakcie, co jest następnym krokiem. Maksymalnie zwięźle, bez kodu.
+
+3. **OTWARTE PYTANIA / DECYZJE DO PODJĘCIA** — każda pozycja: czego
+   dotyczy + jakie są warianty + dlaczego nierozstrzygnięte. To pierwsza
+   rzecz do podjęcia w nowym czacie.
+
+4. **DECYZJE COFNIĘTE / ODRZUCONE** (sekcja krytyczna) — każda pozycja:
+   co było pierwotnie + na co zmienione + dlaczego. Przy każdej dopisz
+   jawne ostrzeżenie, jeśli stara i nowa wersja wyglądają podobnie i mogą
+   się pomylić („jeśli gdzieś pojawi się X, to NIEAKTUALNE — obowiązuje
+   Y"). Ta sekcja istnieje, bo przy sklejaniu wielu czatów odrzucone
+   warianty najłatwiej wracają jako rzekome „ustalenia".
+
+5. **USTALENIA ZAIMPLEMENTOWANE** — lista decyzji już zapisanych w kodzie,
+   każda z formatem: decyzja / jednozdaniowe uzasadnienie / w którym
+   pliku. Bez wklejania kodu — tu tylko odnośniki.
+
+6. **METADANE ROZMOWY** — punkt wejścia (kontynuacja czy od zera),
+   chronologiczny zarys przebiegu, charakterystyka stylu pracy istotna
+   dla kolejnego czatu.
+
+7. **DOSŁOWNY KOD** (zawsze na samym dole) — dla każdego pliku
+   napisanego lub zmienionego: pełna, finalna treść w bloku kodu,
+   z nazwą pliku jako nagłówkiem. Jeśli plik jest niedokończony, oznacz
+   wprost: „CZĘŚCIOWY — brakuje X". Czytaj treść plików bezpośrednio
+   z dysku/artefaktów, nie odtwarzaj z pamięci rozmowy.
+
+### Zasady jakości (obowiązują przy każdym checkpoincie)
+
+- Nie parafrazuj kodu i nie skracaj go „bo oczywiste". Dosłownie.
+- Nie pomijaj plików drobnych (config, stałe, wyjątki, modele) — to one
+  najczęściej giną przy przenoszeniu kontekstu.
+- Jeśli w trakcie rozmowy jakaś decyzja została zmieniona więcej niż raz,
+  w sekcji 4 pokaż pełną sekwencję zmian, nie tylko stan końcowy.
+- Po wygenerowaniu pliku dopisz jedno zdanie przypomnienia: „Pobierz ten
+  plik i podmień nim poprzedni STAN_PROJEKTU.md w Wiedzy projektu."
+- Jeśli czegoś nie wiesz na pewno, oznacz to jako niepewne, zamiast
+  zgadywać.
+
+### Jak ja (użytkownik) tego używam — dla mojej własnej pamięci
+
+- Piszę „skleroza", gdy czuję, że czat robi się długi/ciężki albo zanim
+  go zamknę.
+- Pobieram wygenerowany `STAN_PROJEKTU.md`.
+- W ustawieniach projektu → Wiedza projektu: usuwam stary plik o tej
+  nazwie i wgrywam nowy (jeden plik, zawsze nadpisywany — nie zbieram
+  kolejnych wersji).
+- W nowym czacie nie muszę nic przypominać — wystarczy zacząć pracę,
+  a w razie potrzeby znów napisać „skleroza" na koniec.
