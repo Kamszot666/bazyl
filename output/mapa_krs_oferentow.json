@@ -971,9 +971,9 @@
     "warianty_zapisu": [
       "Stowarzyszenie Anthill"
     ],
-    "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "krs": "0000862741",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "zweryfikowano API"
   },
   {
     "nazwa_znormalizowana": "FUNDACJA SLOW BESKID",
@@ -981,9 +981,9 @@
     "warianty_zapisu": [
       "Fundacja SLOW BESKID"
     ],
-    "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "krs": "0000636554",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "zweryfikowano API"
   },
   {
     "nazwa_znormalizowana": "POLSKI ZESPÓŁ HUMANITARNY",
@@ -991,9 +991,9 @@
     "warianty_zapisu": [
       "Polski Zespół Humanitarny"
     ],
-    "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "krs": "0000626174",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "zweryfikowano API"
   },
   {
     "nazwa_znormalizowana": "FUNDACJA MICE&U",
@@ -1002,9 +1002,9 @@
       "FUNDACJA \"MICE&U\"",
       "Fundacja \"MICE&U\""
     ],
-    "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "krs": "0000769858",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "zweryfikowano API"
   },
   {
     "nazwa_znormalizowana": "FUNDACJA DLA POLONII",
@@ -1012,9 +1012,9 @@
     "warianty_zapisu": [
       "Fundacja \"Dla Polonii\""
     ],
-    "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "krs": "0000423252",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "zweryfikowano API"
   },
   {
     "nazwa_znormalizowana": "FUNDACJA POMOC RODZINIE",
@@ -1023,8 +1023,8 @@
       "Fundacja Pomoc Rodzinie"
     ],
     "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "status": "niejednoznaczne_kilka_pasujacych_podmiotow",
+    "zrodlo_potwierdzenia": "Trzy rozne podmioty o tej nazwie w KRS, brak cechy rozrozniajacej"
   },
   {
     "nazwa_znormalizowana": "PEŁNI KULTURY",
@@ -1032,9 +1032,9 @@
     "warianty_zapisu": [
       "Pełni Kultury"
     ],
-    "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "krs": "0000585483",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "zweryfikowano API"
   },
   {
     "nazwa_znormalizowana": "FUNDACJA OPIEKI I JEDNOŚCI KRESOWIAN",
@@ -1043,8 +1043,8 @@
       "Fundacja Opieki i Jedności Kresowian"
     ],
     "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "status": "nie_znaleziono_wyszukiwaniem",
+    "zrodlo_potwierdzenia": "Podany przez wyszukiwanie numer KRS nalezal do innej organizacji (klub brydzowy) - odrzucono"
   },
   {
     "nazwa_znormalizowana": "FUNDACJA POLSKA ZWYCIĘSKA 1920-2020",
@@ -1052,9 +1052,9 @@
     "warianty_zapisu": [
       "Fundacja Polska Zwycięska 1920-2020"
     ],
-    "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "krs": "0000812837",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "zweryfikowano API"
   },
   {
     "nazwa_znormalizowana": "FUNDACJA KLUBÓW GAZETY POLSKIEJ",
@@ -1062,9 +1062,9 @@
     "warianty_zapisu": [
       "Fundacja Klubów Gazety Polskiej"
     ],
-    "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "krs": "0000437460",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "zweryfikowano API"
   },
   {
     "nazwa_znormalizowana": "FUNDACJA OBCHODÓW 100 ROCZNICY ODZYSKANIA PRZEZ POLSKĘ NIEPODLEGŁOŚCI",
