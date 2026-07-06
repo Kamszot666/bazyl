@@ -2903,7 +2903,7 @@
       "Fundacja Planet"
     ],
     "krs": null,
-    "status": "nie_sprawdzono",
+    "status": "niejednoznaczne_kilka_pasujacych_podmiotow",
     "zrodlo_potwierdzenia": null
   },
   {
@@ -2912,9 +2912,9 @@
     "warianty_zapisu": [
       "Stowarzyszenie Fresco Sonare"
     ],
-    "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "krs": "0000216810",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "zweryfikowano API"
   },
   {
     "nazwa_znormalizowana": "FUNDACJA DZIAŁAŃ TWÓRCZYCH SPRĘŻYNA",
@@ -2923,7 +2923,7 @@
       "Fundacja Działań Twórczych \"Sprężyna\""
     ],
     "krs": null,
-    "status": "nie_sprawdzono",
+    "status": "nie_znaleziono_wyszukiwaniem",
     "zrodlo_potwierdzenia": null
   },
   {
@@ -2932,9 +2932,9 @@
     "warianty_zapisu": [
       "Stowarzyszenie Poradnia Polonijna"
     ],
-    "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "krs": "0001083398",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "zweryfikowano API"
   },
   {
     "nazwa_znormalizowana": "STOWARZYSZENIE COMMUNIO CRUCIS IM. ESYTY STEIN PATRONKI EUROPY",
@@ -2942,9 +2942,9 @@
     "warianty_zapisu": [
       "Stowarzyszenie \"Communio Crucis\" im. Esyty Stein Patronki Europy"
     ],
-    "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "krs": "0000570130",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "zweryfikowano API"
   },
   {
     "nazwa_znormalizowana": "STOWARZYSZENIE UŁANA KARPACKIEGO",
@@ -2952,9 +2952,9 @@
     "warianty_zapisu": [
       "Stowarzyszenie \"Ułana Karpackiego\""
     ],
-    "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "krs": "0000342229",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "zweryfikowano API"
   },
   {
     "nazwa_znormalizowana": "INSTYTUT KREOWANIA PRZEDSIĘBIORCZOŚCI SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ",
@@ -2962,9 +2962,9 @@
     "warianty_zapisu": [
       "Instytut Kreowania Przedsiębiorczości Spółka z Ograniczoną Odpowiedzialnością"
     ],
-    "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "krs": "0000501795",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "zweryfikowano API"
   },
   {
     "nazwa_znormalizowana": "FUNDACJA ACTION-LIFE",
@@ -2972,9 +2972,9 @@
     "warianty_zapisu": [
       "Fundacja Action-Life"
     ],
-    "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "krs": "0000515100",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "zweryfikowano API"
   },
   {
     "nazwa_znormalizowana": "FUNDACJA LIFE AND ART",
@@ -2982,9 +2982,9 @@
     "warianty_zapisu": [
       "Fundacja Life and Art"
     ],
-    "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "krs": "0000737335",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "zweryfikowano API"
   },
   {
     "nazwa_znormalizowana": "KAMIENICA 1 – FUNDACJA NA RZECZ ROZWOJU SZTUKI I PROMOCJI ZDROWIA",
@@ -2992,9 +2992,9 @@
     "warianty_zapisu": [
       "Kamienica 1 – Fundacja Na Rzecz Rozwoju Sztuki i Promocji Zdrowia"
     ],
-    "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "krs": "0000377928",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "zweryfikowano API"
   },
   {
     "nazwa_znormalizowana": "FUNDACJA BAŁTYCKI INSTYTUT MATEMATYKI",
