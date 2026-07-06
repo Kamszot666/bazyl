@@ -3112,9 +3112,9 @@
     "warianty_zapisu": [
       "Fundacja the Warsaw House"
     ],
-    "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "krs": "0000888258",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "API KRS OdpisAktualny 0000888258 - nazwa zgodna"
   },
   {
     "nazwa_znormalizowana": "STOWARZYSZENIE NA TRÓJSTYKU",
@@ -3123,8 +3123,8 @@
       "Stowarzyszenie na Trójstyku"
     ],
     "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "status": "nie_znaleziono_wyszukiwaniem",
+    "zrodlo_potwierdzenia": "Brak wiarygodnego trafienia w wyszukiwaniu ani w API KRS pod tą nazwą"
   },
   {
     "nazwa_znormalizowana": "FUNDACJA SZTUK KRYTYCZNYCH",
@@ -3132,9 +3132,9 @@
     "warianty_zapisu": [
       "Fundacja Sztuk Krytycznych"
     ],
-    "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "krs": "0000439213",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "API KRS OdpisAktualny 0000439213 - nazwa zgodna"
   },
   {
     "nazwa_znormalizowana": "STOWARZYSZENIE PRZEWODNIKÓW TURYSTYCZNYCH ZŁOTA KACZKA",
@@ -3142,9 +3142,9 @@
     "warianty_zapisu": [
       "Stowarzyszenie Przewodników Turystycznych \"Złota Kaczka\""
     ],
-    "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "krs": "0000342036",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "API KRS OdpisAktualny 0000342036 - nazwa zgodna (Złota Kaczka)"
   },
   {
     "nazwa_znormalizowana": "FUNDACJA INSTYTUT STUDIÓW AZJATYCKICH I GLOBALNYCH IM. MICHAŁA BOYMA",
@@ -3152,9 +3152,9 @@
     "warianty_zapisu": [
       "Fundacja Instytut Studiów Azjatyckich i Globalnych im. Michała Boyma"
     ],
-    "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "krs": "0000780900",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "API KRS OdpisAktualny 0000780900 - nazwa zgodna"
   },
   {
     "nazwa_znormalizowana": "FUNDACJA 60 MLN.PL",
@@ -3172,9 +3172,9 @@
     "warianty_zapisu": [
       "Fundacja Joanny Lamparskiej Na Rzecz Ochrony Dziedzictwa Kulturowego \"Projekt Historia\""
     ],
-    "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "krs": "0000497472",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "API KRS OdpisAktualny 0000497472 - nazwa zgodna"
   },
   {
     "nazwa_znormalizowana": "POLSKO UKRAIŃSKA FUNDACJA IM. IGNACEGO JANA PADEREWSKIEGO",
@@ -3182,9 +3182,9 @@
     "warianty_zapisu": [
       "Polsko Ukraińska Fundacja imienia Ignacego Jana Paderewskiego"
     ],
-    "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "krs": "0000429191",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "API KRS OdpisAktualny 0000429191 zwraca aktualną nazwę 'FUNDACJA PADEREWSKI INTERNATIONAL FOUNDATION' (fundacja zmieniła nazwę). Tożsamość podmiotu potwierdzona przez zgodny NIP 1182086567 (ten sam NIP widoczny w niezależnych rejestrach rejestr.io, aleo.com, krs-pobierz.pl pod poprzednią nazwą 'Polsko-Ukraińska Fundacja imienia Ignacego Jana Paderewskiego')."
   },
   {
     "nazwa_znormalizowana": "FUNDACJA MISTRZOWIE SPOTRU",
@@ -3192,9 +3192,9 @@
     "warianty_zapisu": [
       "Fundacja Mistrzowie Spotru"
     ],
-    "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "krs": "0000966500",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "API KRS OdpisAktualny 0000966500 - nazwa zgodna 'FUNDACJA MISTRZOWIE SPORTU' (literówka 'SPOTRU' w danych źródłowych PDF)"
   },
   {
     "nazwa_znormalizowana": "FUNDACJA ALTUM",
@@ -3203,8 +3203,8 @@
       "FUNDACJA \"ALTUM\""
     ],
     "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "status": "niejednoznaczne_kilka_pasujacych_podmiotow",
+    "zrodlo_potwierdzenia": "Istnieją dwie odrębne fundacje o tej samej nazwie (Warszawa i Poznań), jedna z nich wprost deklaruje brak powiązania z drugą - nie da się jednoznacznie wskazać właściwego podmiotu bez dodatkowych danych z PDF źródłowego"
   },
   {
     "nazwa_znormalizowana": "TOWARZYSTWO MUZYCZNE IM. KONSTANTEGO GORSKIEGO",
@@ -4112,9 +4112,9 @@
     "warianty_zapisu": [
       "Fundacja 60mln.pl"
     ],
-    "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "krs": "0000972710",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "API KRS OdpisAktualny 0000972710 - nazwa zgodna (FUNDACJA 60MLN.PL)"
   },
   {
     "nazwa_znormalizowana": "FUNDACJA ZACHÓD WSCHÓD WSPARCIE",
