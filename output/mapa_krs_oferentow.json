@@ -2012,9 +2012,9 @@
     "warianty_zapisu": [
       "Fundacja IDYLLA"
     ],
-    "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "krs": "0000859912",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "zweryfikowano API"
   },
   {
     "nazwa_znormalizowana": "FUNDACJA FOLKOWISKO",
@@ -2022,9 +2022,9 @@
     "warianty_zapisu": [
       "Fundacja Folkowisko"
     ],
-    "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "krs": "0000972286",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "zweryfikowano API"
   },
   {
     "nazwa_znormalizowana": "KLUB SPORTU I REKREACJI KLUB NEMO SPORT",
@@ -2033,7 +2033,7 @@
       "Klub sportu i rekreacji Klub Nemo Sport"
     ],
     "krs": null,
-    "status": "nie_sprawdzono",
+    "status": "nie_znaleziono_wyszukiwaniem",
     "zrodlo_potwierdzenia": null
   },
   {
@@ -2042,9 +2042,9 @@
     "warianty_zapisu": [
       "Fundacja Przyszłość Bez Barier"
     ],
-    "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "krs": "0001086343",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "zweryfikowano API"
   },
   {
     "nazwa_znormalizowana": "STOWARZYSZENIE YOUTH HUMAN IMPACT",
@@ -2052,9 +2052,9 @@
     "warianty_zapisu": [
       "Stowarzyszenie Youth Human Impact"
     ],
-    "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "krs": "0000538549",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "zweryfikowano API"
   },
   {
     "nazwa_znormalizowana": "CREATIVITY WORKS EUROPE",
@@ -2102,9 +2102,9 @@
     "warianty_zapisu": [
       "Fundacja \"Świat na Tak\""
     ],
-    "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "krs": "0000081518",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "zweryfikowano API"
   },
   {
     "nazwa_znormalizowana": "RAZEM:",
@@ -2113,8 +2113,8 @@
       "RAZEM:"
     ],
     "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "status": "nie_dotyczy_artefakt_tabeli",
+    "zrodlo_potwierdzenia": "To nie nazwa organizacji, tylko artefakt parsowania tabeli PDF (wiersz sumy albo powtorzony naglowek)"
   },
   {
     "nazwa_znormalizowana": "FUNDACJA KOSSAKOWSKIEGO",
@@ -2122,9 +2122,9 @@
     "warianty_zapisu": [
       "Fundacja Kossakowskiego"
     ],
-    "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "krs": "0000403745",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "zweryfikowano API"
   },
   {
     "nazwa_znormalizowana": "FUNDACJA POMOCY WZAJEMNEJ BARKA",
@@ -2132,9 +2132,9 @@
     "warianty_zapisu": [
       "Fundacja Pomocy Wzajemnej \"Barka\""
     ],
-    "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "krs": "0000137089",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "zweryfikowano API"
   },
   {
     "nazwa_znormalizowana": "NAZWA OFERENTA",
@@ -2143,8 +2143,8 @@
       "Nazwa oferenta"
     ],
     "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "status": "nie_dotyczy_artefakt_tabeli",
+    "zrodlo_potwierdzenia": "To nie nazwa organizacji, tylko artefakt parsowania tabeli PDF (wiersz sumy albo powtorzony naglowek)"
   },
   {
     "nazwa_znormalizowana": "FUNDACJA OŚRODKA KARTA",
@@ -2152,9 +2152,9 @@
     "warianty_zapisu": [
       "Fundacja Ośrodka KARTA"
     ],
-    "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "krs": "0000119146",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "zweryfikowano API"
   },
   {
     "nazwa_znormalizowana": "STOWARZYSZENIE ON/OFF",
