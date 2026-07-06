@@ -2492,9 +2492,9 @@
     "warianty_zapisu": [
       "Łódzkie Stowarzyszenie Inicjatyw Miejskich \"Topografie\""
     ],
-    "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "krs": "0000279476",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "zweryfikowano API"
   },
   {
     "nazwa_znormalizowana": "LESZCZYŃSKIE TOWARZYSTWO MUZYCZNE IM. ROMANA MACIEJEWSKIEGO",
@@ -2502,9 +2502,9 @@
     "warianty_zapisu": [
       "Leszczyńskie Towarzystwo Muzyczne Im. Romana Maciejewskiego"
     ],
-    "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "krs": "0000227056",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "zweryfikowano API"
   },
   {
     "nazwa_znormalizowana": "STOWARZYSZENIE KLUB SPORTOWY FUTSAL LESZNO",
@@ -2512,9 +2512,9 @@
     "warianty_zapisu": [
       "Stowarzyszenie Klub Sportowy Futsal Leszno"
     ],
-    "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "krs": "0000683371",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "zweryfikowano API"
   },
   {
     "nazwa_znormalizowana": "STOWARZYSZENIE LYSKOR, STOWARZYSZENIE LOKALNA GRUPA DZIAŁANIA PARTNERSTWO DLA ROZWOJU",
@@ -2522,9 +2522,9 @@
     "warianty_zapisu": [
       "Stowarzyszenie LYSKOR, Stowarzyszenie Lokalna Grupa Działania \"Partnerstwo dla Rozwoju\""
     ],
-    "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "krs": "0000257707",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "zweryfikowano API"
   },
   {
     "nazwa_znormalizowana": "FUNDACJA POLONII MEDYCZNEJ",
@@ -2532,9 +2532,9 @@
     "warianty_zapisu": [
       "Fundacja Polonii Medycznej"
     ],
-    "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "krs": "0000872812",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "zweryfikowano API"
   },
   {
     "nazwa_znormalizowana": "POSPOLITE RUSZENIE",
@@ -2543,7 +2543,7 @@
       "Pospolite Ruszenie"
     ],
     "krs": null,
-    "status": "nie_sprawdzono",
+    "status": "niejednoznaczne_kilka_pasujacych_podmiotow",
     "zrodlo_potwierdzenia": null
   },
   {
@@ -2552,9 +2552,9 @@
     "warianty_zapisu": [
       "Fundacja \"Łopacińskich Świat\""
     ],
-    "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "krs": "0000610553",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "zweryfikowano API"
   },
   {
     "nazwa_znormalizowana": "FUNDACJA NA RZECZ POMOCY DZIECIOM Z GRODZIEŃSZCZNY",
@@ -2562,9 +2562,9 @@
     "warianty_zapisu": [
       "Fundacja na rzecz Pomocy Dzieciom z Grodzieńszczny"
     ],
-    "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "krs": "0000000291",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "Literowka w nazwie (Grodzienszczny zamiast Grodzienszczyzny), ta sama organizacja juz zweryfikowana"
   },
   {
     "nazwa_znormalizowana": "FUNDACJA VIELHARMONIA",
@@ -2572,9 +2572,9 @@
     "warianty_zapisu": [
       "Fundacja VIELHARMONIA"
     ],
-    "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "krs": "0001053973",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "zweryfikowano API"
   },
   {
     "nazwa_znormalizowana": "KINGART",
@@ -2583,7 +2583,7 @@
       "KINGART"
     ],
     "krs": null,
-    "status": "nie_sprawdzono",
+    "status": "nie_znaleziono_wyszukiwaniem",
     "zrodlo_potwierdzenia": null
   },
   {
@@ -2592,9 +2592,9 @@
     "warianty_zapisu": [
       "Stowarzyszenie Odra-Niemen Oddział Mazowiecki Wschodni Patrioci"
     ],
-    "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "krs": "0000780514",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "zweryfikowano API"
   },
   {
     "nazwa_znormalizowana": "FUNDACJA ARS ACTIVA",
