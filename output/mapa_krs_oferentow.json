@@ -3852,9 +3852,9 @@
     "warianty_zapisu": [
       "Fundacja Edukacyjna Pro Musica"
     ],
-    "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "krs": "0000214614",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "API KRS OdpisAktualny 0000214614 - nazwa zgodna"
   },
   {
     "nazwa_znormalizowana": "FUNDACJA DZIEDZICTWO WIELKIEGO XIĘSTWA LITEWSKIEGO",
@@ -3862,9 +3862,9 @@
     "warianty_zapisu": [
       "Fundacja Dziedzictwo Wielkiego Xięstwa Litewskiego"
     ],
-    "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "krs": "0000429155",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "API KRS OdpisAktualny 0000429155 - nazwa zgodna"
   },
   {
     "nazwa_znormalizowana": "FUNDACJA POMOC POLAKOM NA WSCHODZIE IM. JANA",
@@ -3872,9 +3872,9 @@
     "warianty_zapisu": [
       "Fundacja \"Pomoc Polakom na Wschodzie\" imienia Jana"
     ],
-    "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "krs": "0000130056",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "API KRS OdpisAktualny 0000130056 - nazwa zgodna (pełna nazwa: FUNDACJA \"POMOC POLAKOM NA WSCHODZIE\" IM. JANA OLSZEWSKIEGO, ucięta w danych źródłowych)"
   },
   {
     "nazwa_znormalizowana": "FUNDACJA POLSKO-UKRAIŃSKA FUNDACJA IM. IGNACEGO JANA PADEREWSKIEGO",
@@ -3882,9 +3882,9 @@
     "warianty_zapisu": [
       "Fundacja Polsko- ukraińska Fundacja Imienia Ignacego Jana Paderewskiego"
     ],
-    "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "krs": "0000429191",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "Ten sam podmiot co 'Polsko Ukraińska Fundacja im. Ignacego Jana Paderewskiego' (wariant zapisu) - patrz uzasadnienie przy tamtym wpisie"
   },
   {
     "nazwa_znormalizowana": "STOWARZYSZENIE BEZPIECZNA LUBELSZCZYZNA",
@@ -3892,9 +3892,9 @@
     "warianty_zapisu": [
       "Stowarzyszenie Bezpieczna Lubelszczyzna"
     ],
-    "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "krs": "0000385808",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "API KRS OdpisAktualny 0000385808 - nazwa zgodna"
   },
   {
     "nazwa_znormalizowana": "FUNDACJA MAXIMUM INSTYTUT WYDAWNICZY. CENTRUM KULTURY-NAUKI-EDUKACJI",
@@ -3902,9 +3902,9 @@
     "warianty_zapisu": [
       "Fundacja \"Maximum\" Instytut Wydawniczy. Centrum Kultury-Nauki- Edukacji"
     ],
-    "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "krs": "0000326359",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "API KRS OdpisAktualny 0000326359 zwraca nazwę z 'CENTRUM KULTURY-BIZNESU-EDUKACJI' (nie 'NAUKI'). Tożsamość potwierdzona przez ten sam NIP 6793003076 widoczny również na oficjalnej stronie fundacji, która używa podtytułu 'Centrum Kultury - Nauki - Edukacji' - najwyraźniej nieformalna, marketingowa wersja nazwy"
   },
   {
     "nazwa_znormalizowana": "FUNDACJA PROMOCJI MEDIACJI I EDUKACJI PRAWNEJ LEX NOSTRA",
@@ -3912,9 +3912,9 @@
     "warianty_zapisu": [
       "Fundacja Promocji Mediacji i Edukacji Prawnej Lex Nostra"
     ],
-    "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "krs": "0000365293",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "API KRS OdpisAktualny 0000365293 - nazwa zgodna"
   },
   {
     "nazwa_znormalizowana": "FUNDACJA SZTUKI I EDUKACJI FILMOWEJ SZTUKA POZNANIA",
@@ -3922,9 +3922,9 @@
     "warianty_zapisu": [
       "Fundacja Sztuki i Edukacji Filmowej SZTUKA POZNANIA"
     ],
-    "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "krs": "0000375824",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "API KRS OdpisAktualny 0000375824 - nazwa zgodna"
   },
   {
     "nazwa_znormalizowana": "FUNDACJA AMBITNA POLSKA",
@@ -3932,9 +3932,9 @@
     "warianty_zapisu": [
       "Fundacja Ambitna Polska"
     ],
-    "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "krs": "0000732603",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "API KRS OdpisAktualny 0000732603 - nazwa zgodna"
   },
   {
     "nazwa_znormalizowana": "FUNDACJA ROZWOJU SPOŁECZEŃSTWA KREATYWNEGO",
@@ -3942,9 +3942,9 @@
     "warianty_zapisu": [
       "Fundacja Rozwoju Społeczeństwa Kreatywnego"
     ],
-    "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "krs": "0000900516",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "API KRS OdpisAktualny 0000900516 - nazwa zgodna"
   },
   {
     "nazwa_znormalizowana": "STOWARZYSZENIE HARFA DZIECIOM",
@@ -3952,9 +3952,9 @@
     "warianty_zapisu": [
       "Stowarzyszenie\" Harfa Dzieciom\""
     ],
-    "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "krs": "0000325784",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "API KRS OdpisAktualny 0000325784 - nazwa zgodna (\"HARFA DZIECIOM\")"
   },
   {
     "nazwa_znormalizowana": "FUNDACJA EDUEKO",
