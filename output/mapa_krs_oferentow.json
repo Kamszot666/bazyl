@@ -1276,9 +1276,9 @@
       "Instytut Kaliski Non Profit Spółka Z Ograniczoną Odpowiedzialnością",
       "Instytut Kaliski non profit Spółka z ograniczoną odpowiedzialnością"
     ],
-    "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "krs": "0000971156",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "zweryfikowano API"
   },
   {
     "nazwa_znormalizowana": "POLSKI INSTYTUT STUDIÓW NAD SZTUKĄ ŚWIATA",
@@ -1286,9 +1286,9 @@
     "warianty_zapisu": [
       "Polski Instytut Studiów nad Sztuką Świata"
     ],
-    "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "krs": "0000390292",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "zweryfikowano API"
   },
   {
     "nazwa_znormalizowana": "FUNDACJA MOCNI MOCĄ NADZIEI",
@@ -1296,9 +1296,9 @@
     "warianty_zapisu": [
       "Fundacja \"Mocni Mocą Nadziei\""
     ],
-    "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "krs": "0000565921",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "zweryfikowano API"
   },
   {
     "nazwa_znormalizowana": "FUNDACJA JA TEŻ MAM MARZENIA",
@@ -1306,9 +1306,9 @@
     "warianty_zapisu": [
       "Fundacja Ja Też Mam Marzenia"
     ],
-    "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "krs": "0000730409",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "zweryfikowano API"
   },
   {
     "nazwa_znormalizowana": "AKADEMIA TRZECIEGO WIEKU PRZY MIEJSKIM OŚRODKU KULTURY W OLSZTYNIE",
@@ -1327,8 +1327,8 @@
       "Zgromadzenie Zmartwychwstania Pana Naszego Jezusa Chrystusa"
     ],
     "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "status": "nie_dotyczy_brak_w_KRS",
+    "zrodlo_potwierdzenia": "Zgromadzenie zakonne - prawdopodobnie osoba prawna kosciola, brak jednoznacznego numeru KRS w zrodlach"
   },
   {
     "nazwa_znormalizowana": "KLUB SPORTOWY WISŁOKA",
@@ -1337,8 +1337,8 @@
       "Klub Sportowy \"Wisłoka\""
     ],
     "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "status": "nie_dotyczy_brak_w_KRS",
+    "zrodlo_potwierdzenia": "Wedlug danych zrodlowych to Klub Sportowy Wisloka Chicago (Polonia w USA), nie podmiot zarejestrowany w polskim KRS"
   },
   {
     "nazwa_znormalizowana": "TOWARZYSTWO MIŁOŚNIKÓW WILNA I ZIEMI WILEŃSKIEJ ODDZIAŁ W MRĄGOWIE",
@@ -1346,9 +1346,9 @@
     "warianty_zapisu": [
       "Towarzystwo Miłośników Wilna i Ziemi Wileńskiej Oddział w Mrągowie"
     ],
-    "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "krs": "0000125315",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "zweryfikowano API"
   },
   {
     "nazwa_znormalizowana": "FUNDACJA ARMENIAN FOUNDATION",
@@ -1356,9 +1356,9 @@
     "warianty_zapisu": [
       "Fundacja Armenian Foundation"
     ],
-    "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "krs": "0000442083",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "zweryfikowano API"
   },
   {
     "nazwa_znormalizowana": "FUNDACJA MEDIA WORLD CUP",
@@ -1366,9 +1366,9 @@
     "warianty_zapisu": [
       "Fundacja Media World Cup"
     ],
-    "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "krs": "0000805148",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "zweryfikowano API"
   },
   {
     "nazwa_znormalizowana": "FUNDACJA KULTURY I KRZEWIENIA POLSKOŚCI ZA GRANICĄ GRONO POLSKOŚCI",
@@ -1376,9 +1376,9 @@
     "warianty_zapisu": [
       "Fundacja Kultury i Krzewienia Polskości za Granicą \"Grono Polskości\""
     ],
-    "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "krs": "0000895104",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "zweryfikowano API"
   },
   {
     "nazwa_znormalizowana": "FUNDACJA NA RZECZ DZIEDZICTWA NARODOWEGO IM. JÓZEFA PIŁSUDSKIEGO",
