@@ -3432,9 +3432,9 @@
     "warianty_zapisu": [
       "Fundacja Scientia Thorunensia"
     ],
-    "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "krs": "0000774901",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "API KRS OdpisAktualny 0000774901 - nazwa zgodna"
   },
   {
     "nazwa_znormalizowana": "FUNDACJA ALIMURADOVA",
@@ -3443,8 +3443,8 @@
       "Fundacja Alimuradova"
     ],
     "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "status": "nie_znaleziono_wyszukiwaniem",
+    "zrodlo_potwierdzenia": "Brak wiarygodnego trafienia w wyszukiwaniu ani w API KRS pod tą nazwą (znaleziono jedynie profil na Facebooku)"
   },
   {
     "nazwa_znormalizowana": "STOWARZYSZENIE OŚWIATOWE HUGO",
@@ -3452,9 +3452,9 @@
     "warianty_zapisu": [
       "Stowarzyszenie Oświatowe Hugo"
     ],
-    "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "krs": "0001077157",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "API KRS OdpisAktualny 0001077157 - nazwa zgodna"
   },
   {
     "nazwa_znormalizowana": "STOWARZYSZENIE TOWARZYSTWO WSPÓŁPRACY Z POLAKAMI W KAZACHSTANIE KRAKÓWKARAGANDA",
@@ -3462,9 +3462,9 @@
     "warianty_zapisu": [
       "Stowarzyszenie Towarzystwo Współpracy Z Polakami W Kazachstanie Krakówkaraganda"
     ],
-    "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "krs": "0000705516",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "API KRS OdpisAktualny 0000705516 - nazwa zgodna (wariant zapisu bez łącznika)"
   },
   {
     "nazwa_znormalizowana": "STOWARZYSZENIE TOWARZYSTWO WSPÓŁPRACY Z POLAKAMI W KAZACHSTANIE KRAKÓW-KARAGANDA",
@@ -3472,9 +3472,9 @@
     "warianty_zapisu": [
       "STOWARZYSZENIE TOWARZYSTWO WSPÓŁPRACY Z POLAKAMI W KAZACHSTANIE KRAKÓW-KARAGANDA"
     ],
-    "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "krs": "0000705516",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "API KRS OdpisAktualny 0000705516 - nazwa zgodna"
   },
   {
     "nazwa_znormalizowana": "FUNDACJA CINEMA MEDIA ART",
@@ -3482,9 +3482,9 @@
     "warianty_zapisu": [
       "Fundacja Cinema Media Art"
     ],
-    "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "krs": "0000828012",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "API KRS OdpisAktualny 0000828012 - nazwa zgodna"
   },
   {
     "nazwa_znormalizowana": "STOWARZYSZENIE EUROPEJSKA WSPÓLNOTA GOSPODARCZA POLONIA",
@@ -3492,9 +3492,9 @@
     "warianty_zapisu": [
       "Stowarzyszenie Europejska Wspólnota Gospodarcza Polonia"
     ],
-    "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "krs": "0000261943",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "API KRS OdpisAktualny 0000261943 - nazwa zgodna (EUROPEJSKA WSPÓLNOTA GOSPODARCZA POLONII, forma dopełniacza)"
   },
   {
     "nazwa_znormalizowana": "STOWARZYSZENIE SCENA KULTURY WOKALNEJ-ŚPIEWANIE BEZ GRANIC",
@@ -3502,9 +3502,9 @@
     "warianty_zapisu": [
       "STOWARZYSZENIE SCENA KULTURY WOKALNEJ - ŚPIEWANIE BEZ GRANIC"
     ],
-    "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "krs": "0000777258",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "API KRS OdpisAktualny 0000777258 - nazwa zgodna"
   },
   {
     "nazwa_znormalizowana": "FUNDACJA NA RZECZ DWUJĘZYCZNOŚCI EDUNOWA",
@@ -3512,9 +3512,9 @@
     "warianty_zapisu": [
       "FUNDACJA NA RZECZ DWUJĘZYCZNOŚCI EDUNOWA"
     ],
-    "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "krs": "0000809797",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "API KRS OdpisAktualny 0000809797 - nazwa zgodna"
   },
   {
     "nazwa_znormalizowana": "STOWARZYSZENIE SOLIDARNI RAZEM",
@@ -3522,9 +3522,9 @@
     "warianty_zapisu": [
       "Stowarzyszenie ''Solidarni Razem\""
     ],
-    "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "krs": "0000245057",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "API KRS OdpisAktualny 0000245057 - nazwa zgodna"
   },
   {
     "nazwa_znormalizowana": "GUNDACJA NA RZECZ POMOCY DZIECIOM Z GRODZIEŃSZCZYZNY",
@@ -3532,9 +3532,9 @@
     "warianty_zapisu": [
       "Gundacja na rzecz Pomocy Dzieciom z Grodzieńszczyzny"
     ],
-    "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "krs": "0000000291",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "API KRS OdpisAktualny 0000000291 - nazwa zgodna (literówka 'GUNDACJA' zamiast 'FUNDACJA' w danych źródłowych)"
   },
   {
     "nazwa_znormalizowana": "STOWARZYSZENIE ,,CENTRUM LUBICZ-POGRANICZE KULTUR",
@@ -3542,9 +3542,9 @@
     "warianty_zapisu": [
       "Stowarzyszenie ,,Centrum Lubicz- Pogranicze Kultur\""
     ],
-    "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "krs": "0000967813",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "API KRS OdpisAktualny 0000967813 - nazwa zgodna"
   },
   {
     "nazwa_znormalizowana": "BIAŁORUSKI MŁODZIEŻOWY HUB",
@@ -3552,9 +3552,9 @@
     "warianty_zapisu": [
       "BIAŁORUSKI MŁODZIEŻOWY HUB"
     ],
-    "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "krs": "0000759981",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "API KRS OdpisAktualny 0000759981 - nazwa zgodna (STOWARZYSZENIE BIAŁORUSKI MŁODZIEŻOWY HUB)"
   },
   {
     "nazwa_znormalizowana": "FUNDACJA POMAGAMY I KROPKA",
@@ -3562,9 +3562,9 @@
     "warianty_zapisu": [
       "Fundacja Pomagamy i Kropka"
     ],
-    "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "krs": "0000969807",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "API KRS OdpisAktualny 0000969807 - nazwa zgodna"
   },
   {
     "nazwa_znormalizowana": "REGIONALNA RADA POLSKIEGO KOMITETU OLIMPIJSKIEGO W CZĘSTOCHOWIE",
