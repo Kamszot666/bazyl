@@ -1072,9 +1072,9 @@
     "warianty_zapisu": [
       "Fundacja Obchodów 100 Rocznicy Odzyskania Przez Polskę Niepodległości"
     ],
-    "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "krs": "0000569399",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "zweryfikowano API"
   },
   {
     "nazwa_znormalizowana": "FUNDACJA WSPIERAM",
@@ -1083,7 +1083,7 @@
       "Fundacja Wspieram"
     ],
     "krs": null,
-    "status": "nie_sprawdzono",
+    "status": "niejednoznaczne_kilka_pasujacych_podmiotow",
     "zrodlo_potwierdzenia": null
   },
   {
@@ -1092,9 +1092,9 @@
     "warianty_zapisu": [
       "Fundacja Przyjaciół Wilna I Grodna \"Serce Dzieciom\""
     ],
-    "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "krs": "0000191557",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "zweryfikowano API"
   },
   {
     "nazwa_znormalizowana": "FUNDACJA HATIKVA",
@@ -1102,9 +1102,9 @@
     "warianty_zapisu": [
       "Fundacja Hatikva"
     ],
-    "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "krs": "0000777275",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "zweryfikowano API"
   },
   {
     "nazwa_znormalizowana": "UCZNIOWSKI KLUB SPORTOWY ,,ALE POLONIA",
@@ -1113,7 +1113,7 @@
       "Uczniowski Klub Sportowy ,,ALE POLONIA''"
     ],
     "krs": null,
-    "status": "nie_sprawdzono",
+    "status": "nie_znaleziono_wyszukiwaniem",
     "zrodlo_potwierdzenia": null
   },
   {
@@ -1122,9 +1122,9 @@
     "warianty_zapisu": [
       "Stowarzyszenie \"Aglomeracja Chrzanowska\""
     ],
-    "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "krs": "0000920643",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "zweryfikowano API"
   },
   {
     "nazwa_znormalizowana": "FUNDACJA KRZEWIENIA KULTURY I TURYSTYKI NAD RZEKĄ",
@@ -1133,9 +1133,9 @@
       "Fundacja Krzewienia Kultury I Turystyki \"Nad Rzeką\"",
       "Fundacja Krzewienia Kultury i Turystyki \"Nad Rzeką\""
     ],
-    "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "krs": "0000852796",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "zweryfikowano API"
   },
   {
     "nazwa_znormalizowana": "STOWARZYSZENIE POMOCY POLAKOM NA WSCHODZIE KRESY",
@@ -1143,9 +1143,9 @@
     "warianty_zapisu": [
       "Stowarzyszenie Pomocy Polakom na Wschodzie KRESY"
     ],
-    "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "krs": "0000114542",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "zweryfikowano API"
   },
   {
     "nazwa_znormalizowana": "FUNDACJA INSTYTUT BIAŁOWIESKI",
@@ -1153,9 +1153,9 @@
     "warianty_zapisu": [
       "Fundacja Instytut Białowieski"
     ],
-    "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "krs": "0000637028",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "zweryfikowano API"
   },
   {
     "nazwa_znormalizowana": "FUNDACJA ALE POLSKA",
@@ -1163,9 +1163,9 @@
     "warianty_zapisu": [
       "Fundacja ALE Polska"
     ],
-    "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "krs": "0001007526",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "zweryfikowano API"
   },
   {
     "nazwa_znormalizowana": "STOWARZYSZENIE PRZYJACIÓŁ HARCERSKIEGO ZESPOŁU PIEŚNI I TAŃCA DZIECI PŁOCKA",
