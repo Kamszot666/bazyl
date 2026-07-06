@@ -2792,9 +2792,9 @@
     "warianty_zapisu": [
       "Ari Ari"
     ],
-    "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "krs": "0000314197",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "zweryfikowano API"
   },
   {
     "nazwa_znormalizowana": "STOWARZYSZENIE ZOSTAŃ W POLSCE",
@@ -2802,9 +2802,9 @@
     "warianty_zapisu": [
       "Stowarzyszenie Zostań w Polsce"
     ],
-    "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "krs": "0000975899",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "zweryfikowano API"
   },
   {
     "nazwa_znormalizowana": "FUNDACJA PRO SPE",
@@ -2812,9 +2812,9 @@
     "warianty_zapisu": [
       "Fundacja Pro Spe"
     ],
-    "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "krs": "0000607263",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "zweryfikowano API"
   },
   {
     "nazwa_znormalizowana": "STOWARZYSZENIE ZDROWIE W GŁOWIE",
@@ -2832,9 +2832,9 @@
     "warianty_zapisu": [
       "Fundacja Legia Soccer Schools"
     ],
-    "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "krs": "0000577605",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "zweryfikowano API"
   },
   {
     "nazwa_znormalizowana": "FUNDACJA APETYT NA KULTURĘ",
@@ -2842,9 +2842,9 @@
     "warianty_zapisu": [
       "Fundacja Apetyt Na Kulturę"
     ],
-    "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "krs": "0000269051",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "zweryfikowano API"
   },
   {
     "nazwa_znormalizowana": "ZWIĄZEK HARCERSTWA POLSKIEGO CHORĄGIEW KRAKOWSKA HUFIEC ANDRYCHÓW",
@@ -2852,9 +2852,9 @@
     "warianty_zapisu": [
       "Związek Harcerstwa Polskiego Chorągiew Krakowska Hufiec Andrychów"
     ],
-    "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "krs": "0000273492",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "zweryfikowano API - hufiec jako jednostka terenowa bez osobowosci prawnej, uzyto KRS Choragwi Krakowskiej"
   },
   {
     "nazwa_znormalizowana": "FUNDACJA ZDOLNE DZIECI",
@@ -2862,9 +2862,9 @@
     "warianty_zapisu": [
       "Fundacja \"Zdolne Dzieci\""
     ],
-    "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "krs": "0000393575",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "zweryfikowano API"
   },
   {
     "nazwa_znormalizowana": "ZWIĄZEK HARCERSTWA POLSKIEGO",
@@ -2872,9 +2872,9 @@
     "warianty_zapisu": [
       "Związek Harcerstwa Polskiego"
     ],
-    "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "krs": "0000094699",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "zweryfikowano API"
   },
   {
     "nazwa_znormalizowana": "FUNDACJA AVA ARTS",
@@ -2882,9 +2882,9 @@
     "warianty_zapisu": [
       "Fundacja AVA Arts"
     ],
-    "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "krs": "0000551222",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "zweryfikowano API"
   },
   {
     "nazwa_znormalizowana": "FUNDACJA ROTUNDA PÓŁNOCNA",
@@ -2892,9 +2892,9 @@
     "warianty_zapisu": [
       "Fundacja Rotunda Północna"
     ],
-    "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "krs": "0000639229",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "zweryfikowano API"
   },
   {
     "nazwa_znormalizowana": "FUNDACJA PLANET",
