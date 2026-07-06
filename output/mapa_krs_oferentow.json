@@ -4023,8 +4023,8 @@
       "Stowarzyszenie \"Sparta\""
     ],
     "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "status": "niejednoznaczne_kilka_pasujacych_podmiotow",
+    "zrodlo_potwierdzenia": "Wiele odrębnych organizacji o nazwie zawierającej 'Sparta' zarejestrowanych w KRS (m.in. Stowarzyszenie 'Sparta' KRS 0000590608, Stowarzyszenie Piłki Siatkowej 'Sparta' KRS 0000266440, kluby sportowe Sparta w różnych miastach) - nazwa zbyt ogólna, by jednoznacznie wskazać właściwy podmiot bez dodatkowych danych ze źródła (miejscowość, dyscyplina)"
   },
   {
     "nazwa_znormalizowana": "FUNDACJA ROZWOJU SZKOŁY WYŻSZEJ WYMIARU SPRAWIEDLIWOŚCI",
@@ -4052,9 +4052,9 @@
     "warianty_zapisu": [
       "Stowarzyszenie \"Republika Polonia\""
     ],
-    "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "krs": "0000911341",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "API KRS OdpisAktualny 0000911341 - nazwa zgodna (pełna nazwa: ŚWIATOWE STOWARZYSZENIE \"REPUBLIKA POLONIA\")"
   },
   {
     "nazwa_znormalizowana": "FUNDACJA DRZWI DO WOLNOŚCI",
@@ -4063,8 +4063,8 @@
       "Fundacja Drzwi Do Wolności"
     ],
     "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "status": "nie_znaleziono_wyszukiwaniem",
+    "zrodlo_potwierdzenia": "Brak wiarygodnego trafienia pod dokładnie tą nazwą. Znalezione podobne, ale niepowiązane podmioty: Fundacja Wolności (KRS 0000428743), Fundacja dla Wolności (KRS 0000224819), Fundacja Drzwi Otwarte (KRS 0000752093) - żaden nie pasuje dokładnie do szukanej nazwy"
   },
   {
     "nazwa_znormalizowana": "STOWARZYSZENIE GROM",
@@ -4183,8 +4183,8 @@
       "Katolicki Uniwersytet Lubelski Jana Pawła II"
     ],
     "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "status": "nie_dotyczy_brak_w_KRS",
+    "zrodlo_potwierdzenia": "KUL jest uczelnią publiczną/kościelną działającą na mocy odrębnej ustawy, zarejestrowaną w systemie POL-on / rejestrze uczelni Ministerstwa Nauki, nie w Krajowym Rejestrze Sądowym - brak numeru KRS dla samej uczelni"
   },
   {
     "nazwa_znormalizowana": "POLSKA FUNDACJA KOŚCIUSZKOWSKA",
@@ -4192,9 +4192,9 @@
     "warianty_zapisu": [
       "Polska Fundacja Kościuszkowska"
     ],
-    "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "krs": "0000346229",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "API KRS OdpisAktualny 0000346229 - nazwa zgodna (odróżniona od niepowiązanej THE KOSCIUSZKO FOUNDATION POLAND - FUNDACJA KOŚCIUSZKOWSKA POLSKA, KRS 0000374417)"
   },
   {
     "nazwa_znormalizowana": "STOWARZYSZENIE FARMA INSPIRACJI",
@@ -4203,8 +4203,8 @@
       "Stowarzyszenie Farma Inspiracji"
     ],
     "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "status": "nie_znaleziono_wyszukiwaniem",
+    "zrodlo_potwierdzenia": "Brak wiarygodnego trafienia pod dokładnie tą nazwą. Znaleziono jedynie podobnie brzmiące, ale niepowiązane 'Stowarzyszenie Fabryka Inspiracji' (KRS 0001012047) - inna nazwa, nie przyjęto jako dopasowania"
   },
   {
     "nazwa_znormalizowana": "METROPOLITARNY INSTYTUT ROZWOJU Z SIEDZIBĄ W SOSNOWCU",
@@ -4212,9 +4212,9 @@
     "warianty_zapisu": [
       "Metropolitarny Instytut Rozwoju z siedzibą w Sosnowcu"
     ],
-    "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "krs": "0000843666",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "API KRS OdpisAktualny 0000843666 - nazwa zgodna"
   },
   {
     "nazwa_znormalizowana": "FUNDACJA WESOŁA GÓRA",
@@ -4222,9 +4222,9 @@
     "warianty_zapisu": [
       "Fundacja Wesoła Góra"
     ],
-    "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "krs": "0000851142",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "API KRS OdpisAktualny 0000851142 - nazwa zgodna"
   },
   {
     "nazwa_znormalizowana": "PAMIĘĆ JEDNOCZY",
@@ -4233,8 +4233,8 @@
       "Pamięć Jednoczy"
     ],
     "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "status": "nie_znaleziono_wyszukiwaniem",
+    "zrodlo_potwierdzenia": "Brak wiarygodnego trafienia pod dokładnie tą nazwą w KRS ani w wyszukiwaniu; brak prefiksu formy prawnej (Fundacja/Stowarzyszenie) sugeruje, że może to być nazwa projektu, nie samej organizacji"
   },
   {
     "nazwa_znormalizowana": "WARSZAWSKIE TOWARZYSTWO PRZYJACIÓŁ WILNA I GRODNA",
@@ -4242,9 +4242,9 @@
     "warianty_zapisu": [
       "Warszawskie Towarzystwo Przyjaciół Wilna i Grodna"
     ],
-    "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "krs": "0000182491",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "API KRS OdpisAktualny 0000182491 - nazwa zgodna (odróżnione od niepowiązanego Towarzystwa Przyjaciół Grodna i Wilna, KRS 0000104450)"
   },
   {
     "nazwa_znormalizowana": "STOWARZYSZENIE PRZYJACIÓŁ PODOLA",
@@ -4252,9 +4252,9 @@
     "warianty_zapisu": [
       "Stowarzyszenie Przyjaciół Podola"
     ],
-    "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "krs": "0000326115",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "API KRS OdpisAktualny 0000326115 - nazwa zgodna"
   },
   {
     "nazwa_znormalizowana": "FUNDACJA SEMPER FIDELIS NA RZECZ ARCHIDIECEZJI LWOWSKIEJ",
@@ -4262,9 +4262,9 @@
     "warianty_zapisu": [
       "Fundacja Semper Fidelis na rzecz Archidiecezji Lwowskiej"
     ],
-    "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "krs": "0000317024",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "API KRS OdpisAktualny 0000317024 - nazwa zgodna"
   },
   {
     "nazwa_znormalizowana": "CARITAS ARCHIDIECEZJI LUBELSKIEJ",
@@ -4272,8 +4272,8 @@
     "warianty_zapisu": [
       "Caritas Archidiecezji Lubelskiej"
     ],
-    "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "krs": "0000204819",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "API KRS OdpisAktualny 0000204819 - nazwa zgodna (kościelna osoba prawna zarejestrowana w KRS jako organizacja pożytku publicznego)"
   }
 ]
