@@ -1892,9 +1892,9 @@
     "warianty_zapisu": [
       "Fundacja Rozwoju Kinematografii"
     ],
-    "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "krs": "0000517842",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "zweryfikowano API"
   },
   {
     "nazwa_znormalizowana": "FUNDACJA NIEZALEŻNY ZESPÓŁ BADAWCZY",
@@ -1902,9 +1902,9 @@
     "warianty_zapisu": [
       "Fundacja Niezależny Zespół Badawczy"
     ],
-    "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "krs": "0000458144",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "zweryfikowano API"
   },
   {
     "nazwa_znormalizowana": "FUNDACJA MULTIOCALENIE",
@@ -1912,9 +1912,9 @@
     "warianty_zapisu": [
       "Fundacja \"MultiOcalenie\""
     ],
-    "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "krs": "0000471971",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "zweryfikowano API"
   },
   {
     "nazwa_znormalizowana": "GLOBAL POLISH STUDENT SOCIETY",
@@ -1922,9 +1922,9 @@
     "warianty_zapisu": [
       "\"Global Polish Student Society\""
     ],
-    "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "krs": "0001223849",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "zweryfikowano API"
   },
   {
     "nazwa_znormalizowana": "FUNDACJA EMU",
@@ -1933,7 +1933,7 @@
       "Fundacja EMU"
     ],
     "krs": null,
-    "status": "nie_sprawdzono",
+    "status": "nie_znaleziono_wyszukiwaniem",
     "zrodlo_potwierdzenia": null
   },
   {
@@ -1942,9 +1942,9 @@
     "warianty_zapisu": [
       "Stowarzyszenie Scena Kultury Wokalnej Śpiewanie Bez Granic"
     ],
-    "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "krs": "0000777258",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "Znalezione wczesniej przy okazji wyszukiwania Stowarzyszenia Scena Kultury (inny podmiot)"
   },
   {
     "nazwa_znormalizowana": "KLUB JAGIELLOŃSKI",
@@ -1952,9 +1952,9 @@
     "warianty_zapisu": [
       "Klub Jagielloński"
     ],
-    "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "krs": "0000128315",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "zweryfikowano API"
   },
   {
     "nazwa_znormalizowana": "FUNDACJA ARTE SUAVE",
@@ -1962,9 +1962,9 @@
     "warianty_zapisu": [
       "Fundacja Arte Suave"
     ],
-    "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "krs": "0001101722",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "zweryfikowano API"
   },
   {
     "nazwa_znormalizowana": "TOWARZYSTWO PROJEKTÓW EDUKACYJNYCH",
@@ -1972,9 +1972,9 @@
     "warianty_zapisu": [
       "Towarzystwo Projektów Edukacyjnych"
     ],
-    "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "krs": "0000405141",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "To samo co Fundacja Towarzystwo Projektow Edukacyjnych, juz zweryfikowane"
   },
   {
     "nazwa_znormalizowana": "FUNDACJA SAPERE AUDE INCIPE",
@@ -1982,9 +1982,9 @@
     "warianty_zapisu": [
       "Fundacja Sapere Aude Incipe"
     ],
-    "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "krs": "0001195949",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "zweryfikowano API"
   },
   {
     "nazwa_znormalizowana": "POLONIA PRO-KOMPETENCJE I ROZWÓJ",
@@ -1993,7 +1993,7 @@
       "Polonia Pro- Kompetencje i Rozwój"
     ],
     "krs": null,
-    "status": "nie_sprawdzono",
+    "status": "nie_znaleziono_wyszukiwaniem",
     "zrodlo_potwierdzenia": null
   },
   {
@@ -2003,7 +2003,7 @@
       "Fundacja Dyplomacji Sportowej"
     ],
     "krs": null,
-    "status": "nie_sprawdzono",
+    "status": "nie_znaleziono_wyszukiwaniem",
     "zrodlo_potwierdzenia": null
   },
   {
