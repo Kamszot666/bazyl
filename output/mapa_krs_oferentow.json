@@ -1792,8 +1792,8 @@
       "Zgromadzenie Sióstr Misjonarek Chrystusa Króla dla Polonii Zagranicznej"
     ],
     "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "status": "nie_dotyczy_brak_w_KRS",
+    "zrodlo_potwierdzenia": "Zgromadzenie zakonne, brak numeru KRS w zrodlach - prawdopodobnie osoba prawna kosciola"
   },
   {
     "nazwa_znormalizowana": "FUNDACJA HAGIA MARINA",
@@ -1801,9 +1801,9 @@
     "warianty_zapisu": [
       "Fundacja Hagia Marina"
     ],
-    "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "krs": "0000726821",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "zweryfikowano API"
   },
   {
     "nazwa_znormalizowana": "TERRA HUMANA",
@@ -1812,9 +1812,9 @@
       "TERRA HUMANA",
       "Terra Humana"
     ],
-    "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "krs": "0000139568",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "zweryfikowano API"
   },
   {
     "nazwa_znormalizowana": "POLSKI KOMITET OLIMPIJSKI",
@@ -1822,9 +1822,9 @@
     "warianty_zapisu": [
       "Polski Komitet Olimpijski"
     ],
-    "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "krs": "0000057907",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "zweryfikowano API"
   },
   {
     "nazwa_znormalizowana": "FUNDACJA INSTYTUT NOWYCH MEDIÓW",
@@ -1832,9 +1832,9 @@
     "warianty_zapisu": [
       "Fundacja Instytut Nowych Mediów"
     ],
-    "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "krs": "0000468950",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "zweryfikowano API"
   },
   {
     "nazwa_znormalizowana": "FUNDACJA INSTYTUT SPRAW KONSTYTUCYJNYCH",
@@ -1842,9 +1842,9 @@
     "warianty_zapisu": [
       "Fundacja Instytut Spraw Konstytucyjnych"
     ],
-    "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "krs": "0000871660",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "zweryfikowano API"
   },
   {
     "nazwa_znormalizowana": "STOWARZYSZENIE HISTORYCZNE IM. DANUTY SIEDZIKÓWNY PS. INKA",
@@ -1852,9 +1852,9 @@
     "warianty_zapisu": [
       "Stowarzyszenie Historyczne im. Danuty Siedzikówny ps. INKA"
     ],
-    "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "krs": "0000412885",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "zweryfikowano API"
   },
   {
     "nazwa_znormalizowana": "F UNDACJA FIDES ET RATIO-W DARZE BOŻEJ OPATRZNOŚCI",
@@ -1862,9 +1862,9 @@
     "warianty_zapisu": [
       "F undacja Fides et Ratio - W Darze Bożej Opatrzności"
     ],
-    "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "krs": "0000348972",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "zweryfikowano API"
   },
   {
     "nazwa_znormalizowana": "FUNDACJA NIEZALEZNY FUNDUSZ KULTURY POLCANART",
@@ -1872,9 +1872,9 @@
     "warianty_zapisu": [
       "Fundacja \"Niezalezny Fundusz Kultury Polcanart\""
     ],
-    "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "krs": "0000563759",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "zweryfikowano API"
   },
   {
     "nazwa_znormalizowana": "FUNDACJA POKOLENIA-POKOLENIOM",
@@ -1882,9 +1882,9 @@
     "warianty_zapisu": [
       "Fundacja \"POKOLENIA- POKOLENIOM\""
     ],
-    "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "krs": "0000015776",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "zweryfikowano API"
   },
   {
     "nazwa_znormalizowana": "FUNDACJA ROZWOJU KINEMATOGRAFII",
