@@ -3962,9 +3962,9 @@
     "warianty_zapisu": [
       "Fundacja EDUEKO"
     ],
-    "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "krs": "0000879807",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "API KRS OdpisAktualny 0000879807 - nazwa zgodna"
   },
   {
     "nazwa_znormalizowana": "FUNDACJA PROJEKT PATRIOTYZM",
@@ -3972,9 +3972,9 @@
     "warianty_zapisu": [
       "Fundacja Projekt Patriotyzm"
     ],
-    "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "krs": "0000835764",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "API KRS OdpisAktualny 0000835764 - nazwa zgodna"
   },
   {
     "nazwa_znormalizowana": "FUNDACJA KISIELA",
@@ -3982,9 +3982,9 @@
     "warianty_zapisu": [
       "Fundacja Kisiela"
     ],
-    "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "krs": "0000299155",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "API KRS OdpisAktualny 0000299155 - nazwa zgodna"
   },
   {
     "nazwa_znormalizowana": "FUNDACJA DZIEDZICTWA KULTUROWEGO",
@@ -3992,9 +3992,9 @@
     "warianty_zapisu": [
       "Fundacja Dziedzictwa Kulturowego"
     ],
-    "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "krs": "0000439624",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "API KRS OdpisAktualny 0000439624 - nazwa zgodna (odróżniona od kilku niepowiązanych fundacji o podobnych, rozszerzonych nazwach)"
   },
   {
     "nazwa_znormalizowana": "ŻURAW GDAŃSK",
@@ -4002,9 +4002,9 @@
     "warianty_zapisu": [
       "Żuraw Gdańsk"
     ],
-    "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "krs": "0000539836",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "API KRS OdpisAktualny 0000539836 - nazwa zgodna"
   },
   {
     "nazwa_znormalizowana": "FUNDACJA DROGA NA SZCZYT",
@@ -4012,9 +4012,9 @@
     "warianty_zapisu": [
       "Fundacja Droga na Szczyt"
     ],
-    "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "krs": "0000923846",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "API KRS OdpisAktualny 0000923846 - nazwa zgodna (odróżniona od niepowiązanej FUNDACJA W DRODZE NA SZCZYT, KRS 0000987834)"
   },
   {
     "nazwa_znormalizowana": "STOWARZYSZENIE SPARTA",
@@ -4032,9 +4032,9 @@
     "warianty_zapisu": [
       "Fundacja Rozwoju Szkoły Wyższej Wymiaru Sprawiedliwości"
     ],
-    "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "krs": "0000949089",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "API KRS OdpisAktualny 0000949089 zwraca aktualną nazwę 'FUNDACJA ROZWOJU SZKOLNICTWA WYŻSZEGO' (fundacja zmieniła nazwę, wcześniej Fundacja Rozwoju Szkoły Wyższej Wymiaru Sprawiedliwości - potwierdzone przez ten sam NIP 5252894494)"
   },
   {
     "nazwa_znormalizowana": "STOWARZYSZENIE RODZINA KOLPINGA",
@@ -4042,9 +4042,9 @@
     "warianty_zapisu": [
       "Stowarzyszenie \"Rodzina Kolpinga\""
     ],
-    "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "krs": "0000135856",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "API KRS OdpisAktualny 0000135856 - nazwa zgodna (odróżnione od wielu lokalnych oddziałów 'Rodzina Kolpinga w [miasto]' mających własne, odrębne numery KRS)"
   },
   {
     "nazwa_znormalizowana": "STOWARZYSZENIE REPUBLIKA POLONIA",
@@ -4072,9 +4072,9 @@
     "warianty_zapisu": [
       "Stowarzyszenie Grom"
     ],
-    "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "krs": "0000553247",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "API KRS OdpisAktualny 0000553247 - nazwa zgodna (odróżnione od kilku niepowiązanych klubów sportowych o tej samej nazwie)"
   },
   {
     "nazwa_znormalizowana": "STOWARZYSZENIE INTEGRACJA EUROPA-WSCHÓD",
@@ -4082,9 +4082,9 @@
     "warianty_zapisu": [
       "Stowarzyszenie Integracja Europa - Wschód"
     ],
-    "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "krs": "0000364727",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "API KRS OdpisAktualny 0000364727 - nazwa zgodna"
   },
   {
     "nazwa_znormalizowana": "FUNDACJA KRZYŻOWA DLA POROZUMIENIA EUROPEJSKIEGO",
@@ -4092,9 +4092,9 @@
     "warianty_zapisu": [
       "Fundacja \"Krzyżowa\" Dla Porozumienia Europejskiego"
     ],
-    "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "krs": "0000084948",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "API KRS OdpisAktualny 0000084948 - nazwa zgodna"
   },
   {
     "nazwa_znormalizowana": "FUNDACJA MUZA DEI-CENTRUM NOWEJ KULTURY",
@@ -4102,9 +4102,9 @@
     "warianty_zapisu": [
       "Fundacja Muza Dei - Centrum Nowej Kultury"
     ],
-    "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "krs": "0000868143",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "API KRS OdpisAktualny 0000868143 - nazwa zgodna"
   },
   {
     "nazwa_znormalizowana": "FUNDACJA 60MLN.PL",
@@ -4122,9 +4122,9 @@
     "warianty_zapisu": [
       "Fundacja Zachód Wschód Wsparcie"
     ],
-    "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "krs": "0000862828",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "API KRS OdpisAktualny 0000862828 - nazwa zgodna"
   },
   {
     "nazwa_znormalizowana": "FUNDACJA COGNOSCO",
@@ -4132,9 +4132,9 @@
     "warianty_zapisu": [
       "Fundacja \"Cognosco\""
     ],
-    "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "krs": "0000325672",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "API KRS OdpisAktualny 0000325672 - nazwa zgodna"
   },
   {
     "nazwa_znormalizowana": "FUNDACJA IM. JANUSZA KURTYKI",
@@ -4142,9 +4142,9 @@
     "warianty_zapisu": [
       "Fundacja im. Janusza Kurtyki"
     ],
-    "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "krs": "0000598727",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "API KRS OdpisAktualny 0000598727 - nazwa zgodna"
   },
   {
     "nazwa_znormalizowana": "POLSKIE TOWARZYSTWO HERALDYCZNE",
@@ -4152,9 +4152,9 @@
     "warianty_zapisu": [
       "Polskie Towarzystwo Heraldyczne"
     ],
-    "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "krs": "0000276917",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "API KRS OdpisAktualny 0000276917 - nazwa zgodna"
   },
   {
     "nazwa_znormalizowana": "FUNDACJA INSTYTUT MYŚLI SCHUMANA",
@@ -4162,9 +4162,9 @@
     "warianty_zapisu": [
       "Fundacja Instytut Myśli Schumana"
     ],
-    "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "krs": "0000626890",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "API KRS OdpisAktualny 0000626890 - nazwa zgodna"
   },
   {
     "nazwa_znormalizowana": "FUNDACJA URBAN FORMS",
@@ -4172,9 +4172,9 @@
     "warianty_zapisu": [
       "Fundacja Urban Forms"
     ],
-    "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "krs": "0000316994",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "API KRS OdpisAktualny 0000316994 - nazwa zgodna"
   },
   {
     "nazwa_znormalizowana": "KATOLICKI UNIWERSYTET LUBELSKI JANA PAWŁA II",
