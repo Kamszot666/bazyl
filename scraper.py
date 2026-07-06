@@ -22,6 +22,7 @@ import random
 import re
 import sys
 import time
+from collections import defaultdict
 from datetime import datetime, timedelta
 from pathlib import Path
 
@@ -50,6 +51,18 @@ CONFIG = {
     # Adres korespondencyjny, KRS, telefon, e-mail itd. uzupełnia dopiero
     # kolejny etap (wzbogacanie przez API KRS/REGON), którego jeszcze nie ma.
     "seed_file": "output/oferenci_konkursy_polonijne.xlsx",
+
+    # --- ETAP 2: MAPA NAZWA OFERENTA -> NUMER KRS (weryfikacja ręczna) ---
+    # Plik zawiera wynik ręcznego sprawdzenia każdej z 404 unikalnych nazw
+    # oferentów przez oficjalne API KRS (patrz historia rozmowy). Każdy
+    # numer KRS występuje w pliku dokładnie raz (duplikaty scalone).
+    "mapa_krs_file": "output/mapa_krs_oferentow.json",
+
+    # --- ETAP 3: WZBOGACANIE DANYCH PRZEZ OFICJALNE API KRS ---
+    # Cache odpowiedzi API KRS wg numeru KRS — pozwala wznowić Etap 3 po
+    # awarii bez ponownego odpytywania już pobranych numerów.
+    "cache_dane_krs_file": "output/cache_dane_krs.json",
+    "api_krs_url_wzor": "https://api-krs.ms.gov.pl/api/krs/OdpisAktualny/{krs}?rejestr={rejestr}&format=json",
 
     # Każdy adres poniżej zweryfikowano ręcznie przez realne pobranie strony
     # (patrz historia rozmowy — nazwa i podział konkursu zmienia się rok do
@@ -791,6 +804,310 @@ def create_seed_workbook() -> tuple:
 
 
 # =============================================================================
+# ETAP 3: WZBOGACANIE PRZEZ OFICJALNE API KRS I BUDOWA FINALNEJ BAZY
+# =============================================================================
+# Struktura odpowiedzi API zweryfikowana przez realne zapytania podczas
+# ręcznej weryfikacji Etapu 2 (patrz historia rozmowy) — pola danePodmiotu
+# (nazwa, formaPrawna, identyfikatory.nip) oraz siedzibaIAdres (siedziba.
+# wojewodztwo, adres.ulica/nrDomu/nrLokalu/kodPocztowy/miejscowosc/poczta).
+# API nie zwraca numeru REGON ani danych kontaktowych (telefon, e-mail,
+# WWW) — to wymagałoby osobno API REGON (GUS BIR1.1, potrzebny klucz
+# produkcyjny) i osobnego etapu scrapowania stron WWW organizacji.
+
+PREFIKSY_ULIC = {"UL": "ul.", "AL": "al.", "PL": "pl.", "OS": "os.", "PLAC": "plac"}
+
+
+def _tytul(tekst: str) -> str:
+    """Zamienia zapis WIELKIMI LITERAMI z API na zapis z wielkiej litery każdego słowa."""
+    return tekst.title() if tekst else ""
+
+
+def _sformatuj_ulice(ulica: str) -> str:
+    """
+    API zwraca ulicę czasem z prefiksem (UL./AL./PL.), czasem bez.
+    Prefiks zapisujemy małą literą zgodnie z przykładem z formatki
+    ("ul. Mickiewicza 12"), resztę nazwy z wielkiej litery każdego słowa.
+    """
+    czesci = ulica.strip().split(None, 1)
+    if len(czesci) == 2 and czesci[0].rstrip(".").upper() in PREFIKSY_ULIC:
+        prefiks = PREFIKSY_ULIC[czesci[0].rstrip(".").upper()]
+        return f"{prefiks} {_tytul(czesci[1])}"
+    return _tytul(ulica)
+
+
+def zbuduj_adres_korespondencyjny(adres: dict) -> str:
+    """
+    Buduje adres korespondencyjny z pól API KRS.
+    Adresy wiejskie bez nazwy ulicy (np. "Łukomie 62") obsługiwane osobno —
+    numer domu wtedy stoi bezpośrednio przy nazwie miejscowości.
+    """
+    if not adres:
+        return "brak"
+
+    ulica = adres.get("ulica")
+    nr_domu = adres.get("nrDomu") or ""
+    nr_lokalu = adres.get("nrLokalu") or ""
+    kod = adres.get("kodPocztowy") or ""
+    miejscowosc = adres.get("miejscowosc") or ""
+    poczta = adres.get("poczta") or miejscowosc
+
+    numer = f"{nr_domu}/{nr_lokalu}" if (nr_domu and nr_lokalu) else (nr_domu or nr_lokalu)
+
+    if ulica:
+        pierwsza_czesc = f"{_sformatuj_ulice(ulica)} {numer}".strip()
+    else:
+        pierwsza_czesc = f"{_tytul(miejscowosc)} {numer}".strip()
+
+    druga_czesc = f"{kod} {_tytul(poczta)}".strip()
+
+    czesci = [c for c in (pierwsza_czesc, druga_czesc) if c]
+    return ", ".join(czesci) if czesci else "brak"
+
+
+def wczytaj_cache_krs() -> dict:
+    """Wczytuje cache odpowiedzi API KRS (wznowienie po awarii bez ponownych zapytań)."""
+    p = Path(CONFIG["cache_dane_krs_file"])
+    if p.exists():
+        with open(p, encoding="utf-8") as f:
+            return json.load(f)
+    return {}
+
+
+def zapisz_cache_krs(cache: dict):
+    """Zapisuje cache po KAŻDYM nowym zapytaniu do API — zgodnie z polityką wznowień."""
+    p = Path(CONFIG["cache_dane_krs_file"])
+    p.parent.mkdir(parents=True, exist_ok=True)
+    with open(p, "w", encoding="utf-8") as f:
+        json.dump(cache, f, ensure_ascii=False, indent=2)
+
+
+def _pobierz_odpis_krs(numer_krs: str, rejestr: str) -> dict | None:
+    """
+    Jedno zapytanie do API KRS z jedną powtórką po błędzie sieci (5 s).
+    Zwraca None, gdy podmiotu nie ma w tym rejestrze (HTTP 204) albo
+    gdy obie próby zawiodły.
+    """
+    url = CONFIG["api_krs_url_wzor"].format(krs=numer_krs, rejestr=rejestr)
+    for probka in (1, 2):
+        try:
+            resp = requests.get(url, headers=HEADERS, timeout=CONFIG["request_timeout"])
+        except requests.RequestException as e:
+            log_event(f"API_KRS {numer_krs}", False, f"próba {probka} — {e}")
+            if probka == 1:
+                time.sleep(CONFIG["retry_delay"])
+            continue
+
+        if resp.status_code == 204:
+            return None
+        try:
+            resp.raise_for_status()
+        except requests.RequestException as e:
+            log_event(f"API_KRS {numer_krs}", False, f"próba {probka} — {e}")
+            if probka == 1:
+                time.sleep(CONFIG["retry_delay"])
+            continue
+
+        return resp.json()
+
+    return None
+
+
+def pobierz_dane_podmiotu_z_krs(numer_krs: str, cache: dict) -> dict | None:
+    """
+    Pobiera z oficjalnego API KRS aktualną nazwę, formę prawną, NIP,
+    województwo i adres siedziby danego numeru KRS. Najpierw próbuje
+    rejestru stowarzyszeń/fundacji (S), a jeśli brak wpisu — rejestru
+    przedsiębiorców (P), np. dla spółek z o.o. Wynik cache'owany.
+    """
+    if numer_krs in cache:
+        return cache[numer_krs]
+
+    dane = _pobierz_odpis_krs(numer_krs, "S")
+    rejestr_uzyty = "S"
+    if dane is None:
+        dane = _pobierz_odpis_krs(numer_krs, "P")
+        rejestr_uzyty = "P"
+
+    if dane is None:
+        log_event("API_KRS_BRAK_WPISU", False, numer_krs)
+        cache[numer_krs] = None
+        zapisz_cache_krs(cache)
+        return None
+
+    dzial1 = dane.get("odpis", {}).get("dane", {}).get("dzial1", {})
+    dane_podmiotu = dzial1.get("danePodmiotu") or {}
+    siedziba_i_adres = dzial1.get("siedzibaIAdres") or {}
+
+    wynik = {
+        "nazwa": dane_podmiotu.get("nazwa") or "",
+        "forma_prawna": dane_podmiotu.get("formaPrawna") or "",
+        "nip": (dane_podmiotu.get("identyfikatory") or {}).get("nip") or "",
+        "wojewodztwo": (siedziba_i_adres.get("siedziba") or {}).get("wojewodztwo") or "",
+        "adres": siedziba_i_adres.get("adres") or {},
+        "rejestr": rejestr_uzyty,
+    }
+    cache[numer_krs] = wynik
+    zapisz_cache_krs(cache)
+    log_event("API_KRS", True, f"{numer_krs} ({rejestr_uzyty})")
+    return wynik
+
+
+def wczytaj_mape_krs() -> dict:
+    """
+    Wczytuje mapę nazwa-oferenta → numer-KRS z Etapu 2 i buduje słownik
+    dopasowań: dokładny zapis nazwy tak, jak wystąpił w pliku pośrednim
+    Etapu 1 → LISTA rekordów mapy (zwykle jednoelementowa; dwuelementowa
+    tylko dla jednego znanego wiersza, w którym dwie organizacje figurują
+    we wspólnej komórce — patrz "FUNDACJA CINEMA MEDIA ART, FINDACJA
+    MEDIA WORLD CUP" w mapie).
+    """
+    with open(CONFIG["mapa_krs_file"], encoding="utf-8") as f:
+        rekordy = json.load(f)
+
+    dopasowania = defaultdict(list)
+    for rekord in rekordy:
+        klucze = set(rekord.get("warianty_zapisu", [])) | {rekord["nazwa_znormalizowana"]}
+        for klucz in klucze:
+            dopasowania[klucz].append(rekord)
+
+    return dopasowania
+
+
+def zbuduj_charakterystyke(rekord: dict, lata: set) -> str:
+    """
+    Buduje krótką charakterystykę (1–3 zdania) wyłącznie z faktów znanych
+    z konkursów polonijnych — KRS nie podaje dziedziny działalności, więc
+    jej NIE zgadujemy (kolumna "Branża / Typ" zostaje "brak").
+    """
+    lata_tekst = ", ".join(sorted(lata))
+    zdanie = f"Oferent w konkursach polonijnych MSZ/KPRM w latach: {lata_tekst}."
+
+    opisy_statusu = {
+        "nie_znaleziono_wyszukiwaniem": "Nie znaleziono numeru KRS — wymaga ręcznej weryfikacji.",
+        "niejednoznaczne_kilka_pasujacych_podmiotow": "Kilka podmiotów o tej samej nazwie w KRS — wymaga ręcznego wskazania właściwego.",
+        "nie_dotyczy_brak_w_KRS": "Podmiot nie figuruje w KRS (inna forma prawna albo wykreślony z rejestru).",
+    }
+    opis_statusu = opisy_statusu.get(rekord["status"], "")
+    if opis_statusu:
+        zdanie += " " + opis_statusu
+
+    return zdanie
+
+
+def zbuduj_wzbogacona_baze(progress: dict):
+    """
+    Etap 3: dla każdego oferenta z pliku pośredniego Etapu 1 o potwierdzonym
+    numerze KRS (Etap 2) pobiera z oficjalnego API KRS dane rejestrowe
+    i zapisuje JEDEN wiersz na organizację (deduplikacja po KRS) w finalnym
+    pliku wg kolumn formatki (OUTPUT_COLUMNS). Organizacje bez potwierdzonego
+    numeru KRS też trafiają do wyniku — z polami rejestrowymi "brak" i
+    wyjaśnieniem w charakterystyce — żeby żaden realny podmiot nie zniknął.
+    Tylko artefakty tabeli PDF (status nie_dotyczy_artefakt_tabeli) są
+    pomijane całkowicie, bo to nie są prawdziwe organizacje.
+    """
+    dopasowania = wczytaj_mape_krs()
+    cache_krs = wczytaj_cache_krs()
+
+    seed_wb = load_workbook(CONFIG["seed_file"])
+    seed_ws = seed_wb.active
+    naglowki_seed = [c.value for c in next(seed_ws.iter_rows(min_row=1, max_row=1))]
+    idx_oferent = naglowki_seed.index("Oferent")
+    idx_rok = naglowki_seed.index("Rok")
+    idx_url_artykulu = naglowki_seed.index("URL artykułu")
+
+    grupy: dict[str, dict] = {}
+    niedopasowane = set()
+
+    for wiersz in seed_ws.iter_rows(min_row=2, values_only=True):
+        oferent_surowy = wiersz[idx_oferent]
+        if not oferent_surowy:
+            continue
+
+        pasujace_rekordy = dopasowania.get(str(oferent_surowy))
+        if not pasujace_rekordy:
+            niedopasowane.add(str(oferent_surowy))
+            continue
+
+        for rekord in pasujace_rekordy:
+            if rekord["status"] == "nie_dotyczy_artefakt_tabeli":
+                continue
+
+            klucz_grupy = rekord.get("krs") or f"BEZ_KRS::{rekord['nazwa_znormalizowana']}"
+            grupa = grupy.setdefault(klucz_grupy, {"rekord_mapy": rekord, "lata": set(), "urle": set()})
+            grupa["lata"].add(str(wiersz[idx_rok]))
+            grupa["urle"].add(str(wiersz[idx_url_artykulu]))
+
+    if niedopasowane:
+        log_event(
+            "OFERENCI_NIEDOPASOWANI", False,
+            f"{len(niedopasowane)} nazw z pliku pośredniego nie znaleziono w mapie KRS: "
+            + "; ".join(sorted(niedopasowane)[:20]),
+        )
+
+    out_wb, out_ws, wiersz_wyjsciowy = create_output_workbook()
+    juz_zapisane = set(progress.get("etap3_zapisane_grupy", []))
+    dzis = datetime.now().strftime(CONFIG["date_format"])
+
+    do_przetworzenia = [(k, g) for k, g in sorted(grupy.items()) if k not in juz_zapisane]
+    log.info(f"Etap 3: {len(do_przetworzenia)}/{len(grupy)} organizacji do przetworzenia (reszta już zapisana)")
+
+    for klucz_grupy, grupa in tqdm(do_przetworzenia, desc="Budowanie bazy", unit="org"):
+        rekord = grupa["rekord_mapy"]
+        numer_krs = rekord.get("krs")
+
+        dane_api = pobierz_dane_podmiotu_z_krs(numer_krs, cache_krs) if numer_krs else None
+        if numer_krs:
+            polite_delay()
+
+        if dane_api:
+            # Nazwa zostaje WIELKIMI LITERAMI — tak jak jest zapisana w odpisie
+            # KRS (to jest konwencja samego rejestru, nie usterka danych;
+            # "zgodna z rejestrem" z procedury oznacza dosłowną zgodność).
+            nazwa = dane_api["nazwa"] or rekord["nazwa_znormalizowana"]
+            wojewodztwo = dane_api["wojewodztwo"].lower() if dane_api["wojewodztwo"] else "brak"
+            adres_tekst = zbuduj_adres_korespondencyjny(dane_api["adres"])
+            nip = dane_api["nip"] or "brak"
+        else:
+            nazwa = rekord["nazwa_znormalizowana"]
+            wojewodztwo = "brak"
+            adres_tekst = "brak"
+            nip = "brak"
+
+        rekord_wyjsciowy = {
+            "Kategoria": "organizacja pozarządowa",
+            "Branża / Typ": "brak",
+            "Nazwa": nazwa,
+            "Adres korespondencyjny": adres_tekst,
+            "Województwo": wojewodztwo,
+            "Numer telefonu": "brak",
+            "Adres e-mail": "brak",
+            "Strona WWW": "brak",
+            "Profil w mediach społecznościowych": "brak",
+            "Osoba kontaktowa": "nie ustalono",
+            "Numer telefonu do osoby kontaktowej": "brak",
+            "Adres e-mail do osoby kontaktowej": "brak",
+            "Data pozyskania informacji": dzis,
+            "Krótka charakterystyka podmiotu": zbuduj_charakterystyke(rekord, grupa["lata"]),
+            "URL źródła": "; ".join(sorted(grupa["urle"])),
+            "KRS": numer_krs or "brak",
+            "REGON": "brak",
+            "NIP": nip,
+        }
+
+        write_record(out_ws, wiersz_wyjsciowy, rekord_wyjsciowy)
+        wiersz_wyjsciowy += 1
+        out_wb.save(CONFIG["output_file"])
+
+        juz_zapisane.add(klucz_grupy)
+        progress["etap3_zapisane_grupy"] = list(juz_zapisane)
+        save_progress(progress)
+
+        log_event("ORGANIZACJA_ZAPISANA", True, f"{nazwa[:50]} (KRS {numer_krs or 'brak'})")
+
+    log_event("KONIEC_ETAPU_3", True, f"Łącznie {len(juz_zapisane)} organizacji w {CONFIG['output_file']}")
+
+
+# =============================================================================
 # ZAPIS DO XLSX
 # =============================================================================
 
@@ -861,7 +1178,7 @@ def write_record(ws, row: int, record: dict):
     """Zapisuje jeden rekord do arkusza."""
     ws.cell(row=row, column=1, value="")  # Lp. — puste, wypełni użytkownik
     for col_idx, col_name in enumerate(OUTPUT_COLUMNS, start=2):
-        cell = ws.cell(row=row, column=col_idx, value=record.get(col_name, "none"))
+        cell = ws.cell(row=row, column=col_idx, value=record.get(col_name, "brak"))
         cell.alignment = Alignment(wrap_text=True, vertical="top")
         cell.font = Font(name="Arial", size=10)
 
@@ -994,6 +1311,11 @@ def main():
         action="store_true",
         help="Etap 1: zbierz nazwy oferentów z wyników konkursów polonijnych MSZ/KPRM (plik pośredni, nie formatka)",
     )
+    parser.add_argument(
+        "--zbuduj-baze",
+        action="store_true",
+        help="Etap 3: wzbogać oferentów danymi z API KRS i zbuduj finalny plik wg formatki",
+    )
     args = parser.parse_args()
 
     if args.reset:
@@ -1012,6 +1334,10 @@ def main():
             zbierz_oferentow_z_konkursow(session, progress)
         finally:
             session.close()
+        return
+
+    if args.zbuduj_baze:
+        zbuduj_wzbogacona_baze(progress)
         return
 
     # Inicjalizuj pliki wyjściowe
