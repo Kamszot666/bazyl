@@ -2063,8 +2063,8 @@
       "Creativity Works Europe"
     ],
     "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "status": "nie_dotyczy_brak_w_KRS",
+    "zrodlo_potwierdzenia": "Podmiot zagraniczny (nazwa/forma prawna wskazuje na rejestracje poza Polska), formalnie odrzucony w konkursie - niezarejestrowany w polskim KRS"
   },
   {
     "nazwa_znormalizowana": "GOLDEN RULE LTD",
@@ -2073,8 +2073,8 @@
       "Golden Rule Ltd"
     ],
     "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "status": "nie_dotyczy_brak_w_KRS",
+    "zrodlo_potwierdzenia": "Podmiot zagraniczny (nazwa/forma prawna wskazuje na rejestracje poza Polska), formalnie odrzucony w konkursie - niezarejestrowany w polskim KRS"
   },
   {
     "nazwa_znormalizowana": "LIVERPOLAND C.I.C",
@@ -2083,8 +2083,8 @@
       "LIVERPOLAND C.I.C."
     ],
     "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "status": "nie_dotyczy_brak_w_KRS",
+    "zrodlo_potwierdzenia": "Podmiot zagraniczny (nazwa/forma prawna wskazuje na rejestracje poza Polska), formalnie odrzucony w konkursie - niezarejestrowany w polskim KRS"
   },
   {
     "nazwa_znormalizowana": "FUNDACJA MŁODE POKOLENIA, GDAŃSKA FUNDACJA INNOWACJI SPOŁECZNEJ",
@@ -2092,9 +2092,9 @@
     "warianty_zapisu": [
       "Fundacja Młode Pokolenia, Gdańska Fundacja Innowacji Społecznej"
     ],
-    "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "krs": "0001133422;0000277617",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "Dwaj wspol-oferenci w jednej komorce PDF: Fundacja Mlode Pokolenia (KRS 0001133422) i Gdanska Fundacja Innowacji Spolecznej (KRS 0000277617), oba zweryfikowane API"
   },
   {
     "nazwa_znormalizowana": "FUNDACJA ŚWIAT NA TAK",
@@ -2163,7 +2163,7 @@
       "Stowarzyszenie \"ON/OFF\""
     ],
     "krs": null,
-    "status": "nie_sprawdzono",
+    "status": "nie_znaleziono_wyszukiwaniem",
     "zrodlo_potwierdzenia": null
   },
   {
@@ -2173,8 +2173,8 @@
       "POLSKA 2050"
     ],
     "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "status": "niejednoznaczne_kilka_pasujacych_podmiotow",
+    "zrodlo_potwierdzenia": "Nazwa identyczna z partia polityczna - niepewne czy to prawdziwy oferent czy artefakt parsowania PDF, wymaga recznej weryfikacji zrodlowego pliku"
   },
   {
     "nazwa_znormalizowana": "FUNDACJA PROMOCJI KULTURY I TURYSTYKI Z NURTEM DANIELKI",
@@ -2182,9 +2182,9 @@
     "warianty_zapisu": [
       "Fundacja Promocji Kultury I Turystyki \"Z Nurtem Danielki\""
     ],
-    "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "krs": "0000972533",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "zweryfikowano API"
   },
   {
     "nazwa_znormalizowana": "1 718 634,92 ZŁ",
@@ -2193,8 +2193,8 @@
       "1 718 634,92 zł"
     ],
     "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "status": "nie_dotyczy_artefakt_tabeli",
+    "zrodlo_potwierdzenia": "To kwota z wiersza sumy/podsumowania tabeli PDF, blednie odczytana jako nazwa oferenta - artefakt parsowania"
   },
   {
     "nazwa_znormalizowana": "969 355,00 ZŁ",
@@ -2203,8 +2203,8 @@
       "969 355,00 zł"
     ],
     "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "status": "nie_dotyczy_artefakt_tabeli",
+    "zrodlo_potwierdzenia": "To kwota z wiersza sumy/podsumowania tabeli PDF, blednie odczytana jako nazwa oferenta - artefakt parsowania"
   },
   {
     "nazwa_znormalizowana": "410 860,00 ZŁ",
@@ -2213,8 +2213,8 @@
       "410 860,00 zł"
     ],
     "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "status": "nie_dotyczy_artefakt_tabeli",
+    "zrodlo_potwierdzenia": "To kwota z wiersza sumy/podsumowania tabeli PDF, blednie odczytana jako nazwa oferenta - artefakt parsowania"
   },
   {
     "nazwa_znormalizowana": "823 464,92 ZŁ",
@@ -2223,8 +2223,8 @@
       "823 464,92 zł"
     ],
     "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "status": "nie_dotyczy_artefakt_tabeli",
+    "zrodlo_potwierdzenia": "To kwota z wiersza sumy/podsumowania tabeli PDF, blednie odczytana jako nazwa oferenta - artefakt parsowania"
   },
   {
     "nazwa_znormalizowana": "119 800,00 ZŁ",
@@ -2233,8 +2233,8 @@
       "119 800,00 zł"
     ],
     "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "status": "nie_dotyczy_artefakt_tabeli",
+    "zrodlo_potwierdzenia": "To kwota z wiersza sumy/podsumowania tabeli PDF, blednie odczytana jako nazwa oferenta - artefakt parsowania"
   },
   {
     "nazwa_znormalizowana": "955 777,00 ZŁ",
@@ -2243,8 +2243,8 @@
       "955 777,00 zł"
     ],
     "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "status": "nie_dotyczy_artefakt_tabeli",
+    "zrodlo_potwierdzenia": "To kwota z wiersza sumy/podsumowania tabeli PDF, blednie odczytana jako nazwa oferenta - artefakt parsowania"
   },
   {
     "nazwa_znormalizowana": "98 080,00 ZŁ",
@@ -2253,8 +2253,8 @@
       "98 080,00 zł"
     ],
     "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "status": "nie_dotyczy_artefakt_tabeli",
+    "zrodlo_potwierdzenia": "To kwota z wiersza sumy/podsumowania tabeli PDF, blednie odczytana jako nazwa oferenta - artefakt parsowania"
   },
   {
     "nazwa_znormalizowana": "1 000 000,00 ZŁ",
@@ -2263,8 +2263,8 @@
       "1 000 000,00 zł"
     ],
     "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "status": "nie_dotyczy_artefakt_tabeli",
+    "zrodlo_potwierdzenia": "To kwota z wiersza sumy/podsumowania tabeli PDF, blednie odczytana jako nazwa oferenta - artefakt parsowania"
   },
   {
     "nazwa_znormalizowana": "2 481 760,00 ZŁ",
@@ -2273,8 +2273,8 @@
       "2 481 760,00 zł"
     ],
     "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "status": "nie_dotyczy_artefakt_tabeli",
+    "zrodlo_potwierdzenia": "To kwota z wiersza sumy/podsumowania tabeli PDF, blednie odczytana jako nazwa oferenta - artefakt parsowania"
   },
   {
     "nazwa_znormalizowana": "56 000,00 ZŁ",
@@ -2283,8 +2283,8 @@
       "56 000,00 zł"
     ],
     "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "status": "nie_dotyczy_artefakt_tabeli",
+    "zrodlo_potwierdzenia": "To kwota z wiersza sumy/podsumowania tabeli PDF, blednie odczytana jako nazwa oferenta - artefakt parsowania"
   },
   {
     "nazwa_znormalizowana": "873 484,00 ZŁ",
@@ -2293,8 +2293,8 @@
       "873 484,00 zł"
     ],
     "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "status": "nie_dotyczy_artefakt_tabeli",
+    "zrodlo_potwierdzenia": "To kwota z wiersza sumy/podsumowania tabeli PDF, blednie odczytana jako nazwa oferenta - artefakt parsowania"
   },
   {
     "nazwa_znormalizowana": "647 340,00 ZŁ",
@@ -2303,8 +2303,8 @@
       "647 340,00 zł"
     ],
     "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "status": "nie_dotyczy_artefakt_tabeli",
+    "zrodlo_potwierdzenia": "To kwota z wiersza sumy/podsumowania tabeli PDF, blednie odczytana jako nazwa oferenta - artefakt parsowania"
   },
   {
     "nazwa_znormalizowana": "524 443,84 ZŁ",
@@ -2313,8 +2313,8 @@
       "524 443,84 zł"
     ],
     "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "status": "nie_dotyczy_artefakt_tabeli",
+    "zrodlo_potwierdzenia": "To kwota z wiersza sumy/podsumowania tabeli PDF, blednie odczytana jako nazwa oferenta - artefakt parsowania"
   },
   {
     "nazwa_znormalizowana": "1 512 268,00 ZŁ",
@@ -2323,8 +2323,8 @@
       "1 512 268,00 zł"
     ],
     "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "status": "nie_dotyczy_artefakt_tabeli",
+    "zrodlo_potwierdzenia": "To kwota z wiersza sumy/podsumowania tabeli PDF, blednie odczytana jako nazwa oferenta - artefakt parsowania"
   },
   {
     "nazwa_znormalizowana": "91 040,00 ZŁ",
@@ -2333,8 +2333,8 @@
       "91 040,00 zł"
     ],
     "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "status": "nie_dotyczy_artefakt_tabeli",
+    "zrodlo_potwierdzenia": "To kwota z wiersza sumy/podsumowania tabeli PDF, blednie odczytana jako nazwa oferenta - artefakt parsowania"
   },
   {
     "nazwa_znormalizowana": "538 500,00 ZŁ",
@@ -2343,8 +2343,8 @@
       "538 500,00 zł"
     ],
     "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "status": "nie_dotyczy_artefakt_tabeli",
+    "zrodlo_potwierdzenia": "To kwota z wiersza sumy/podsumowania tabeli PDF, blednie odczytana jako nazwa oferenta - artefakt parsowania"
   },
   {
     "nazwa_znormalizowana": "206 388,00 ZŁ",
@@ -2353,8 +2353,8 @@
       "206 388,00 zł"
     ],
     "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "status": "nie_dotyczy_artefakt_tabeli",
+    "zrodlo_potwierdzenia": "To kwota z wiersza sumy/podsumowania tabeli PDF, blednie odczytana jako nazwa oferenta - artefakt parsowania"
   },
   {
     "nazwa_znormalizowana": "739 590,00 ZŁ",
@@ -2363,8 +2363,8 @@
       "739 590,00 zł"
     ],
     "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "status": "nie_dotyczy_artefakt_tabeli",
+    "zrodlo_potwierdzenia": "To kwota z wiersza sumy/podsumowania tabeli PDF, blednie odczytana jako nazwa oferenta - artefakt parsowania"
   },
   {
     "nazwa_znormalizowana": "853 381,57 ZŁ",
@@ -2373,8 +2373,8 @@
       "853 381,57 zł"
     ],
     "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "status": "nie_dotyczy_artefakt_tabeli",
+    "zrodlo_potwierdzenia": "To kwota z wiersza sumy/podsumowania tabeli PDF, blednie odczytana jako nazwa oferenta - artefakt parsowania"
   },
   {
     "nazwa_znormalizowana": "794 423,00 ZŁ",
@@ -2383,8 +2383,8 @@
       "794 423,00 zł"
     ],
     "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "status": "nie_dotyczy_artefakt_tabeli",
+    "zrodlo_potwierdzenia": "To kwota z wiersza sumy/podsumowania tabeli PDF, blednie odczytana jako nazwa oferenta - artefakt parsowania"
   },
   {
     "nazwa_znormalizowana": "2 682 500,00 ZŁ",
@@ -2393,8 +2393,8 @@
       "2 682 500,00 zł"
     ],
     "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "status": "nie_dotyczy_artefakt_tabeli",
+    "zrodlo_potwierdzenia": "To kwota z wiersza sumy/podsumowania tabeli PDF, blednie odczytana jako nazwa oferenta - artefakt parsowania"
   },
   {
     "nazwa_znormalizowana": "513 783,00 ZŁ",
@@ -2403,8 +2403,8 @@
       "513 783,00 zł"
     ],
     "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "status": "nie_dotyczy_artefakt_tabeli",
+    "zrodlo_potwierdzenia": "To kwota z wiersza sumy/podsumowania tabeli PDF, blednie odczytana jako nazwa oferenta - artefakt parsowania"
   },
   {
     "nazwa_znormalizowana": "2 397 790,00 ZŁ",
@@ -2413,8 +2413,8 @@
       "2 397 790,00 zł"
     ],
     "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "status": "nie_dotyczy_artefakt_tabeli",
+    "zrodlo_potwierdzenia": "To kwota z wiersza sumy/podsumowania tabeli PDF, blednie odczytana jako nazwa oferenta - artefakt parsowania"
   },
   {
     "nazwa_znormalizowana": "552 280,00 ZŁ",
@@ -2423,8 +2423,8 @@
       "552 280,00 zł"
     ],
     "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "status": "nie_dotyczy_artefakt_tabeli",
+    "zrodlo_potwierdzenia": "To kwota z wiersza sumy/podsumowania tabeli PDF, blednie odczytana jako nazwa oferenta - artefakt parsowania"
   },
   {
     "nazwa_znormalizowana": "91 100,00 ZŁ",
@@ -2433,8 +2433,8 @@
       "91 100,00 zł"
     ],
     "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "status": "nie_dotyczy_artefakt_tabeli",
+    "zrodlo_potwierdzenia": "To kwota z wiersza sumy/podsumowania tabeli PDF, blednie odczytana jako nazwa oferenta - artefakt parsowania"
   },
   {
     "nazwa_znormalizowana": "2 713 400,00 ZŁ",
@@ -2443,8 +2443,8 @@
       "2 713 400,00 zł"
     ],
     "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "status": "nie_dotyczy_artefakt_tabeli",
+    "zrodlo_potwierdzenia": "To kwota z wiersza sumy/podsumowania tabeli PDF, blednie odczytana jako nazwa oferenta - artefakt parsowania"
   },
   {
     "nazwa_znormalizowana": "1 625 008,48 ZŁ",
@@ -2453,8 +2453,8 @@
       "1 625 008,48 zł"
     ],
     "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "status": "nie_dotyczy_artefakt_tabeli",
+    "zrodlo_potwierdzenia": "To kwota z wiersza sumy/podsumowania tabeli PDF, blednie odczytana jako nazwa oferenta - artefakt parsowania"
   },
   {
     "nazwa_znormalizowana": "52 200,00 ZŁ",
@@ -2463,8 +2463,8 @@
       "52 200,00 zł"
     ],
     "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "status": "nie_dotyczy_artefakt_tabeli",
+    "zrodlo_potwierdzenia": "To kwota z wiersza sumy/podsumowania tabeli PDF, blednie odczytana jako nazwa oferenta - artefakt parsowania"
   },
   {
     "nazwa_znormalizowana": "142 000,00 ZŁ",
@@ -2473,8 +2473,8 @@
       "142 000,00 zł"
     ],
     "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "status": "nie_dotyczy_artefakt_tabeli",
+    "zrodlo_potwierdzenia": "To kwota z wiersza sumy/podsumowania tabeli PDF, blednie odczytana jako nazwa oferenta - artefakt parsowania"
   },
   {
     "nazwa_znormalizowana": "35 000,00 ZŁ",
@@ -2483,8 +2483,8 @@
       "35 000,00 zł"
     ],
     "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "status": "nie_dotyczy_artefakt_tabeli",
+    "zrodlo_potwierdzenia": "To kwota z wiersza sumy/podsumowania tabeli PDF, blednie odczytana jako nazwa oferenta - artefakt parsowania"
   },
   {
     "nazwa_znormalizowana": "ŁÓDZKIE STOWARZYSZENIE INICJATYW MIEJSKICH TOPOGRAFIE",
