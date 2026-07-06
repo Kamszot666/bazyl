@@ -1316,9 +1316,9 @@
     "warianty_zapisu": [
       "Akademia Trzeciego Wieku przy Miejskim Ośrodku Kultury w Olsztynie"
     ],
-    "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "krs": "0000314821",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "zweryfikowano API"
   },
   {
     "nazwa_znormalizowana": "ZGROMADZENIE ZMARTWYCHWSTANIA PANA NASZEGO JEZUSA CHRYSTUSA",
@@ -1386,9 +1386,9 @@
     "warianty_zapisu": [
       "Fundacja na rzecz Dziedzictwa Narodowego imienia Józefa Piłsudskiego"
     ],
-    "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "krs": "0000524177",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "zweryfikowano API"
   },
   {
     "nazwa_znormalizowana": "FUNDACJA CZAS DZIECI",
@@ -1396,9 +1396,9 @@
     "warianty_zapisu": [
       "Fundacja Czas Dzieci"
     ],
-    "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "krs": "0000410331",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "zweryfikowano API"
   },
   {
     "nazwa_znormalizowana": "FUNDACJA HUMANDOC",
@@ -1407,9 +1407,9 @@
       "Fundacja HumanDoc",
       "Fundacja Humandoc"
     ],
-    "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "krs": "0000349151",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "zweryfikowano API"
   },
   {
     "nazwa_znormalizowana": "MIEJSKI KLUB SPORTOWY KALISZ SP. Z O.O",
@@ -1417,9 +1417,9 @@
     "warianty_zapisu": [
       "Miejski Klub Sportowy Kalisz Sp. z o.o."
     ],
-    "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "krs": "0000395315",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "zweryfikowano API"
   },
   {
     "nazwa_znormalizowana": "FUNDACJA DIVERSITYPL",
@@ -1428,9 +1428,9 @@
       "FUNDACJA DIVERSITYPL",
       "Fundacja Diversitypl"
     ],
-    "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "krs": "0000784089",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "To ta sama organizacja co Fundacja Diversity Polska (rozny zapis nazwy w PDF), juz zweryfikowana wczesniej"
   },
   {
     "nazwa_znormalizowana": "FUNDACJA IMIENIEM KAZIMIERZA DEYNY",
@@ -1438,9 +1438,9 @@
     "warianty_zapisu": [
       "Fundacja Imieniem Kazimierza Deyny"
     ],
-    "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "krs": "0000362461",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "zweryfikowano API"
   },
   {
     "nazwa_znormalizowana": "STOWARZYSZENIE WEST",
@@ -1449,7 +1449,7 @@
       "Stowarzyszenie WEST"
     ],
     "krs": null,
-    "status": "nie_sprawdzono",
+    "status": "nie_znaleziono_wyszukiwaniem",
     "zrodlo_potwierdzenia": null
   },
   {
@@ -1458,9 +1458,9 @@
     "warianty_zapisu": [
       "Europejska Wspólnota Gospodarcza Polonii"
     ],
-    "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "krs": "0000261943",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "zweryfikowano API"
   },
   {
     "nazwa_znormalizowana": "KRAJOWE BIURO ORGANIZACYJNE ŚWIATOWYCH DNI MŁODZIEŻY",
@@ -1469,7 +1469,7 @@
       "Krajowe Biuro Organizacyjne Światowych Dni Młodzieży"
     ],
     "krs": null,
-    "status": "nie_sprawdzono",
+    "status": "nie_znaleziono_wyszukiwaniem",
     "zrodlo_potwierdzenia": null
   },
   {
@@ -1478,9 +1478,9 @@
     "warianty_zapisu": [
       "Fundacja Pro Anima"
     ],
-    "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "krs": "0000349650",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "zweryfikowano API"
   },
   {
     "nazwa_znormalizowana": "TOWARZYSTWO POLONIA-KRESY",
