@@ -3162,9 +3162,9 @@
     "warianty_zapisu": [
       "Fundacja 60 MLN.PL"
     ],
-    "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "krs": "0000972710",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "Ten sam podmiot co FUNDACJA 60MLN.PL (wariant zapisu ze spacją) - API KRS OdpisAktualny 0000972710"
   },
   {
     "nazwa_znormalizowana": "FUNDACJA JOANNY LAMPARSKIEJ NA RZECZ OCHRONY DZIEDZICTWA KULTUROWEGO PROJEKT HISTORIA",
@@ -3212,9 +3212,9 @@
     "warianty_zapisu": [
       "Towarzystwo Muzyczne im. Konstantego Gorskiego"
     ],
-    "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "krs": "0001039845",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "API KRS OdpisAktualny 0001039845 - nazwa zgodna"
   },
   {
     "nazwa_znormalizowana": "FUNDACJA IM. AGNIESZKI MARCZYŃSKIEJ",
@@ -3222,9 +3222,9 @@
     "warianty_zapisu": [
       "Fundacja im. Agnieszki Marczyńskiej"
     ],
-    "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "krs": "0000281597",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "API KRS OdpisAktualny 0000281597 - nazwa zgodna"
   },
   {
     "nazwa_znormalizowana": "DIGNITY LIFE",
@@ -3233,8 +3233,8 @@
       "\"DIGNITY LIFE\""
     ],
     "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "status": "nie_znaleziono_wyszukiwaniem",
+    "zrodlo_potwierdzenia": "Brak wiarygodnego trafienia w wyszukiwaniu ani w API KRS pod tą nazwą"
   },
   {
     "nazwa_znormalizowana": "FUNDACJA JAGIELLOŃSKA",
@@ -3242,9 +3242,9 @@
     "warianty_zapisu": [
       "Fundacja Jagiellońska"
     ],
-    "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "krs": "0000643785",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "API KRS OdpisAktualny 0000643785 - nazwa zgodna"
   },
   {
     "nazwa_znormalizowana": "FUNDACJA IM. ANNY I HENRYKA ŚWIĄTKOWSKICH",
@@ -3252,9 +3252,9 @@
     "warianty_zapisu": [
       "Fundacja im. Anny i Henryka Świątkowskich"
     ],
-    "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "krs": "0000593203",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "API KRS OdpisAktualny 0000593203 - nazwa zgodna"
   },
   {
     "nazwa_znormalizowana": "FUNDACJA RENESART",
@@ -3262,9 +3262,9 @@
     "warianty_zapisu": [
       "Fundacja RenesArt"
     ],
-    "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "krs": "0000464098",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "API KRS OdpisAktualny 0000464098 - nazwa zgodna"
   },
   {
     "nazwa_znormalizowana": "FUNDACJA MIGRA",
@@ -3272,9 +3272,9 @@
     "warianty_zapisu": [
       "Fundacja Migra"
     ],
-    "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "krs": "0000687373",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "API KRS OdpisAktualny 0000687373 - nazwa zgodna"
   },
   {
     "nazwa_znormalizowana": "FUNDACJA CINEMA MEDIA ART, FINDACJA MEDIA WORLD CUP",
@@ -3292,9 +3292,9 @@
     "warianty_zapisu": [
       "Fundacja Pamięci Narodów"
     ],
-    "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "krs": "0000866848",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "API KRS OdpisAktualny 0000866848 - nazwa zgodna"
   },
   {
     "nazwa_znormalizowana": "POLSKO-GRECKA IZBA PRZEMYSŁOWO-HANDLOWA",
@@ -3302,9 +3302,9 @@
     "warianty_zapisu": [
       "Polsko- Grecka Izba Przemysłowo- Handlowa"
     ],
-    "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "krs": "0000674193",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "API KRS OdpisAktualny 0000674193 - nazwa zgodna"
   },
   {
     "nazwa_znormalizowana": "STOWARZYSZENIE EDUKACJI KULTURALNEJ WIDOK",
@@ -3312,9 +3312,9 @@
     "warianty_zapisu": [
       "Stowarzyszenie Edukacji Kulturalnej Widok"
     ],
-    "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "krs": "0000103409",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "API KRS OdpisAktualny 0000103409 - nazwa zgodna"
   },
   {
     "nazwa_znormalizowana": "FUNDACJA MOJA MUZA",
