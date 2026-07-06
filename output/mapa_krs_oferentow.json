@@ -652,9 +652,9 @@
     "warianty_zapisu": [
       "Fundacja TAK - Temat Aktualny Kultura"
     ],
-    "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "krs": "0000433185",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "zweryfikowano API"
   },
   {
     "nazwa_znormalizowana": "FUNDACJA STUDIO WSCHÓD",
@@ -672,9 +672,9 @@
     "warianty_zapisu": [
       "Muzyka Zakorzeniona"
     ],
-    "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "krs": "0000600551",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "zweryfikowano API"
   },
   {
     "nazwa_znormalizowana": "BRATNIA DUSZA",
@@ -683,9 +683,9 @@
       "\"Bratnia Dusza\"",
       "„Bratnia Dusza”"
     ],
-    "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "krs": "0000673936",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "zweryfikowano API"
   },
   {
     "nazwa_znormalizowana": "ARTE FUNDACJA KULTURY I EDUKACJI",
@@ -693,9 +693,9 @@
     "warianty_zapisu": [
       "Arte Fundacja Kultury i Edukacji"
     ],
-    "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "krs": "0000410110",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "zweryfikowano API"
   },
   {
     "nazwa_znormalizowana": "STOWARZYSZENIE PRZESZŁOŚĆ-PRZYSZŁOŚCI",
@@ -704,9 +704,9 @@
       "Stowarzyszenie \"Przeszłość- Przyszłości\"",
       "Stowarzyszenie \"Przeszłość-Przyszłości\""
     ],
-    "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "krs": "0000408145",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "zweryfikowano API"
   },
   {
     "nazwa_znormalizowana": "ORGANIZACJA TURYSTYCZNA LESZNO-REGION",
@@ -714,9 +714,9 @@
     "warianty_zapisu": [
       "Organizacja Turystyczna LESZNO - REGION"
     ],
-    "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "krs": "0000125684",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "zweryfikowano API"
   },
   {
     "nazwa_znormalizowana": "ŚWIATOWY KONGRES POLAKÓW",
@@ -724,9 +724,9 @@
     "warianty_zapisu": [
       "Światowy Kongres Polaków"
     ],
-    "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "krs": "0000690041",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "zweryfikowano API"
   },
   {
     "nazwa_znormalizowana": "STOWARZYSZENIE KRAKOWSKICH INICJATYW LOKALNYCH LIDERÓW",
@@ -734,9 +734,9 @@
     "warianty_zapisu": [
       "Stowarzyszenie Krakowskich Inicjatyw Lokalnych Liderów"
     ],
-    "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "krs": "0000946850",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "zweryfikowano API"
   },
   {
     "nazwa_znormalizowana": "FUNDACJA MUZYKI SAKRALNEJ CAECILIANUM",
@@ -744,9 +744,9 @@
     "warianty_zapisu": [
       "Fundacja Muzyki Sakralnej \"CAECILIANUM\""
     ],
-    "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "krs": "0000255486",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "zweryfikowano API"
   },
   {
     "nazwa_znormalizowana": "STOWARZYSZENIE MIŁOŚNIKÓW MUZYKI ŚWIĘTOGÓRSKIEJ IM. JÓZEFA ZEIDLERA",
@@ -755,9 +755,9 @@
       "Stowarzyszenie Miłośników Muzyki Świętogórskiej Im. Józefa Zeidlera",
       "Stowarzyszenie Miłośników Muzyki Świętogórskiej Im. józefa Zeidlera"
     ],
-    "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "krs": "0000248432",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "zweryfikowano API"
   },
   {
     "nazwa_znormalizowana": "FUNDACJA NA RZECZ POMOCY DZIECIOM Z GRODZIEŃSZCZYZNY",
