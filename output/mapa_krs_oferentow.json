@@ -1174,9 +1174,9 @@
       "Stowarzyszenie Przyjaciół Harcerskiego Zespołu Pieśni i Tańca \"Dzieci Płocka\"",
       "Stowarzyszenie Przyjaciół Harcerskiego Zespołu Pieśni i Tańca Dzieci Płocka"
     ],
-    "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "krs": "0000119061",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "zweryfikowano API"
   },
   {
     "nazwa_znormalizowana": "FUNDACJA NA RZECZ KULTURY I SZTUKI AVANGART",
@@ -1184,9 +1184,9 @@
     "warianty_zapisu": [
       "Fundacja na rzecz Kultury i Sztuki AVANGART"
     ],
-    "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "krs": "0000573269",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "zweryfikowano API"
   },
   {
     "nazwa_znormalizowana": "FUNDACJA PAWŁA ZAGUMNEGO",
@@ -1194,9 +1194,9 @@
     "warianty_zapisu": [
       "Fundacja Pawła Zagumnego"
     ],
-    "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "krs": "0001030592",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "zweryfikowano API"
   },
   {
     "nazwa_znormalizowana": "ZWIĄZEK HARCERSTWA POLSKIEGO CHORĄGIEW ŁÓDZKA",
@@ -1204,9 +1204,9 @@
     "warianty_zapisu": [
       "Związek Harcerstwa Polskiego Chorągiew Łódzka"
     ],
-    "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "krs": "0000283814",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "zweryfikowano API"
   },
   {
     "nazwa_znormalizowana": "WSCHODNIA FUNDACJA KULTURY AKCENT",
@@ -1214,9 +1214,9 @@
     "warianty_zapisu": [
       "Wschodnia Fundacja Kultury \"Akcent\""
     ],
-    "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "krs": "0000125465",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "zweryfikowano API"
   },
   {
     "nazwa_znormalizowana": "FUNDACJA MŁODE KRESY",
@@ -1224,9 +1224,9 @@
     "warianty_zapisu": [
       "Fundacja Młode Kresy"
     ],
-    "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "krs": "0000581223",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "zweryfikowano API"
   },
   {
     "nazwa_znormalizowana": "TOWARZYSTWO PRZYJACIÓŁ GRODNA I WILNA ODDZIAŁ W BIAŁYMSTOKU",
@@ -1235,9 +1235,9 @@
       "Towarzystwo Przyjaciół Grodna i Wilna Oddział W Białymstoku",
       "Towarzystwo Przyjaciół Grodna i Wilna Oddział w Białymstoku"
     ],
-    "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "krs": "0000104450",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "zweryfikowano API - oddzial bez osobowosci prawnej, uzyto KRS organizacji glownej"
   },
   {
     "nazwa_znormalizowana": "INSTYTUT BEZPIECZEŃSTWA I ROZWOJU MIĘDZYNARODOWEGO",
@@ -1245,9 +1245,9 @@
     "warianty_zapisu": [
       "Instytut Bezpieczeństwa i Rozwoju Międzynarodowego"
     ],
-    "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "krs": "0000787390",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "zweryfikowano API"
   },
   {
     "nazwa_znormalizowana": "TOWARZYSTWO NAUKOWE KATOLICKIEGO UNIWERSYTETU LUBELSKIEGO",
@@ -1255,9 +1255,9 @@
     "warianty_zapisu": [
       "Towarzystwo Naukowe Katolickiego Uniwersytetu Lubelskiego"
     ],
-    "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "krs": "0000010057",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "zweryfikowano API"
   },
   {
     "nazwa_znormalizowana": "STOWARZYSZENIE SANCTUS PAULUS",
@@ -1265,9 +1265,9 @@
     "warianty_zapisu": [
       "Stowarzyszenie Sanctus Paulus"
     ],
-    "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "krs": "0000408166",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "zweryfikowano API"
   },
   {
     "nazwa_znormalizowana": "INSTYTUT KALISKI NON PROFIT SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ",
