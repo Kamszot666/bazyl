@@ -2602,9 +2602,9 @@
     "warianty_zapisu": [
       "Fundacja Ars Activa"
     ],
-    "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "krs": "0000336560",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "zweryfikowano API"
   },
   {
     "nazwa_znormalizowana": "FUNDACJA ARTINTRANSLATION",
@@ -2612,9 +2612,9 @@
     "warianty_zapisu": [
       "Fundacja Artintranslation"
     ],
-    "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "krs": "0000528534",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "zweryfikowano API"
   },
   {
     "nazwa_znormalizowana": "FUNDACJA ART JUNCTION",
@@ -2622,9 +2622,9 @@
     "warianty_zapisu": [
       "Fundacja Art Junction"
     ],
-    "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "krs": "0000556033",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "zweryfikowano API"
   },
   {
     "nazwa_znormalizowana": "MIEJSKI OŚRODEK KULTURY W GŁOGOWIE",
@@ -2633,8 +2633,8 @@
       "Miejski Ośrodek Kultury w Głogowie"
     ],
     "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "status": "nie_dotyczy_brak_w_KRS",
+    "zrodlo_potwierdzenia": "Samorzadowa instytucja kultury, wpisana do Rejestru Instytucji Kultury (RIK), nie do KRS"
   },
   {
     "nazwa_znormalizowana": "TEATR MIEJSKI W LESZNIE",
@@ -2643,8 +2643,8 @@
       "Teatr Miejski w Lesznie"
     ],
     "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "status": "nie_dotyczy_brak_w_KRS",
+    "zrodlo_potwierdzenia": "Samorzadowa instytucja kultury, wpisana do Rejestru Instytucji Kultury (RIK), nie do KRS"
   },
   {
     "nazwa_znormalizowana": "POLSKA GRUPA PAMIĘCI HISTORYCZNEJ",
@@ -2653,7 +2653,7 @@
       "Polska Grupa Pamięci Historycznej"
     ],
     "krs": null,
-    "status": "nie_sprawdzono",
+    "status": "nie_znaleziono_wyszukiwaniem",
     "zrodlo_potwierdzenia": null
   },
   {
@@ -2663,7 +2663,7 @@
       "Stowarzyszenie Polska Grupa Pamięci Historycznej"
     ],
     "krs": null,
-    "status": "nie_sprawdzono",
+    "status": "nie_znaleziono_wyszukiwaniem",
     "zrodlo_potwierdzenia": null
   },
   {
@@ -2673,8 +2673,8 @@
       "Polish City Club"
     ],
     "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "status": "nie_dotyczy_brak_w_KRS",
+    "zrodlo_potwierdzenia": "Organizacja zarejestrowana w Wielkiej Brytanii (Londyn), nie w polskim KRS"
   },
   {
     "nazwa_znormalizowana": "STOWARZYSZENIE CARPE DIEM",
@@ -2683,7 +2683,7 @@
       "Stowarzyszenie Carpe diem"
     ],
     "krs": null,
-    "status": "nie_sprawdzono",
+    "status": "niejednoznaczne_kilka_pasujacych_podmiotow",
     "zrodlo_potwierdzenia": null
   },
   {
@@ -2692,9 +2692,9 @@
     "warianty_zapisu": [
       "Fundacja Powszechnego Czytania"
     ],
-    "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "krs": "0000756841",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "zweryfikowano API"
   },
   {
     "nazwa_znormalizowana": "STOWARZYSZENIE KUTURALNE RÓWNICA W USTRONIU",
