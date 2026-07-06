@@ -2702,9 +2702,9 @@
     "warianty_zapisu": [
       "Stowarzyszenie Kuturalne \"Równica\" w Ustroniu"
     ],
-    "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "krs": "0000032061",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "zweryfikowano API"
   },
   {
     "nazwa_znormalizowana": "STOWARZYSZENIE KLASZTOR WĘGRÓW-CENTRUM DIALOGU KULTUR",
@@ -2712,9 +2712,9 @@
     "warianty_zapisu": [
       "Stowarzyszenie \"Klasztor Węgrów - Centrum Dialogu Kultur\""
     ],
-    "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "krs": "0000462082",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "zweryfikowano API"
   },
   {
     "nazwa_znormalizowana": "LESZNO TENIS KLUB",
@@ -2723,7 +2723,7 @@
       "Leszno Tenis Klub"
     ],
     "krs": null,
-    "status": "nie_sprawdzono",
+    "status": "nie_znaleziono_wyszukiwaniem",
     "zrodlo_potwierdzenia": null
   },
   {
@@ -2733,7 +2733,7 @@
       "Fundacja \"DIMO\""
     ],
     "krs": null,
-    "status": "nie_sprawdzono",
+    "status": "nie_znaleziono_wyszukiwaniem",
     "zrodlo_potwierdzenia": null
   },
   {
@@ -2742,9 +2742,9 @@
     "warianty_zapisu": [
       "\"Fundacja Kultury i Sportu 44\""
     ],
-    "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "krs": "0000700808",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "zweryfikowano API"
   },
   {
     "nazwa_znormalizowana": "FUNDACJA 20",
@@ -2752,9 +2752,9 @@
     "warianty_zapisu": [
       "Fundacja 20"
     ],
-    "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "krs": "0000494847",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "zweryfikowano API"
   },
   {
     "nazwa_znormalizowana": "STOWARZYSZENIE ŚWIATOWY KONGRES POLAKÓW",
@@ -2762,9 +2762,9 @@
     "warianty_zapisu": [
       "Stowarzyszenie Światowy Kongres Polaków"
     ],
-    "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "krs": "0000690041",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "To samo co Swiatowy Kongres Polakow, juz zweryfikowane"
   },
   {
     "nazwa_znormalizowana": "FUNDACJA DARIUSZA KORDKA KULTURA.PL",
@@ -2772,9 +2772,9 @@
     "warianty_zapisu": [
       "Fundacja Dariusza Kordka Kultura.pl"
     ],
-    "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "krs": "0000576132",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "zweryfikowano API"
   },
   {
     "nazwa_znormalizowana": "ZWIĄZEK PODHALAN W POLSCE IM. ŚWIĘTEGO JANA PAWŁA II",
@@ -2782,9 +2782,9 @@
     "warianty_zapisu": [
       "Związek Podhalan w Polsce im. Świętego Jana Pawła II"
     ],
-    "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "krs": "0000050394",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "zweryfikowano API"
   },
   {
     "nazwa_znormalizowana": "ARI ARI",
@@ -2823,7 +2823,7 @@
       "Stowarzyszenie \"Zdrowie w Głowie\""
     ],
     "krs": null,
-    "status": "nie_sprawdzono",
+    "status": "nie_znaleziono_wyszukiwaniem",
     "zrodlo_potwierdzenia": null
   },
   {
