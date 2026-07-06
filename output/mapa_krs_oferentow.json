@@ -1588,9 +1588,9 @@
     "warianty_zapisu": [
       "Stowarzyszenie ,,Solidarni Razem\""
     ],
-    "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "krs": "0000245057",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "zweryfikowano API"
   },
   {
     "nazwa_znormalizowana": "FUNDACJA ZATRZYMAĆ CZAS",
@@ -1598,9 +1598,9 @@
     "warianty_zapisu": [
       "Fundacja Zatrzymać Czas"
     ],
-    "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "krs": "0000410623",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "zweryfikowano API"
   },
   {
     "nazwa_znormalizowana": "FUNDACJA JOANNY SZCZEPKOWSKIEJ NA RZECZ INICJATYW ARTYSTYCZNYCH I SPOŁECZNYCH",
@@ -1608,9 +1608,9 @@
     "warianty_zapisu": [
       "Fundacja Joanny Szczepkowskiej Na Rzecz Inicjatyw Artystycznych i Społecznych"
     ],
-    "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "krs": "0000996924",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "zweryfikowano API"
   },
   {
     "nazwa_znormalizowana": "FUNDACJA DLA MŁODZIEŻY",
@@ -1619,9 +1619,9 @@
       "\"Fundacja Dla Młodzieży\"",
       "Fundacja Dla Młodzieży"
     ],
-    "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "krs": "0000339553",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "zweryfikowano API"
   },
   {
     "nazwa_znormalizowana": "FUNDACJA PRO ARTE ET HISTORIA",
@@ -1629,9 +1629,9 @@
     "warianty_zapisu": [
       "Fundacja PRO ARTE ET HISTORIA"
     ],
-    "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "krs": "0000518786",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "zweryfikowano API"
   },
   {
     "nazwa_znormalizowana": "FUNDACJA NURT",
@@ -1640,8 +1640,8 @@
       "Fundacja Nurt"
     ],
     "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "status": "niejednoznaczne_kilka_pasujacych_podmiotow",
+    "zrodlo_potwierdzenia": "Trzy rozne fundacje o zblizonej nazwie (Szczecin, Cieszyn, Wroclaw), brak cechy rozrozniajacej w danych"
   },
   {
     "nazwa_znormalizowana": "POLSKA AKADEMIA UMIEJĘTNOŚCI",
@@ -1649,9 +1649,9 @@
     "warianty_zapisu": [
       "Polska Akademia Umiejętności"
     ],
-    "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "krs": "0000213557",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "zweryfikowano API"
   },
   {
     "nazwa_znormalizowana": "CALIFORNIA EDUCATIONAL FOUNDATION IN POLAND",
@@ -1660,9 +1660,9 @@
       "CALIFORNIA EDUCATIONAL FOUNDATION IN POLAND",
       "California Educational Foundation in Poland"
     ],
-    "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "krs": "0001059139",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "zweryfikowano API"
   },
   {
     "nazwa_znormalizowana": "FUNDACJA JÓZEFA SZANIAWSKIEGO",
@@ -1670,9 +1670,9 @@
     "warianty_zapisu": [
       "Fundacja Józefa Szaniawskiego"
     ],
-    "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "krs": "0000443664",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "zweryfikowano API"
   },
   {
     "nazwa_znormalizowana": "FUNDACJA KONKURSU HISTORYCZNEGO PATRIA NOSTRA",
@@ -1680,9 +1680,9 @@
     "warianty_zapisu": [
       "Fundacja Konkursu Historycznego Patria Nostra"
     ],
-    "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "krs": "0000697399",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "zweryfikowano API"
   },
   {
     "nazwa_znormalizowana": "OGÓLNOPOLSKIE STOWARZYSZENIE Z MUZYKĄ DO LUDZI",
