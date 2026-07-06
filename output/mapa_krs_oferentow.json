@@ -3002,9 +3002,9 @@
     "warianty_zapisu": [
       "Fundacja Bałtycki Instytut Matematyki"
     ],
-    "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "krs": "0000424471",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "zweryfikowano API"
   },
   {
     "nazwa_znormalizowana": "FUNDACJA MAŁE NAKŁADY",
@@ -3013,7 +3013,7 @@
       "Fundacja \"Małe Nakłady\""
     ],
     "krs": null,
-    "status": "nie_sprawdzono",
+    "status": "nie_znaleziono_wyszukiwaniem",
     "zrodlo_potwierdzenia": null
   },
   {
@@ -3023,7 +3023,7 @@
       "Stowarzyszenie INNOWACJE"
     ],
     "krs": null,
-    "status": "nie_sprawdzono",
+    "status": "niejednoznaczne_kilka_pasujacych_podmiotow",
     "zrodlo_potwierdzenia": null
   },
   {
@@ -3032,9 +3032,9 @@
     "warianty_zapisu": [
       "Fundacja Michalickie Centrum Młodzieży Michael"
     ],
-    "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "krs": "0000965463",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "zweryfikowano API"
   },
   {
     "nazwa_znormalizowana": "FUNDACJA INSTYTUT INNOWACJI",
@@ -3043,8 +3043,8 @@
       "Fundacja \"Instytut Innowacji\""
     ],
     "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "status": "niejednoznaczne_kilka_pasujacych_podmiotow",
+    "zrodlo_potwierdzenia": "Ta sama niejednoznacznosc co Instytut Innowacji - kilka podmiotow o podobnej nazwie w KRS"
   },
   {
     "nazwa_znormalizowana": "FUNDACJA MISJA KAMPINOS",
@@ -3052,9 +3052,9 @@
     "warianty_zapisu": [
       "Fundacja Misja Kampinos"
     ],
-    "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "krs": "0000721789",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "zweryfikowano API"
   },
   {
     "nazwa_znormalizowana": "MIĘDZYNARODOWE STOWARZYSZENIE ODWAŻNE KOBIETY",
@@ -3062,9 +3062,9 @@
     "warianty_zapisu": [
       "Międzynarodowe Stowarzyszenie Odważne Kobiety"
     ],
-    "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "krs": "0001054010",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "zweryfikowano API"
   },
   {
     "nazwa_znormalizowana": "FUNDACJA KITSUP",
@@ -3072,9 +3072,9 @@
     "warianty_zapisu": [
       "Fundacja Kitsup"
     ],
-    "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "krs": "0001082504",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "zweryfikowano API"
   },
   {
     "nazwa_znormalizowana": "STOWARZYSZENIE ŁEJERY",
@@ -3082,9 +3082,9 @@
     "warianty_zapisu": [
       "Stowarzyszenie Łejery"
     ],
-    "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "krs": "0000076966",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "zweryfikowano API"
   },
   {
     "nazwa_znormalizowana": "FUNDACJA NA RZECZ ROZWIJANIA MUZYKALNOŚCI POLAKÓW MUZYKA JEST DLA WSZYSTKICH",
@@ -3092,9 +3092,9 @@
     "warianty_zapisu": [
       "Fundacja Na Rzecz Rozwijania Muzykalności Polaków \"Muzyka Jest Dla Wszystkich\""
     ],
-    "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "krs": "0000236575",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "zweryfikowano API"
   },
   {
     "nazwa_znormalizowana": "PRO FUTURIS",
@@ -3103,7 +3103,7 @@
       "PRO FUTURIS"
     ],
     "krs": null,
-    "status": "nie_sprawdzono",
+    "status": "niejednoznaczne_kilka_pasujacych_podmiotow",
     "zrodlo_potwierdzenia": null
   },
   {
