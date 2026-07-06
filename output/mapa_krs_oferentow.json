@@ -3282,9 +3282,9 @@
     "warianty_zapisu": [
       "Fundacja Cinema Media Art, Findacja Media World Cup"
     ],
-    "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "krs": "0000828012;0000805148",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "Wpis źródłowy łączy DWIE odrębne organizacje w jednej komórce (literówka 'FINDACJA' zamiast 'FUNDACJA'). Obie zweryfikowane osobno w API KRS: FUNDACJA CINEMA MEDIA ART = 0000828012, FUNDACJA MEDIA WORLD CUP = 0000805148 (ten sam prezes i adres w Lublinie - powiązane, ale odrębne podmioty)"
   },
   {
     "nazwa_znormalizowana": "FUNDACJA PAMIĘCI NARODÓW",
@@ -3322,9 +3322,9 @@
     "warianty_zapisu": [
       "Fundacja Moja Muza"
     ],
-    "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "krs": "0000995909",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "API KRS OdpisAktualny 0000995909 - nazwa zgodna"
   },
   {
     "nazwa_znormalizowana": "FUNDACJA ACTIVNI",
@@ -3332,9 +3332,9 @@
     "warianty_zapisu": [
       "Fundacja Activni"
     ],
-    "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "krs": "0000973329",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "API KRS OdpisAktualny 0000973329 - nazwa zgodna"
   },
   {
     "nazwa_znormalizowana": "FUNDACJA ILUSTRACJI I KOMIKSU",
@@ -3342,9 +3342,9 @@
     "warianty_zapisu": [
       "Fundacja Ilustracji i Komiksu"
     ],
-    "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "krs": "0000889819",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "API KRS OdpisAktualny 0000889819 - nazwa zgodna"
   },
   {
     "nazwa_znormalizowana": "FUNDACJA ARTE ET MARTE",
@@ -3353,8 +3353,8 @@
       "Fundacja Arte et Marte"
     ],
     "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "status": "nie_dotyczy_brak_w_KRS",
+    "zrodlo_potwierdzenia": "API KRS OdpisAktualny 0000792254 zwraca 204 No Content - podmiot wykreślony z rejestru (ogłoszenie o otwarciu likwidacji z czerwca 2025, likwidacja najwyraźniej zakończona; brak aktywnego wpisu w KRS)"
   },
   {
     "nazwa_znormalizowana": "STOWARZYSZENIE FORUM MNIEJSZOŚCI PODLASIA",
@@ -3362,9 +3362,9 @@
     "warianty_zapisu": [
       "Stowarzyszenie Forum Mniejszości Podlasia"
     ],
-    "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "krs": "0000849242",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "API KRS OdpisAktualny 0000849242 - nazwa zgodna"
   },
   {
     "nazwa_znormalizowana": "FUNDACJA ZAKRES",
@@ -3372,9 +3372,9 @@
     "warianty_zapisu": [
       "Fundacja Zakres"
     ],
-    "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "krs": "0000987952",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "API KRS OdpisAktualny 0000987952 - nazwa zgodna"
   },
   {
     "nazwa_znormalizowana": "ZACHODNIOPOMORSKI UNIWERSYTET LUDOWY-FUNDACJA",
@@ -3382,9 +3382,9 @@
     "warianty_zapisu": [
       "Zachodniopomorski Uniwersytet Ludowy - Fundacja"
     ],
-    "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "krs": "0000682444",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "API KRS OdpisAktualny 0000682444 - nazwa zgodna (ZACHODNIOPOMORSKI UNIWERSYTET LUDOWY - FUNDACJA)"
   },
   {
     "nazwa_znormalizowana": "FUNDACJA 180 STOPNI",
@@ -3392,9 +3392,9 @@
     "warianty_zapisu": [
       "FUNDACJA 180 STOPNI"
     ],
-    "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "krs": "0000553932",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "API KRS OdpisAktualny 0000553932 zwraca aktualną nazwę 'FUNDACJA TEATRU MŁODYCH' (fundacja zmieniła nazwę). Tożsamość potwierdzona przez zgodny NIP 5851471073 (ten sam NIP w niezależnych rejestrach pod poprzednią nazwą 'Fundacja 180 Stopni')"
   },
   {
     "nazwa_znormalizowana": "FUNDACJA AQUILAE",
@@ -3402,9 +3402,9 @@
     "warianty_zapisu": [
       "Fundacja Aquilae"
     ],
-    "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "krs": "0001069082",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "API KRS OdpisAktualny 0001069082 - nazwa zgodna (odróżniona od niepowiązanej Fundacji Aquila bez litery e, KRS 0000554453)"
   },
   {
     "nazwa_znormalizowana": "FUNDACJA CENTRUM IM. PROFESORA BRONISŁAWA GEREMKA",
@@ -3412,9 +3412,9 @@
     "warianty_zapisu": [
       "Fundacja \"Centrum im. Profesora Bronisława Geremka\""
     ],
-    "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "krs": "0000319089",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "API KRS OdpisAktualny 0000319089 - nazwa zgodna"
   },
   {
     "nazwa_znormalizowana": "FUNDACJA GÓRNIKA ZABRZE",
@@ -3422,9 +3422,9 @@
     "warianty_zapisu": [
       "Fundacja Górnika Zabrze"
     ],
-    "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "krs": "0000414081",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "API KRS OdpisAktualny 0000414081 - nazwa zgodna"
   },
   {
     "nazwa_znormalizowana": "FUNDACJA SCIENTIA THORUNENSIA",
