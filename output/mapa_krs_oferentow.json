@@ -870,9 +870,9 @@
       "Fundacja \"LOGTV FILMS POLSKA\"",
       "Fundacja LOGTV Films Polska"
     ],
-    "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "krs": "0000710818",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "zweryfikowano API"
   },
   {
     "nazwa_znormalizowana": "FUNDACJA IMPERIO",
@@ -880,9 +880,9 @@
     "warianty_zapisu": [
       "Fundacja Imperio"
     ],
-    "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "krs": "0000737508",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "zweryfikowano API"
   },
   {
     "nazwa_znormalizowana": "POLSKIE BRACTWO KAWALERÓW GUTENBERGA",
@@ -890,9 +890,9 @@
     "warianty_zapisu": [
       "Polskie Bractwo Kawalerów Gutenberga"
     ],
-    "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "krs": "0000138020",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "zweryfikowano API"
   },
   {
     "nazwa_znormalizowana": "FUNDACJA POLSKO-WĘGIERSKA",
@@ -902,7 +902,7 @@
       "Fundacja Polsko-Węgierska"
     ],
     "krs": null,
-    "status": "nie_sprawdzono",
+    "status": "nie_znaleziono_wyszukiwaniem",
     "zrodlo_potwierdzenia": null
   },
   {
@@ -911,9 +911,9 @@
     "warianty_zapisu": [
       "Fundacja Polska Przedsiębiorcza"
     ],
-    "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "krs": "0000312392",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "zweryfikowano API"
   },
   {
     "nazwa_znormalizowana": "STOWARZYSZENIE MANKO",
@@ -921,9 +921,9 @@
     "warianty_zapisu": [
       "Stowarzyszenie MANKO"
     ],
-    "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "krs": "0000225549",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "zweryfikowano API"
   },
   {
     "nazwa_znormalizowana": "FUNDACJA POLISH AMERICAN ART SOCIETY",
@@ -932,7 +932,7 @@
       "Fundacja Polish American Art Society"
     ],
     "krs": null,
-    "status": "nie_sprawdzono",
+    "status": "nie_znaleziono_wyszukiwaniem",
     "zrodlo_potwierdzenia": null
   },
   {
@@ -941,9 +941,9 @@
     "warianty_zapisu": [
       "Dzieło Odbudowy Miłości, Fundacja D.O.M."
     ],
-    "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "krs": "0000135677",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "zweryfikowano API"
   },
   {
     "nazwa_znormalizowana": "FUNDACJA OBOWIĄZEK POLSKI",
@@ -952,7 +952,7 @@
       "Fundacja Obowiązek Polski"
     ],
     "krs": null,
-    "status": "nie_sprawdzono",
+    "status": "nie_znaleziono_wyszukiwaniem",
     "zrodlo_potwierdzenia": null
   },
   {
@@ -961,9 +961,9 @@
     "warianty_zapisu": [
       "Fundacja Iskra Innowacji"
     ],
-    "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "krs": "0001065784",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "zweryfikowano API"
   },
   {
     "nazwa_znormalizowana": "STOWARZYSZENIE ANTHILL",
