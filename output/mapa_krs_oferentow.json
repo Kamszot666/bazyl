@@ -3572,9 +3572,9 @@
     "warianty_zapisu": [
       "REGIONALNA RADA POLSKIEGO KOMITETU OLIMPIJSKIEGO W CZĘSTOCHOWIE"
     ],
-    "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "krs": "0000091640",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "API KRS OdpisAktualny 0000091640 - nazwa zgodna"
   },
   {
     "nazwa_znormalizowana": "FUNDACJA INSTYTUT MEDIÓW",
@@ -3582,9 +3582,9 @@
     "warianty_zapisu": [
       "Fundacja Instytut Mediów"
     ],
-    "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "krs": "0000600505",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "API KRS OdpisAktualny 0000600505 - nazwa zgodna"
   },
   {
     "nazwa_znormalizowana": "FUNDACJA TYLKO ORŁY",
@@ -3592,9 +3592,9 @@
     "warianty_zapisu": [
       "Fundacja Tylko Orły"
     ],
-    "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "krs": "0000843781",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "API KRS OdpisAktualny 0000843781 - nazwa zgodna"
   },
   {
     "nazwa_znormalizowana": "GUNDACJA INSTYTUT SPRAW KONSTYTUCYJNYCH",
@@ -3602,9 +3602,9 @@
     "warianty_zapisu": [
       "Gundacja Instytut Spraw Konstytucyjnych"
     ],
-    "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "krs": "0000871660",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "API KRS OdpisAktualny 0000871660 - nazwa zgodna (literówka 'GUNDACJA' w danych źródłowych)"
   },
   {
     "nazwa_znormalizowana": "PRACOWNIA EKSPERYMENTU-FUNDACJA",
@@ -3612,9 +3612,9 @@
     "warianty_zapisu": [
       "Pracownia Eksperymentu - Fundacja"
     ],
-    "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "krs": "0000883548",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "API KRS OdpisAktualny 0000883548 - nazwa zgodna"
   },
   {
     "nazwa_znormalizowana": "FUNDACJA INSTYTUT ZRÓWNOWAŻONEGO ROZWOJU TERENÓW WIEJSKICH",
@@ -3622,9 +3622,9 @@
     "warianty_zapisu": [
       "Fundacja \"Instytut Zrównoważonego Rozwoju Terenów Wiejskich\""
     ],
-    "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "krs": "0000546643",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "API KRS OdpisAktualny 0000546643 - nazwa zgodna. Odróżniona od niepowiązanej, podobnie nazwanej FUNDACJA INSTYTUT ZRÓWNOWAŻONEGO ROZWOJU (bez 'TERENÓW WIEJSKICH'), KRS 0001038018 w Krakowie"
   },
   {
     "nazwa_znormalizowana": "FUNDACJA CZYSTE SERCA",
@@ -3633,8 +3633,8 @@
       "Fundacja Czyste Serca"
     ],
     "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "status": "niejednoznaczne_kilka_pasujacych_podmiotow",
+    "zrodlo_potwierdzenia": "Co najmniej dwie odrębne fundacje o dokładnie tej samej nazwie 'FUNDACJA CZYSTE SERCA' - jedna w Bydgoszczy (KRS 0000314644), druga w Katowicach (KRS 0001064942, w API zapisana w cudzysłowie) - nie da się jednoznacznie wskazać właściwego podmiotu bez dodatkowych danych ze źródła"
   },
   {
     "nazwa_znormalizowana": "FUNDACJA EDUKACJA DO WARTOŚCI",
@@ -3642,9 +3642,9 @@
     "warianty_zapisu": [
       "Fundacja Edukacja do Wartości"
     ],
-    "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "krs": "0000834289",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "API KRS OdpisAktualny 0000834289 - nazwa zgodna (odróżniona od niepowiązanej Fundacji Edukacja z Wartościami, KRS 0000518975)"
   },
   {
     "nazwa_znormalizowana": "FUNDACJA POLSKA-HAITI",
@@ -3652,9 +3652,9 @@
     "warianty_zapisu": [
       "Fundacja Polska- Haiti"
     ],
-    "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "krs": "0000349426",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "API KRS OdpisAktualny 0000349426 - nazwa zgodna"
   },
   {
     "nazwa_znormalizowana": "FUNDACJA INSTYTUT SPRAW OBYWATELSKICH",
@@ -3662,9 +3662,9 @@
     "warianty_zapisu": [
       "Fundacja Instytut Spraw Obywatelskich"
     ],
-    "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "krs": "0000191928",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "API KRS OdpisAktualny 0000191928 - nazwa zgodna"
   },
   {
     "nazwa_znormalizowana": "FUNDACJA PO SĄSIEDZKU",
@@ -3672,9 +3672,9 @@
     "warianty_zapisu": [
       "Fundacja Po Sąsiedzku"
     ],
-    "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "krs": "0000962437",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "API KRS OdpisAktualny 0000962437 - nazwa zgodna (odróżniona od niepowiązanej Fundacji Na Rzecz Organizowania Społeczności Lokalnej 'Po Sąsiedzku', KRS 0000820385)"
   },
   {
     "nazwa_znormalizowana": "FUNDACJA OBRONY PRAW CZŁOWIEKA I OBTWATELA",
@@ -3682,9 +3682,9 @@
     "warianty_zapisu": [
       "Fundacja Obrony Praw Człowieka i Obtwatela"
     ],
-    "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "krs": "0000935489",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "API KRS OdpisAktualny 0000935489 - nazwa zgodna (literówka 'OBTWATELA' zamiast 'OBYWATELA' w danych źródłowych)"
   },
   {
     "nazwa_znormalizowana": "FUNDACJA OPOKA",
@@ -3692,9 +3692,9 @@
     "warianty_zapisu": [
       "Fundacja Opoka"
     ],
-    "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "krs": "0000178115",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "API KRS OdpisAktualny 0000178115 - nazwa zgodna"
   },
   {
     "nazwa_znormalizowana": "ADAMS COMPANY SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ",
@@ -3702,9 +3702,9 @@
     "warianty_zapisu": [
       "ADAM'S Company Spółka z ograniczoną odpowiedzialnością"
     ],
-    "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "krs": "0000877535",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "API KRS OdpisAktualny (rejestr przedsiębiorców) 0000877535 - nazwa zgodna (ADAM'S COMPANY SP. Z O.O.)"
   },
   {
     "nazwa_znormalizowana": "FUNDACJA KLUBU RONINA",
