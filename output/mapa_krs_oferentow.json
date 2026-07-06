@@ -1690,9 +1690,9 @@
     "warianty_zapisu": [
       "Ogólnopolskie Stowarzyszenie z Muzyką do Ludzi"
     ],
-    "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "krs": "0000360172",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "zweryfikowano API"
   },
   {
     "nazwa_znormalizowana": "ZWIĄZEK HARCERSTWA POLSKIEGO CHORĄGIEW KIELECKA",
@@ -1701,9 +1701,9 @@
       "ZWIĄZEK HARCERSTWA POLSKIEGO CHORĄGIEW KIELECKA",
       "Związek Harcerstwa Polskiego Chorągiew Kielecka"
     ],
-    "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "krs": "0000281349",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "zweryfikowano API"
   },
   {
     "nazwa_znormalizowana": "FUNDACJA SWP ZDROWIE",
@@ -1711,9 +1711,9 @@
     "warianty_zapisu": [
       "Fundacja SWP Zdrowie"
     ],
-    "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "krs": "0000872927",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "zweryfikowano API"
   },
   {
     "nazwa_znormalizowana": "FUNDACJA IM. KARDYNAŁA AUGUSTA HLONDA",
@@ -1721,9 +1721,9 @@
     "warianty_zapisu": [
       "Fundacja im. Kardynała Augusta Hlonda"
     ],
-    "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "krs": "0000039814",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "zweryfikowano API"
   },
   {
     "nazwa_znormalizowana": "ŁOMŻYŃSKIE TOWARZYSTWO NAUKOWE IM. WAGÓW",
@@ -1731,9 +1731,9 @@
     "warianty_zapisu": [
       "Łomżyńskie Towarzystwo Naukowe im. Wagów"
     ],
-    "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "krs": "0000032787",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "zweryfikowano API"
   },
   {
     "nazwa_znormalizowana": "CENTRUM ROZWOJU LOKALNEGO",
@@ -1741,9 +1741,9 @@
     "warianty_zapisu": [
       "Centrum Rozwoju Lokalnego"
     ],
-    "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "krs": "0000275175",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "zweryfikowano API"
   },
   {
     "nazwa_znormalizowana": "FUNDACJA TRANSATLANTIC ALIANCE",
@@ -1751,9 +1751,9 @@
     "warianty_zapisu": [
       "Fundacja Transatlantic Aliance"
     ],
-    "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "krs": "0001040538",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "zweryfikowano API"
   },
   {
     "nazwa_znormalizowana": "STOWARZYSZENIE SCENA KULTURY",
@@ -1761,9 +1761,9 @@
     "warianty_zapisu": [
       "Stowarzyszenie Scena Kultury"
     ],
-    "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "krs": "0000362534",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "zweryfikowano API"
   },
   {
     "nazwa_znormalizowana": "FUNDACJA PROJEKT 22",
@@ -1771,9 +1771,9 @@
     "warianty_zapisu": [
       "Fundacja Projekt 22"
     ],
-    "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "krs": "0000957504",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "zweryfikowano API"
   },
   {
     "nazwa_znormalizowana": "TAKA TRADYCJA KULTURA INTEGRACJA",
@@ -1782,7 +1782,7 @@
       "TAKA Tradycja Kultura Integracja"
     ],
     "krs": null,
-    "status": "nie_sprawdzono",
+    "status": "nie_znaleziono_wyszukiwaniem",
     "zrodlo_potwierdzenia": null
   },
   {
