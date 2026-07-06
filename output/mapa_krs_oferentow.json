@@ -1488,9 +1488,9 @@
     "warianty_zapisu": [
       "Towarzystwo Polonia - Kresy"
     ],
-    "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "krs": "0000434568",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "zweryfikowano API"
   },
   {
     "nazwa_znormalizowana": "STOWARZYSZENIE ŁĄCZYMY POKOLENIA",
@@ -1499,7 +1499,7 @@
       "Stowarzyszenie Łączymy pokolenia"
     ],
     "krs": null,
-    "status": "nie_sprawdzono",
+    "status": "niejednoznaczne_kilka_pasujacych_podmiotow",
     "zrodlo_potwierdzenia": null
   },
   {
@@ -1508,9 +1508,9 @@
     "warianty_zapisu": [
       "Towarzystwo Imienia Marii Konopnickiej Oddział w Górach Mokrych"
     ],
-    "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "krs": "0000528517",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "zweryfikowano API"
   },
   {
     "nazwa_znormalizowana": "STOWARZYSZENIE TURKUSOWA LAMA",
@@ -1519,7 +1519,7 @@
       "Stowarzyszenie Turkusowa Lama"
     ],
     "krs": null,
-    "status": "nie_sprawdzono",
+    "status": "nie_znaleziono_wyszukiwaniem",
     "zrodlo_potwierdzenia": null
   },
   {
@@ -1528,9 +1528,9 @@
     "warianty_zapisu": [
       "Klub Piłkarski Polonia 1912 Leszno"
     ],
-    "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "krs": "0000708935",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "zweryfikowano API"
   },
   {
     "nazwa_znormalizowana": "MŁODZI DLA POLSKI TRÓJMIASTO",
@@ -1538,9 +1538,9 @@
     "warianty_zapisu": [
       "Młodzi Dla Polski Trójmiasto"
     ],
-    "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "krs": "0000743893",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "zweryfikowano API"
   },
   {
     "nazwa_znormalizowana": "WIELKOPOLSKI ZWIĄZEK CHÓRÓW I ORKIESTR Z SIEDZIBĄ W LESZNIE",
@@ -1548,9 +1548,9 @@
     "warianty_zapisu": [
       "Wielkopolski Związek Chórów i Orkiestr z siedzibą w Lesznie"
     ],
-    "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "krs": "0000698770",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "zweryfikowano API"
   },
   {
     "nazwa_znormalizowana": "ŚWIATOWA RADA BADAŃ NAD POLONIĄ",
@@ -1558,9 +1558,9 @@
     "warianty_zapisu": [
       "Światowa Rada Badań nad Polonią"
     ],
-    "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "krs": "0000092992",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "zweryfikowano API"
   },
   {
     "nazwa_znormalizowana": "FUNDACJA POLSKA WIELKI PROJEKT",
@@ -1568,9 +1568,9 @@
     "warianty_zapisu": [
       "Fundacja Polska Wielki Projekt"
     ],
-    "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "krs": "0000630792",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "zweryfikowano API"
   },
   {
     "nazwa_znormalizowana": "ADAMS COMPANY SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCI",
@@ -1579,7 +1579,7 @@
       "Adam's Company Spółka z ograniczoną odpowiedzialności"
     ],
     "krs": null,
-    "status": "nie_sprawdzono",
+    "status": "niejednoznaczne_kilka_pasujacych_podmiotow",
     "zrodlo_potwierdzenia": null
   },
   {
