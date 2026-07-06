@@ -765,9 +765,9 @@
     "warianty_zapisu": [
       "Fundacja na rzecz Pomocy Dzieciom z Grodzieńszczyzny"
     ],
-    "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "krs": "0000000291",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "zweryfikowano API"
   },
   {
     "nazwa_znormalizowana": "LUDOWY KLUB SPORTOWY POSTĘP ŁAZISKA",
@@ -776,8 +776,8 @@
       "Ludowy Klub Sportowy POSTĘP Łaziska"
     ],
     "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "status": "nie_znaleziono_wyszukiwaniem",
+    "zrodlo_potwierdzenia": "Wyszukiwanie podalo bledny numer KRS (nalezacy do innej organizacji), poprawny numer nie zostal znaleziony - byc moze rejestrowany poza KRS jako klub sportowy"
   },
   {
     "nazwa_znormalizowana": "FUNDACJA AMBASADA KULTURY",
@@ -785,9 +785,9 @@
     "warianty_zapisu": [
       "Fundacja Ambasada Kultury"
     ],
-    "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "krs": "0000658614",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "zweryfikowano API"
   },
   {
     "nazwa_znormalizowana": "STOWARZYSZENIE TSA SANDOMIERZ",
@@ -796,8 +796,8 @@
       "Stowarzyszenie TSA Sandomierz"
     ],
     "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "status": "nie_dotyczy_brak_w_KRS",
+    "zrodlo_potwierdzenia": "Stowarzyszenie zwykle zarejestrowane w rejestrze starostwa, nie w KRS - potwierdzone wyszukiwaniem"
   },
   {
     "nazwa_znormalizowana": "STOWARZYSZENIE PARAFIADA IM. ŚW. JÓZEFA KALASANCJUSZA",
@@ -805,9 +805,9 @@
     "warianty_zapisu": [
       "Stowarzyszenie Parafiada im. św. Józefa Kalasancjusza"
     ],
-    "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "krs": "0000124134",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "zweryfikowano API"
   },
   {
     "nazwa_znormalizowana": "FUNDACJA ROZWOJU CENTRUM MACIERZ POLONII",
@@ -815,9 +815,9 @@
     "warianty_zapisu": [
       "Fundacja Rozwoju Centrum Macierz Polonii"
     ],
-    "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "krs": "0000781483",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "zweryfikowano API"
   },
   {
     "nazwa_znormalizowana": "FUNDACJA DIVERSITY POLSKA",
@@ -826,9 +826,9 @@
       "FUNDACJA DIVERSITY POLSKA",
       "Fundacja Diversity Polska"
     ],
-    "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "krs": "0000784089",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "zweryfikowano API"
   },
   {
     "nazwa_znormalizowana": "FUNDACJA POLSKA PRZYSZŁOŚĆ ORLIK",
@@ -837,9 +837,9 @@
       "FUNDACJA POLSKA PRZYSZŁOŚĆ „ORLIK”",
       "Fundacja Polska Przyszłość „Orlik”"
     ],
-    "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "krs": "0000981494",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "zweryfikowano API"
   },
   {
     "nazwa_znormalizowana": "FUNDACJA EUREKOT",
@@ -848,9 +848,9 @@
       "FUNDACJA EUREKOT",
       "Fundacja Eurekot"
     ],
-    "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "krs": "0001108116",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "zweryfikowano API"
   },
   {
     "nazwa_znormalizowana": "FUNDACJA BLIŻEJ POLSKI",
@@ -859,9 +859,9 @@
       "FUNDACJA \"BLIŻEJ POLSKI\"",
       "Fundacja Bliżej Polski"
     ],
-    "krs": null,
-    "status": "nie_sprawdzono",
-    "zrodlo_potwierdzenia": null
+    "krs": "0000362654",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "zweryfikowano API"
   },
   {
     "nazwa_znormalizowana": "FUNDACJA LOGTV FILMS POLSKA",
