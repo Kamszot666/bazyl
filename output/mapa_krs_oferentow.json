@@ -13,31 +13,42 @@
     "zrodlo_potwierdzenia": "https://www.gov.pl web + api-krs.ms.gov.pl"
   },
   {
-    "nazwa_znormalizowana": "FUNDACJA POMOC POLAKOM NA WSCHODZIE IM. JANA OLSZEWSKIEGO",
-    "liczba_wystapien": 207,
+    "nazwa_znormalizowana": "FUNDACJA “POMOC POLAKOM NA WSCHODZIE IM. JANA OLSZEWSKIEGO",
+    "liczba_wystapien": 233,
     "warianty_zapisu": [
+      "FUNDACJA POMOC POLAKOM NA WSCHODZIE",
+      "FUNDACJA POMOC POLAKOM NA WSCHODZIE IM. JANA",
+      "FUNDACJA POMOC POLAKOM NA WSCHODZIE IM. JANA OLSZEWSKIEGO",
+      "FUNDACJA “POMOC POLAKOM NA WSCHODZIE IM. JANA OLSZEWSKIEGO",
       "Fundacja \"Pomoc Polakom Na Wschodzie\" im. Jana Olszewskiego",
       "Fundacja \"Pomoc Polakom Na Wschodzie\" imienia Jana Olszewskiego",
       "Fundacja \"Pomoc Polakom Na Wschodzie\" imienia Jana Olszewskiego.",
+      "Fundacja \"Pomoc Polakom na Wschodzie\"",
       "Fundacja \"Pomoc Polakom na Wschodzie\" im. Jana Olszewskiego",
+      "Fundacja \"Pomoc Polakom na Wschodzie\" imienia Jana",
       "Fundacja \"Pomoc Polakom na Wschodzie\" imienia Jana Olszewskiego",
+      "Fundacja “Pomoc Polakom na Wschodzie” im. Jana Olszewskiego",
       "Fundacja „Pomoc Polakom na Wschodzie” im. Jana Olszewskiego"
     ],
     "krs": "0000130056",
     "status": "znaleziono_zweryfikowano_API",
-    "zrodlo_potwierdzenia": "krs-pobierz.pl + api-krs.ms.gov.pl"
+    "zrodlo_potwierdzenia": "Scalono 4 wpisy nazw wskazujace na ten sam numer KRS (rozne warianty zapisu/literowki w danych zrodlowych). krs-pobierz.pl + api-krs.ms.gov.pl | to samo co pelna nazwa z im. Jana Olszewskiego - skrocona nazwa w PDF | wariant z cudzyslowem druk. - ta sama organizacja | API KRS OdpisAktualny 0000130056 - nazwa zgodna (pełna nazwa: FUNDACJA \"POMOC POLAKOM NA WSCHODZIE\" IM. JANA OLSZEWSKIEGO, ucięta w danych źródłowych)"
   },
   {
     "nazwa_znormalizowana": "FUNDACJA WOLNOŚĆ I DEMOKRACJA",
-    "liczba_wystapien": 78,
+    "liczba_wystapien": 96,
     "warianty_zapisu": [
+      "FUNDACJA WOLNOŚĆ I DEMOKRACJA",
       "Fundacja Wolność i Demokracja",
       "Fundacja „Wolność I Demokracja”",
-      "Fundacja „Wolność i Demokracja”"
+      "Fundacja „Wolność i Demokracja”",
+      "WOLNOŚĆ I DEMOKRACJA",
+      "Wolność I Demokracja",
+      "Wolność i Demokracja"
     ],
     "krs": "0000249712",
     "status": "znaleziono_zweryfikowano_API",
-    "zrodlo_potwierdzenia": "rejestr.io (snippet) + api-krs.ms.gov.pl"
+    "zrodlo_potwierdzenia": "Scalono 2 wpisy nazw wskazujace na ten sam numer KRS (rozne warianty zapisu/literowki w danych zrodlowych). rejestr.io (snippet) + api-krs.ms.gov.pl | to samo co Fundacja Wolność i Demokracja - skrocona nazwa w PDF"
   },
   {
     "nazwa_znormalizowana": "FUNDACJA VOLENS",
@@ -84,28 +95,6 @@
     "krs": "0001054164",
     "status": "znaleziono_zweryfikowano_API",
     "zrodlo_potwierdzenia": "krs-pobierz.pl + zweryfikowano API"
-  },
-  {
-    "nazwa_znormalizowana": "WOLNOŚĆ I DEMOKRACJA",
-    "liczba_wystapien": 18,
-    "warianty_zapisu": [
-      "Wolność I Demokracja",
-      "Wolność i Demokracja"
-    ],
-    "krs": "0000249712",
-    "status": "znaleziono_zweryfikowano_API",
-    "zrodlo_potwierdzenia": "to samo co Fundacja Wolność i Demokracja - skrocona nazwa w PDF"
-  },
-  {
-    "nazwa_znormalizowana": "FUNDACJA POMOC POLAKOM NA WSCHODZIE",
-    "liczba_wystapien": 16,
-    "warianty_zapisu": [
-      "FUNDACJA POMOC POLAKOM NA WSCHODZIE",
-      "Fundacja \"Pomoc Polakom na Wschodzie\""
-    ],
-    "krs": "0000130056",
-    "status": "znaleziono_zweryfikowano_API",
-    "zrodlo_potwierdzenia": "to samo co pelna nazwa z im. Jana Olszewskiego - skrocona nazwa w PDF"
   },
   {
     "nazwa_znormalizowana": "FUNDACJA WILEŃSZCZYZNA",
@@ -171,36 +160,6 @@
     "zrodlo_potwierdzenia": "zweryfikowano API"
   },
   {
-    "nazwa_znormalizowana": "STOWARZYSZENIE POLONIA CONNECT",
-    "liczba_wystapien": 9,
-    "warianty_zapisu": [
-      "Stowarzyszenie Polonia Connect"
-    ],
-    "krs": null,
-    "status": "nie_znaleziono_wyszukiwaniem",
-    "zrodlo_potwierdzenia": null
-  },
-  {
-    "nazwa_znormalizowana": "FUNDACJA “POMOC POLAKOM NA WSCHODZIE IM. JANA OLSZEWSKIEGO",
-    "liczba_wystapien": 9,
-    "warianty_zapisu": [
-      "Fundacja “Pomoc Polakom na Wschodzie” im. Jana Olszewskiego"
-    ],
-    "krs": "0000130056",
-    "status": "znaleziono_zweryfikowano_API",
-    "zrodlo_potwierdzenia": "wariant z cudzyslowem druk. - ta sama organizacja"
-  },
-  {
-    "nazwa_znormalizowana": "STOWARZYSZENIE POLONII W EGIPCIE",
-    "liczba_wystapien": 9,
-    "warianty_zapisu": [
-      "Stowarzyszenie Polonii w Egipcie"
-    ],
-    "krs": null,
-    "status": "nie_znaleziono_wyszukiwaniem",
-    "zrodlo_potwierdzenia": null
-  },
-  {
     "nazwa_znormalizowana": "FUNDACJA ZNAKI PAMIĘCI",
     "liczba_wystapien": 9,
     "warianty_zapisu": [
@@ -255,13 +214,16 @@
   },
   {
     "nazwa_znormalizowana": "FUNDACJA TOWARZYSTWO PROJEKTÓW EDUKACYJNYCH",
-    "liczba_wystapien": 7,
+    "liczba_wystapien": 8,
     "warianty_zapisu": [
-      "Fundacja \"Towarzystwo Projektów Edukacyjnych\""
+      "FUNDACJA TOWARZYSTWO PROJEKTÓW EDUKACYJNYCH",
+      "Fundacja \"Towarzystwo Projektów Edukacyjnych\"",
+      "TOWARZYSTWO PROJEKTÓW EDUKACYJNYCH",
+      "Towarzystwo Projektów Edukacyjnych"
     ],
     "krs": "0000405141",
     "status": "znaleziono_zweryfikowano_API",
-    "zrodlo_potwierdzenia": "zweryfikowano API"
+    "zrodlo_potwierdzenia": "Scalono 2 wpisy nazw wskazujace na ten sam numer KRS (rozne warianty zapisu/literowki w danych zrodlowych). zweryfikowano API | To samo co Fundacja Towarzystwo Projektow Edukacyjnych, juz zweryfikowane"
   },
   {
     "nazwa_znormalizowana": "FUNDACJA EDUKATOR",
@@ -336,13 +298,16 @@
   },
   {
     "nazwa_znormalizowana": "ŚWIATOWE STOWARZYSZENIE REPUBLIKA POLONIA",
-    "liczba_wystapien": 6,
+    "liczba_wystapien": 7,
     "warianty_zapisu": [
+      "STOWARZYSZENIE REPUBLIKA POLONIA",
+      "Stowarzyszenie \"Republika Polonia\"",
+      "ŚWIATOWE STOWARZYSZENIE REPUBLIKA POLONIA",
       "Światowe Stowarzyszenie \"Republika Polonia\""
     ],
     "krs": "0000911341",
     "status": "znaleziono_zweryfikowano_API",
-    "zrodlo_potwierdzenia": "zweryfikowano API"
+    "zrodlo_potwierdzenia": "Scalono 2 wpisy nazw wskazujace na ten sam numer KRS (rozne warianty zapisu/literowki w danych zrodlowych). zweryfikowano API | API KRS OdpisAktualny 0000911341 - nazwa zgodna (pełna nazwa: ŚWIATOWE STOWARZYSZENIE \"REPUBLIKA POLONIA\")"
   },
   {
     "nazwa_znormalizowana": "FUNDACJA DZIEDZICTWA RZECZYPOSPOLITEJ",
@@ -386,14 +351,17 @@
     "zrodlo_potwierdzenia": "zweryfikowano API"
   },
   {
-    "nazwa_znormalizowana": "FUNDACJA MŁODE POKOLENIA",
-    "liczba_wystapien": 5,
+    "nazwa_znormalizowana": "FUNDACJA MŁODE POKOLENIA, GDAŃSKA FUNDACJA INNOWACJI SPOŁECZNEJ",
+    "liczba_wystapien": 6,
     "warianty_zapisu": [
-      "Fundacja Młode Pokolenia"
+      "FUNDACJA MŁODE POKOLENIA",
+      "FUNDACJA MŁODE POKOLENIA, GDAŃSKA FUNDACJA INNOWACJI SPOŁECZNEJ",
+      "Fundacja Młode Pokolenia",
+      "Fundacja Młode Pokolenia, Gdańska Fundacja Innowacji Społecznej"
     ],
     "krs": "0001133422",
     "status": "znaleziono_zweryfikowano_API",
-    "zrodlo_potwierdzenia": "zweryfikowano API"
+    "zrodlo_potwierdzenia": "Scalono 2 wpisy nazw wskazujace na ten sam numer KRS (rozne warianty zapisu/literowki w danych zrodlowych). zweryfikowano API | Dwaj wspol-oferenci w jednej komorce PDF: Fundacja Mlode Pokolenia (KRS 0001133422) i Gdanska Fundacja Innowacji Spolecznej (KRS 0000277617), oba zweryfikowane API"
   },
   {
     "nazwa_znormalizowana": "REGIONALNE STOWARZYSZENIE WSCHÓD-ZACHÓD W PŁOCKU",
@@ -449,26 +417,6 @@
     "zrodlo_potwierdzenia": "zweryfikowano API"
   },
   {
-    "nazwa_znormalizowana": "STOWARZYSZENIE PAMIĘCI ŁAGIERNIKÓW ŻOŁNIERZY ARMII KRAJOWEJ",
-    "liczba_wystapien": 5,
-    "warianty_zapisu": [
-      "Stowarzyszenie Pamięci Łagierników Żołnierzy Armii Krajowej"
-    ],
-    "krs": null,
-    "status": "nie_dotyczy_brak_w_KRS",
-    "zrodlo_potwierdzenia": "To odrebna, lokalna organizacja z Sejn, zarejestrowana w rejestrze starostwa, NIE w KRS - potwierdzone wyszukiwaniem, rozne od Stowarzyszenia Lagiernikow Zolnierzy AK w Warszawie"
-  },
-  {
-    "nazwa_znormalizowana": "FUNDACJA KULTURY I SZTUKI",
-    "liczba_wystapien": 5,
-    "warianty_zapisu": [
-      "Fundacja Kultury i Sztuki"
-    ],
-    "krs": null,
-    "status": "niejednoznaczne_kilka_pasujacych_podmiotow",
-    "zrodlo_potwierdzenia": "Kilka roznych podmiotow o tej nazwie w KRS, brak w naszych danych cechy pozwalajacej jednoznacznie wybrac (np. NIP, adres) - wymaga recznej weryfikacji"
-  },
-  {
     "nazwa_znormalizowana": "STOWARZYSZENIE ŁAGIERNIKÓW ŻOŁNIERZY ARMII KRAJOWEJ",
     "liczba_wystapien": 5,
     "warianty_zapisu": [
@@ -499,16 +447,6 @@
     "krs": "0000224827",
     "status": "znaleziono_zweryfikowano_API",
     "zrodlo_potwierdzenia": "zweryfikowano API"
-  },
-  {
-    "nazwa_znormalizowana": "INSTYTUT INNOWACJI",
-    "liczba_wystapien": 5,
-    "warianty_zapisu": [
-      "Instytut Innowacji"
-    ],
-    "krs": null,
-    "status": "niejednoznaczne_kilka_pasujacych_podmiotow",
-    "zrodlo_potwierdzenia": "Kilka roznych podmiotow o tej nazwie w KRS, brak w naszych danych cechy pozwalajacej jednoznacznie wybrac (np. NIP, adres) - wymaga recznej weryfikacji"
   },
   {
     "nazwa_znormalizowana": "FUNDACJA POLSKIE MAKI",
@@ -626,16 +564,6 @@
     "zrodlo_potwierdzenia": "zweryfikowano API"
   },
   {
-    "nazwa_znormalizowana": "ZGROMADZENIE SIÓSTR OD ANIOŁÓW",
-    "liczba_wystapien": 4,
-    "warianty_zapisu": [
-      "Zgromadzenie Sióstr od Aniołów"
-    ],
-    "krs": null,
-    "status": "nie_dotyczy_brak_w_KRS",
-    "zrodlo_potwierdzenia": "Zgromadzenie zakonne - osoba prawna kosciola katolickiego, nie podlega rejestracji w KRS"
-  },
-  {
     "nazwa_znormalizowana": "FUNDACJA POGOŃ LWÓW",
     "liczba_wystapien": 4,
     "warianty_zapisu": [
@@ -719,14 +647,17 @@
     "zrodlo_potwierdzenia": "zweryfikowano API"
   },
   {
-    "nazwa_znormalizowana": "ŚWIATOWY KONGRES POLAKÓW",
-    "liczba_wystapien": 4,
+    "nazwa_znormalizowana": "STOWARZYSZENIE ŚWIATOWY KONGRES POLAKÓW",
+    "liczba_wystapien": 5,
     "warianty_zapisu": [
+      "STOWARZYSZENIE ŚWIATOWY KONGRES POLAKÓW",
+      "Stowarzyszenie Światowy Kongres Polaków",
+      "ŚWIATOWY KONGRES POLAKÓW",
       "Światowy Kongres Polaków"
     ],
     "krs": "0000690041",
     "status": "znaleziono_zweryfikowano_API",
-    "zrodlo_potwierdzenia": "zweryfikowano API"
+    "zrodlo_potwierdzenia": "Scalono 2 wpisy nazw wskazujace na ten sam numer KRS (rozne warianty zapisu/literowki w danych zrodlowych). zweryfikowano API | To samo co Swiatowy Kongres Polakow, juz zweryfikowane"
   },
   {
     "nazwa_znormalizowana": "STOWARZYSZENIE KRAKOWSKICH INICJATYW LOKALNYCH LIDERÓW",
@@ -761,23 +692,18 @@
   },
   {
     "nazwa_znormalizowana": "FUNDACJA NA RZECZ POMOCY DZIECIOM Z GRODZIEŃSZCZYZNY",
-    "liczba_wystapien": 4,
+    "liczba_wystapien": 6,
     "warianty_zapisu": [
-      "Fundacja na rzecz Pomocy Dzieciom z Grodzieńszczyzny"
+      "FUNDACJA NA RZECZ POMOCY DZIECIOM Z GRODZIEŃSZCZNY",
+      "FUNDACJA NA RZECZ POMOCY DZIECIOM Z GRODZIEŃSZCZYZNY",
+      "Fundacja na rzecz Pomocy Dzieciom z Grodzieńszczny",
+      "Fundacja na rzecz Pomocy Dzieciom z Grodzieńszczyzny",
+      "GUNDACJA NA RZECZ POMOCY DZIECIOM Z GRODZIEŃSZCZYZNY",
+      "Gundacja na rzecz Pomocy Dzieciom z Grodzieńszczyzny"
     ],
     "krs": "0000000291",
     "status": "znaleziono_zweryfikowano_API",
-    "zrodlo_potwierdzenia": "zweryfikowano API"
-  },
-  {
-    "nazwa_znormalizowana": "LUDOWY KLUB SPORTOWY POSTĘP ŁAZISKA",
-    "liczba_wystapien": 4,
-    "warianty_zapisu": [
-      "Ludowy Klub Sportowy POSTĘP Łaziska"
-    ],
-    "krs": null,
-    "status": "nie_znaleziono_wyszukiwaniem",
-    "zrodlo_potwierdzenia": "Wyszukiwanie podalo bledny numer KRS (nalezacy do innej organizacji), poprawny numer nie zostal znaleziony - byc moze rejestrowany poza KRS jako klub sportowy"
+    "zrodlo_potwierdzenia": "Scalono 3 wpisy nazw wskazujace na ten sam numer KRS (rozne warianty zapisu/literowki w danych zrodlowych). zweryfikowano API | Literowka w nazwie (Grodzienszczny zamiast Grodzienszczyzny), ta sama organizacja juz zweryfikowana | API KRS OdpisAktualny 0000000291 - nazwa zgodna (literówka 'GUNDACJA' zamiast 'FUNDACJA' w danych źródłowych)"
   },
   {
     "nazwa_znormalizowana": "FUNDACJA AMBASADA KULTURY",
@@ -788,16 +714,6 @@
     "krs": "0000658614",
     "status": "znaleziono_zweryfikowano_API",
     "zrodlo_potwierdzenia": "zweryfikowano API"
-  },
-  {
-    "nazwa_znormalizowana": "STOWARZYSZENIE TSA SANDOMIERZ",
-    "liczba_wystapien": 4,
-    "warianty_zapisu": [
-      "Stowarzyszenie TSA Sandomierz"
-    ],
-    "krs": null,
-    "status": "nie_dotyczy_brak_w_KRS",
-    "zrodlo_potwierdzenia": "Stowarzyszenie zwykle zarejestrowane w rejestrze starostwa, nie w KRS - potwierdzone wyszukiwaniem"
   },
   {
     "nazwa_znormalizowana": "STOWARZYSZENIE PARAFIADA IM. ŚW. JÓZEFA KALASANCJUSZA",
@@ -821,14 +737,16 @@
   },
   {
     "nazwa_znormalizowana": "FUNDACJA DIVERSITY POLSKA",
-    "liczba_wystapien": 4,
+    "liczba_wystapien": 6,
     "warianty_zapisu": [
       "FUNDACJA DIVERSITY POLSKA",
-      "Fundacja Diversity Polska"
+      "FUNDACJA DIVERSITYPL",
+      "Fundacja Diversity Polska",
+      "Fundacja Diversitypl"
     ],
     "krs": "0000784089",
     "status": "znaleziono_zweryfikowano_API",
-    "zrodlo_potwierdzenia": "zweryfikowano API"
+    "zrodlo_potwierdzenia": "Scalono 2 wpisy nazw wskazujace na ten sam numer KRS (rozne warianty zapisu/literowki w danych zrodlowych). zweryfikowano API | To ta sama organizacja co Fundacja Diversity Polska (rozny zapis nazwy w PDF), juz zweryfikowana wczesniej"
   },
   {
     "nazwa_znormalizowana": "FUNDACJA POLSKA PRZYSZŁOŚĆ ORLIK",
@@ -895,17 +813,6 @@
     "zrodlo_potwierdzenia": "zweryfikowano API"
   },
   {
-    "nazwa_znormalizowana": "FUNDACJA POLSKO-WĘGIERSKA",
-    "liczba_wystapien": 3,
-    "warianty_zapisu": [
-      "Fundacja Polsko- Węgierska",
-      "Fundacja Polsko-Węgierska"
-    ],
-    "krs": null,
-    "status": "nie_znaleziono_wyszukiwaniem",
-    "zrodlo_potwierdzenia": null
-  },
-  {
     "nazwa_znormalizowana": "FUNDACJA POLSKA PRZEDSIĘBIORCZA",
     "liczba_wystapien": 3,
     "warianty_zapisu": [
@@ -926,16 +833,6 @@
     "zrodlo_potwierdzenia": "zweryfikowano API"
   },
   {
-    "nazwa_znormalizowana": "FUNDACJA POLISH AMERICAN ART SOCIETY",
-    "liczba_wystapien": 3,
-    "warianty_zapisu": [
-      "Fundacja Polish American Art Society"
-    ],
-    "krs": null,
-    "status": "nie_znaleziono_wyszukiwaniem",
-    "zrodlo_potwierdzenia": null
-  },
-  {
     "nazwa_znormalizowana": "DZIEŁO ODBUDOWY MIŁOŚCI, FUNDACJA D.O.M",
     "liczba_wystapien": 3,
     "warianty_zapisu": [
@@ -944,16 +841,6 @@
     "krs": "0000135677",
     "status": "znaleziono_zweryfikowano_API",
     "zrodlo_potwierdzenia": "zweryfikowano API"
-  },
-  {
-    "nazwa_znormalizowana": "FUNDACJA OBOWIĄZEK POLSKI",
-    "liczba_wystapien": 3,
-    "warianty_zapisu": [
-      "Fundacja Obowiązek Polski"
-    ],
-    "krs": null,
-    "status": "nie_znaleziono_wyszukiwaniem",
-    "zrodlo_potwierdzenia": null
   },
   {
     "nazwa_znormalizowana": "FUNDACJA ISKRA INNOWACJI",
@@ -1017,16 +904,6 @@
     "zrodlo_potwierdzenia": "zweryfikowano API"
   },
   {
-    "nazwa_znormalizowana": "FUNDACJA POMOC RODZINIE",
-    "liczba_wystapien": 3,
-    "warianty_zapisu": [
-      "Fundacja Pomoc Rodzinie"
-    ],
-    "krs": null,
-    "status": "niejednoznaczne_kilka_pasujacych_podmiotow",
-    "zrodlo_potwierdzenia": "Trzy rozne podmioty o tej nazwie w KRS, brak cechy rozrozniajacej"
-  },
-  {
     "nazwa_znormalizowana": "PEŁNI KULTURY",
     "liczba_wystapien": 3,
     "warianty_zapisu": [
@@ -1035,16 +912,6 @@
     "krs": "0000585483",
     "status": "znaleziono_zweryfikowano_API",
     "zrodlo_potwierdzenia": "zweryfikowano API"
-  },
-  {
-    "nazwa_znormalizowana": "FUNDACJA OPIEKI I JEDNOŚCI KRESOWIAN",
-    "liczba_wystapien": 3,
-    "warianty_zapisu": [
-      "Fundacja Opieki i Jedności Kresowian"
-    ],
-    "krs": null,
-    "status": "nie_znaleziono_wyszukiwaniem",
-    "zrodlo_potwierdzenia": "Podany przez wyszukiwanie numer KRS nalezal do innej organizacji (klub brydzowy) - odrzucono"
   },
   {
     "nazwa_znormalizowana": "FUNDACJA POLSKA ZWYCIĘSKA 1920-2020",
@@ -1077,16 +944,6 @@
     "zrodlo_potwierdzenia": "zweryfikowano API"
   },
   {
-    "nazwa_znormalizowana": "FUNDACJA WSPIERAM",
-    "liczba_wystapien": 3,
-    "warianty_zapisu": [
-      "Fundacja Wspieram"
-    ],
-    "krs": null,
-    "status": "niejednoznaczne_kilka_pasujacych_podmiotow",
-    "zrodlo_potwierdzenia": null
-  },
-  {
     "nazwa_znormalizowana": "FUNDACJA PRZYJACIÓŁ WILNA I GRODNA SERCE DZIECIOM",
     "liczba_wystapien": 3,
     "warianty_zapisu": [
@@ -1105,16 +962,6 @@
     "krs": "0000777275",
     "status": "znaleziono_zweryfikowano_API",
     "zrodlo_potwierdzenia": "zweryfikowano API"
-  },
-  {
-    "nazwa_znormalizowana": "UCZNIOWSKI KLUB SPORTOWY ,,ALE POLONIA",
-    "liczba_wystapien": 2,
-    "warianty_zapisu": [
-      "Uczniowski Klub Sportowy ,,ALE POLONIA''"
-    ],
-    "krs": null,
-    "status": "nie_znaleziono_wyszukiwaniem",
-    "zrodlo_potwierdzenia": null
   },
   {
     "nazwa_znormalizowana": "STOWARZYSZENIE AGLOMERACJA CHRZANOWSKA",
@@ -1321,26 +1168,6 @@
     "zrodlo_potwierdzenia": "zweryfikowano API"
   },
   {
-    "nazwa_znormalizowana": "ZGROMADZENIE ZMARTWYCHWSTANIA PANA NASZEGO JEZUSA CHRYSTUSA",
-    "liczba_wystapien": 2,
-    "warianty_zapisu": [
-      "Zgromadzenie Zmartwychwstania Pana Naszego Jezusa Chrystusa"
-    ],
-    "krs": null,
-    "status": "nie_dotyczy_brak_w_KRS",
-    "zrodlo_potwierdzenia": "Zgromadzenie zakonne - prawdopodobnie osoba prawna kosciola, brak jednoznacznego numeru KRS w zrodlach"
-  },
-  {
-    "nazwa_znormalizowana": "KLUB SPORTOWY WISŁOKA",
-    "liczba_wystapien": 2,
-    "warianty_zapisu": [
-      "Klub Sportowy \"Wisłoka\""
-    ],
-    "krs": null,
-    "status": "nie_dotyczy_brak_w_KRS",
-    "zrodlo_potwierdzenia": "Wedlug danych zrodlowych to Klub Sportowy Wisloka Chicago (Polonia w USA), nie podmiot zarejestrowany w polskim KRS"
-  },
-  {
     "nazwa_znormalizowana": "TOWARZYSTWO MIŁOŚNIKÓW WILNA I ZIEMI WILEŃSKIEJ ODDZIAŁ W MRĄGOWIE",
     "liczba_wystapien": 2,
     "warianty_zapisu": [
@@ -1361,14 +1188,17 @@
     "zrodlo_potwierdzenia": "zweryfikowano API"
   },
   {
-    "nazwa_znormalizowana": "FUNDACJA MEDIA WORLD CUP",
-    "liczba_wystapien": 2,
+    "nazwa_znormalizowana": "FUNDACJA CINEMA MEDIA ART, FINDACJA MEDIA WORLD CUP",
+    "liczba_wystapien": 3,
     "warianty_zapisu": [
+      "FUNDACJA CINEMA MEDIA ART, FINDACJA MEDIA WORLD CUP",
+      "FUNDACJA MEDIA WORLD CUP",
+      "Fundacja Cinema Media Art, Findacja Media World Cup",
       "Fundacja Media World Cup"
     ],
     "krs": "0000805148",
     "status": "znaleziono_zweryfikowano_API",
-    "zrodlo_potwierdzenia": "zweryfikowano API"
+    "zrodlo_potwierdzenia": "Scalono 2 wpisy nazw wskazujace na ten sam numer KRS (rozne warianty zapisu/literowki w danych zrodlowych). zweryfikowano API | Wpis źródłowy łączy DWIE odrębne organizacje w jednej komórce (literówka 'FINDACJA' zamiast 'FUNDACJA'). Obie zweryfikowane osobno w API KRS: FUNDACJA CINEMA MEDIA ART = 0000828012, FUNDACJA MEDIA WORLD CUP = 0000805148 (ten sam prezes i adres w Lublinie - powiązane, ale odrębne podmioty)"
   },
   {
     "nazwa_znormalizowana": "FUNDACJA KULTURY I KRZEWIENIA POLSKOŚCI ZA GRANICĄ GRONO POLSKOŚCI",
@@ -1422,17 +1252,6 @@
     "zrodlo_potwierdzenia": "zweryfikowano API"
   },
   {
-    "nazwa_znormalizowana": "FUNDACJA DIVERSITYPL",
-    "liczba_wystapien": 2,
-    "warianty_zapisu": [
-      "FUNDACJA DIVERSITYPL",
-      "Fundacja Diversitypl"
-    ],
-    "krs": "0000784089",
-    "status": "znaleziono_zweryfikowano_API",
-    "zrodlo_potwierdzenia": "To ta sama organizacja co Fundacja Diversity Polska (rozny zapis nazwy w PDF), juz zweryfikowana wczesniej"
-  },
-  {
     "nazwa_znormalizowana": "FUNDACJA IMIENIEM KAZIMIERZA DEYNY",
     "liczba_wystapien": 2,
     "warianty_zapisu": [
@@ -1443,34 +1262,17 @@
     "zrodlo_potwierdzenia": "zweryfikowano API"
   },
   {
-    "nazwa_znormalizowana": "STOWARZYSZENIE WEST",
-    "liczba_wystapien": 2,
+    "nazwa_znormalizowana": "STOWARZYSZENIE EUROPEJSKA WSPÓLNOTA GOSPODARCZA POLONIA",
+    "liczba_wystapien": 3,
     "warianty_zapisu": [
-      "Stowarzyszenie WEST"
-    ],
-    "krs": null,
-    "status": "nie_znaleziono_wyszukiwaniem",
-    "zrodlo_potwierdzenia": null
-  },
-  {
-    "nazwa_znormalizowana": "EUROPEJSKA WSPÓLNOTA GOSPODARCZA POLONII",
-    "liczba_wystapien": 2,
-    "warianty_zapisu": [
-      "Europejska Wspólnota Gospodarcza Polonii"
+      "EUROPEJSKA WSPÓLNOTA GOSPODARCZA POLONII",
+      "Europejska Wspólnota Gospodarcza Polonii",
+      "STOWARZYSZENIE EUROPEJSKA WSPÓLNOTA GOSPODARCZA POLONIA",
+      "Stowarzyszenie Europejska Wspólnota Gospodarcza Polonia"
     ],
     "krs": "0000261943",
     "status": "znaleziono_zweryfikowano_API",
-    "zrodlo_potwierdzenia": "zweryfikowano API"
-  },
-  {
-    "nazwa_znormalizowana": "KRAJOWE BIURO ORGANIZACYJNE ŚWIATOWYCH DNI MŁODZIEŻY",
-    "liczba_wystapien": 2,
-    "warianty_zapisu": [
-      "Krajowe Biuro Organizacyjne Światowych Dni Młodzieży"
-    ],
-    "krs": null,
-    "status": "nie_znaleziono_wyszukiwaniem",
-    "zrodlo_potwierdzenia": null
+    "zrodlo_potwierdzenia": "Scalono 2 wpisy nazw wskazujace na ten sam numer KRS (rozne warianty zapisu/literowki w danych zrodlowych). zweryfikowano API | API KRS OdpisAktualny 0000261943 - nazwa zgodna (EUROPEJSKA WSPÓLNOTA GOSPODARCZA POLONII, forma dopełniacza)"
   },
   {
     "nazwa_znormalizowana": "FUNDACJA PRO ANIMA",
@@ -1493,16 +1295,6 @@
     "zrodlo_potwierdzenia": "zweryfikowano API"
   },
   {
-    "nazwa_znormalizowana": "STOWARZYSZENIE ŁĄCZYMY POKOLENIA",
-    "liczba_wystapien": 2,
-    "warianty_zapisu": [
-      "Stowarzyszenie Łączymy pokolenia"
-    ],
-    "krs": null,
-    "status": "niejednoznaczne_kilka_pasujacych_podmiotow",
-    "zrodlo_potwierdzenia": null
-  },
-  {
     "nazwa_znormalizowana": "TOWARZYSTWO IM. MARII KONOPNICKIEJ ODDZIAŁ W GÓRACH MOKRYCH",
     "liczba_wystapien": 2,
     "warianty_zapisu": [
@@ -1511,16 +1303,6 @@
     "krs": "0000528517",
     "status": "znaleziono_zweryfikowano_API",
     "zrodlo_potwierdzenia": "zweryfikowano API"
-  },
-  {
-    "nazwa_znormalizowana": "STOWARZYSZENIE TURKUSOWA LAMA",
-    "liczba_wystapien": 2,
-    "warianty_zapisu": [
-      "Stowarzyszenie Turkusowa Lama"
-    ],
-    "krs": null,
-    "status": "nie_znaleziono_wyszukiwaniem",
-    "zrodlo_potwierdzenia": null
   },
   {
     "nazwa_znormalizowana": "KLUB PIŁKARSKI POLONIA 1912 LESZNO",
@@ -1573,24 +1355,17 @@
     "zrodlo_potwierdzenia": "zweryfikowano API"
   },
   {
-    "nazwa_znormalizowana": "ADAMS COMPANY SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCI",
-    "liczba_wystapien": 2,
-    "warianty_zapisu": [
-      "Adam's Company Spółka z ograniczoną odpowiedzialności"
-    ],
-    "krs": null,
-    "status": "niejednoznaczne_kilka_pasujacych_podmiotow",
-    "zrodlo_potwierdzenia": null
-  },
-  {
     "nazwa_znormalizowana": "STOWARZYSZENIE ,,SOLIDARNI RAZEM",
-    "liczba_wystapien": 2,
+    "liczba_wystapien": 3,
     "warianty_zapisu": [
+      "STOWARZYSZENIE ,,SOLIDARNI RAZEM",
+      "STOWARZYSZENIE SOLIDARNI RAZEM",
+      "Stowarzyszenie ''Solidarni Razem\"",
       "Stowarzyszenie ,,Solidarni Razem\""
     ],
     "krs": "0000245057",
     "status": "znaleziono_zweryfikowano_API",
-    "zrodlo_potwierdzenia": "zweryfikowano API"
+    "zrodlo_potwierdzenia": "Scalono 2 wpisy nazw wskazujace na ten sam numer KRS (rozne warianty zapisu/literowki w danych zrodlowych). zweryfikowano API | API KRS OdpisAktualny 0000245057 - nazwa zgodna"
   },
   {
     "nazwa_znormalizowana": "FUNDACJA ZATRZYMAĆ CZAS",
@@ -1632,16 +1407,6 @@
     "krs": "0000518786",
     "status": "znaleziono_zweryfikowano_API",
     "zrodlo_potwierdzenia": "zweryfikowano API"
-  },
-  {
-    "nazwa_znormalizowana": "FUNDACJA NURT",
-    "liczba_wystapien": 2,
-    "warianty_zapisu": [
-      "Fundacja Nurt"
-    ],
-    "krs": null,
-    "status": "niejednoznaczne_kilka_pasujacych_podmiotow",
-    "zrodlo_potwierdzenia": "Trzy rozne fundacje o zblizonej nazwie (Szczecin, Cieszyn, Wroclaw), brak cechy rozrozniajacej w danych"
   },
   {
     "nazwa_znormalizowana": "POLSKA AKADEMIA UMIEJĘTNOŚCI",
@@ -1776,26 +1541,6 @@
     "zrodlo_potwierdzenia": "zweryfikowano API"
   },
   {
-    "nazwa_znormalizowana": "TAKA TRADYCJA KULTURA INTEGRACJA",
-    "liczba_wystapien": 2,
-    "warianty_zapisu": [
-      "TAKA Tradycja Kultura Integracja"
-    ],
-    "krs": null,
-    "status": "nie_znaleziono_wyszukiwaniem",
-    "zrodlo_potwierdzenia": null
-  },
-  {
-    "nazwa_znormalizowana": "ZGROMADZENIE SIÓSTR MISJONAREK CHRYSTUSA KRÓLA DLA POLONII ZAGRANICZNEJ",
-    "liczba_wystapien": 2,
-    "warianty_zapisu": [
-      "Zgromadzenie Sióstr Misjonarek Chrystusa Króla dla Polonii Zagranicznej"
-    ],
-    "krs": null,
-    "status": "nie_dotyczy_brak_w_KRS",
-    "zrodlo_potwierdzenia": "Zgromadzenie zakonne, brak numeru KRS w zrodlach - prawdopodobnie osoba prawna kosciola"
-  },
-  {
     "nazwa_znormalizowana": "FUNDACJA HAGIA MARINA",
     "liczba_wystapien": 2,
     "warianty_zapisu": [
@@ -1838,13 +1583,16 @@
   },
   {
     "nazwa_znormalizowana": "FUNDACJA INSTYTUT SPRAW KONSTYTUCYJNYCH",
-    "liczba_wystapien": 2,
+    "liczba_wystapien": 3,
     "warianty_zapisu": [
-      "Fundacja Instytut Spraw Konstytucyjnych"
+      "FUNDACJA INSTYTUT SPRAW KONSTYTUCYJNYCH",
+      "Fundacja Instytut Spraw Konstytucyjnych",
+      "GUNDACJA INSTYTUT SPRAW KONSTYTUCYJNYCH",
+      "Gundacja Instytut Spraw Konstytucyjnych"
     ],
     "krs": "0000871660",
     "status": "znaleziono_zweryfikowano_API",
-    "zrodlo_potwierdzenia": "zweryfikowano API"
+    "zrodlo_potwierdzenia": "Scalono 2 wpisy nazw wskazujace na ten sam numer KRS (rozne warianty zapisu/literowki w danych zrodlowych). zweryfikowano API | API KRS OdpisAktualny 0000871660 - nazwa zgodna (literówka 'GUNDACJA' w danych źródłowych)"
   },
   {
     "nazwa_znormalizowana": "STOWARZYSZENIE HISTORYCZNE IM. DANUTY SIEDZIKÓWNY PS. INKA",
@@ -1927,24 +1675,17 @@
     "zrodlo_potwierdzenia": "zweryfikowano API"
   },
   {
-    "nazwa_znormalizowana": "FUNDACJA EMU",
-    "liczba_wystapien": 1,
-    "warianty_zapisu": [
-      "Fundacja EMU"
-    ],
-    "krs": null,
-    "status": "nie_znaleziono_wyszukiwaniem",
-    "zrodlo_potwierdzenia": null
-  },
-  {
     "nazwa_znormalizowana": "STOWARZYSZENIE SCENA KULTURY WOKALNEJ ŚPIEWANIE BEZ GRANIC",
-    "liczba_wystapien": 1,
+    "liczba_wystapien": 2,
     "warianty_zapisu": [
+      "STOWARZYSZENIE SCENA KULTURY WOKALNEJ - ŚPIEWANIE BEZ GRANIC",
+      "STOWARZYSZENIE SCENA KULTURY WOKALNEJ ŚPIEWANIE BEZ GRANIC",
+      "STOWARZYSZENIE SCENA KULTURY WOKALNEJ-ŚPIEWANIE BEZ GRANIC",
       "Stowarzyszenie Scena Kultury Wokalnej Śpiewanie Bez Granic"
     ],
     "krs": "0000777258",
     "status": "znaleziono_zweryfikowano_API",
-    "zrodlo_potwierdzenia": "Znalezione wczesniej przy okazji wyszukiwania Stowarzyszenia Scena Kultury (inny podmiot)"
+    "zrodlo_potwierdzenia": "Scalono 2 wpisy nazw wskazujace na ten sam numer KRS (rozne warianty zapisu/literowki w danych zrodlowych). Znalezione wczesniej przy okazji wyszukiwania Stowarzyszenia Scena Kultury (inny podmiot) | API KRS OdpisAktualny 0000777258 - nazwa zgodna"
   },
   {
     "nazwa_znormalizowana": "KLUB JAGIELLOŃSKI",
@@ -1967,16 +1708,6 @@
     "zrodlo_potwierdzenia": "zweryfikowano API"
   },
   {
-    "nazwa_znormalizowana": "TOWARZYSTWO PROJEKTÓW EDUKACYJNYCH",
-    "liczba_wystapien": 1,
-    "warianty_zapisu": [
-      "Towarzystwo Projektów Edukacyjnych"
-    ],
-    "krs": "0000405141",
-    "status": "znaleziono_zweryfikowano_API",
-    "zrodlo_potwierdzenia": "To samo co Fundacja Towarzystwo Projektow Edukacyjnych, juz zweryfikowane"
-  },
-  {
     "nazwa_znormalizowana": "FUNDACJA SAPERE AUDE INCIPE",
     "liczba_wystapien": 1,
     "warianty_zapisu": [
@@ -1985,26 +1716,6 @@
     "krs": "0001195949",
     "status": "znaleziono_zweryfikowano_API",
     "zrodlo_potwierdzenia": "zweryfikowano API"
-  },
-  {
-    "nazwa_znormalizowana": "POLONIA PRO-KOMPETENCJE I ROZWÓJ",
-    "liczba_wystapien": 1,
-    "warianty_zapisu": [
-      "Polonia Pro- Kompetencje i Rozwój"
-    ],
-    "krs": null,
-    "status": "nie_znaleziono_wyszukiwaniem",
-    "zrodlo_potwierdzenia": null
-  },
-  {
-    "nazwa_znormalizowana": "FUNDACJA DYPLOMACJI SPORTOWEJ",
-    "liczba_wystapien": 1,
-    "warianty_zapisu": [
-      "Fundacja Dyplomacji Sportowej"
-    ],
-    "krs": null,
-    "status": "nie_znaleziono_wyszukiwaniem",
-    "zrodlo_potwierdzenia": null
   },
   {
     "nazwa_znormalizowana": "FUNDACJA IDYLLA",
@@ -2027,16 +1738,6 @@
     "zrodlo_potwierdzenia": "zweryfikowano API"
   },
   {
-    "nazwa_znormalizowana": "KLUB SPORTU I REKREACJI KLUB NEMO SPORT",
-    "liczba_wystapien": 1,
-    "warianty_zapisu": [
-      "Klub sportu i rekreacji Klub Nemo Sport"
-    ],
-    "krs": null,
-    "status": "nie_znaleziono_wyszukiwaniem",
-    "zrodlo_potwierdzenia": null
-  },
-  {
     "nazwa_znormalizowana": "FUNDACJA PRZYSZŁOŚĆ BEZ BARIER",
     "liczba_wystapien": 1,
     "warianty_zapisu": [
@@ -2055,6 +1756,1748 @@
     "krs": "0000538549",
     "status": "znaleziono_zweryfikowano_API",
     "zrodlo_potwierdzenia": "zweryfikowano API"
+  },
+  {
+    "nazwa_znormalizowana": "FUNDACJA MŁODE POKOLENIA, GDAŃSKA FUNDACJA INNOWACJI SPOŁECZNEJ",
+    "liczba_wystapien": 1,
+    "warianty_zapisu": [
+      "Fundacja Młode Pokolenia, Gdańska Fundacja Innowacji Społecznej"
+    ],
+    "krs": "0000277617",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "Dwaj wspol-oferenci w jednej komorce PDF: Fundacja Mlode Pokolenia (KRS 0001133422) i Gdanska Fundacja Innowacji Spolecznej (KRS 0000277617), oba zweryfikowane API"
+  },
+  {
+    "nazwa_znormalizowana": "FUNDACJA ŚWIAT NA TAK",
+    "liczba_wystapien": 1,
+    "warianty_zapisu": [
+      "Fundacja \"Świat na Tak\""
+    ],
+    "krs": "0000081518",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "zweryfikowano API"
+  },
+  {
+    "nazwa_znormalizowana": "FUNDACJA KOSSAKOWSKIEGO",
+    "liczba_wystapien": 1,
+    "warianty_zapisu": [
+      "Fundacja Kossakowskiego"
+    ],
+    "krs": "0000403745",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "zweryfikowano API"
+  },
+  {
+    "nazwa_znormalizowana": "FUNDACJA POMOCY WZAJEMNEJ BARKA",
+    "liczba_wystapien": 1,
+    "warianty_zapisu": [
+      "Fundacja Pomocy Wzajemnej \"Barka\""
+    ],
+    "krs": "0000137089",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "zweryfikowano API"
+  },
+  {
+    "nazwa_znormalizowana": "FUNDACJA OŚRODKA KARTA",
+    "liczba_wystapien": 1,
+    "warianty_zapisu": [
+      "Fundacja Ośrodka KARTA"
+    ],
+    "krs": "0000119146",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "zweryfikowano API"
+  },
+  {
+    "nazwa_znormalizowana": "FUNDACJA PROMOCJI KULTURY I TURYSTYKI Z NURTEM DANIELKI",
+    "liczba_wystapien": 1,
+    "warianty_zapisu": [
+      "Fundacja Promocji Kultury I Turystyki \"Z Nurtem Danielki\""
+    ],
+    "krs": "0000972533",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "zweryfikowano API"
+  },
+  {
+    "nazwa_znormalizowana": "ŁÓDZKIE STOWARZYSZENIE INICJATYW MIEJSKICH TOPOGRAFIE",
+    "liczba_wystapien": 1,
+    "warianty_zapisu": [
+      "Łódzkie Stowarzyszenie Inicjatyw Miejskich \"Topografie\""
+    ],
+    "krs": "0000279476",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "zweryfikowano API"
+  },
+  {
+    "nazwa_znormalizowana": "LESZCZYŃSKIE TOWARZYSTWO MUZYCZNE IM. ROMANA MACIEJEWSKIEGO",
+    "liczba_wystapien": 1,
+    "warianty_zapisu": [
+      "Leszczyńskie Towarzystwo Muzyczne Im. Romana Maciejewskiego"
+    ],
+    "krs": "0000227056",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "zweryfikowano API"
+  },
+  {
+    "nazwa_znormalizowana": "STOWARZYSZENIE KLUB SPORTOWY FUTSAL LESZNO",
+    "liczba_wystapien": 1,
+    "warianty_zapisu": [
+      "Stowarzyszenie Klub Sportowy Futsal Leszno"
+    ],
+    "krs": "0000683371",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "zweryfikowano API"
+  },
+  {
+    "nazwa_znormalizowana": "STOWARZYSZENIE LYSKOR, STOWARZYSZENIE LOKALNA GRUPA DZIAŁANIA PARTNERSTWO DLA ROZWOJU",
+    "liczba_wystapien": 1,
+    "warianty_zapisu": [
+      "Stowarzyszenie LYSKOR, Stowarzyszenie Lokalna Grupa Działania \"Partnerstwo dla Rozwoju\""
+    ],
+    "krs": "0000257707",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "zweryfikowano API"
+  },
+  {
+    "nazwa_znormalizowana": "FUNDACJA POLONII MEDYCZNEJ",
+    "liczba_wystapien": 1,
+    "warianty_zapisu": [
+      "Fundacja Polonii Medycznej"
+    ],
+    "krs": "0000872812",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "zweryfikowano API"
+  },
+  {
+    "nazwa_znormalizowana": "FUNDACJA ŁOPACIŃSKICH ŚWIAT",
+    "liczba_wystapien": 1,
+    "warianty_zapisu": [
+      "Fundacja \"Łopacińskich Świat\""
+    ],
+    "krs": "0000610553",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "zweryfikowano API"
+  },
+  {
+    "nazwa_znormalizowana": "FUNDACJA VIELHARMONIA",
+    "liczba_wystapien": 1,
+    "warianty_zapisu": [
+      "Fundacja VIELHARMONIA"
+    ],
+    "krs": "0001053973",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "zweryfikowano API"
+  },
+  {
+    "nazwa_znormalizowana": "STOWARZYSZENIE ODRA-NIEMEN ODDZIAŁ MAZOWIECKI WSCHODNI PATRIOCI",
+    "liczba_wystapien": 1,
+    "warianty_zapisu": [
+      "Stowarzyszenie Odra-Niemen Oddział Mazowiecki Wschodni Patrioci"
+    ],
+    "krs": "0000780514",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "zweryfikowano API"
+  },
+  {
+    "nazwa_znormalizowana": "FUNDACJA ARS ACTIVA",
+    "liczba_wystapien": 1,
+    "warianty_zapisu": [
+      "Fundacja Ars Activa"
+    ],
+    "krs": "0000336560",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "zweryfikowano API"
+  },
+  {
+    "nazwa_znormalizowana": "FUNDACJA ARTINTRANSLATION",
+    "liczba_wystapien": 1,
+    "warianty_zapisu": [
+      "Fundacja Artintranslation"
+    ],
+    "krs": "0000528534",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "zweryfikowano API"
+  },
+  {
+    "nazwa_znormalizowana": "FUNDACJA ART JUNCTION",
+    "liczba_wystapien": 1,
+    "warianty_zapisu": [
+      "Fundacja Art Junction"
+    ],
+    "krs": "0000556033",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "zweryfikowano API"
+  },
+  {
+    "nazwa_znormalizowana": "FUNDACJA POWSZECHNEGO CZYTANIA",
+    "liczba_wystapien": 1,
+    "warianty_zapisu": [
+      "Fundacja Powszechnego Czytania"
+    ],
+    "krs": "0000756841",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "zweryfikowano API"
+  },
+  {
+    "nazwa_znormalizowana": "STOWARZYSZENIE KUTURALNE RÓWNICA W USTRONIU",
+    "liczba_wystapien": 1,
+    "warianty_zapisu": [
+      "Stowarzyszenie Kuturalne \"Równica\" w Ustroniu"
+    ],
+    "krs": "0000032061",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "zweryfikowano API"
+  },
+  {
+    "nazwa_znormalizowana": "STOWARZYSZENIE KLASZTOR WĘGRÓW-CENTRUM DIALOGU KULTUR",
+    "liczba_wystapien": 1,
+    "warianty_zapisu": [
+      "Stowarzyszenie \"Klasztor Węgrów - Centrum Dialogu Kultur\""
+    ],
+    "krs": "0000462082",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "zweryfikowano API"
+  },
+  {
+    "nazwa_znormalizowana": "FUNDACJA KULTURY I SPORTU 44",
+    "liczba_wystapien": 1,
+    "warianty_zapisu": [
+      "\"Fundacja Kultury i Sportu 44\""
+    ],
+    "krs": "0000700808",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "zweryfikowano API"
+  },
+  {
+    "nazwa_znormalizowana": "FUNDACJA 20",
+    "liczba_wystapien": 1,
+    "warianty_zapisu": [
+      "Fundacja 20"
+    ],
+    "krs": "0000494847",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "zweryfikowano API"
+  },
+  {
+    "nazwa_znormalizowana": "FUNDACJA DARIUSZA KORDKA KULTURA.PL",
+    "liczba_wystapien": 1,
+    "warianty_zapisu": [
+      "Fundacja Dariusza Kordka Kultura.pl"
+    ],
+    "krs": "0000576132",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "zweryfikowano API"
+  },
+  {
+    "nazwa_znormalizowana": "ZWIĄZEK PODHALAN W POLSCE IM. ŚWIĘTEGO JANA PAWŁA II",
+    "liczba_wystapien": 1,
+    "warianty_zapisu": [
+      "Związek Podhalan w Polsce im. Świętego Jana Pawła II"
+    ],
+    "krs": "0000050394",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "zweryfikowano API"
+  },
+  {
+    "nazwa_znormalizowana": "ARI ARI",
+    "liczba_wystapien": 1,
+    "warianty_zapisu": [
+      "Ari Ari"
+    ],
+    "krs": "0000314197",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "zweryfikowano API"
+  },
+  {
+    "nazwa_znormalizowana": "STOWARZYSZENIE ZOSTAŃ W POLSCE",
+    "liczba_wystapien": 1,
+    "warianty_zapisu": [
+      "Stowarzyszenie Zostań w Polsce"
+    ],
+    "krs": "0000975899",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "zweryfikowano API"
+  },
+  {
+    "nazwa_znormalizowana": "FUNDACJA PRO SPE",
+    "liczba_wystapien": 1,
+    "warianty_zapisu": [
+      "Fundacja Pro Spe"
+    ],
+    "krs": "0000607263",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "zweryfikowano API"
+  },
+  {
+    "nazwa_znormalizowana": "FUNDACJA LEGIA SOCCER SCHOOLS",
+    "liczba_wystapien": 1,
+    "warianty_zapisu": [
+      "Fundacja Legia Soccer Schools"
+    ],
+    "krs": "0000577605",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "zweryfikowano API"
+  },
+  {
+    "nazwa_znormalizowana": "FUNDACJA APETYT NA KULTURĘ",
+    "liczba_wystapien": 1,
+    "warianty_zapisu": [
+      "Fundacja Apetyt Na Kulturę"
+    ],
+    "krs": "0000269051",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "zweryfikowano API"
+  },
+  {
+    "nazwa_znormalizowana": "ZWIĄZEK HARCERSTWA POLSKIEGO CHORĄGIEW KRAKOWSKA HUFIEC ANDRYCHÓW",
+    "liczba_wystapien": 1,
+    "warianty_zapisu": [
+      "Związek Harcerstwa Polskiego Chorągiew Krakowska Hufiec Andrychów"
+    ],
+    "krs": "0000273492",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "zweryfikowano API - hufiec jako jednostka terenowa bez osobowosci prawnej, uzyto KRS Choragwi Krakowskiej"
+  },
+  {
+    "nazwa_znormalizowana": "FUNDACJA ZDOLNE DZIECI",
+    "liczba_wystapien": 1,
+    "warianty_zapisu": [
+      "Fundacja \"Zdolne Dzieci\""
+    ],
+    "krs": "0000393575",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "zweryfikowano API"
+  },
+  {
+    "nazwa_znormalizowana": "ZWIĄZEK HARCERSTWA POLSKIEGO",
+    "liczba_wystapien": 1,
+    "warianty_zapisu": [
+      "Związek Harcerstwa Polskiego"
+    ],
+    "krs": "0000094699",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "zweryfikowano API"
+  },
+  {
+    "nazwa_znormalizowana": "FUNDACJA AVA ARTS",
+    "liczba_wystapien": 1,
+    "warianty_zapisu": [
+      "Fundacja AVA Arts"
+    ],
+    "krs": "0000551222",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "zweryfikowano API"
+  },
+  {
+    "nazwa_znormalizowana": "FUNDACJA ROTUNDA PÓŁNOCNA",
+    "liczba_wystapien": 1,
+    "warianty_zapisu": [
+      "Fundacja Rotunda Północna"
+    ],
+    "krs": "0000639229",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "zweryfikowano API"
+  },
+  {
+    "nazwa_znormalizowana": "STOWARZYSZENIE FRESCO SONARE",
+    "liczba_wystapien": 1,
+    "warianty_zapisu": [
+      "Stowarzyszenie Fresco Sonare"
+    ],
+    "krs": "0000216810",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "zweryfikowano API"
+  },
+  {
+    "nazwa_znormalizowana": "STOWARZYSZENIE PORADNIA POLONIJNA",
+    "liczba_wystapien": 1,
+    "warianty_zapisu": [
+      "Stowarzyszenie Poradnia Polonijna"
+    ],
+    "krs": "0001083398",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "zweryfikowano API"
+  },
+  {
+    "nazwa_znormalizowana": "STOWARZYSZENIE COMMUNIO CRUCIS IM. ESYTY STEIN PATRONKI EUROPY",
+    "liczba_wystapien": 1,
+    "warianty_zapisu": [
+      "Stowarzyszenie \"Communio Crucis\" im. Esyty Stein Patronki Europy"
+    ],
+    "krs": "0000570130",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "zweryfikowano API"
+  },
+  {
+    "nazwa_znormalizowana": "STOWARZYSZENIE UŁANA KARPACKIEGO",
+    "liczba_wystapien": 1,
+    "warianty_zapisu": [
+      "Stowarzyszenie \"Ułana Karpackiego\""
+    ],
+    "krs": "0000342229",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "zweryfikowano API"
+  },
+  {
+    "nazwa_znormalizowana": "INSTYTUT KREOWANIA PRZEDSIĘBIORCZOŚCI SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ",
+    "liczba_wystapien": 1,
+    "warianty_zapisu": [
+      "Instytut Kreowania Przedsiębiorczości Spółka z Ograniczoną Odpowiedzialnością"
+    ],
+    "krs": "0000501795",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "zweryfikowano API"
+  },
+  {
+    "nazwa_znormalizowana": "FUNDACJA ACTION-LIFE",
+    "liczba_wystapien": 1,
+    "warianty_zapisu": [
+      "Fundacja Action-Life"
+    ],
+    "krs": "0000515100",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "zweryfikowano API"
+  },
+  {
+    "nazwa_znormalizowana": "FUNDACJA LIFE AND ART",
+    "liczba_wystapien": 1,
+    "warianty_zapisu": [
+      "Fundacja Life and Art"
+    ],
+    "krs": "0000737335",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "zweryfikowano API"
+  },
+  {
+    "nazwa_znormalizowana": "KAMIENICA 1 – FUNDACJA NA RZECZ ROZWOJU SZTUKI I PROMOCJI ZDROWIA",
+    "liczba_wystapien": 1,
+    "warianty_zapisu": [
+      "Kamienica 1 – Fundacja Na Rzecz Rozwoju Sztuki i Promocji Zdrowia"
+    ],
+    "krs": "0000377928",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "zweryfikowano API"
+  },
+  {
+    "nazwa_znormalizowana": "FUNDACJA BAŁTYCKI INSTYTUT MATEMATYKI",
+    "liczba_wystapien": 1,
+    "warianty_zapisu": [
+      "Fundacja Bałtycki Instytut Matematyki"
+    ],
+    "krs": "0000424471",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "zweryfikowano API"
+  },
+  {
+    "nazwa_znormalizowana": "FUNDACJA MICHALICKIE CENTRUM MŁODZIEŻY MICHAEL",
+    "liczba_wystapien": 1,
+    "warianty_zapisu": [
+      "Fundacja Michalickie Centrum Młodzieży Michael"
+    ],
+    "krs": "0000965463",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "zweryfikowano API"
+  },
+  {
+    "nazwa_znormalizowana": "FUNDACJA MISJA KAMPINOS",
+    "liczba_wystapien": 1,
+    "warianty_zapisu": [
+      "Fundacja Misja Kampinos"
+    ],
+    "krs": "0000721789",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "zweryfikowano API"
+  },
+  {
+    "nazwa_znormalizowana": "MIĘDZYNARODOWE STOWARZYSZENIE ODWAŻNE KOBIETY",
+    "liczba_wystapien": 1,
+    "warianty_zapisu": [
+      "Międzynarodowe Stowarzyszenie Odważne Kobiety"
+    ],
+    "krs": "0001054010",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "zweryfikowano API"
+  },
+  {
+    "nazwa_znormalizowana": "FUNDACJA KITSUP",
+    "liczba_wystapien": 1,
+    "warianty_zapisu": [
+      "Fundacja Kitsup"
+    ],
+    "krs": "0001082504",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "zweryfikowano API"
+  },
+  {
+    "nazwa_znormalizowana": "STOWARZYSZENIE ŁEJERY",
+    "liczba_wystapien": 1,
+    "warianty_zapisu": [
+      "Stowarzyszenie Łejery"
+    ],
+    "krs": "0000076966",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "zweryfikowano API"
+  },
+  {
+    "nazwa_znormalizowana": "FUNDACJA NA RZECZ ROZWIJANIA MUZYKALNOŚCI POLAKÓW MUZYKA JEST DLA WSZYSTKICH",
+    "liczba_wystapien": 1,
+    "warianty_zapisu": [
+      "Fundacja Na Rzecz Rozwijania Muzykalności Polaków \"Muzyka Jest Dla Wszystkich\""
+    ],
+    "krs": "0000236575",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "zweryfikowano API"
+  },
+  {
+    "nazwa_znormalizowana": "FUNDACJA THE WARSAW HOUSE",
+    "liczba_wystapien": 1,
+    "warianty_zapisu": [
+      "Fundacja the Warsaw House"
+    ],
+    "krs": "0000888258",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "API KRS OdpisAktualny 0000888258 - nazwa zgodna"
+  },
+  {
+    "nazwa_znormalizowana": "FUNDACJA SZTUK KRYTYCZNYCH",
+    "liczba_wystapien": 1,
+    "warianty_zapisu": [
+      "Fundacja Sztuk Krytycznych"
+    ],
+    "krs": "0000439213",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "API KRS OdpisAktualny 0000439213 - nazwa zgodna"
+  },
+  {
+    "nazwa_znormalizowana": "STOWARZYSZENIE PRZEWODNIKÓW TURYSTYCZNYCH ZŁOTA KACZKA",
+    "liczba_wystapien": 1,
+    "warianty_zapisu": [
+      "Stowarzyszenie Przewodników Turystycznych \"Złota Kaczka\""
+    ],
+    "krs": "0000342036",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "API KRS OdpisAktualny 0000342036 - nazwa zgodna (Złota Kaczka)"
+  },
+  {
+    "nazwa_znormalizowana": "FUNDACJA INSTYTUT STUDIÓW AZJATYCKICH I GLOBALNYCH IM. MICHAŁA BOYMA",
+    "liczba_wystapien": 1,
+    "warianty_zapisu": [
+      "Fundacja Instytut Studiów Azjatyckich i Globalnych im. Michała Boyma"
+    ],
+    "krs": "0000780900",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "API KRS OdpisAktualny 0000780900 - nazwa zgodna"
+  },
+  {
+    "nazwa_znormalizowana": "FUNDACJA 60 MLN.PL",
+    "liczba_wystapien": 2,
+    "warianty_zapisu": [
+      "FUNDACJA 60 MLN.PL",
+      "FUNDACJA 60MLN.PL",
+      "Fundacja 60 MLN.PL",
+      "Fundacja 60mln.pl"
+    ],
+    "krs": "0000972710",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "Scalono 2 wpisy nazw wskazujace na ten sam numer KRS (rozne warianty zapisu/literowki w danych zrodlowych). Ten sam podmiot co FUNDACJA 60MLN.PL (wariant zapisu ze spacją) - API KRS OdpisAktualny 0000972710 | API KRS OdpisAktualny 0000972710 - nazwa zgodna (FUNDACJA 60MLN.PL)"
+  },
+  {
+    "nazwa_znormalizowana": "FUNDACJA JOANNY LAMPARSKIEJ NA RZECZ OCHRONY DZIEDZICTWA KULTUROWEGO PROJEKT HISTORIA",
+    "liczba_wystapien": 1,
+    "warianty_zapisu": [
+      "Fundacja Joanny Lamparskiej Na Rzecz Ochrony Dziedzictwa Kulturowego \"Projekt Historia\""
+    ],
+    "krs": "0000497472",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "API KRS OdpisAktualny 0000497472 - nazwa zgodna"
+  },
+  {
+    "nazwa_znormalizowana": "FUNDACJA POLSKO-UKRAIŃSKA FUNDACJA IM. IGNACEGO JANA PADEREWSKIEGO",
+    "liczba_wystapien": 2,
+    "warianty_zapisu": [
+      "FUNDACJA POLSKO-UKRAIŃSKA FUNDACJA IM. IGNACEGO JANA PADEREWSKIEGO",
+      "Fundacja Polsko- ukraińska Fundacja Imienia Ignacego Jana Paderewskiego",
+      "POLSKO UKRAIŃSKA FUNDACJA IM. IGNACEGO JANA PADEREWSKIEGO",
+      "Polsko Ukraińska Fundacja imienia Ignacego Jana Paderewskiego"
+    ],
+    "krs": "0000429191",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "Scalono 2 wpisy nazw wskazujace na ten sam numer KRS (rozne warianty zapisu/literowki w danych zrodlowych). API KRS OdpisAktualny 0000429191 zwraca aktualną nazwę 'FUNDACJA PADEREWSKI INTERNATIONAL FOUNDATION' (fundacja zmieniła nazwę). Tożsamość podmiotu potwierdzona przez zgodny NIP 1182086567 (ten sam NIP widoczny w niezależnych rejestrach rejestr.io, aleo.com, krs-pobierz.pl pod poprzednią nazwą 'Polsko-Ukraińska Fundacja imienia Ignacego Jana Paderewskiego'). | Ten sam podmiot co 'Polsko Ukraińska Fundacja im. Ignacego Jana Paderewskiego' (wariant zapisu) - patrz uzasadnienie przy tamtym wpisie"
+  },
+  {
+    "nazwa_znormalizowana": "FUNDACJA MISTRZOWIE SPOTRU",
+    "liczba_wystapien": 1,
+    "warianty_zapisu": [
+      "Fundacja Mistrzowie Spotru"
+    ],
+    "krs": "0000966500",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "API KRS OdpisAktualny 0000966500 - nazwa zgodna 'FUNDACJA MISTRZOWIE SPORTU' (literówka 'SPOTRU' w danych źródłowych PDF)"
+  },
+  {
+    "nazwa_znormalizowana": "TOWARZYSTWO MUZYCZNE IM. KONSTANTEGO GORSKIEGO",
+    "liczba_wystapien": 1,
+    "warianty_zapisu": [
+      "Towarzystwo Muzyczne im. Konstantego Gorskiego"
+    ],
+    "krs": "0001039845",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "API KRS OdpisAktualny 0001039845 - nazwa zgodna"
+  },
+  {
+    "nazwa_znormalizowana": "FUNDACJA IM. AGNIESZKI MARCZYŃSKIEJ",
+    "liczba_wystapien": 1,
+    "warianty_zapisu": [
+      "Fundacja im. Agnieszki Marczyńskiej"
+    ],
+    "krs": "0000281597",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "API KRS OdpisAktualny 0000281597 - nazwa zgodna"
+  },
+  {
+    "nazwa_znormalizowana": "FUNDACJA JAGIELLOŃSKA",
+    "liczba_wystapien": 1,
+    "warianty_zapisu": [
+      "Fundacja Jagiellońska"
+    ],
+    "krs": "0000643785",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "API KRS OdpisAktualny 0000643785 - nazwa zgodna"
+  },
+  {
+    "nazwa_znormalizowana": "FUNDACJA IM. ANNY I HENRYKA ŚWIĄTKOWSKICH",
+    "liczba_wystapien": 1,
+    "warianty_zapisu": [
+      "Fundacja im. Anny i Henryka Świątkowskich"
+    ],
+    "krs": "0000593203",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "API KRS OdpisAktualny 0000593203 - nazwa zgodna"
+  },
+  {
+    "nazwa_znormalizowana": "FUNDACJA RENESART",
+    "liczba_wystapien": 1,
+    "warianty_zapisu": [
+      "Fundacja RenesArt"
+    ],
+    "krs": "0000464098",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "API KRS OdpisAktualny 0000464098 - nazwa zgodna"
+  },
+  {
+    "nazwa_znormalizowana": "FUNDACJA MIGRA",
+    "liczba_wystapien": 1,
+    "warianty_zapisu": [
+      "Fundacja Migra"
+    ],
+    "krs": "0000687373",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "API KRS OdpisAktualny 0000687373 - nazwa zgodna"
+  },
+  {
+    "nazwa_znormalizowana": "FUNDACJA CINEMA MEDIA ART, FINDACJA MEDIA WORLD CUP",
+    "liczba_wystapien": 2,
+    "warianty_zapisu": [
+      "FUNDACJA CINEMA MEDIA ART",
+      "FUNDACJA CINEMA MEDIA ART, FINDACJA MEDIA WORLD CUP",
+      "Fundacja Cinema Media Art",
+      "Fundacja Cinema Media Art, Findacja Media World Cup"
+    ],
+    "krs": "0000828012",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "Scalono 2 wpisy nazw wskazujace na ten sam numer KRS (rozne warianty zapisu/literowki w danych zrodlowych). Wpis źródłowy łączy DWIE odrębne organizacje w jednej komórce (literówka 'FINDACJA' zamiast 'FUNDACJA'). Obie zweryfikowane osobno w API KRS: FUNDACJA CINEMA MEDIA ART = 0000828012, FUNDACJA MEDIA WORLD CUP = 0000805148 (ten sam prezes i adres w Lublinie - powiązane, ale odrębne podmioty) | API KRS OdpisAktualny 0000828012 - nazwa zgodna"
+  },
+  {
+    "nazwa_znormalizowana": "FUNDACJA PAMIĘCI NARODÓW",
+    "liczba_wystapien": 1,
+    "warianty_zapisu": [
+      "Fundacja Pamięci Narodów"
+    ],
+    "krs": "0000866848",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "API KRS OdpisAktualny 0000866848 - nazwa zgodna"
+  },
+  {
+    "nazwa_znormalizowana": "POLSKO-GRECKA IZBA PRZEMYSŁOWO-HANDLOWA",
+    "liczba_wystapien": 1,
+    "warianty_zapisu": [
+      "Polsko- Grecka Izba Przemysłowo- Handlowa"
+    ],
+    "krs": "0000674193",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "API KRS OdpisAktualny 0000674193 - nazwa zgodna"
+  },
+  {
+    "nazwa_znormalizowana": "STOWARZYSZENIE EDUKACJI KULTURALNEJ WIDOK",
+    "liczba_wystapien": 1,
+    "warianty_zapisu": [
+      "Stowarzyszenie Edukacji Kulturalnej Widok"
+    ],
+    "krs": "0000103409",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "API KRS OdpisAktualny 0000103409 - nazwa zgodna"
+  },
+  {
+    "nazwa_znormalizowana": "FUNDACJA MOJA MUZA",
+    "liczba_wystapien": 1,
+    "warianty_zapisu": [
+      "Fundacja Moja Muza"
+    ],
+    "krs": "0000995909",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "API KRS OdpisAktualny 0000995909 - nazwa zgodna"
+  },
+  {
+    "nazwa_znormalizowana": "FUNDACJA ACTIVNI",
+    "liczba_wystapien": 1,
+    "warianty_zapisu": [
+      "Fundacja Activni"
+    ],
+    "krs": "0000973329",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "API KRS OdpisAktualny 0000973329 - nazwa zgodna"
+  },
+  {
+    "nazwa_znormalizowana": "FUNDACJA ILUSTRACJI I KOMIKSU",
+    "liczba_wystapien": 1,
+    "warianty_zapisu": [
+      "Fundacja Ilustracji i Komiksu"
+    ],
+    "krs": "0000889819",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "API KRS OdpisAktualny 0000889819 - nazwa zgodna"
+  },
+  {
+    "nazwa_znormalizowana": "STOWARZYSZENIE FORUM MNIEJSZOŚCI PODLASIA",
+    "liczba_wystapien": 1,
+    "warianty_zapisu": [
+      "Stowarzyszenie Forum Mniejszości Podlasia"
+    ],
+    "krs": "0000849242",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "API KRS OdpisAktualny 0000849242 - nazwa zgodna"
+  },
+  {
+    "nazwa_znormalizowana": "FUNDACJA ZAKRES",
+    "liczba_wystapien": 1,
+    "warianty_zapisu": [
+      "Fundacja Zakres"
+    ],
+    "krs": "0000987952",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "API KRS OdpisAktualny 0000987952 - nazwa zgodna"
+  },
+  {
+    "nazwa_znormalizowana": "ZACHODNIOPOMORSKI UNIWERSYTET LUDOWY-FUNDACJA",
+    "liczba_wystapien": 1,
+    "warianty_zapisu": [
+      "Zachodniopomorski Uniwersytet Ludowy - Fundacja"
+    ],
+    "krs": "0000682444",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "API KRS OdpisAktualny 0000682444 - nazwa zgodna (ZACHODNIOPOMORSKI UNIWERSYTET LUDOWY - FUNDACJA)"
+  },
+  {
+    "nazwa_znormalizowana": "FUNDACJA 180 STOPNI",
+    "liczba_wystapien": 1,
+    "warianty_zapisu": [
+      "FUNDACJA 180 STOPNI"
+    ],
+    "krs": "0000553932",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "API KRS OdpisAktualny 0000553932 zwraca aktualną nazwę 'FUNDACJA TEATRU MŁODYCH' (fundacja zmieniła nazwę). Tożsamość potwierdzona przez zgodny NIP 5851471073 (ten sam NIP w niezależnych rejestrach pod poprzednią nazwą 'Fundacja 180 Stopni')"
+  },
+  {
+    "nazwa_znormalizowana": "FUNDACJA AQUILAE",
+    "liczba_wystapien": 1,
+    "warianty_zapisu": [
+      "Fundacja Aquilae"
+    ],
+    "krs": "0001069082",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "API KRS OdpisAktualny 0001069082 - nazwa zgodna (odróżniona od niepowiązanej Fundacji Aquila bez litery e, KRS 0000554453)"
+  },
+  {
+    "nazwa_znormalizowana": "FUNDACJA CENTRUM IM. PROFESORA BRONISŁAWA GEREMKA",
+    "liczba_wystapien": 1,
+    "warianty_zapisu": [
+      "Fundacja \"Centrum im. Profesora Bronisława Geremka\""
+    ],
+    "krs": "0000319089",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "API KRS OdpisAktualny 0000319089 - nazwa zgodna"
+  },
+  {
+    "nazwa_znormalizowana": "FUNDACJA GÓRNIKA ZABRZE",
+    "liczba_wystapien": 1,
+    "warianty_zapisu": [
+      "Fundacja Górnika Zabrze"
+    ],
+    "krs": "0000414081",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "API KRS OdpisAktualny 0000414081 - nazwa zgodna"
+  },
+  {
+    "nazwa_znormalizowana": "FUNDACJA SCIENTIA THORUNENSIA",
+    "liczba_wystapien": 1,
+    "warianty_zapisu": [
+      "Fundacja Scientia Thorunensia"
+    ],
+    "krs": "0000774901",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "API KRS OdpisAktualny 0000774901 - nazwa zgodna"
+  },
+  {
+    "nazwa_znormalizowana": "STOWARZYSZENIE OŚWIATOWE HUGO",
+    "liczba_wystapien": 1,
+    "warianty_zapisu": [
+      "Stowarzyszenie Oświatowe Hugo"
+    ],
+    "krs": "0001077157",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "API KRS OdpisAktualny 0001077157 - nazwa zgodna"
+  },
+  {
+    "nazwa_znormalizowana": "STOWARZYSZENIE TOWARZYSTWO WSPÓŁPRACY Z POLAKAMI W KAZACHSTANIE KRAKÓW-KARAGANDA",
+    "liczba_wystapien": 2,
+    "warianty_zapisu": [
+      "STOWARZYSZENIE TOWARZYSTWO WSPÓŁPRACY Z POLAKAMI W KAZACHSTANIE KRAKÓW-KARAGANDA",
+      "STOWARZYSZENIE TOWARZYSTWO WSPÓŁPRACY Z POLAKAMI W KAZACHSTANIE KRAKÓWKARAGANDA",
+      "Stowarzyszenie Towarzystwo Współpracy Z Polakami W Kazachstanie Krakówkaraganda"
+    ],
+    "krs": "0000705516",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "Scalono 2 wpisy nazw wskazujace na ten sam numer KRS (rozne warianty zapisu/literowki w danych zrodlowych). API KRS OdpisAktualny 0000705516 - nazwa zgodna (wariant zapisu bez łącznika) | API KRS OdpisAktualny 0000705516 - nazwa zgodna"
+  },
+  {
+    "nazwa_znormalizowana": "FUNDACJA NA RZECZ DWUJĘZYCZNOŚCI EDUNOWA",
+    "liczba_wystapien": 1,
+    "warianty_zapisu": [
+      "FUNDACJA NA RZECZ DWUJĘZYCZNOŚCI EDUNOWA"
+    ],
+    "krs": "0000809797",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "API KRS OdpisAktualny 0000809797 - nazwa zgodna"
+  },
+  {
+    "nazwa_znormalizowana": "STOWARZYSZENIE ,,CENTRUM LUBICZ-POGRANICZE KULTUR",
+    "liczba_wystapien": 1,
+    "warianty_zapisu": [
+      "Stowarzyszenie ,,Centrum Lubicz- Pogranicze Kultur\""
+    ],
+    "krs": "0000967813",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "API KRS OdpisAktualny 0000967813 - nazwa zgodna"
+  },
+  {
+    "nazwa_znormalizowana": "BIAŁORUSKI MŁODZIEŻOWY HUB",
+    "liczba_wystapien": 1,
+    "warianty_zapisu": [
+      "BIAŁORUSKI MŁODZIEŻOWY HUB"
+    ],
+    "krs": "0000759981",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "API KRS OdpisAktualny 0000759981 - nazwa zgodna (STOWARZYSZENIE BIAŁORUSKI MŁODZIEŻOWY HUB)"
+  },
+  {
+    "nazwa_znormalizowana": "FUNDACJA POMAGAMY I KROPKA",
+    "liczba_wystapien": 1,
+    "warianty_zapisu": [
+      "Fundacja Pomagamy i Kropka"
+    ],
+    "krs": "0000969807",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "API KRS OdpisAktualny 0000969807 - nazwa zgodna"
+  },
+  {
+    "nazwa_znormalizowana": "REGIONALNA RADA POLSKIEGO KOMITETU OLIMPIJSKIEGO W CZĘSTOCHOWIE",
+    "liczba_wystapien": 1,
+    "warianty_zapisu": [
+      "REGIONALNA RADA POLSKIEGO KOMITETU OLIMPIJSKIEGO W CZĘSTOCHOWIE"
+    ],
+    "krs": "0000091640",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "API KRS OdpisAktualny 0000091640 - nazwa zgodna"
+  },
+  {
+    "nazwa_znormalizowana": "FUNDACJA INSTYTUT MEDIÓW",
+    "liczba_wystapien": 1,
+    "warianty_zapisu": [
+      "Fundacja Instytut Mediów"
+    ],
+    "krs": "0000600505",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "API KRS OdpisAktualny 0000600505 - nazwa zgodna"
+  },
+  {
+    "nazwa_znormalizowana": "FUNDACJA TYLKO ORŁY",
+    "liczba_wystapien": 1,
+    "warianty_zapisu": [
+      "Fundacja Tylko Orły"
+    ],
+    "krs": "0000843781",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "API KRS OdpisAktualny 0000843781 - nazwa zgodna"
+  },
+  {
+    "nazwa_znormalizowana": "PRACOWNIA EKSPERYMENTU-FUNDACJA",
+    "liczba_wystapien": 1,
+    "warianty_zapisu": [
+      "Pracownia Eksperymentu - Fundacja"
+    ],
+    "krs": "0000883548",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "API KRS OdpisAktualny 0000883548 - nazwa zgodna"
+  },
+  {
+    "nazwa_znormalizowana": "FUNDACJA INSTYTUT ZRÓWNOWAŻONEGO ROZWOJU TERENÓW WIEJSKICH",
+    "liczba_wystapien": 1,
+    "warianty_zapisu": [
+      "Fundacja \"Instytut Zrównoważonego Rozwoju Terenów Wiejskich\""
+    ],
+    "krs": "0000546643",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "API KRS OdpisAktualny 0000546643 - nazwa zgodna. Odróżniona od niepowiązanej, podobnie nazwanej FUNDACJA INSTYTUT ZRÓWNOWAŻONEGO ROZWOJU (bez 'TERENÓW WIEJSKICH'), KRS 0001038018 w Krakowie"
+  },
+  {
+    "nazwa_znormalizowana": "FUNDACJA EDUKACJA DO WARTOŚCI",
+    "liczba_wystapien": 1,
+    "warianty_zapisu": [
+      "Fundacja Edukacja do Wartości"
+    ],
+    "krs": "0000834289",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "API KRS OdpisAktualny 0000834289 - nazwa zgodna (odróżniona od niepowiązanej Fundacji Edukacja z Wartościami, KRS 0000518975)"
+  },
+  {
+    "nazwa_znormalizowana": "FUNDACJA POLSKA-HAITI",
+    "liczba_wystapien": 1,
+    "warianty_zapisu": [
+      "Fundacja Polska- Haiti"
+    ],
+    "krs": "0000349426",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "API KRS OdpisAktualny 0000349426 - nazwa zgodna"
+  },
+  {
+    "nazwa_znormalizowana": "FUNDACJA INSTYTUT SPRAW OBYWATELSKICH",
+    "liczba_wystapien": 1,
+    "warianty_zapisu": [
+      "Fundacja Instytut Spraw Obywatelskich"
+    ],
+    "krs": "0000191928",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "API KRS OdpisAktualny 0000191928 - nazwa zgodna"
+  },
+  {
+    "nazwa_znormalizowana": "FUNDACJA PO SĄSIEDZKU",
+    "liczba_wystapien": 1,
+    "warianty_zapisu": [
+      "Fundacja Po Sąsiedzku"
+    ],
+    "krs": "0000962437",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "API KRS OdpisAktualny 0000962437 - nazwa zgodna (odróżniona od niepowiązanej Fundacji Na Rzecz Organizowania Społeczności Lokalnej 'Po Sąsiedzku', KRS 0000820385)"
+  },
+  {
+    "nazwa_znormalizowana": "FUNDACJA OBRONY PRAW CZŁOWIEKA I OBTWATELA",
+    "liczba_wystapien": 1,
+    "warianty_zapisu": [
+      "Fundacja Obrony Praw Człowieka i Obtwatela"
+    ],
+    "krs": "0000935489",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "API KRS OdpisAktualny 0000935489 - nazwa zgodna (literówka 'OBTWATELA' zamiast 'OBYWATELA' w danych źródłowych)"
+  },
+  {
+    "nazwa_znormalizowana": "FUNDACJA OPOKA",
+    "liczba_wystapien": 1,
+    "warianty_zapisu": [
+      "Fundacja Opoka"
+    ],
+    "krs": "0000178115",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "API KRS OdpisAktualny 0000178115 - nazwa zgodna"
+  },
+  {
+    "nazwa_znormalizowana": "ADAMS COMPANY SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ",
+    "liczba_wystapien": 1,
+    "warianty_zapisu": [
+      "ADAM'S Company Spółka z ograniczoną odpowiedzialnością"
+    ],
+    "krs": "0000877535",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "API KRS OdpisAktualny (rejestr przedsiębiorców) 0000877535 - nazwa zgodna (ADAM'S COMPANY SP. Z O.O.)"
+  },
+  {
+    "nazwa_znormalizowana": "FUNDACJA KLUBU RONINA",
+    "liczba_wystapien": 1,
+    "warianty_zapisu": [
+      "Fundacja Klubu Ronina"
+    ],
+    "krs": "0000623995",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "API KRS OdpisAktualny 0000623995 - nazwa zgodna"
+  },
+  {
+    "nazwa_znormalizowana": "ZWIĄZEK SYBIRAKÓW ZARZĄD GŁÓWNY",
+    "liczba_wystapien": 1,
+    "warianty_zapisu": [
+      "Związek Sybiraków Zarząd Główny"
+    ],
+    "krs": "0000053657",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "API KRS OdpisAktualny 0000053657 - nazwa zgodna"
+  },
+  {
+    "nazwa_znormalizowana": "ARTCHATA",
+    "liczba_wystapien": 1,
+    "warianty_zapisu": [
+      "Artchata"
+    ],
+    "krs": "0000710994",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "API KRS OdpisAktualny 0000710994 - nazwa zgodna (FUNDACJA ARTCHATA)"
+  },
+  {
+    "nazwa_znormalizowana": "FUNDACJA BĘDZIEM POLAKAMI",
+    "liczba_wystapien": 1,
+    "warianty_zapisu": [
+      "Fundacja Będziem Polakami"
+    ],
+    "krs": "0000699917",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "API KRS OdpisAktualny 0000699917 - nazwa zgodna"
+  },
+  {
+    "nazwa_znormalizowana": "FUNDACJA YPSILON ART",
+    "liczba_wystapien": 1,
+    "warianty_zapisu": [
+      "Fundacja Ypsilon Art"
+    ],
+    "krs": "0000794053",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "API KRS OdpisAktualny 0000794053 - nazwa zgodna"
+  },
+  {
+    "nazwa_znormalizowana": "FUNDACJA INSTYTUT PAŃSTWA I PRAWA",
+    "liczba_wystapien": 1,
+    "warianty_zapisu": [
+      "Fundacja Instytut Państwa i Prawa"
+    ],
+    "krs": "0000516027",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "API KRS OdpisAktualny 0000516027 - nazwa zgodna (odróżniona od niepowiązanej FUNDACJA - INSTYTUT NA RZECZ PAŃSTWA PRAWA, KRS 0000085688)"
+  },
+  {
+    "nazwa_znormalizowana": "STOWARZYSZENIE REEMIGRANTÓW Z BOŚNI, ICH POTOMKÓW ORAZ PRZYJACIÓŁ",
+    "liczba_wystapien": 1,
+    "warianty_zapisu": [
+      "Stowarzyszenie Reemigrantów z Bośni, ich Potomków oraz Przyjaciół"
+    ],
+    "krs": "0000376247",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "API KRS OdpisAktualny 0000376247 - nazwa zgodna"
+  },
+  {
+    "nazwa_znormalizowana": "FUNDACJA NA RZECZ ROZPOWSZECHNIANIA I PROMOCJI TAŃCÓW HISTORYCZNYCH I KULTURY DWORSKIEJ ARDENTE SOLE",
+    "liczba_wystapien": 1,
+    "warianty_zapisu": [
+      "Fundacja Na Rzecz Rozpowszechniania I Promocji Tańców Historycznych I Kultury Dworskiej Ardente Sole"
+    ],
+    "krs": "0000248771",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "API KRS OdpisAktualny 0000248771 - nazwa zgodna"
+  },
+  {
+    "nazwa_znormalizowana": "ORMIAŃSKO-POLSKI KOMITET SPOŁECZNY",
+    "liczba_wystapien": 1,
+    "warianty_zapisu": [
+      "Ormiańsko-Polski Komitet Społeczny"
+    ],
+    "krs": "0000419616",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "API KRS OdpisAktualny 0000419616 - nazwa zgodna"
+  },
+  {
+    "nazwa_znormalizowana": "STOWARZYSZENIE WOLNEGO SŁOWA",
+    "liczba_wystapien": 1,
+    "warianty_zapisu": [
+      "Stowarzyszenie Wolnego Słowa"
+    ],
+    "krs": "0000195433",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "API KRS OdpisAktualny 0000195433 - nazwa zgodna"
+  },
+  {
+    "nazwa_znormalizowana": "BYTOMSKI KLUB SAMORZĄDOWY",
+    "liczba_wystapien": 1,
+    "warianty_zapisu": [
+      "Bytomski Klub Samorządowy"
+    ],
+    "krs": "0000180210",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "API KRS OdpisAktualny 0000180210 - nazwa zgodna"
+  },
+  {
+    "nazwa_znormalizowana": "STOWARZYSZENIE PRO ARTIS",
+    "liczba_wystapien": 1,
+    "warianty_zapisu": [
+      "Stowarzyszenie \"PRO ARTIS\""
+    ],
+    "krs": "0000693617",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "API KRS OdpisAktualny 0000693617 - nazwa zgodna (STOWARZYSZENIE \"PRO ARTIS\")"
+  },
+  {
+    "nazwa_znormalizowana": "FUNDACJA TRÓJMORZE",
+    "liczba_wystapien": 1,
+    "warianty_zapisu": [
+      "Fundacja Trójmorze"
+    ],
+    "krs": "0000860197",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "API KRS OdpisAktualny 0000860197 - nazwa zgodna (odróżniona od niepowiązanej FUNDACJA TRÓJMORZA, KRS 0001086027)"
+  },
+  {
+    "nazwa_znormalizowana": "STOWARZYSZENIE RODZINA W CIECHANOWCU",
+    "liczba_wystapien": 1,
+    "warianty_zapisu": [
+      "Stowarzyszenie Rodzina w Ciechanowcu"
+    ],
+    "krs": "0000083534",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "API KRS OdpisAktualny 0000083534 - nazwa zgodna"
+  },
+  {
+    "nazwa_znormalizowana": "FUNDACJA EDUKACYJNA PRO MUSICA",
+    "liczba_wystapien": 1,
+    "warianty_zapisu": [
+      "Fundacja Edukacyjna Pro Musica"
+    ],
+    "krs": "0000214614",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "API KRS OdpisAktualny 0000214614 - nazwa zgodna"
+  },
+  {
+    "nazwa_znormalizowana": "FUNDACJA DZIEDZICTWO WIELKIEGO XIĘSTWA LITEWSKIEGO",
+    "liczba_wystapien": 1,
+    "warianty_zapisu": [
+      "Fundacja Dziedzictwo Wielkiego Xięstwa Litewskiego"
+    ],
+    "krs": "0000429155",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "API KRS OdpisAktualny 0000429155 - nazwa zgodna"
+  },
+  {
+    "nazwa_znormalizowana": "STOWARZYSZENIE BEZPIECZNA LUBELSZCZYZNA",
+    "liczba_wystapien": 1,
+    "warianty_zapisu": [
+      "Stowarzyszenie Bezpieczna Lubelszczyzna"
+    ],
+    "krs": "0000385808",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "API KRS OdpisAktualny 0000385808 - nazwa zgodna"
+  },
+  {
+    "nazwa_znormalizowana": "FUNDACJA MAXIMUM INSTYTUT WYDAWNICZY. CENTRUM KULTURY-NAUKI-EDUKACJI",
+    "liczba_wystapien": 1,
+    "warianty_zapisu": [
+      "Fundacja \"Maximum\" Instytut Wydawniczy. Centrum Kultury-Nauki- Edukacji"
+    ],
+    "krs": "0000326359",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "API KRS OdpisAktualny 0000326359 zwraca nazwę z 'CENTRUM KULTURY-BIZNESU-EDUKACJI' (nie 'NAUKI'). Tożsamość potwierdzona przez ten sam NIP 6793003076 widoczny również na oficjalnej stronie fundacji, która używa podtytułu 'Centrum Kultury - Nauki - Edukacji' - najwyraźniej nieformalna, marketingowa wersja nazwy"
+  },
+  {
+    "nazwa_znormalizowana": "FUNDACJA PROMOCJI MEDIACJI I EDUKACJI PRAWNEJ LEX NOSTRA",
+    "liczba_wystapien": 1,
+    "warianty_zapisu": [
+      "Fundacja Promocji Mediacji i Edukacji Prawnej Lex Nostra"
+    ],
+    "krs": "0000365293",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "API KRS OdpisAktualny 0000365293 - nazwa zgodna"
+  },
+  {
+    "nazwa_znormalizowana": "FUNDACJA SZTUKI I EDUKACJI FILMOWEJ SZTUKA POZNANIA",
+    "liczba_wystapien": 1,
+    "warianty_zapisu": [
+      "Fundacja Sztuki i Edukacji Filmowej SZTUKA POZNANIA"
+    ],
+    "krs": "0000375824",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "API KRS OdpisAktualny 0000375824 - nazwa zgodna"
+  },
+  {
+    "nazwa_znormalizowana": "FUNDACJA AMBITNA POLSKA",
+    "liczba_wystapien": 1,
+    "warianty_zapisu": [
+      "Fundacja Ambitna Polska"
+    ],
+    "krs": "0000732603",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "API KRS OdpisAktualny 0000732603 - nazwa zgodna"
+  },
+  {
+    "nazwa_znormalizowana": "FUNDACJA ROZWOJU SPOŁECZEŃSTWA KREATYWNEGO",
+    "liczba_wystapien": 1,
+    "warianty_zapisu": [
+      "Fundacja Rozwoju Społeczeństwa Kreatywnego"
+    ],
+    "krs": "0000900516",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "API KRS OdpisAktualny 0000900516 - nazwa zgodna"
+  },
+  {
+    "nazwa_znormalizowana": "STOWARZYSZENIE HARFA DZIECIOM",
+    "liczba_wystapien": 1,
+    "warianty_zapisu": [
+      "Stowarzyszenie\" Harfa Dzieciom\""
+    ],
+    "krs": "0000325784",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "API KRS OdpisAktualny 0000325784 - nazwa zgodna (\"HARFA DZIECIOM\")"
+  },
+  {
+    "nazwa_znormalizowana": "FUNDACJA EDUEKO",
+    "liczba_wystapien": 1,
+    "warianty_zapisu": [
+      "Fundacja EDUEKO"
+    ],
+    "krs": "0000879807",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "API KRS OdpisAktualny 0000879807 - nazwa zgodna"
+  },
+  {
+    "nazwa_znormalizowana": "FUNDACJA PROJEKT PATRIOTYZM",
+    "liczba_wystapien": 1,
+    "warianty_zapisu": [
+      "Fundacja Projekt Patriotyzm"
+    ],
+    "krs": "0000835764",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "API KRS OdpisAktualny 0000835764 - nazwa zgodna"
+  },
+  {
+    "nazwa_znormalizowana": "FUNDACJA KISIELA",
+    "liczba_wystapien": 1,
+    "warianty_zapisu": [
+      "Fundacja Kisiela"
+    ],
+    "krs": "0000299155",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "API KRS OdpisAktualny 0000299155 - nazwa zgodna"
+  },
+  {
+    "nazwa_znormalizowana": "FUNDACJA DZIEDZICTWA KULTUROWEGO",
+    "liczba_wystapien": 1,
+    "warianty_zapisu": [
+      "Fundacja Dziedzictwa Kulturowego"
+    ],
+    "krs": "0000439624",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "API KRS OdpisAktualny 0000439624 - nazwa zgodna (odróżniona od kilku niepowiązanych fundacji o podobnych, rozszerzonych nazwach)"
+  },
+  {
+    "nazwa_znormalizowana": "ŻURAW GDAŃSK",
+    "liczba_wystapien": 1,
+    "warianty_zapisu": [
+      "Żuraw Gdańsk"
+    ],
+    "krs": "0000539836",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "API KRS OdpisAktualny 0000539836 - nazwa zgodna"
+  },
+  {
+    "nazwa_znormalizowana": "FUNDACJA DROGA NA SZCZYT",
+    "liczba_wystapien": 1,
+    "warianty_zapisu": [
+      "Fundacja Droga na Szczyt"
+    ],
+    "krs": "0000923846",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "API KRS OdpisAktualny 0000923846 - nazwa zgodna (odróżniona od niepowiązanej FUNDACJA W DRODZE NA SZCZYT, KRS 0000987834)"
+  },
+  {
+    "nazwa_znormalizowana": "FUNDACJA ROZWOJU SZKOŁY WYŻSZEJ WYMIARU SPRAWIEDLIWOŚCI",
+    "liczba_wystapien": 1,
+    "warianty_zapisu": [
+      "Fundacja Rozwoju Szkoły Wyższej Wymiaru Sprawiedliwości"
+    ],
+    "krs": "0000949089",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "API KRS OdpisAktualny 0000949089 zwraca aktualną nazwę 'FUNDACJA ROZWOJU SZKOLNICTWA WYŻSZEGO' (fundacja zmieniła nazwę, wcześniej Fundacja Rozwoju Szkoły Wyższej Wymiaru Sprawiedliwości - potwierdzone przez ten sam NIP 5252894494)"
+  },
+  {
+    "nazwa_znormalizowana": "STOWARZYSZENIE RODZINA KOLPINGA",
+    "liczba_wystapien": 1,
+    "warianty_zapisu": [
+      "Stowarzyszenie \"Rodzina Kolpinga\""
+    ],
+    "krs": "0000135856",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "API KRS OdpisAktualny 0000135856 - nazwa zgodna (odróżnione od wielu lokalnych oddziałów 'Rodzina Kolpinga w [miasto]' mających własne, odrębne numery KRS)"
+  },
+  {
+    "nazwa_znormalizowana": "STOWARZYSZENIE GROM",
+    "liczba_wystapien": 1,
+    "warianty_zapisu": [
+      "Stowarzyszenie Grom"
+    ],
+    "krs": "0000553247",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "API KRS OdpisAktualny 0000553247 - nazwa zgodna (odróżnione od kilku niepowiązanych klubów sportowych o tej samej nazwie)"
+  },
+  {
+    "nazwa_znormalizowana": "STOWARZYSZENIE INTEGRACJA EUROPA-WSCHÓD",
+    "liczba_wystapien": 1,
+    "warianty_zapisu": [
+      "Stowarzyszenie Integracja Europa - Wschód"
+    ],
+    "krs": "0000364727",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "API KRS OdpisAktualny 0000364727 - nazwa zgodna"
+  },
+  {
+    "nazwa_znormalizowana": "FUNDACJA KRZYŻOWA DLA POROZUMIENIA EUROPEJSKIEGO",
+    "liczba_wystapien": 1,
+    "warianty_zapisu": [
+      "Fundacja \"Krzyżowa\" Dla Porozumienia Europejskiego"
+    ],
+    "krs": "0000084948",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "API KRS OdpisAktualny 0000084948 - nazwa zgodna"
+  },
+  {
+    "nazwa_znormalizowana": "FUNDACJA MUZA DEI-CENTRUM NOWEJ KULTURY",
+    "liczba_wystapien": 1,
+    "warianty_zapisu": [
+      "Fundacja Muza Dei - Centrum Nowej Kultury"
+    ],
+    "krs": "0000868143",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "API KRS OdpisAktualny 0000868143 - nazwa zgodna"
+  },
+  {
+    "nazwa_znormalizowana": "FUNDACJA ZACHÓD WSCHÓD WSPARCIE",
+    "liczba_wystapien": 1,
+    "warianty_zapisu": [
+      "Fundacja Zachód Wschód Wsparcie"
+    ],
+    "krs": "0000862828",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "API KRS OdpisAktualny 0000862828 - nazwa zgodna"
+  },
+  {
+    "nazwa_znormalizowana": "FUNDACJA COGNOSCO",
+    "liczba_wystapien": 1,
+    "warianty_zapisu": [
+      "Fundacja \"Cognosco\""
+    ],
+    "krs": "0000325672",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "API KRS OdpisAktualny 0000325672 - nazwa zgodna"
+  },
+  {
+    "nazwa_znormalizowana": "FUNDACJA IM. JANUSZA KURTYKI",
+    "liczba_wystapien": 1,
+    "warianty_zapisu": [
+      "Fundacja im. Janusza Kurtyki"
+    ],
+    "krs": "0000598727",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "API KRS OdpisAktualny 0000598727 - nazwa zgodna"
+  },
+  {
+    "nazwa_znormalizowana": "POLSKIE TOWARZYSTWO HERALDYCZNE",
+    "liczba_wystapien": 1,
+    "warianty_zapisu": [
+      "Polskie Towarzystwo Heraldyczne"
+    ],
+    "krs": "0000276917",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "API KRS OdpisAktualny 0000276917 - nazwa zgodna"
+  },
+  {
+    "nazwa_znormalizowana": "FUNDACJA INSTYTUT MYŚLI SCHUMANA",
+    "liczba_wystapien": 1,
+    "warianty_zapisu": [
+      "Fundacja Instytut Myśli Schumana"
+    ],
+    "krs": "0000626890",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "API KRS OdpisAktualny 0000626890 - nazwa zgodna"
+  },
+  {
+    "nazwa_znormalizowana": "FUNDACJA URBAN FORMS",
+    "liczba_wystapien": 1,
+    "warianty_zapisu": [
+      "Fundacja Urban Forms"
+    ],
+    "krs": "0000316994",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "API KRS OdpisAktualny 0000316994 - nazwa zgodna"
+  },
+  {
+    "nazwa_znormalizowana": "POLSKA FUNDACJA KOŚCIUSZKOWSKA",
+    "liczba_wystapien": 1,
+    "warianty_zapisu": [
+      "Polska Fundacja Kościuszkowska"
+    ],
+    "krs": "0000346229",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "API KRS OdpisAktualny 0000346229 - nazwa zgodna (odróżniona od niepowiązanej THE KOSCIUSZKO FOUNDATION POLAND - FUNDACJA KOŚCIUSZKOWSKA POLSKA, KRS 0000374417)"
+  },
+  {
+    "nazwa_znormalizowana": "METROPOLITARNY INSTYTUT ROZWOJU Z SIEDZIBĄ W SOSNOWCU",
+    "liczba_wystapien": 1,
+    "warianty_zapisu": [
+      "Metropolitarny Instytut Rozwoju z siedzibą w Sosnowcu"
+    ],
+    "krs": "0000843666",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "API KRS OdpisAktualny 0000843666 - nazwa zgodna"
+  },
+  {
+    "nazwa_znormalizowana": "FUNDACJA WESOŁA GÓRA",
+    "liczba_wystapien": 1,
+    "warianty_zapisu": [
+      "Fundacja Wesoła Góra"
+    ],
+    "krs": "0000851142",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "API KRS OdpisAktualny 0000851142 - nazwa zgodna"
+  },
+  {
+    "nazwa_znormalizowana": "WARSZAWSKIE TOWARZYSTWO PRZYJACIÓŁ WILNA I GRODNA",
+    "liczba_wystapien": 1,
+    "warianty_zapisu": [
+      "Warszawskie Towarzystwo Przyjaciół Wilna i Grodna"
+    ],
+    "krs": "0000182491",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "API KRS OdpisAktualny 0000182491 - nazwa zgodna (odróżnione od niepowiązanego Towarzystwa Przyjaciół Grodna i Wilna, KRS 0000104450)"
+  },
+  {
+    "nazwa_znormalizowana": "STOWARZYSZENIE PRZYJACIÓŁ PODOLA",
+    "liczba_wystapien": 1,
+    "warianty_zapisu": [
+      "Stowarzyszenie Przyjaciół Podola"
+    ],
+    "krs": "0000326115",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "API KRS OdpisAktualny 0000326115 - nazwa zgodna"
+  },
+  {
+    "nazwa_znormalizowana": "FUNDACJA SEMPER FIDELIS NA RZECZ ARCHIDIECEZJI LWOWSKIEJ",
+    "liczba_wystapien": 1,
+    "warianty_zapisu": [
+      "Fundacja Semper Fidelis na rzecz Archidiecezji Lwowskiej"
+    ],
+    "krs": "0000317024",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "API KRS OdpisAktualny 0000317024 - nazwa zgodna"
+  },
+  {
+    "nazwa_znormalizowana": "CARITAS ARCHIDIECEZJI LUBELSKIEJ",
+    "liczba_wystapien": 1,
+    "warianty_zapisu": [
+      "Caritas Archidiecezji Lubelskiej"
+    ],
+    "krs": "0000204819",
+    "status": "znaleziono_zweryfikowano_API",
+    "zrodlo_potwierdzenia": "API KRS OdpisAktualny 0000204819 - nazwa zgodna (kościelna osoba prawna zarejestrowana w KRS jako organizacja pożytku publicznego)"
+  },
+  {
+    "nazwa_znormalizowana": "STOWARZYSZENIE POLONIA CONNECT",
+    "liczba_wystapien": 9,
+    "warianty_zapisu": [
+      "Stowarzyszenie Polonia Connect"
+    ],
+    "krs": null,
+    "status": "nie_znaleziono_wyszukiwaniem",
+    "zrodlo_potwierdzenia": null
+  },
+  {
+    "nazwa_znormalizowana": "STOWARZYSZENIE POLONII W EGIPCIE",
+    "liczba_wystapien": 9,
+    "warianty_zapisu": [
+      "Stowarzyszenie Polonii w Egipcie"
+    ],
+    "krs": null,
+    "status": "nie_znaleziono_wyszukiwaniem",
+    "zrodlo_potwierdzenia": null
+  },
+  {
+    "nazwa_znormalizowana": "STOWARZYSZENIE PAMIĘCI ŁAGIERNIKÓW ŻOŁNIERZY ARMII KRAJOWEJ",
+    "liczba_wystapien": 5,
+    "warianty_zapisu": [
+      "Stowarzyszenie Pamięci Łagierników Żołnierzy Armii Krajowej"
+    ],
+    "krs": null,
+    "status": "nie_dotyczy_brak_w_KRS",
+    "zrodlo_potwierdzenia": "To odrebna, lokalna organizacja z Sejn, zarejestrowana w rejestrze starostwa, NIE w KRS - potwierdzone wyszukiwaniem, rozne od Stowarzyszenia Lagiernikow Zolnierzy AK w Warszawie"
+  },
+  {
+    "nazwa_znormalizowana": "FUNDACJA KULTURY I SZTUKI",
+    "liczba_wystapien": 5,
+    "warianty_zapisu": [
+      "Fundacja Kultury i Sztuki"
+    ],
+    "krs": null,
+    "status": "niejednoznaczne_kilka_pasujacych_podmiotow",
+    "zrodlo_potwierdzenia": "Kilka roznych podmiotow o tej nazwie w KRS, brak w naszych danych cechy pozwalajacej jednoznacznie wybrac (np. NIP, adres) - wymaga recznej weryfikacji"
+  },
+  {
+    "nazwa_znormalizowana": "INSTYTUT INNOWACJI",
+    "liczba_wystapien": 5,
+    "warianty_zapisu": [
+      "Instytut Innowacji"
+    ],
+    "krs": null,
+    "status": "niejednoznaczne_kilka_pasujacych_podmiotow",
+    "zrodlo_potwierdzenia": "Kilka roznych podmiotow o tej nazwie w KRS, brak w naszych danych cechy pozwalajacej jednoznacznie wybrac (np. NIP, adres) - wymaga recznej weryfikacji"
+  },
+  {
+    "nazwa_znormalizowana": "ZGROMADZENIE SIÓSTR OD ANIOŁÓW",
+    "liczba_wystapien": 4,
+    "warianty_zapisu": [
+      "Zgromadzenie Sióstr od Aniołów"
+    ],
+    "krs": null,
+    "status": "nie_dotyczy_brak_w_KRS",
+    "zrodlo_potwierdzenia": "Zgromadzenie zakonne - osoba prawna kosciola katolickiego, nie podlega rejestracji w KRS"
+  },
+  {
+    "nazwa_znormalizowana": "LUDOWY KLUB SPORTOWY POSTĘP ŁAZISKA",
+    "liczba_wystapien": 4,
+    "warianty_zapisu": [
+      "Ludowy Klub Sportowy POSTĘP Łaziska"
+    ],
+    "krs": null,
+    "status": "nie_znaleziono_wyszukiwaniem",
+    "zrodlo_potwierdzenia": "Wyszukiwanie podalo bledny numer KRS (nalezacy do innej organizacji), poprawny numer nie zostal znaleziony - byc moze rejestrowany poza KRS jako klub sportowy"
+  },
+  {
+    "nazwa_znormalizowana": "STOWARZYSZENIE TSA SANDOMIERZ",
+    "liczba_wystapien": 4,
+    "warianty_zapisu": [
+      "Stowarzyszenie TSA Sandomierz"
+    ],
+    "krs": null,
+    "status": "nie_dotyczy_brak_w_KRS",
+    "zrodlo_potwierdzenia": "Stowarzyszenie zwykle zarejestrowane w rejestrze starostwa, nie w KRS - potwierdzone wyszukiwaniem"
+  },
+  {
+    "nazwa_znormalizowana": "FUNDACJA POLSKO-WĘGIERSKA",
+    "liczba_wystapien": 3,
+    "warianty_zapisu": [
+      "Fundacja Polsko- Węgierska",
+      "Fundacja Polsko-Węgierska"
+    ],
+    "krs": null,
+    "status": "nie_znaleziono_wyszukiwaniem",
+    "zrodlo_potwierdzenia": null
+  },
+  {
+    "nazwa_znormalizowana": "FUNDACJA POLISH AMERICAN ART SOCIETY",
+    "liczba_wystapien": 3,
+    "warianty_zapisu": [
+      "Fundacja Polish American Art Society"
+    ],
+    "krs": null,
+    "status": "nie_znaleziono_wyszukiwaniem",
+    "zrodlo_potwierdzenia": null
+  },
+  {
+    "nazwa_znormalizowana": "FUNDACJA OBOWIĄZEK POLSKI",
+    "liczba_wystapien": 3,
+    "warianty_zapisu": [
+      "Fundacja Obowiązek Polski"
+    ],
+    "krs": null,
+    "status": "nie_znaleziono_wyszukiwaniem",
+    "zrodlo_potwierdzenia": null
+  },
+  {
+    "nazwa_znormalizowana": "FUNDACJA POMOC RODZINIE",
+    "liczba_wystapien": 3,
+    "warianty_zapisu": [
+      "Fundacja Pomoc Rodzinie"
+    ],
+    "krs": null,
+    "status": "niejednoznaczne_kilka_pasujacych_podmiotow",
+    "zrodlo_potwierdzenia": "Trzy rozne podmioty o tej nazwie w KRS, brak cechy rozrozniajacej"
+  },
+  {
+    "nazwa_znormalizowana": "FUNDACJA OPIEKI I JEDNOŚCI KRESOWIAN",
+    "liczba_wystapien": 3,
+    "warianty_zapisu": [
+      "Fundacja Opieki i Jedności Kresowian"
+    ],
+    "krs": null,
+    "status": "nie_znaleziono_wyszukiwaniem",
+    "zrodlo_potwierdzenia": "Podany przez wyszukiwanie numer KRS nalezal do innej organizacji (klub brydzowy) - odrzucono"
+  },
+  {
+    "nazwa_znormalizowana": "FUNDACJA WSPIERAM",
+    "liczba_wystapien": 3,
+    "warianty_zapisu": [
+      "Fundacja Wspieram"
+    ],
+    "krs": null,
+    "status": "niejednoznaczne_kilka_pasujacych_podmiotow",
+    "zrodlo_potwierdzenia": null
+  },
+  {
+    "nazwa_znormalizowana": "UCZNIOWSKI KLUB SPORTOWY ,,ALE POLONIA",
+    "liczba_wystapien": 2,
+    "warianty_zapisu": [
+      "Uczniowski Klub Sportowy ,,ALE POLONIA''"
+    ],
+    "krs": null,
+    "status": "nie_znaleziono_wyszukiwaniem",
+    "zrodlo_potwierdzenia": null
+  },
+  {
+    "nazwa_znormalizowana": "ZGROMADZENIE ZMARTWYCHWSTANIA PANA NASZEGO JEZUSA CHRYSTUSA",
+    "liczba_wystapien": 2,
+    "warianty_zapisu": [
+      "Zgromadzenie Zmartwychwstania Pana Naszego Jezusa Chrystusa"
+    ],
+    "krs": null,
+    "status": "nie_dotyczy_brak_w_KRS",
+    "zrodlo_potwierdzenia": "Zgromadzenie zakonne - prawdopodobnie osoba prawna kosciola, brak jednoznacznego numeru KRS w zrodlach"
+  },
+  {
+    "nazwa_znormalizowana": "KLUB SPORTOWY WISŁOKA",
+    "liczba_wystapien": 2,
+    "warianty_zapisu": [
+      "Klub Sportowy \"Wisłoka\""
+    ],
+    "krs": null,
+    "status": "nie_dotyczy_brak_w_KRS",
+    "zrodlo_potwierdzenia": "Wedlug danych zrodlowych to Klub Sportowy Wisloka Chicago (Polonia w USA), nie podmiot zarejestrowany w polskim KRS"
+  },
+  {
+    "nazwa_znormalizowana": "STOWARZYSZENIE WEST",
+    "liczba_wystapien": 2,
+    "warianty_zapisu": [
+      "Stowarzyszenie WEST"
+    ],
+    "krs": null,
+    "status": "nie_znaleziono_wyszukiwaniem",
+    "zrodlo_potwierdzenia": null
+  },
+  {
+    "nazwa_znormalizowana": "KRAJOWE BIURO ORGANIZACYJNE ŚWIATOWYCH DNI MŁODZIEŻY",
+    "liczba_wystapien": 2,
+    "warianty_zapisu": [
+      "Krajowe Biuro Organizacyjne Światowych Dni Młodzieży"
+    ],
+    "krs": null,
+    "status": "nie_znaleziono_wyszukiwaniem",
+    "zrodlo_potwierdzenia": null
+  },
+  {
+    "nazwa_znormalizowana": "STOWARZYSZENIE ŁĄCZYMY POKOLENIA",
+    "liczba_wystapien": 2,
+    "warianty_zapisu": [
+      "Stowarzyszenie Łączymy pokolenia"
+    ],
+    "krs": null,
+    "status": "niejednoznaczne_kilka_pasujacych_podmiotow",
+    "zrodlo_potwierdzenia": null
+  },
+  {
+    "nazwa_znormalizowana": "STOWARZYSZENIE TURKUSOWA LAMA",
+    "liczba_wystapien": 2,
+    "warianty_zapisu": [
+      "Stowarzyszenie Turkusowa Lama"
+    ],
+    "krs": null,
+    "status": "nie_znaleziono_wyszukiwaniem",
+    "zrodlo_potwierdzenia": null
+  },
+  {
+    "nazwa_znormalizowana": "ADAMS COMPANY SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCI",
+    "liczba_wystapien": 2,
+    "warianty_zapisu": [
+      "Adam's Company Spółka z ograniczoną odpowiedzialności"
+    ],
+    "krs": null,
+    "status": "niejednoznaczne_kilka_pasujacych_podmiotow",
+    "zrodlo_potwierdzenia": null
+  },
+  {
+    "nazwa_znormalizowana": "FUNDACJA NURT",
+    "liczba_wystapien": 2,
+    "warianty_zapisu": [
+      "Fundacja Nurt"
+    ],
+    "krs": null,
+    "status": "niejednoznaczne_kilka_pasujacych_podmiotow",
+    "zrodlo_potwierdzenia": "Trzy rozne fundacje o zblizonej nazwie (Szczecin, Cieszyn, Wroclaw), brak cechy rozrozniajacej w danych"
+  },
+  {
+    "nazwa_znormalizowana": "TAKA TRADYCJA KULTURA INTEGRACJA",
+    "liczba_wystapien": 2,
+    "warianty_zapisu": [
+      "TAKA Tradycja Kultura Integracja"
+    ],
+    "krs": null,
+    "status": "nie_znaleziono_wyszukiwaniem",
+    "zrodlo_potwierdzenia": null
+  },
+  {
+    "nazwa_znormalizowana": "ZGROMADZENIE SIÓSTR MISJONAREK CHRYSTUSA KRÓLA DLA POLONII ZAGRANICZNEJ",
+    "liczba_wystapien": 2,
+    "warianty_zapisu": [
+      "Zgromadzenie Sióstr Misjonarek Chrystusa Króla dla Polonii Zagranicznej"
+    ],
+    "krs": null,
+    "status": "nie_dotyczy_brak_w_KRS",
+    "zrodlo_potwierdzenia": "Zgromadzenie zakonne, brak numeru KRS w zrodlach - prawdopodobnie osoba prawna kosciola"
+  },
+  {
+    "nazwa_znormalizowana": "FUNDACJA EMU",
+    "liczba_wystapien": 1,
+    "warianty_zapisu": [
+      "Fundacja EMU"
+    ],
+    "krs": null,
+    "status": "nie_znaleziono_wyszukiwaniem",
+    "zrodlo_potwierdzenia": null
+  },
+  {
+    "nazwa_znormalizowana": "POLONIA PRO-KOMPETENCJE I ROZWÓJ",
+    "liczba_wystapien": 1,
+    "warianty_zapisu": [
+      "Polonia Pro- Kompetencje i Rozwój"
+    ],
+    "krs": null,
+    "status": "nie_znaleziono_wyszukiwaniem",
+    "zrodlo_potwierdzenia": null
+  },
+  {
+    "nazwa_znormalizowana": "FUNDACJA DYPLOMACJI SPORTOWEJ",
+    "liczba_wystapien": 1,
+    "warianty_zapisu": [
+      "Fundacja Dyplomacji Sportowej"
+    ],
+    "krs": null,
+    "status": "nie_znaleziono_wyszukiwaniem",
+    "zrodlo_potwierdzenia": null
+  },
+  {
+    "nazwa_znormalizowana": "KLUB SPORTU I REKREACJI KLUB NEMO SPORT",
+    "liczba_wystapien": 1,
+    "warianty_zapisu": [
+      "Klub sportu i rekreacji Klub Nemo Sport"
+    ],
+    "krs": null,
+    "status": "nie_znaleziono_wyszukiwaniem",
+    "zrodlo_potwierdzenia": null
   },
   {
     "nazwa_znormalizowana": "CREATIVITY WORKS EUROPE",
@@ -2087,26 +3530,6 @@
     "zrodlo_potwierdzenia": "Podmiot zagraniczny (nazwa/forma prawna wskazuje na rejestracje poza Polska), formalnie odrzucony w konkursie - niezarejestrowany w polskim KRS"
   },
   {
-    "nazwa_znormalizowana": "FUNDACJA MŁODE POKOLENIA, GDAŃSKA FUNDACJA INNOWACJI SPOŁECZNEJ",
-    "liczba_wystapien": 1,
-    "warianty_zapisu": [
-      "Fundacja Młode Pokolenia, Gdańska Fundacja Innowacji Społecznej"
-    ],
-    "krs": "0001133422;0000277617",
-    "status": "znaleziono_zweryfikowano_API",
-    "zrodlo_potwierdzenia": "Dwaj wspol-oferenci w jednej komorce PDF: Fundacja Mlode Pokolenia (KRS 0001133422) i Gdanska Fundacja Innowacji Spolecznej (KRS 0000277617), oba zweryfikowane API"
-  },
-  {
-    "nazwa_znormalizowana": "FUNDACJA ŚWIAT NA TAK",
-    "liczba_wystapien": 1,
-    "warianty_zapisu": [
-      "Fundacja \"Świat na Tak\""
-    ],
-    "krs": "0000081518",
-    "status": "znaleziono_zweryfikowano_API",
-    "zrodlo_potwierdzenia": "zweryfikowano API"
-  },
-  {
     "nazwa_znormalizowana": "RAZEM:",
     "liczba_wystapien": 1,
     "warianty_zapisu": [
@@ -2117,26 +3540,6 @@
     "zrodlo_potwierdzenia": "To nie nazwa organizacji, tylko artefakt parsowania tabeli PDF (wiersz sumy albo powtorzony naglowek)"
   },
   {
-    "nazwa_znormalizowana": "FUNDACJA KOSSAKOWSKIEGO",
-    "liczba_wystapien": 1,
-    "warianty_zapisu": [
-      "Fundacja Kossakowskiego"
-    ],
-    "krs": "0000403745",
-    "status": "znaleziono_zweryfikowano_API",
-    "zrodlo_potwierdzenia": "zweryfikowano API"
-  },
-  {
-    "nazwa_znormalizowana": "FUNDACJA POMOCY WZAJEMNEJ BARKA",
-    "liczba_wystapien": 1,
-    "warianty_zapisu": [
-      "Fundacja Pomocy Wzajemnej \"Barka\""
-    ],
-    "krs": "0000137089",
-    "status": "znaleziono_zweryfikowano_API",
-    "zrodlo_potwierdzenia": "zweryfikowano API"
-  },
-  {
     "nazwa_znormalizowana": "NAZWA OFERENTA",
     "liczba_wystapien": 1,
     "warianty_zapisu": [
@@ -2145,16 +3548,6 @@
     "krs": null,
     "status": "nie_dotyczy_artefakt_tabeli",
     "zrodlo_potwierdzenia": "To nie nazwa organizacji, tylko artefakt parsowania tabeli PDF (wiersz sumy albo powtorzony naglowek)"
-  },
-  {
-    "nazwa_znormalizowana": "FUNDACJA OŚRODKA KARTA",
-    "liczba_wystapien": 1,
-    "warianty_zapisu": [
-      "Fundacja Ośrodka KARTA"
-    ],
-    "krs": "0000119146",
-    "status": "znaleziono_zweryfikowano_API",
-    "zrodlo_potwierdzenia": "zweryfikowano API"
   },
   {
     "nazwa_znormalizowana": "STOWARZYSZENIE ON/OFF",
@@ -2175,16 +3568,6 @@
     "krs": null,
     "status": "niejednoznaczne_kilka_pasujacych_podmiotow",
     "zrodlo_potwierdzenia": "Nazwa identyczna z partia polityczna - niepewne czy to prawdziwy oferent czy artefakt parsowania PDF, wymaga recznej weryfikacji zrodlowego pliku"
-  },
-  {
-    "nazwa_znormalizowana": "FUNDACJA PROMOCJI KULTURY I TURYSTYKI Z NURTEM DANIELKI",
-    "liczba_wystapien": 1,
-    "warianty_zapisu": [
-      "Fundacja Promocji Kultury I Turystyki \"Z Nurtem Danielki\""
-    ],
-    "krs": "0000972533",
-    "status": "znaleziono_zweryfikowano_API",
-    "zrodlo_potwierdzenia": "zweryfikowano API"
   },
   {
     "nazwa_znormalizowana": "1 718 634,92 ZŁ",
@@ -2487,56 +3870,6 @@
     "zrodlo_potwierdzenia": "To kwota z wiersza sumy/podsumowania tabeli PDF, blednie odczytana jako nazwa oferenta - artefakt parsowania"
   },
   {
-    "nazwa_znormalizowana": "ŁÓDZKIE STOWARZYSZENIE INICJATYW MIEJSKICH TOPOGRAFIE",
-    "liczba_wystapien": 1,
-    "warianty_zapisu": [
-      "Łódzkie Stowarzyszenie Inicjatyw Miejskich \"Topografie\""
-    ],
-    "krs": "0000279476",
-    "status": "znaleziono_zweryfikowano_API",
-    "zrodlo_potwierdzenia": "zweryfikowano API"
-  },
-  {
-    "nazwa_znormalizowana": "LESZCZYŃSKIE TOWARZYSTWO MUZYCZNE IM. ROMANA MACIEJEWSKIEGO",
-    "liczba_wystapien": 1,
-    "warianty_zapisu": [
-      "Leszczyńskie Towarzystwo Muzyczne Im. Romana Maciejewskiego"
-    ],
-    "krs": "0000227056",
-    "status": "znaleziono_zweryfikowano_API",
-    "zrodlo_potwierdzenia": "zweryfikowano API"
-  },
-  {
-    "nazwa_znormalizowana": "STOWARZYSZENIE KLUB SPORTOWY FUTSAL LESZNO",
-    "liczba_wystapien": 1,
-    "warianty_zapisu": [
-      "Stowarzyszenie Klub Sportowy Futsal Leszno"
-    ],
-    "krs": "0000683371",
-    "status": "znaleziono_zweryfikowano_API",
-    "zrodlo_potwierdzenia": "zweryfikowano API"
-  },
-  {
-    "nazwa_znormalizowana": "STOWARZYSZENIE LYSKOR, STOWARZYSZENIE LOKALNA GRUPA DZIAŁANIA PARTNERSTWO DLA ROZWOJU",
-    "liczba_wystapien": 1,
-    "warianty_zapisu": [
-      "Stowarzyszenie LYSKOR, Stowarzyszenie Lokalna Grupa Działania \"Partnerstwo dla Rozwoju\""
-    ],
-    "krs": "0000257707",
-    "status": "znaleziono_zweryfikowano_API",
-    "zrodlo_potwierdzenia": "zweryfikowano API"
-  },
-  {
-    "nazwa_znormalizowana": "FUNDACJA POLONII MEDYCZNEJ",
-    "liczba_wystapien": 1,
-    "warianty_zapisu": [
-      "Fundacja Polonii Medycznej"
-    ],
-    "krs": "0000872812",
-    "status": "znaleziono_zweryfikowano_API",
-    "zrodlo_potwierdzenia": "zweryfikowano API"
-  },
-  {
     "nazwa_znormalizowana": "POSPOLITE RUSZENIE",
     "liczba_wystapien": 1,
     "warianty_zapisu": [
@@ -2547,36 +3880,6 @@
     "zrodlo_potwierdzenia": null
   },
   {
-    "nazwa_znormalizowana": "FUNDACJA ŁOPACIŃSKICH ŚWIAT",
-    "liczba_wystapien": 1,
-    "warianty_zapisu": [
-      "Fundacja \"Łopacińskich Świat\""
-    ],
-    "krs": "0000610553",
-    "status": "znaleziono_zweryfikowano_API",
-    "zrodlo_potwierdzenia": "zweryfikowano API"
-  },
-  {
-    "nazwa_znormalizowana": "FUNDACJA NA RZECZ POMOCY DZIECIOM Z GRODZIEŃSZCZNY",
-    "liczba_wystapien": 1,
-    "warianty_zapisu": [
-      "Fundacja na rzecz Pomocy Dzieciom z Grodzieńszczny"
-    ],
-    "krs": "0000000291",
-    "status": "znaleziono_zweryfikowano_API",
-    "zrodlo_potwierdzenia": "Literowka w nazwie (Grodzienszczny zamiast Grodzienszczyzny), ta sama organizacja juz zweryfikowana"
-  },
-  {
-    "nazwa_znormalizowana": "FUNDACJA VIELHARMONIA",
-    "liczba_wystapien": 1,
-    "warianty_zapisu": [
-      "Fundacja VIELHARMONIA"
-    ],
-    "krs": "0001053973",
-    "status": "znaleziono_zweryfikowano_API",
-    "zrodlo_potwierdzenia": "zweryfikowano API"
-  },
-  {
     "nazwa_znormalizowana": "KINGART",
     "liczba_wystapien": 1,
     "warianty_zapisu": [
@@ -2585,46 +3888,6 @@
     "krs": null,
     "status": "nie_znaleziono_wyszukiwaniem",
     "zrodlo_potwierdzenia": null
-  },
-  {
-    "nazwa_znormalizowana": "STOWARZYSZENIE ODRA-NIEMEN ODDZIAŁ MAZOWIECKI WSCHODNI PATRIOCI",
-    "liczba_wystapien": 1,
-    "warianty_zapisu": [
-      "Stowarzyszenie Odra-Niemen Oddział Mazowiecki Wschodni Patrioci"
-    ],
-    "krs": "0000780514",
-    "status": "znaleziono_zweryfikowano_API",
-    "zrodlo_potwierdzenia": "zweryfikowano API"
-  },
-  {
-    "nazwa_znormalizowana": "FUNDACJA ARS ACTIVA",
-    "liczba_wystapien": 1,
-    "warianty_zapisu": [
-      "Fundacja Ars Activa"
-    ],
-    "krs": "0000336560",
-    "status": "znaleziono_zweryfikowano_API",
-    "zrodlo_potwierdzenia": "zweryfikowano API"
-  },
-  {
-    "nazwa_znormalizowana": "FUNDACJA ARTINTRANSLATION",
-    "liczba_wystapien": 1,
-    "warianty_zapisu": [
-      "Fundacja Artintranslation"
-    ],
-    "krs": "0000528534",
-    "status": "znaleziono_zweryfikowano_API",
-    "zrodlo_potwierdzenia": "zweryfikowano API"
-  },
-  {
-    "nazwa_znormalizowana": "FUNDACJA ART JUNCTION",
-    "liczba_wystapien": 1,
-    "warianty_zapisu": [
-      "Fundacja Art Junction"
-    ],
-    "krs": "0000556033",
-    "status": "znaleziono_zweryfikowano_API",
-    "zrodlo_potwierdzenia": "zweryfikowano API"
   },
   {
     "nazwa_znormalizowana": "MIEJSKI OŚRODEK KULTURY W GŁOGOWIE",
@@ -2687,36 +3950,6 @@
     "zrodlo_potwierdzenia": null
   },
   {
-    "nazwa_znormalizowana": "FUNDACJA POWSZECHNEGO CZYTANIA",
-    "liczba_wystapien": 1,
-    "warianty_zapisu": [
-      "Fundacja Powszechnego Czytania"
-    ],
-    "krs": "0000756841",
-    "status": "znaleziono_zweryfikowano_API",
-    "zrodlo_potwierdzenia": "zweryfikowano API"
-  },
-  {
-    "nazwa_znormalizowana": "STOWARZYSZENIE KUTURALNE RÓWNICA W USTRONIU",
-    "liczba_wystapien": 1,
-    "warianty_zapisu": [
-      "Stowarzyszenie Kuturalne \"Równica\" w Ustroniu"
-    ],
-    "krs": "0000032061",
-    "status": "znaleziono_zweryfikowano_API",
-    "zrodlo_potwierdzenia": "zweryfikowano API"
-  },
-  {
-    "nazwa_znormalizowana": "STOWARZYSZENIE KLASZTOR WĘGRÓW-CENTRUM DIALOGU KULTUR",
-    "liczba_wystapien": 1,
-    "warianty_zapisu": [
-      "Stowarzyszenie \"Klasztor Węgrów - Centrum Dialogu Kultur\""
-    ],
-    "krs": "0000462082",
-    "status": "znaleziono_zweryfikowano_API",
-    "zrodlo_potwierdzenia": "zweryfikowano API"
-  },
-  {
     "nazwa_znormalizowana": "LESZNO TENIS KLUB",
     "liczba_wystapien": 1,
     "warianty_zapisu": [
@@ -2737,86 +3970,6 @@
     "zrodlo_potwierdzenia": null
   },
   {
-    "nazwa_znormalizowana": "FUNDACJA KULTURY I SPORTU 44",
-    "liczba_wystapien": 1,
-    "warianty_zapisu": [
-      "\"Fundacja Kultury i Sportu 44\""
-    ],
-    "krs": "0000700808",
-    "status": "znaleziono_zweryfikowano_API",
-    "zrodlo_potwierdzenia": "zweryfikowano API"
-  },
-  {
-    "nazwa_znormalizowana": "FUNDACJA 20",
-    "liczba_wystapien": 1,
-    "warianty_zapisu": [
-      "Fundacja 20"
-    ],
-    "krs": "0000494847",
-    "status": "znaleziono_zweryfikowano_API",
-    "zrodlo_potwierdzenia": "zweryfikowano API"
-  },
-  {
-    "nazwa_znormalizowana": "STOWARZYSZENIE ŚWIATOWY KONGRES POLAKÓW",
-    "liczba_wystapien": 1,
-    "warianty_zapisu": [
-      "Stowarzyszenie Światowy Kongres Polaków"
-    ],
-    "krs": "0000690041",
-    "status": "znaleziono_zweryfikowano_API",
-    "zrodlo_potwierdzenia": "To samo co Swiatowy Kongres Polakow, juz zweryfikowane"
-  },
-  {
-    "nazwa_znormalizowana": "FUNDACJA DARIUSZA KORDKA KULTURA.PL",
-    "liczba_wystapien": 1,
-    "warianty_zapisu": [
-      "Fundacja Dariusza Kordka Kultura.pl"
-    ],
-    "krs": "0000576132",
-    "status": "znaleziono_zweryfikowano_API",
-    "zrodlo_potwierdzenia": "zweryfikowano API"
-  },
-  {
-    "nazwa_znormalizowana": "ZWIĄZEK PODHALAN W POLSCE IM. ŚWIĘTEGO JANA PAWŁA II",
-    "liczba_wystapien": 1,
-    "warianty_zapisu": [
-      "Związek Podhalan w Polsce im. Świętego Jana Pawła II"
-    ],
-    "krs": "0000050394",
-    "status": "znaleziono_zweryfikowano_API",
-    "zrodlo_potwierdzenia": "zweryfikowano API"
-  },
-  {
-    "nazwa_znormalizowana": "ARI ARI",
-    "liczba_wystapien": 1,
-    "warianty_zapisu": [
-      "Ari Ari"
-    ],
-    "krs": "0000314197",
-    "status": "znaleziono_zweryfikowano_API",
-    "zrodlo_potwierdzenia": "zweryfikowano API"
-  },
-  {
-    "nazwa_znormalizowana": "STOWARZYSZENIE ZOSTAŃ W POLSCE",
-    "liczba_wystapien": 1,
-    "warianty_zapisu": [
-      "Stowarzyszenie Zostań w Polsce"
-    ],
-    "krs": "0000975899",
-    "status": "znaleziono_zweryfikowano_API",
-    "zrodlo_potwierdzenia": "zweryfikowano API"
-  },
-  {
-    "nazwa_znormalizowana": "FUNDACJA PRO SPE",
-    "liczba_wystapien": 1,
-    "warianty_zapisu": [
-      "Fundacja Pro Spe"
-    ],
-    "krs": "0000607263",
-    "status": "znaleziono_zweryfikowano_API",
-    "zrodlo_potwierdzenia": "zweryfikowano API"
-  },
-  {
     "nazwa_znormalizowana": "STOWARZYSZENIE ZDROWIE W GŁOWIE",
     "liczba_wystapien": 1,
     "warianty_zapisu": [
@@ -2825,76 +3978,6 @@
     "krs": null,
     "status": "nie_znaleziono_wyszukiwaniem",
     "zrodlo_potwierdzenia": null
-  },
-  {
-    "nazwa_znormalizowana": "FUNDACJA LEGIA SOCCER SCHOOLS",
-    "liczba_wystapien": 1,
-    "warianty_zapisu": [
-      "Fundacja Legia Soccer Schools"
-    ],
-    "krs": "0000577605",
-    "status": "znaleziono_zweryfikowano_API",
-    "zrodlo_potwierdzenia": "zweryfikowano API"
-  },
-  {
-    "nazwa_znormalizowana": "FUNDACJA APETYT NA KULTURĘ",
-    "liczba_wystapien": 1,
-    "warianty_zapisu": [
-      "Fundacja Apetyt Na Kulturę"
-    ],
-    "krs": "0000269051",
-    "status": "znaleziono_zweryfikowano_API",
-    "zrodlo_potwierdzenia": "zweryfikowano API"
-  },
-  {
-    "nazwa_znormalizowana": "ZWIĄZEK HARCERSTWA POLSKIEGO CHORĄGIEW KRAKOWSKA HUFIEC ANDRYCHÓW",
-    "liczba_wystapien": 1,
-    "warianty_zapisu": [
-      "Związek Harcerstwa Polskiego Chorągiew Krakowska Hufiec Andrychów"
-    ],
-    "krs": "0000273492",
-    "status": "znaleziono_zweryfikowano_API",
-    "zrodlo_potwierdzenia": "zweryfikowano API - hufiec jako jednostka terenowa bez osobowosci prawnej, uzyto KRS Choragwi Krakowskiej"
-  },
-  {
-    "nazwa_znormalizowana": "FUNDACJA ZDOLNE DZIECI",
-    "liczba_wystapien": 1,
-    "warianty_zapisu": [
-      "Fundacja \"Zdolne Dzieci\""
-    ],
-    "krs": "0000393575",
-    "status": "znaleziono_zweryfikowano_API",
-    "zrodlo_potwierdzenia": "zweryfikowano API"
-  },
-  {
-    "nazwa_znormalizowana": "ZWIĄZEK HARCERSTWA POLSKIEGO",
-    "liczba_wystapien": 1,
-    "warianty_zapisu": [
-      "Związek Harcerstwa Polskiego"
-    ],
-    "krs": "0000094699",
-    "status": "znaleziono_zweryfikowano_API",
-    "zrodlo_potwierdzenia": "zweryfikowano API"
-  },
-  {
-    "nazwa_znormalizowana": "FUNDACJA AVA ARTS",
-    "liczba_wystapien": 1,
-    "warianty_zapisu": [
-      "Fundacja AVA Arts"
-    ],
-    "krs": "0000551222",
-    "status": "znaleziono_zweryfikowano_API",
-    "zrodlo_potwierdzenia": "zweryfikowano API"
-  },
-  {
-    "nazwa_znormalizowana": "FUNDACJA ROTUNDA PÓŁNOCNA",
-    "liczba_wystapien": 1,
-    "warianty_zapisu": [
-      "Fundacja Rotunda Północna"
-    ],
-    "krs": "0000639229",
-    "status": "znaleziono_zweryfikowano_API",
-    "zrodlo_potwierdzenia": "zweryfikowano API"
   },
   {
     "nazwa_znormalizowana": "FUNDACJA PLANET",
@@ -2907,16 +3990,6 @@
     "zrodlo_potwierdzenia": null
   },
   {
-    "nazwa_znormalizowana": "STOWARZYSZENIE FRESCO SONARE",
-    "liczba_wystapien": 1,
-    "warianty_zapisu": [
-      "Stowarzyszenie Fresco Sonare"
-    ],
-    "krs": "0000216810",
-    "status": "znaleziono_zweryfikowano_API",
-    "zrodlo_potwierdzenia": "zweryfikowano API"
-  },
-  {
     "nazwa_znormalizowana": "FUNDACJA DZIAŁAŃ TWÓRCZYCH SPRĘŻYNA",
     "liczba_wystapien": 1,
     "warianty_zapisu": [
@@ -2925,86 +3998,6 @@
     "krs": null,
     "status": "nie_znaleziono_wyszukiwaniem",
     "zrodlo_potwierdzenia": null
-  },
-  {
-    "nazwa_znormalizowana": "STOWARZYSZENIE PORADNIA POLONIJNA",
-    "liczba_wystapien": 1,
-    "warianty_zapisu": [
-      "Stowarzyszenie Poradnia Polonijna"
-    ],
-    "krs": "0001083398",
-    "status": "znaleziono_zweryfikowano_API",
-    "zrodlo_potwierdzenia": "zweryfikowano API"
-  },
-  {
-    "nazwa_znormalizowana": "STOWARZYSZENIE COMMUNIO CRUCIS IM. ESYTY STEIN PATRONKI EUROPY",
-    "liczba_wystapien": 1,
-    "warianty_zapisu": [
-      "Stowarzyszenie \"Communio Crucis\" im. Esyty Stein Patronki Europy"
-    ],
-    "krs": "0000570130",
-    "status": "znaleziono_zweryfikowano_API",
-    "zrodlo_potwierdzenia": "zweryfikowano API"
-  },
-  {
-    "nazwa_znormalizowana": "STOWARZYSZENIE UŁANA KARPACKIEGO",
-    "liczba_wystapien": 1,
-    "warianty_zapisu": [
-      "Stowarzyszenie \"Ułana Karpackiego\""
-    ],
-    "krs": "0000342229",
-    "status": "znaleziono_zweryfikowano_API",
-    "zrodlo_potwierdzenia": "zweryfikowano API"
-  },
-  {
-    "nazwa_znormalizowana": "INSTYTUT KREOWANIA PRZEDSIĘBIORCZOŚCI SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ",
-    "liczba_wystapien": 1,
-    "warianty_zapisu": [
-      "Instytut Kreowania Przedsiębiorczości Spółka z Ograniczoną Odpowiedzialnością"
-    ],
-    "krs": "0000501795",
-    "status": "znaleziono_zweryfikowano_API",
-    "zrodlo_potwierdzenia": "zweryfikowano API"
-  },
-  {
-    "nazwa_znormalizowana": "FUNDACJA ACTION-LIFE",
-    "liczba_wystapien": 1,
-    "warianty_zapisu": [
-      "Fundacja Action-Life"
-    ],
-    "krs": "0000515100",
-    "status": "znaleziono_zweryfikowano_API",
-    "zrodlo_potwierdzenia": "zweryfikowano API"
-  },
-  {
-    "nazwa_znormalizowana": "FUNDACJA LIFE AND ART",
-    "liczba_wystapien": 1,
-    "warianty_zapisu": [
-      "Fundacja Life and Art"
-    ],
-    "krs": "0000737335",
-    "status": "znaleziono_zweryfikowano_API",
-    "zrodlo_potwierdzenia": "zweryfikowano API"
-  },
-  {
-    "nazwa_znormalizowana": "KAMIENICA 1 – FUNDACJA NA RZECZ ROZWOJU SZTUKI I PROMOCJI ZDROWIA",
-    "liczba_wystapien": 1,
-    "warianty_zapisu": [
-      "Kamienica 1 – Fundacja Na Rzecz Rozwoju Sztuki i Promocji Zdrowia"
-    ],
-    "krs": "0000377928",
-    "status": "znaleziono_zweryfikowano_API",
-    "zrodlo_potwierdzenia": "zweryfikowano API"
-  },
-  {
-    "nazwa_znormalizowana": "FUNDACJA BAŁTYCKI INSTYTUT MATEMATYKI",
-    "liczba_wystapien": 1,
-    "warianty_zapisu": [
-      "Fundacja Bałtycki Instytut Matematyki"
-    ],
-    "krs": "0000424471",
-    "status": "znaleziono_zweryfikowano_API",
-    "zrodlo_potwierdzenia": "zweryfikowano API"
   },
   {
     "nazwa_znormalizowana": "FUNDACJA MAŁE NAKŁADY",
@@ -3027,16 +4020,6 @@
     "zrodlo_potwierdzenia": null
   },
   {
-    "nazwa_znormalizowana": "FUNDACJA MICHALICKIE CENTRUM MŁODZIEŻY MICHAEL",
-    "liczba_wystapien": 1,
-    "warianty_zapisu": [
-      "Fundacja Michalickie Centrum Młodzieży Michael"
-    ],
-    "krs": "0000965463",
-    "status": "znaleziono_zweryfikowano_API",
-    "zrodlo_potwierdzenia": "zweryfikowano API"
-  },
-  {
     "nazwa_znormalizowana": "FUNDACJA INSTYTUT INNOWACJI",
     "liczba_wystapien": 1,
     "warianty_zapisu": [
@@ -3045,56 +4028,6 @@
     "krs": null,
     "status": "niejednoznaczne_kilka_pasujacych_podmiotow",
     "zrodlo_potwierdzenia": "Ta sama niejednoznacznosc co Instytut Innowacji - kilka podmiotow o podobnej nazwie w KRS"
-  },
-  {
-    "nazwa_znormalizowana": "FUNDACJA MISJA KAMPINOS",
-    "liczba_wystapien": 1,
-    "warianty_zapisu": [
-      "Fundacja Misja Kampinos"
-    ],
-    "krs": "0000721789",
-    "status": "znaleziono_zweryfikowano_API",
-    "zrodlo_potwierdzenia": "zweryfikowano API"
-  },
-  {
-    "nazwa_znormalizowana": "MIĘDZYNARODOWE STOWARZYSZENIE ODWAŻNE KOBIETY",
-    "liczba_wystapien": 1,
-    "warianty_zapisu": [
-      "Międzynarodowe Stowarzyszenie Odważne Kobiety"
-    ],
-    "krs": "0001054010",
-    "status": "znaleziono_zweryfikowano_API",
-    "zrodlo_potwierdzenia": "zweryfikowano API"
-  },
-  {
-    "nazwa_znormalizowana": "FUNDACJA KITSUP",
-    "liczba_wystapien": 1,
-    "warianty_zapisu": [
-      "Fundacja Kitsup"
-    ],
-    "krs": "0001082504",
-    "status": "znaleziono_zweryfikowano_API",
-    "zrodlo_potwierdzenia": "zweryfikowano API"
-  },
-  {
-    "nazwa_znormalizowana": "STOWARZYSZENIE ŁEJERY",
-    "liczba_wystapien": 1,
-    "warianty_zapisu": [
-      "Stowarzyszenie Łejery"
-    ],
-    "krs": "0000076966",
-    "status": "znaleziono_zweryfikowano_API",
-    "zrodlo_potwierdzenia": "zweryfikowano API"
-  },
-  {
-    "nazwa_znormalizowana": "FUNDACJA NA RZECZ ROZWIJANIA MUZYKALNOŚCI POLAKÓW MUZYKA JEST DLA WSZYSTKICH",
-    "liczba_wystapien": 1,
-    "warianty_zapisu": [
-      "Fundacja Na Rzecz Rozwijania Muzykalności Polaków \"Muzyka Jest Dla Wszystkich\""
-    ],
-    "krs": "0000236575",
-    "status": "znaleziono_zweryfikowano_API",
-    "zrodlo_potwierdzenia": "zweryfikowano API"
   },
   {
     "nazwa_znormalizowana": "PRO FUTURIS",
@@ -3107,16 +4040,6 @@
     "zrodlo_potwierdzenia": null
   },
   {
-    "nazwa_znormalizowana": "FUNDACJA THE WARSAW HOUSE",
-    "liczba_wystapien": 1,
-    "warianty_zapisu": [
-      "Fundacja the Warsaw House"
-    ],
-    "krs": "0000888258",
-    "status": "znaleziono_zweryfikowano_API",
-    "zrodlo_potwierdzenia": "API KRS OdpisAktualny 0000888258 - nazwa zgodna"
-  },
-  {
     "nazwa_znormalizowana": "STOWARZYSZENIE NA TRÓJSTYKU",
     "liczba_wystapien": 1,
     "warianty_zapisu": [
@@ -3125,76 +4048,6 @@
     "krs": null,
     "status": "nie_znaleziono_wyszukiwaniem",
     "zrodlo_potwierdzenia": "Brak wiarygodnego trafienia w wyszukiwaniu ani w API KRS pod tą nazwą"
-  },
-  {
-    "nazwa_znormalizowana": "FUNDACJA SZTUK KRYTYCZNYCH",
-    "liczba_wystapien": 1,
-    "warianty_zapisu": [
-      "Fundacja Sztuk Krytycznych"
-    ],
-    "krs": "0000439213",
-    "status": "znaleziono_zweryfikowano_API",
-    "zrodlo_potwierdzenia": "API KRS OdpisAktualny 0000439213 - nazwa zgodna"
-  },
-  {
-    "nazwa_znormalizowana": "STOWARZYSZENIE PRZEWODNIKÓW TURYSTYCZNYCH ZŁOTA KACZKA",
-    "liczba_wystapien": 1,
-    "warianty_zapisu": [
-      "Stowarzyszenie Przewodników Turystycznych \"Złota Kaczka\""
-    ],
-    "krs": "0000342036",
-    "status": "znaleziono_zweryfikowano_API",
-    "zrodlo_potwierdzenia": "API KRS OdpisAktualny 0000342036 - nazwa zgodna (Złota Kaczka)"
-  },
-  {
-    "nazwa_znormalizowana": "FUNDACJA INSTYTUT STUDIÓW AZJATYCKICH I GLOBALNYCH IM. MICHAŁA BOYMA",
-    "liczba_wystapien": 1,
-    "warianty_zapisu": [
-      "Fundacja Instytut Studiów Azjatyckich i Globalnych im. Michała Boyma"
-    ],
-    "krs": "0000780900",
-    "status": "znaleziono_zweryfikowano_API",
-    "zrodlo_potwierdzenia": "API KRS OdpisAktualny 0000780900 - nazwa zgodna"
-  },
-  {
-    "nazwa_znormalizowana": "FUNDACJA 60 MLN.PL",
-    "liczba_wystapien": 1,
-    "warianty_zapisu": [
-      "Fundacja 60 MLN.PL"
-    ],
-    "krs": "0000972710",
-    "status": "znaleziono_zweryfikowano_API",
-    "zrodlo_potwierdzenia": "Ten sam podmiot co FUNDACJA 60MLN.PL (wariant zapisu ze spacją) - API KRS OdpisAktualny 0000972710"
-  },
-  {
-    "nazwa_znormalizowana": "FUNDACJA JOANNY LAMPARSKIEJ NA RZECZ OCHRONY DZIEDZICTWA KULTUROWEGO PROJEKT HISTORIA",
-    "liczba_wystapien": 1,
-    "warianty_zapisu": [
-      "Fundacja Joanny Lamparskiej Na Rzecz Ochrony Dziedzictwa Kulturowego \"Projekt Historia\""
-    ],
-    "krs": "0000497472",
-    "status": "znaleziono_zweryfikowano_API",
-    "zrodlo_potwierdzenia": "API KRS OdpisAktualny 0000497472 - nazwa zgodna"
-  },
-  {
-    "nazwa_znormalizowana": "POLSKO UKRAIŃSKA FUNDACJA IM. IGNACEGO JANA PADEREWSKIEGO",
-    "liczba_wystapien": 1,
-    "warianty_zapisu": [
-      "Polsko Ukraińska Fundacja imienia Ignacego Jana Paderewskiego"
-    ],
-    "krs": "0000429191",
-    "status": "znaleziono_zweryfikowano_API",
-    "zrodlo_potwierdzenia": "API KRS OdpisAktualny 0000429191 zwraca aktualną nazwę 'FUNDACJA PADEREWSKI INTERNATIONAL FOUNDATION' (fundacja zmieniła nazwę). Tożsamość podmiotu potwierdzona przez zgodny NIP 1182086567 (ten sam NIP widoczny w niezależnych rejestrach rejestr.io, aleo.com, krs-pobierz.pl pod poprzednią nazwą 'Polsko-Ukraińska Fundacja imienia Ignacego Jana Paderewskiego')."
-  },
-  {
-    "nazwa_znormalizowana": "FUNDACJA MISTRZOWIE SPOTRU",
-    "liczba_wystapien": 1,
-    "warianty_zapisu": [
-      "Fundacja Mistrzowie Spotru"
-    ],
-    "krs": "0000966500",
-    "status": "znaleziono_zweryfikowano_API",
-    "zrodlo_potwierdzenia": "API KRS OdpisAktualny 0000966500 - nazwa zgodna 'FUNDACJA MISTRZOWIE SPORTU' (literówka 'SPOTRU' w danych źródłowych PDF)"
   },
   {
     "nazwa_znormalizowana": "FUNDACJA ALTUM",
@@ -3207,26 +4060,6 @@
     "zrodlo_potwierdzenia": "Istnieją dwie odrębne fundacje o tej samej nazwie (Warszawa i Poznań), jedna z nich wprost deklaruje brak powiązania z drugą - nie da się jednoznacznie wskazać właściwego podmiotu bez dodatkowych danych z PDF źródłowego"
   },
   {
-    "nazwa_znormalizowana": "TOWARZYSTWO MUZYCZNE IM. KONSTANTEGO GORSKIEGO",
-    "liczba_wystapien": 1,
-    "warianty_zapisu": [
-      "Towarzystwo Muzyczne im. Konstantego Gorskiego"
-    ],
-    "krs": "0001039845",
-    "status": "znaleziono_zweryfikowano_API",
-    "zrodlo_potwierdzenia": "API KRS OdpisAktualny 0001039845 - nazwa zgodna"
-  },
-  {
-    "nazwa_znormalizowana": "FUNDACJA IM. AGNIESZKI MARCZYŃSKIEJ",
-    "liczba_wystapien": 1,
-    "warianty_zapisu": [
-      "Fundacja im. Agnieszki Marczyńskiej"
-    ],
-    "krs": "0000281597",
-    "status": "znaleziono_zweryfikowano_API",
-    "zrodlo_potwierdzenia": "API KRS OdpisAktualny 0000281597 - nazwa zgodna"
-  },
-  {
     "nazwa_znormalizowana": "DIGNITY LIFE",
     "liczba_wystapien": 1,
     "warianty_zapisu": [
@@ -3235,116 +4068,6 @@
     "krs": null,
     "status": "nie_znaleziono_wyszukiwaniem",
     "zrodlo_potwierdzenia": "Brak wiarygodnego trafienia w wyszukiwaniu ani w API KRS pod tą nazwą"
-  },
-  {
-    "nazwa_znormalizowana": "FUNDACJA JAGIELLOŃSKA",
-    "liczba_wystapien": 1,
-    "warianty_zapisu": [
-      "Fundacja Jagiellońska"
-    ],
-    "krs": "0000643785",
-    "status": "znaleziono_zweryfikowano_API",
-    "zrodlo_potwierdzenia": "API KRS OdpisAktualny 0000643785 - nazwa zgodna"
-  },
-  {
-    "nazwa_znormalizowana": "FUNDACJA IM. ANNY I HENRYKA ŚWIĄTKOWSKICH",
-    "liczba_wystapien": 1,
-    "warianty_zapisu": [
-      "Fundacja im. Anny i Henryka Świątkowskich"
-    ],
-    "krs": "0000593203",
-    "status": "znaleziono_zweryfikowano_API",
-    "zrodlo_potwierdzenia": "API KRS OdpisAktualny 0000593203 - nazwa zgodna"
-  },
-  {
-    "nazwa_znormalizowana": "FUNDACJA RENESART",
-    "liczba_wystapien": 1,
-    "warianty_zapisu": [
-      "Fundacja RenesArt"
-    ],
-    "krs": "0000464098",
-    "status": "znaleziono_zweryfikowano_API",
-    "zrodlo_potwierdzenia": "API KRS OdpisAktualny 0000464098 - nazwa zgodna"
-  },
-  {
-    "nazwa_znormalizowana": "FUNDACJA MIGRA",
-    "liczba_wystapien": 1,
-    "warianty_zapisu": [
-      "Fundacja Migra"
-    ],
-    "krs": "0000687373",
-    "status": "znaleziono_zweryfikowano_API",
-    "zrodlo_potwierdzenia": "API KRS OdpisAktualny 0000687373 - nazwa zgodna"
-  },
-  {
-    "nazwa_znormalizowana": "FUNDACJA CINEMA MEDIA ART, FINDACJA MEDIA WORLD CUP",
-    "liczba_wystapien": 1,
-    "warianty_zapisu": [
-      "Fundacja Cinema Media Art, Findacja Media World Cup"
-    ],
-    "krs": "0000828012;0000805148",
-    "status": "znaleziono_zweryfikowano_API",
-    "zrodlo_potwierdzenia": "Wpis źródłowy łączy DWIE odrębne organizacje w jednej komórce (literówka 'FINDACJA' zamiast 'FUNDACJA'). Obie zweryfikowane osobno w API KRS: FUNDACJA CINEMA MEDIA ART = 0000828012, FUNDACJA MEDIA WORLD CUP = 0000805148 (ten sam prezes i adres w Lublinie - powiązane, ale odrębne podmioty)"
-  },
-  {
-    "nazwa_znormalizowana": "FUNDACJA PAMIĘCI NARODÓW",
-    "liczba_wystapien": 1,
-    "warianty_zapisu": [
-      "Fundacja Pamięci Narodów"
-    ],
-    "krs": "0000866848",
-    "status": "znaleziono_zweryfikowano_API",
-    "zrodlo_potwierdzenia": "API KRS OdpisAktualny 0000866848 - nazwa zgodna"
-  },
-  {
-    "nazwa_znormalizowana": "POLSKO-GRECKA IZBA PRZEMYSŁOWO-HANDLOWA",
-    "liczba_wystapien": 1,
-    "warianty_zapisu": [
-      "Polsko- Grecka Izba Przemysłowo- Handlowa"
-    ],
-    "krs": "0000674193",
-    "status": "znaleziono_zweryfikowano_API",
-    "zrodlo_potwierdzenia": "API KRS OdpisAktualny 0000674193 - nazwa zgodna"
-  },
-  {
-    "nazwa_znormalizowana": "STOWARZYSZENIE EDUKACJI KULTURALNEJ WIDOK",
-    "liczba_wystapien": 1,
-    "warianty_zapisu": [
-      "Stowarzyszenie Edukacji Kulturalnej Widok"
-    ],
-    "krs": "0000103409",
-    "status": "znaleziono_zweryfikowano_API",
-    "zrodlo_potwierdzenia": "API KRS OdpisAktualny 0000103409 - nazwa zgodna"
-  },
-  {
-    "nazwa_znormalizowana": "FUNDACJA MOJA MUZA",
-    "liczba_wystapien": 1,
-    "warianty_zapisu": [
-      "Fundacja Moja Muza"
-    ],
-    "krs": "0000995909",
-    "status": "znaleziono_zweryfikowano_API",
-    "zrodlo_potwierdzenia": "API KRS OdpisAktualny 0000995909 - nazwa zgodna"
-  },
-  {
-    "nazwa_znormalizowana": "FUNDACJA ACTIVNI",
-    "liczba_wystapien": 1,
-    "warianty_zapisu": [
-      "Fundacja Activni"
-    ],
-    "krs": "0000973329",
-    "status": "znaleziono_zweryfikowano_API",
-    "zrodlo_potwierdzenia": "API KRS OdpisAktualny 0000973329 - nazwa zgodna"
-  },
-  {
-    "nazwa_znormalizowana": "FUNDACJA ILUSTRACJI I KOMIKSU",
-    "liczba_wystapien": 1,
-    "warianty_zapisu": [
-      "Fundacja Ilustracji i Komiksu"
-    ],
-    "krs": "0000889819",
-    "status": "znaleziono_zweryfikowano_API",
-    "zrodlo_potwierdzenia": "API KRS OdpisAktualny 0000889819 - nazwa zgodna"
   },
   {
     "nazwa_znormalizowana": "FUNDACJA ARTE ET MARTE",
@@ -3357,86 +4080,6 @@
     "zrodlo_potwierdzenia": "API KRS OdpisAktualny 0000792254 zwraca 204 No Content - podmiot wykreślony z rejestru (ogłoszenie o otwarciu likwidacji z czerwca 2025, likwidacja najwyraźniej zakończona; brak aktywnego wpisu w KRS)"
   },
   {
-    "nazwa_znormalizowana": "STOWARZYSZENIE FORUM MNIEJSZOŚCI PODLASIA",
-    "liczba_wystapien": 1,
-    "warianty_zapisu": [
-      "Stowarzyszenie Forum Mniejszości Podlasia"
-    ],
-    "krs": "0000849242",
-    "status": "znaleziono_zweryfikowano_API",
-    "zrodlo_potwierdzenia": "API KRS OdpisAktualny 0000849242 - nazwa zgodna"
-  },
-  {
-    "nazwa_znormalizowana": "FUNDACJA ZAKRES",
-    "liczba_wystapien": 1,
-    "warianty_zapisu": [
-      "Fundacja Zakres"
-    ],
-    "krs": "0000987952",
-    "status": "znaleziono_zweryfikowano_API",
-    "zrodlo_potwierdzenia": "API KRS OdpisAktualny 0000987952 - nazwa zgodna"
-  },
-  {
-    "nazwa_znormalizowana": "ZACHODNIOPOMORSKI UNIWERSYTET LUDOWY-FUNDACJA",
-    "liczba_wystapien": 1,
-    "warianty_zapisu": [
-      "Zachodniopomorski Uniwersytet Ludowy - Fundacja"
-    ],
-    "krs": "0000682444",
-    "status": "znaleziono_zweryfikowano_API",
-    "zrodlo_potwierdzenia": "API KRS OdpisAktualny 0000682444 - nazwa zgodna (ZACHODNIOPOMORSKI UNIWERSYTET LUDOWY - FUNDACJA)"
-  },
-  {
-    "nazwa_znormalizowana": "FUNDACJA 180 STOPNI",
-    "liczba_wystapien": 1,
-    "warianty_zapisu": [
-      "FUNDACJA 180 STOPNI"
-    ],
-    "krs": "0000553932",
-    "status": "znaleziono_zweryfikowano_API",
-    "zrodlo_potwierdzenia": "API KRS OdpisAktualny 0000553932 zwraca aktualną nazwę 'FUNDACJA TEATRU MŁODYCH' (fundacja zmieniła nazwę). Tożsamość potwierdzona przez zgodny NIP 5851471073 (ten sam NIP w niezależnych rejestrach pod poprzednią nazwą 'Fundacja 180 Stopni')"
-  },
-  {
-    "nazwa_znormalizowana": "FUNDACJA AQUILAE",
-    "liczba_wystapien": 1,
-    "warianty_zapisu": [
-      "Fundacja Aquilae"
-    ],
-    "krs": "0001069082",
-    "status": "znaleziono_zweryfikowano_API",
-    "zrodlo_potwierdzenia": "API KRS OdpisAktualny 0001069082 - nazwa zgodna (odróżniona od niepowiązanej Fundacji Aquila bez litery e, KRS 0000554453)"
-  },
-  {
-    "nazwa_znormalizowana": "FUNDACJA CENTRUM IM. PROFESORA BRONISŁAWA GEREMKA",
-    "liczba_wystapien": 1,
-    "warianty_zapisu": [
-      "Fundacja \"Centrum im. Profesora Bronisława Geremka\""
-    ],
-    "krs": "0000319089",
-    "status": "znaleziono_zweryfikowano_API",
-    "zrodlo_potwierdzenia": "API KRS OdpisAktualny 0000319089 - nazwa zgodna"
-  },
-  {
-    "nazwa_znormalizowana": "FUNDACJA GÓRNIKA ZABRZE",
-    "liczba_wystapien": 1,
-    "warianty_zapisu": [
-      "Fundacja Górnika Zabrze"
-    ],
-    "krs": "0000414081",
-    "status": "znaleziono_zweryfikowano_API",
-    "zrodlo_potwierdzenia": "API KRS OdpisAktualny 0000414081 - nazwa zgodna"
-  },
-  {
-    "nazwa_znormalizowana": "FUNDACJA SCIENTIA THORUNENSIA",
-    "liczba_wystapien": 1,
-    "warianty_zapisu": [
-      "Fundacja Scientia Thorunensia"
-    ],
-    "krs": "0000774901",
-    "status": "znaleziono_zweryfikowano_API",
-    "zrodlo_potwierdzenia": "API KRS OdpisAktualny 0000774901 - nazwa zgodna"
-  },
-  {
     "nazwa_znormalizowana": "FUNDACJA ALIMURADOVA",
     "liczba_wystapien": 1,
     "warianty_zapisu": [
@@ -3445,186 +4088,6 @@
     "krs": null,
     "status": "nie_znaleziono_wyszukiwaniem",
     "zrodlo_potwierdzenia": "Brak wiarygodnego trafienia w wyszukiwaniu ani w API KRS pod tą nazwą (znaleziono jedynie profil na Facebooku)"
-  },
-  {
-    "nazwa_znormalizowana": "STOWARZYSZENIE OŚWIATOWE HUGO",
-    "liczba_wystapien": 1,
-    "warianty_zapisu": [
-      "Stowarzyszenie Oświatowe Hugo"
-    ],
-    "krs": "0001077157",
-    "status": "znaleziono_zweryfikowano_API",
-    "zrodlo_potwierdzenia": "API KRS OdpisAktualny 0001077157 - nazwa zgodna"
-  },
-  {
-    "nazwa_znormalizowana": "STOWARZYSZENIE TOWARZYSTWO WSPÓŁPRACY Z POLAKAMI W KAZACHSTANIE KRAKÓWKARAGANDA",
-    "liczba_wystapien": 1,
-    "warianty_zapisu": [
-      "Stowarzyszenie Towarzystwo Współpracy Z Polakami W Kazachstanie Krakówkaraganda"
-    ],
-    "krs": "0000705516",
-    "status": "znaleziono_zweryfikowano_API",
-    "zrodlo_potwierdzenia": "API KRS OdpisAktualny 0000705516 - nazwa zgodna (wariant zapisu bez łącznika)"
-  },
-  {
-    "nazwa_znormalizowana": "STOWARZYSZENIE TOWARZYSTWO WSPÓŁPRACY Z POLAKAMI W KAZACHSTANIE KRAKÓW-KARAGANDA",
-    "liczba_wystapien": 1,
-    "warianty_zapisu": [
-      "STOWARZYSZENIE TOWARZYSTWO WSPÓŁPRACY Z POLAKAMI W KAZACHSTANIE KRAKÓW-KARAGANDA"
-    ],
-    "krs": "0000705516",
-    "status": "znaleziono_zweryfikowano_API",
-    "zrodlo_potwierdzenia": "API KRS OdpisAktualny 0000705516 - nazwa zgodna"
-  },
-  {
-    "nazwa_znormalizowana": "FUNDACJA CINEMA MEDIA ART",
-    "liczba_wystapien": 1,
-    "warianty_zapisu": [
-      "Fundacja Cinema Media Art"
-    ],
-    "krs": "0000828012",
-    "status": "znaleziono_zweryfikowano_API",
-    "zrodlo_potwierdzenia": "API KRS OdpisAktualny 0000828012 - nazwa zgodna"
-  },
-  {
-    "nazwa_znormalizowana": "STOWARZYSZENIE EUROPEJSKA WSPÓLNOTA GOSPODARCZA POLONIA",
-    "liczba_wystapien": 1,
-    "warianty_zapisu": [
-      "Stowarzyszenie Europejska Wspólnota Gospodarcza Polonia"
-    ],
-    "krs": "0000261943",
-    "status": "znaleziono_zweryfikowano_API",
-    "zrodlo_potwierdzenia": "API KRS OdpisAktualny 0000261943 - nazwa zgodna (EUROPEJSKA WSPÓLNOTA GOSPODARCZA POLONII, forma dopełniacza)"
-  },
-  {
-    "nazwa_znormalizowana": "STOWARZYSZENIE SCENA KULTURY WOKALNEJ-ŚPIEWANIE BEZ GRANIC",
-    "liczba_wystapien": 1,
-    "warianty_zapisu": [
-      "STOWARZYSZENIE SCENA KULTURY WOKALNEJ - ŚPIEWANIE BEZ GRANIC"
-    ],
-    "krs": "0000777258",
-    "status": "znaleziono_zweryfikowano_API",
-    "zrodlo_potwierdzenia": "API KRS OdpisAktualny 0000777258 - nazwa zgodna"
-  },
-  {
-    "nazwa_znormalizowana": "FUNDACJA NA RZECZ DWUJĘZYCZNOŚCI EDUNOWA",
-    "liczba_wystapien": 1,
-    "warianty_zapisu": [
-      "FUNDACJA NA RZECZ DWUJĘZYCZNOŚCI EDUNOWA"
-    ],
-    "krs": "0000809797",
-    "status": "znaleziono_zweryfikowano_API",
-    "zrodlo_potwierdzenia": "API KRS OdpisAktualny 0000809797 - nazwa zgodna"
-  },
-  {
-    "nazwa_znormalizowana": "STOWARZYSZENIE SOLIDARNI RAZEM",
-    "liczba_wystapien": 1,
-    "warianty_zapisu": [
-      "Stowarzyszenie ''Solidarni Razem\""
-    ],
-    "krs": "0000245057",
-    "status": "znaleziono_zweryfikowano_API",
-    "zrodlo_potwierdzenia": "API KRS OdpisAktualny 0000245057 - nazwa zgodna"
-  },
-  {
-    "nazwa_znormalizowana": "GUNDACJA NA RZECZ POMOCY DZIECIOM Z GRODZIEŃSZCZYZNY",
-    "liczba_wystapien": 1,
-    "warianty_zapisu": [
-      "Gundacja na rzecz Pomocy Dzieciom z Grodzieńszczyzny"
-    ],
-    "krs": "0000000291",
-    "status": "znaleziono_zweryfikowano_API",
-    "zrodlo_potwierdzenia": "API KRS OdpisAktualny 0000000291 - nazwa zgodna (literówka 'GUNDACJA' zamiast 'FUNDACJA' w danych źródłowych)"
-  },
-  {
-    "nazwa_znormalizowana": "STOWARZYSZENIE ,,CENTRUM LUBICZ-POGRANICZE KULTUR",
-    "liczba_wystapien": 1,
-    "warianty_zapisu": [
-      "Stowarzyszenie ,,Centrum Lubicz- Pogranicze Kultur\""
-    ],
-    "krs": "0000967813",
-    "status": "znaleziono_zweryfikowano_API",
-    "zrodlo_potwierdzenia": "API KRS OdpisAktualny 0000967813 - nazwa zgodna"
-  },
-  {
-    "nazwa_znormalizowana": "BIAŁORUSKI MŁODZIEŻOWY HUB",
-    "liczba_wystapien": 1,
-    "warianty_zapisu": [
-      "BIAŁORUSKI MŁODZIEŻOWY HUB"
-    ],
-    "krs": "0000759981",
-    "status": "znaleziono_zweryfikowano_API",
-    "zrodlo_potwierdzenia": "API KRS OdpisAktualny 0000759981 - nazwa zgodna (STOWARZYSZENIE BIAŁORUSKI MŁODZIEŻOWY HUB)"
-  },
-  {
-    "nazwa_znormalizowana": "FUNDACJA POMAGAMY I KROPKA",
-    "liczba_wystapien": 1,
-    "warianty_zapisu": [
-      "Fundacja Pomagamy i Kropka"
-    ],
-    "krs": "0000969807",
-    "status": "znaleziono_zweryfikowano_API",
-    "zrodlo_potwierdzenia": "API KRS OdpisAktualny 0000969807 - nazwa zgodna"
-  },
-  {
-    "nazwa_znormalizowana": "REGIONALNA RADA POLSKIEGO KOMITETU OLIMPIJSKIEGO W CZĘSTOCHOWIE",
-    "liczba_wystapien": 1,
-    "warianty_zapisu": [
-      "REGIONALNA RADA POLSKIEGO KOMITETU OLIMPIJSKIEGO W CZĘSTOCHOWIE"
-    ],
-    "krs": "0000091640",
-    "status": "znaleziono_zweryfikowano_API",
-    "zrodlo_potwierdzenia": "API KRS OdpisAktualny 0000091640 - nazwa zgodna"
-  },
-  {
-    "nazwa_znormalizowana": "FUNDACJA INSTYTUT MEDIÓW",
-    "liczba_wystapien": 1,
-    "warianty_zapisu": [
-      "Fundacja Instytut Mediów"
-    ],
-    "krs": "0000600505",
-    "status": "znaleziono_zweryfikowano_API",
-    "zrodlo_potwierdzenia": "API KRS OdpisAktualny 0000600505 - nazwa zgodna"
-  },
-  {
-    "nazwa_znormalizowana": "FUNDACJA TYLKO ORŁY",
-    "liczba_wystapien": 1,
-    "warianty_zapisu": [
-      "Fundacja Tylko Orły"
-    ],
-    "krs": "0000843781",
-    "status": "znaleziono_zweryfikowano_API",
-    "zrodlo_potwierdzenia": "API KRS OdpisAktualny 0000843781 - nazwa zgodna"
-  },
-  {
-    "nazwa_znormalizowana": "GUNDACJA INSTYTUT SPRAW KONSTYTUCYJNYCH",
-    "liczba_wystapien": 1,
-    "warianty_zapisu": [
-      "Gundacja Instytut Spraw Konstytucyjnych"
-    ],
-    "krs": "0000871660",
-    "status": "znaleziono_zweryfikowano_API",
-    "zrodlo_potwierdzenia": "API KRS OdpisAktualny 0000871660 - nazwa zgodna (literówka 'GUNDACJA' w danych źródłowych)"
-  },
-  {
-    "nazwa_znormalizowana": "PRACOWNIA EKSPERYMENTU-FUNDACJA",
-    "liczba_wystapien": 1,
-    "warianty_zapisu": [
-      "Pracownia Eksperymentu - Fundacja"
-    ],
-    "krs": "0000883548",
-    "status": "znaleziono_zweryfikowano_API",
-    "zrodlo_potwierdzenia": "API KRS OdpisAktualny 0000883548 - nazwa zgodna"
-  },
-  {
-    "nazwa_znormalizowana": "FUNDACJA INSTYTUT ZRÓWNOWAŻONEGO ROZWOJU TERENÓW WIEJSKICH",
-    "liczba_wystapien": 1,
-    "warianty_zapisu": [
-      "Fundacja \"Instytut Zrównoważonego Rozwoju Terenów Wiejskich\""
-    ],
-    "krs": "0000546643",
-    "status": "znaleziono_zweryfikowano_API",
-    "zrodlo_potwierdzenia": "API KRS OdpisAktualny 0000546643 - nazwa zgodna. Odróżniona od niepowiązanej, podobnie nazwanej FUNDACJA INSTYTUT ZRÓWNOWAŻONEGO ROZWOJU (bez 'TERENÓW WIEJSKICH'), KRS 0001038018 w Krakowie"
   },
   {
     "nazwa_znormalizowana": "FUNDACJA CZYSTE SERCA",
@@ -3637,386 +4100,6 @@
     "zrodlo_potwierdzenia": "Co najmniej dwie odrębne fundacje o dokładnie tej samej nazwie 'FUNDACJA CZYSTE SERCA' - jedna w Bydgoszczy (KRS 0000314644), druga w Katowicach (KRS 0001064942, w API zapisana w cudzysłowie) - nie da się jednoznacznie wskazać właściwego podmiotu bez dodatkowych danych ze źródła"
   },
   {
-    "nazwa_znormalizowana": "FUNDACJA EDUKACJA DO WARTOŚCI",
-    "liczba_wystapien": 1,
-    "warianty_zapisu": [
-      "Fundacja Edukacja do Wartości"
-    ],
-    "krs": "0000834289",
-    "status": "znaleziono_zweryfikowano_API",
-    "zrodlo_potwierdzenia": "API KRS OdpisAktualny 0000834289 - nazwa zgodna (odróżniona od niepowiązanej Fundacji Edukacja z Wartościami, KRS 0000518975)"
-  },
-  {
-    "nazwa_znormalizowana": "FUNDACJA POLSKA-HAITI",
-    "liczba_wystapien": 1,
-    "warianty_zapisu": [
-      "Fundacja Polska- Haiti"
-    ],
-    "krs": "0000349426",
-    "status": "znaleziono_zweryfikowano_API",
-    "zrodlo_potwierdzenia": "API KRS OdpisAktualny 0000349426 - nazwa zgodna"
-  },
-  {
-    "nazwa_znormalizowana": "FUNDACJA INSTYTUT SPRAW OBYWATELSKICH",
-    "liczba_wystapien": 1,
-    "warianty_zapisu": [
-      "Fundacja Instytut Spraw Obywatelskich"
-    ],
-    "krs": "0000191928",
-    "status": "znaleziono_zweryfikowano_API",
-    "zrodlo_potwierdzenia": "API KRS OdpisAktualny 0000191928 - nazwa zgodna"
-  },
-  {
-    "nazwa_znormalizowana": "FUNDACJA PO SĄSIEDZKU",
-    "liczba_wystapien": 1,
-    "warianty_zapisu": [
-      "Fundacja Po Sąsiedzku"
-    ],
-    "krs": "0000962437",
-    "status": "znaleziono_zweryfikowano_API",
-    "zrodlo_potwierdzenia": "API KRS OdpisAktualny 0000962437 - nazwa zgodna (odróżniona od niepowiązanej Fundacji Na Rzecz Organizowania Społeczności Lokalnej 'Po Sąsiedzku', KRS 0000820385)"
-  },
-  {
-    "nazwa_znormalizowana": "FUNDACJA OBRONY PRAW CZŁOWIEKA I OBTWATELA",
-    "liczba_wystapien": 1,
-    "warianty_zapisu": [
-      "Fundacja Obrony Praw Człowieka i Obtwatela"
-    ],
-    "krs": "0000935489",
-    "status": "znaleziono_zweryfikowano_API",
-    "zrodlo_potwierdzenia": "API KRS OdpisAktualny 0000935489 - nazwa zgodna (literówka 'OBTWATELA' zamiast 'OBYWATELA' w danych źródłowych)"
-  },
-  {
-    "nazwa_znormalizowana": "FUNDACJA OPOKA",
-    "liczba_wystapien": 1,
-    "warianty_zapisu": [
-      "Fundacja Opoka"
-    ],
-    "krs": "0000178115",
-    "status": "znaleziono_zweryfikowano_API",
-    "zrodlo_potwierdzenia": "API KRS OdpisAktualny 0000178115 - nazwa zgodna"
-  },
-  {
-    "nazwa_znormalizowana": "ADAMS COMPANY SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ",
-    "liczba_wystapien": 1,
-    "warianty_zapisu": [
-      "ADAM'S Company Spółka z ograniczoną odpowiedzialnością"
-    ],
-    "krs": "0000877535",
-    "status": "znaleziono_zweryfikowano_API",
-    "zrodlo_potwierdzenia": "API KRS OdpisAktualny (rejestr przedsiębiorców) 0000877535 - nazwa zgodna (ADAM'S COMPANY SP. Z O.O.)"
-  },
-  {
-    "nazwa_znormalizowana": "FUNDACJA KLUBU RONINA",
-    "liczba_wystapien": 1,
-    "warianty_zapisu": [
-      "Fundacja Klubu Ronina"
-    ],
-    "krs": "0000623995",
-    "status": "znaleziono_zweryfikowano_API",
-    "zrodlo_potwierdzenia": "API KRS OdpisAktualny 0000623995 - nazwa zgodna"
-  },
-  {
-    "nazwa_znormalizowana": "ZWIĄZEK SYBIRAKÓW ZARZĄD GŁÓWNY",
-    "liczba_wystapien": 1,
-    "warianty_zapisu": [
-      "Związek Sybiraków Zarząd Główny"
-    ],
-    "krs": "0000053657",
-    "status": "znaleziono_zweryfikowano_API",
-    "zrodlo_potwierdzenia": "API KRS OdpisAktualny 0000053657 - nazwa zgodna"
-  },
-  {
-    "nazwa_znormalizowana": "ARTCHATA",
-    "liczba_wystapien": 1,
-    "warianty_zapisu": [
-      "Artchata"
-    ],
-    "krs": "0000710994",
-    "status": "znaleziono_zweryfikowano_API",
-    "zrodlo_potwierdzenia": "API KRS OdpisAktualny 0000710994 - nazwa zgodna (FUNDACJA ARTCHATA)"
-  },
-  {
-    "nazwa_znormalizowana": "FUNDACJA BĘDZIEM POLAKAMI",
-    "liczba_wystapien": 1,
-    "warianty_zapisu": [
-      "Fundacja Będziem Polakami"
-    ],
-    "krs": "0000699917",
-    "status": "znaleziono_zweryfikowano_API",
-    "zrodlo_potwierdzenia": "API KRS OdpisAktualny 0000699917 - nazwa zgodna"
-  },
-  {
-    "nazwa_znormalizowana": "FUNDACJA YPSILON ART",
-    "liczba_wystapien": 1,
-    "warianty_zapisu": [
-      "Fundacja Ypsilon Art"
-    ],
-    "krs": "0000794053",
-    "status": "znaleziono_zweryfikowano_API",
-    "zrodlo_potwierdzenia": "API KRS OdpisAktualny 0000794053 - nazwa zgodna"
-  },
-  {
-    "nazwa_znormalizowana": "FUNDACJA INSTYTUT PAŃSTWA I PRAWA",
-    "liczba_wystapien": 1,
-    "warianty_zapisu": [
-      "Fundacja Instytut Państwa i Prawa"
-    ],
-    "krs": "0000516027",
-    "status": "znaleziono_zweryfikowano_API",
-    "zrodlo_potwierdzenia": "API KRS OdpisAktualny 0000516027 - nazwa zgodna (odróżniona od niepowiązanej FUNDACJA - INSTYTUT NA RZECZ PAŃSTWA PRAWA, KRS 0000085688)"
-  },
-  {
-    "nazwa_znormalizowana": "STOWARZYSZENIE REEMIGRANTÓW Z BOŚNI, ICH POTOMKÓW ORAZ PRZYJACIÓŁ",
-    "liczba_wystapien": 1,
-    "warianty_zapisu": [
-      "Stowarzyszenie Reemigrantów z Bośni, ich Potomków oraz Przyjaciół"
-    ],
-    "krs": "0000376247",
-    "status": "znaleziono_zweryfikowano_API",
-    "zrodlo_potwierdzenia": "API KRS OdpisAktualny 0000376247 - nazwa zgodna"
-  },
-  {
-    "nazwa_znormalizowana": "FUNDACJA NA RZECZ ROZPOWSZECHNIANIA I PROMOCJI TAŃCÓW HISTORYCZNYCH I KULTURY DWORSKIEJ ARDENTE SOLE",
-    "liczba_wystapien": 1,
-    "warianty_zapisu": [
-      "Fundacja Na Rzecz Rozpowszechniania I Promocji Tańców Historycznych I Kultury Dworskiej Ardente Sole"
-    ],
-    "krs": "0000248771",
-    "status": "znaleziono_zweryfikowano_API",
-    "zrodlo_potwierdzenia": "API KRS OdpisAktualny 0000248771 - nazwa zgodna"
-  },
-  {
-    "nazwa_znormalizowana": "ORMIAŃSKO-POLSKI KOMITET SPOŁECZNY",
-    "liczba_wystapien": 1,
-    "warianty_zapisu": [
-      "Ormiańsko-Polski Komitet Społeczny"
-    ],
-    "krs": "0000419616",
-    "status": "znaleziono_zweryfikowano_API",
-    "zrodlo_potwierdzenia": "API KRS OdpisAktualny 0000419616 - nazwa zgodna"
-  },
-  {
-    "nazwa_znormalizowana": "STOWARZYSZENIE WOLNEGO SŁOWA",
-    "liczba_wystapien": 1,
-    "warianty_zapisu": [
-      "Stowarzyszenie Wolnego Słowa"
-    ],
-    "krs": "0000195433",
-    "status": "znaleziono_zweryfikowano_API",
-    "zrodlo_potwierdzenia": "API KRS OdpisAktualny 0000195433 - nazwa zgodna"
-  },
-  {
-    "nazwa_znormalizowana": "BYTOMSKI KLUB SAMORZĄDOWY",
-    "liczba_wystapien": 1,
-    "warianty_zapisu": [
-      "Bytomski Klub Samorządowy"
-    ],
-    "krs": "0000180210",
-    "status": "znaleziono_zweryfikowano_API",
-    "zrodlo_potwierdzenia": "API KRS OdpisAktualny 0000180210 - nazwa zgodna"
-  },
-  {
-    "nazwa_znormalizowana": "STOWARZYSZENIE PRO ARTIS",
-    "liczba_wystapien": 1,
-    "warianty_zapisu": [
-      "Stowarzyszenie \"PRO ARTIS\""
-    ],
-    "krs": "0000693617",
-    "status": "znaleziono_zweryfikowano_API",
-    "zrodlo_potwierdzenia": "API KRS OdpisAktualny 0000693617 - nazwa zgodna (STOWARZYSZENIE \"PRO ARTIS\")"
-  },
-  {
-    "nazwa_znormalizowana": "FUNDACJA TRÓJMORZE",
-    "liczba_wystapien": 1,
-    "warianty_zapisu": [
-      "Fundacja Trójmorze"
-    ],
-    "krs": "0000860197",
-    "status": "znaleziono_zweryfikowano_API",
-    "zrodlo_potwierdzenia": "API KRS OdpisAktualny 0000860197 - nazwa zgodna (odróżniona od niepowiązanej FUNDACJA TRÓJMORZA, KRS 0001086027)"
-  },
-  {
-    "nazwa_znormalizowana": "STOWARZYSZENIE RODZINA W CIECHANOWCU",
-    "liczba_wystapien": 1,
-    "warianty_zapisu": [
-      "Stowarzyszenie Rodzina w Ciechanowcu"
-    ],
-    "krs": "0000083534",
-    "status": "znaleziono_zweryfikowano_API",
-    "zrodlo_potwierdzenia": "API KRS OdpisAktualny 0000083534 - nazwa zgodna"
-  },
-  {
-    "nazwa_znormalizowana": "FUNDACJA EDUKACYJNA PRO MUSICA",
-    "liczba_wystapien": 1,
-    "warianty_zapisu": [
-      "Fundacja Edukacyjna Pro Musica"
-    ],
-    "krs": "0000214614",
-    "status": "znaleziono_zweryfikowano_API",
-    "zrodlo_potwierdzenia": "API KRS OdpisAktualny 0000214614 - nazwa zgodna"
-  },
-  {
-    "nazwa_znormalizowana": "FUNDACJA DZIEDZICTWO WIELKIEGO XIĘSTWA LITEWSKIEGO",
-    "liczba_wystapien": 1,
-    "warianty_zapisu": [
-      "Fundacja Dziedzictwo Wielkiego Xięstwa Litewskiego"
-    ],
-    "krs": "0000429155",
-    "status": "znaleziono_zweryfikowano_API",
-    "zrodlo_potwierdzenia": "API KRS OdpisAktualny 0000429155 - nazwa zgodna"
-  },
-  {
-    "nazwa_znormalizowana": "FUNDACJA POMOC POLAKOM NA WSCHODZIE IM. JANA",
-    "liczba_wystapien": 1,
-    "warianty_zapisu": [
-      "Fundacja \"Pomoc Polakom na Wschodzie\" imienia Jana"
-    ],
-    "krs": "0000130056",
-    "status": "znaleziono_zweryfikowano_API",
-    "zrodlo_potwierdzenia": "API KRS OdpisAktualny 0000130056 - nazwa zgodna (pełna nazwa: FUNDACJA \"POMOC POLAKOM NA WSCHODZIE\" IM. JANA OLSZEWSKIEGO, ucięta w danych źródłowych)"
-  },
-  {
-    "nazwa_znormalizowana": "FUNDACJA POLSKO-UKRAIŃSKA FUNDACJA IM. IGNACEGO JANA PADEREWSKIEGO",
-    "liczba_wystapien": 1,
-    "warianty_zapisu": [
-      "Fundacja Polsko- ukraińska Fundacja Imienia Ignacego Jana Paderewskiego"
-    ],
-    "krs": "0000429191",
-    "status": "znaleziono_zweryfikowano_API",
-    "zrodlo_potwierdzenia": "Ten sam podmiot co 'Polsko Ukraińska Fundacja im. Ignacego Jana Paderewskiego' (wariant zapisu) - patrz uzasadnienie przy tamtym wpisie"
-  },
-  {
-    "nazwa_znormalizowana": "STOWARZYSZENIE BEZPIECZNA LUBELSZCZYZNA",
-    "liczba_wystapien": 1,
-    "warianty_zapisu": [
-      "Stowarzyszenie Bezpieczna Lubelszczyzna"
-    ],
-    "krs": "0000385808",
-    "status": "znaleziono_zweryfikowano_API",
-    "zrodlo_potwierdzenia": "API KRS OdpisAktualny 0000385808 - nazwa zgodna"
-  },
-  {
-    "nazwa_znormalizowana": "FUNDACJA MAXIMUM INSTYTUT WYDAWNICZY. CENTRUM KULTURY-NAUKI-EDUKACJI",
-    "liczba_wystapien": 1,
-    "warianty_zapisu": [
-      "Fundacja \"Maximum\" Instytut Wydawniczy. Centrum Kultury-Nauki- Edukacji"
-    ],
-    "krs": "0000326359",
-    "status": "znaleziono_zweryfikowano_API",
-    "zrodlo_potwierdzenia": "API KRS OdpisAktualny 0000326359 zwraca nazwę z 'CENTRUM KULTURY-BIZNESU-EDUKACJI' (nie 'NAUKI'). Tożsamość potwierdzona przez ten sam NIP 6793003076 widoczny również na oficjalnej stronie fundacji, która używa podtytułu 'Centrum Kultury - Nauki - Edukacji' - najwyraźniej nieformalna, marketingowa wersja nazwy"
-  },
-  {
-    "nazwa_znormalizowana": "FUNDACJA PROMOCJI MEDIACJI I EDUKACJI PRAWNEJ LEX NOSTRA",
-    "liczba_wystapien": 1,
-    "warianty_zapisu": [
-      "Fundacja Promocji Mediacji i Edukacji Prawnej Lex Nostra"
-    ],
-    "krs": "0000365293",
-    "status": "znaleziono_zweryfikowano_API",
-    "zrodlo_potwierdzenia": "API KRS OdpisAktualny 0000365293 - nazwa zgodna"
-  },
-  {
-    "nazwa_znormalizowana": "FUNDACJA SZTUKI I EDUKACJI FILMOWEJ SZTUKA POZNANIA",
-    "liczba_wystapien": 1,
-    "warianty_zapisu": [
-      "Fundacja Sztuki i Edukacji Filmowej SZTUKA POZNANIA"
-    ],
-    "krs": "0000375824",
-    "status": "znaleziono_zweryfikowano_API",
-    "zrodlo_potwierdzenia": "API KRS OdpisAktualny 0000375824 - nazwa zgodna"
-  },
-  {
-    "nazwa_znormalizowana": "FUNDACJA AMBITNA POLSKA",
-    "liczba_wystapien": 1,
-    "warianty_zapisu": [
-      "Fundacja Ambitna Polska"
-    ],
-    "krs": "0000732603",
-    "status": "znaleziono_zweryfikowano_API",
-    "zrodlo_potwierdzenia": "API KRS OdpisAktualny 0000732603 - nazwa zgodna"
-  },
-  {
-    "nazwa_znormalizowana": "FUNDACJA ROZWOJU SPOŁECZEŃSTWA KREATYWNEGO",
-    "liczba_wystapien": 1,
-    "warianty_zapisu": [
-      "Fundacja Rozwoju Społeczeństwa Kreatywnego"
-    ],
-    "krs": "0000900516",
-    "status": "znaleziono_zweryfikowano_API",
-    "zrodlo_potwierdzenia": "API KRS OdpisAktualny 0000900516 - nazwa zgodna"
-  },
-  {
-    "nazwa_znormalizowana": "STOWARZYSZENIE HARFA DZIECIOM",
-    "liczba_wystapien": 1,
-    "warianty_zapisu": [
-      "Stowarzyszenie\" Harfa Dzieciom\""
-    ],
-    "krs": "0000325784",
-    "status": "znaleziono_zweryfikowano_API",
-    "zrodlo_potwierdzenia": "API KRS OdpisAktualny 0000325784 - nazwa zgodna (\"HARFA DZIECIOM\")"
-  },
-  {
-    "nazwa_znormalizowana": "FUNDACJA EDUEKO",
-    "liczba_wystapien": 1,
-    "warianty_zapisu": [
-      "Fundacja EDUEKO"
-    ],
-    "krs": "0000879807",
-    "status": "znaleziono_zweryfikowano_API",
-    "zrodlo_potwierdzenia": "API KRS OdpisAktualny 0000879807 - nazwa zgodna"
-  },
-  {
-    "nazwa_znormalizowana": "FUNDACJA PROJEKT PATRIOTYZM",
-    "liczba_wystapien": 1,
-    "warianty_zapisu": [
-      "Fundacja Projekt Patriotyzm"
-    ],
-    "krs": "0000835764",
-    "status": "znaleziono_zweryfikowano_API",
-    "zrodlo_potwierdzenia": "API KRS OdpisAktualny 0000835764 - nazwa zgodna"
-  },
-  {
-    "nazwa_znormalizowana": "FUNDACJA KISIELA",
-    "liczba_wystapien": 1,
-    "warianty_zapisu": [
-      "Fundacja Kisiela"
-    ],
-    "krs": "0000299155",
-    "status": "znaleziono_zweryfikowano_API",
-    "zrodlo_potwierdzenia": "API KRS OdpisAktualny 0000299155 - nazwa zgodna"
-  },
-  {
-    "nazwa_znormalizowana": "FUNDACJA DZIEDZICTWA KULTUROWEGO",
-    "liczba_wystapien": 1,
-    "warianty_zapisu": [
-      "Fundacja Dziedzictwa Kulturowego"
-    ],
-    "krs": "0000439624",
-    "status": "znaleziono_zweryfikowano_API",
-    "zrodlo_potwierdzenia": "API KRS OdpisAktualny 0000439624 - nazwa zgodna (odróżniona od kilku niepowiązanych fundacji o podobnych, rozszerzonych nazwach)"
-  },
-  {
-    "nazwa_znormalizowana": "ŻURAW GDAŃSK",
-    "liczba_wystapien": 1,
-    "warianty_zapisu": [
-      "Żuraw Gdańsk"
-    ],
-    "krs": "0000539836",
-    "status": "znaleziono_zweryfikowano_API",
-    "zrodlo_potwierdzenia": "API KRS OdpisAktualny 0000539836 - nazwa zgodna"
-  },
-  {
-    "nazwa_znormalizowana": "FUNDACJA DROGA NA SZCZYT",
-    "liczba_wystapien": 1,
-    "warianty_zapisu": [
-      "Fundacja Droga na Szczyt"
-    ],
-    "krs": "0000923846",
-    "status": "znaleziono_zweryfikowano_API",
-    "zrodlo_potwierdzenia": "API KRS OdpisAktualny 0000923846 - nazwa zgodna (odróżniona od niepowiązanej FUNDACJA W DRODZE NA SZCZYT, KRS 0000987834)"
-  },
-  {
     "nazwa_znormalizowana": "STOWARZYSZENIE SPARTA",
     "liczba_wystapien": 1,
     "warianty_zapisu": [
@@ -4025,36 +4108,6 @@
     "krs": null,
     "status": "niejednoznaczne_kilka_pasujacych_podmiotow",
     "zrodlo_potwierdzenia": "Wiele odrębnych organizacji o nazwie zawierającej 'Sparta' zarejestrowanych w KRS (m.in. Stowarzyszenie 'Sparta' KRS 0000590608, Stowarzyszenie Piłki Siatkowej 'Sparta' KRS 0000266440, kluby sportowe Sparta w różnych miastach) - nazwa zbyt ogólna, by jednoznacznie wskazać właściwy podmiot bez dodatkowych danych ze źródła (miejscowość, dyscyplina)"
-  },
-  {
-    "nazwa_znormalizowana": "FUNDACJA ROZWOJU SZKOŁY WYŻSZEJ WYMIARU SPRAWIEDLIWOŚCI",
-    "liczba_wystapien": 1,
-    "warianty_zapisu": [
-      "Fundacja Rozwoju Szkoły Wyższej Wymiaru Sprawiedliwości"
-    ],
-    "krs": "0000949089",
-    "status": "znaleziono_zweryfikowano_API",
-    "zrodlo_potwierdzenia": "API KRS OdpisAktualny 0000949089 zwraca aktualną nazwę 'FUNDACJA ROZWOJU SZKOLNICTWA WYŻSZEGO' (fundacja zmieniła nazwę, wcześniej Fundacja Rozwoju Szkoły Wyższej Wymiaru Sprawiedliwości - potwierdzone przez ten sam NIP 5252894494)"
-  },
-  {
-    "nazwa_znormalizowana": "STOWARZYSZENIE RODZINA KOLPINGA",
-    "liczba_wystapien": 1,
-    "warianty_zapisu": [
-      "Stowarzyszenie \"Rodzina Kolpinga\""
-    ],
-    "krs": "0000135856",
-    "status": "znaleziono_zweryfikowano_API",
-    "zrodlo_potwierdzenia": "API KRS OdpisAktualny 0000135856 - nazwa zgodna (odróżnione od wielu lokalnych oddziałów 'Rodzina Kolpinga w [miasto]' mających własne, odrębne numery KRS)"
-  },
-  {
-    "nazwa_znormalizowana": "STOWARZYSZENIE REPUBLIKA POLONIA",
-    "liczba_wystapien": 1,
-    "warianty_zapisu": [
-      "Stowarzyszenie \"Republika Polonia\""
-    ],
-    "krs": "0000911341",
-    "status": "znaleziono_zweryfikowano_API",
-    "zrodlo_potwierdzenia": "API KRS OdpisAktualny 0000911341 - nazwa zgodna (pełna nazwa: ŚWIATOWE STOWARZYSZENIE \"REPUBLIKA POLONIA\")"
   },
   {
     "nazwa_znormalizowana": "FUNDACJA DRZWI DO WOLNOŚCI",
@@ -4067,116 +4120,6 @@
     "zrodlo_potwierdzenia": "Brak wiarygodnego trafienia pod dokładnie tą nazwą. Znalezione podobne, ale niepowiązane podmioty: Fundacja Wolności (KRS 0000428743), Fundacja dla Wolności (KRS 0000224819), Fundacja Drzwi Otwarte (KRS 0000752093) - żaden nie pasuje dokładnie do szukanej nazwy"
   },
   {
-    "nazwa_znormalizowana": "STOWARZYSZENIE GROM",
-    "liczba_wystapien": 1,
-    "warianty_zapisu": [
-      "Stowarzyszenie Grom"
-    ],
-    "krs": "0000553247",
-    "status": "znaleziono_zweryfikowano_API",
-    "zrodlo_potwierdzenia": "API KRS OdpisAktualny 0000553247 - nazwa zgodna (odróżnione od kilku niepowiązanych klubów sportowych o tej samej nazwie)"
-  },
-  {
-    "nazwa_znormalizowana": "STOWARZYSZENIE INTEGRACJA EUROPA-WSCHÓD",
-    "liczba_wystapien": 1,
-    "warianty_zapisu": [
-      "Stowarzyszenie Integracja Europa - Wschód"
-    ],
-    "krs": "0000364727",
-    "status": "znaleziono_zweryfikowano_API",
-    "zrodlo_potwierdzenia": "API KRS OdpisAktualny 0000364727 - nazwa zgodna"
-  },
-  {
-    "nazwa_znormalizowana": "FUNDACJA KRZYŻOWA DLA POROZUMIENIA EUROPEJSKIEGO",
-    "liczba_wystapien": 1,
-    "warianty_zapisu": [
-      "Fundacja \"Krzyżowa\" Dla Porozumienia Europejskiego"
-    ],
-    "krs": "0000084948",
-    "status": "znaleziono_zweryfikowano_API",
-    "zrodlo_potwierdzenia": "API KRS OdpisAktualny 0000084948 - nazwa zgodna"
-  },
-  {
-    "nazwa_znormalizowana": "FUNDACJA MUZA DEI-CENTRUM NOWEJ KULTURY",
-    "liczba_wystapien": 1,
-    "warianty_zapisu": [
-      "Fundacja Muza Dei - Centrum Nowej Kultury"
-    ],
-    "krs": "0000868143",
-    "status": "znaleziono_zweryfikowano_API",
-    "zrodlo_potwierdzenia": "API KRS OdpisAktualny 0000868143 - nazwa zgodna"
-  },
-  {
-    "nazwa_znormalizowana": "FUNDACJA 60MLN.PL",
-    "liczba_wystapien": 1,
-    "warianty_zapisu": [
-      "Fundacja 60mln.pl"
-    ],
-    "krs": "0000972710",
-    "status": "znaleziono_zweryfikowano_API",
-    "zrodlo_potwierdzenia": "API KRS OdpisAktualny 0000972710 - nazwa zgodna (FUNDACJA 60MLN.PL)"
-  },
-  {
-    "nazwa_znormalizowana": "FUNDACJA ZACHÓD WSCHÓD WSPARCIE",
-    "liczba_wystapien": 1,
-    "warianty_zapisu": [
-      "Fundacja Zachód Wschód Wsparcie"
-    ],
-    "krs": "0000862828",
-    "status": "znaleziono_zweryfikowano_API",
-    "zrodlo_potwierdzenia": "API KRS OdpisAktualny 0000862828 - nazwa zgodna"
-  },
-  {
-    "nazwa_znormalizowana": "FUNDACJA COGNOSCO",
-    "liczba_wystapien": 1,
-    "warianty_zapisu": [
-      "Fundacja \"Cognosco\""
-    ],
-    "krs": "0000325672",
-    "status": "znaleziono_zweryfikowano_API",
-    "zrodlo_potwierdzenia": "API KRS OdpisAktualny 0000325672 - nazwa zgodna"
-  },
-  {
-    "nazwa_znormalizowana": "FUNDACJA IM. JANUSZA KURTYKI",
-    "liczba_wystapien": 1,
-    "warianty_zapisu": [
-      "Fundacja im. Janusza Kurtyki"
-    ],
-    "krs": "0000598727",
-    "status": "znaleziono_zweryfikowano_API",
-    "zrodlo_potwierdzenia": "API KRS OdpisAktualny 0000598727 - nazwa zgodna"
-  },
-  {
-    "nazwa_znormalizowana": "POLSKIE TOWARZYSTWO HERALDYCZNE",
-    "liczba_wystapien": 1,
-    "warianty_zapisu": [
-      "Polskie Towarzystwo Heraldyczne"
-    ],
-    "krs": "0000276917",
-    "status": "znaleziono_zweryfikowano_API",
-    "zrodlo_potwierdzenia": "API KRS OdpisAktualny 0000276917 - nazwa zgodna"
-  },
-  {
-    "nazwa_znormalizowana": "FUNDACJA INSTYTUT MYŚLI SCHUMANA",
-    "liczba_wystapien": 1,
-    "warianty_zapisu": [
-      "Fundacja Instytut Myśli Schumana"
-    ],
-    "krs": "0000626890",
-    "status": "znaleziono_zweryfikowano_API",
-    "zrodlo_potwierdzenia": "API KRS OdpisAktualny 0000626890 - nazwa zgodna"
-  },
-  {
-    "nazwa_znormalizowana": "FUNDACJA URBAN FORMS",
-    "liczba_wystapien": 1,
-    "warianty_zapisu": [
-      "Fundacja Urban Forms"
-    ],
-    "krs": "0000316994",
-    "status": "znaleziono_zweryfikowano_API",
-    "zrodlo_potwierdzenia": "API KRS OdpisAktualny 0000316994 - nazwa zgodna"
-  },
-  {
     "nazwa_znormalizowana": "KATOLICKI UNIWERSYTET LUBELSKI JANA PAWŁA II",
     "liczba_wystapien": 1,
     "warianty_zapisu": [
@@ -4185,16 +4128,6 @@
     "krs": null,
     "status": "nie_dotyczy_brak_w_KRS",
     "zrodlo_potwierdzenia": "KUL jest uczelnią publiczną/kościelną działającą na mocy odrębnej ustawy, zarejestrowaną w systemie POL-on / rejestrze uczelni Ministerstwa Nauki, nie w Krajowym Rejestrze Sądowym - brak numeru KRS dla samej uczelni"
-  },
-  {
-    "nazwa_znormalizowana": "POLSKA FUNDACJA KOŚCIUSZKOWSKA",
-    "liczba_wystapien": 1,
-    "warianty_zapisu": [
-      "Polska Fundacja Kościuszkowska"
-    ],
-    "krs": "0000346229",
-    "status": "znaleziono_zweryfikowano_API",
-    "zrodlo_potwierdzenia": "API KRS OdpisAktualny 0000346229 - nazwa zgodna (odróżniona od niepowiązanej THE KOSCIUSZKO FOUNDATION POLAND - FUNDACJA KOŚCIUSZKOWSKA POLSKA, KRS 0000374417)"
   },
   {
     "nazwa_znormalizowana": "STOWARZYSZENIE FARMA INSPIRACJI",
@@ -4207,26 +4140,6 @@
     "zrodlo_potwierdzenia": "Brak wiarygodnego trafienia pod dokładnie tą nazwą. Znaleziono jedynie podobnie brzmiące, ale niepowiązane 'Stowarzyszenie Fabryka Inspiracji' (KRS 0001012047) - inna nazwa, nie przyjęto jako dopasowania"
   },
   {
-    "nazwa_znormalizowana": "METROPOLITARNY INSTYTUT ROZWOJU Z SIEDZIBĄ W SOSNOWCU",
-    "liczba_wystapien": 1,
-    "warianty_zapisu": [
-      "Metropolitarny Instytut Rozwoju z siedzibą w Sosnowcu"
-    ],
-    "krs": "0000843666",
-    "status": "znaleziono_zweryfikowano_API",
-    "zrodlo_potwierdzenia": "API KRS OdpisAktualny 0000843666 - nazwa zgodna"
-  },
-  {
-    "nazwa_znormalizowana": "FUNDACJA WESOŁA GÓRA",
-    "liczba_wystapien": 1,
-    "warianty_zapisu": [
-      "Fundacja Wesoła Góra"
-    ],
-    "krs": "0000851142",
-    "status": "znaleziono_zweryfikowano_API",
-    "zrodlo_potwierdzenia": "API KRS OdpisAktualny 0000851142 - nazwa zgodna"
-  },
-  {
     "nazwa_znormalizowana": "PAMIĘĆ JEDNOCZY",
     "liczba_wystapien": 1,
     "warianty_zapisu": [
@@ -4235,45 +4148,5 @@
     "krs": null,
     "status": "nie_znaleziono_wyszukiwaniem",
     "zrodlo_potwierdzenia": "Brak wiarygodnego trafienia pod dokładnie tą nazwą w KRS ani w wyszukiwaniu; brak prefiksu formy prawnej (Fundacja/Stowarzyszenie) sugeruje, że może to być nazwa projektu, nie samej organizacji"
-  },
-  {
-    "nazwa_znormalizowana": "WARSZAWSKIE TOWARZYSTWO PRZYJACIÓŁ WILNA I GRODNA",
-    "liczba_wystapien": 1,
-    "warianty_zapisu": [
-      "Warszawskie Towarzystwo Przyjaciół Wilna i Grodna"
-    ],
-    "krs": "0000182491",
-    "status": "znaleziono_zweryfikowano_API",
-    "zrodlo_potwierdzenia": "API KRS OdpisAktualny 0000182491 - nazwa zgodna (odróżnione od niepowiązanego Towarzystwa Przyjaciół Grodna i Wilna, KRS 0000104450)"
-  },
-  {
-    "nazwa_znormalizowana": "STOWARZYSZENIE PRZYJACIÓŁ PODOLA",
-    "liczba_wystapien": 1,
-    "warianty_zapisu": [
-      "Stowarzyszenie Przyjaciół Podola"
-    ],
-    "krs": "0000326115",
-    "status": "znaleziono_zweryfikowano_API",
-    "zrodlo_potwierdzenia": "API KRS OdpisAktualny 0000326115 - nazwa zgodna"
-  },
-  {
-    "nazwa_znormalizowana": "FUNDACJA SEMPER FIDELIS NA RZECZ ARCHIDIECEZJI LWOWSKIEJ",
-    "liczba_wystapien": 1,
-    "warianty_zapisu": [
-      "Fundacja Semper Fidelis na rzecz Archidiecezji Lwowskiej"
-    ],
-    "krs": "0000317024",
-    "status": "znaleziono_zweryfikowano_API",
-    "zrodlo_potwierdzenia": "API KRS OdpisAktualny 0000317024 - nazwa zgodna"
-  },
-  {
-    "nazwa_znormalizowana": "CARITAS ARCHIDIECEZJI LUBELSKIEJ",
-    "liczba_wystapien": 1,
-    "warianty_zapisu": [
-      "Caritas Archidiecezji Lubelskiej"
-    ],
-    "krs": "0000204819",
-    "status": "znaleziono_zweryfikowano_API",
-    "zrodlo_potwierdzenia": "API KRS OdpisAktualny 0000204819 - nazwa zgodna (kościelna osoba prawna zarejestrowana w KRS jako organizacja pożytku publicznego)"
   }
 ]
