@@ -2969,3 +2969,154 @@ START_SKRYPTU — Zadanie: organizacje_polonijne | INFO | 2026-07-07 18:48:28
 KONTAKT_SPRAWDZONY — 0000843666 — https://mirinstytut.pl | INFO | 2026-07-07 18:48:32
 START_SKRYPTU — Zadanie: organizacje_polonijne | INFO | 2026-07-07 18:48:33
 KONTAKT_SPRAWDZONY — 0000843781 — https://tylkoorly.com | INFO | 2026-07-07 18:48:37
+START_SKRYPTU — Zadanie: organizacje_polonijne | INFO | 2026-07-07 18:49:18
+POBIERANIE_KONTAKTU https://www.forum-mniejszosci-podlasia.pl/kontakty — Client error '404 Not Found' for url 'https://www.forum-mniejszosci-podlasia.pl/kontakty'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404 | ERROR | 2026-07-07 18:49:26
+PLAYWRIGHT https://www.forum-mniejszosci-podlasia.pl/kontakty — Page.goto: net::ERR_CONNECTION_RESET at https://www.forum-mniejszosci-podlasia.pl/kontakty
+Call log:
+  - navigating to "https://www.forum-mniejszosci-podlasia.pl/kontakty", waiting until "domcontentloaded"
+ | ERROR | 2026-07-07 18:49:40
+POBIERANIE_KONTAKTU https://www.forum-mniejszosci-podlasia.pl/o-nas — Client error '404 Not Found' for url 'https://www.forum-mniejszosci-podlasia.pl/o-nas'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404 | ERROR | 2026-07-07 18:49:42
+PLAYWRIGHT https://www.forum-mniejszosci-podlasia.pl/o-nas — Page.goto: net::ERR_CONNECTION_RESET at https://www.forum-mniejszosci-podlasia.pl/o-nas
+Call log:
+  - navigating to "https://www.forum-mniejszosci-podlasia.pl/o-nas", waiting until "domcontentloaded"
+ | ERROR | 2026-07-07 18:49:55
+POBIERANIE_KONTAKTU https://www.forum-mniejszosci-podlasia.pl/contact — Client error '404 Not Found' for url 'https://www.forum-mniejszosci-podlasia.pl/contact'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404 | ERROR | 2026-07-07 18:49:57
+PLAYWRIGHT https://www.forum-mniejszosci-podlasia.pl/contact — Page.goto: net::ERR_CONNECTION_RESET at https://www.forum-mniejszosci-podlasia.pl/contact
+Call log:
+  - navigating to "https://www.forum-mniejszosci-podlasia.pl/contact", waiting until "domcontentloaded"
+ | ERROR | 2026-07-07 18:50:11
+KONTAKT_SPRAWDZONY — 0000849242 — https://www.forum-mniejszosci-podlasia.pl | INFO | 2026-07-07 18:50:11
+START_SKRYPTU — Zadanie: organizacje_polonijne | INFO | 2026-07-07 18:50:11
+POBIERANIE_KONTAKTU http://www.fundacjawesolagora.pl — Server error '503 Service Unavailable' for url 'http://www.fundacjawesolagora.pl'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/503 | ERROR | 2026-07-07 18:50:12
+PLAYWRIGHT http://www.fundacjawesolagora.pl — Page.goto: net::ERR_CONNECTION_RESET at http://www.fundacjawesolagora.pl/
+Call log:
+  - navigating to "http://www.fundacjawesolagora.pl/", waiting until "domcontentloaded"
+ | ERROR | 2026-07-07 18:50:28
+KONTAKT_SPRAWDZONY — 0000851142 — http://www.fundacjawesolagora.pl | INFO | 2026-07-07 18:50:33
+START_SKRYPTU — Zadanie: organizacje_polonijne | INFO | 2026-07-07 18:50:34
+POBIERANIE_KONTAKTU https://fundacjapogonlwow.pl/kontakty — Client error '404 Not Found' for url 'https://fundacjapogonlwow.pl/kontakty'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404 | ERROR | 2026-07-07 18:50:41
+PLAYWRIGHT https://fundacjapogonlwow.pl/kontakty — Page.goto: net::ERR_CONNECTION_RESET at https://fundacjapogonlwow.pl/kontakty
+Call log:
+  - navigating to "https://fundacjapogonlwow.pl/kontakty", waiting until "domcontentloaded"
+ | ERROR | 2026-07-07 18:50:55
+POBIERANIE_KONTAKTU https://fundacjapogonlwow.pl/o-nas — Client error '404 Not Found' for url 'https://fundacjapogonlwow.pl/o-nas'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404 | ERROR | 2026-07-07 18:50:56
+PLAYWRIGHT https://fundacjapogonlwow.pl/o-nas — Page.goto: net::ERR_CONNECTION_RESET at https://fundacjapogonlwow.pl/o-nas
+Call log:
+  - navigating to "https://fundacjapogonlwow.pl/o-nas", waiting until "domcontentloaded"
+ | ERROR | 2026-07-07 18:51:10
+POBIERANIE_KONTAKTU https://fundacjapogonlwow.pl/contact — Client error '404 Not Found' for url 'https://fundacjapogonlwow.pl/contact'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404 | ERROR | 2026-07-07 18:51:12
+PLAYWRIGHT https://fundacjapogonlwow.pl/contact — Page.goto: net::ERR_CONNECTION_RESET at https://fundacjapogonlwow.pl/contact
+Call log:
+  - navigating to "https://fundacjapogonlwow.pl/contact", waiting until "domcontentloaded"
+ | ERROR | 2026-07-07 18:51:26
+KONTAKT_SPRAWDZONY — 0000855921 — https://fundacjapogonlwow.pl | INFO | 2026-07-07 18:51:26
+START_SKRYPTU — Zadanie: organizacje_polonijne | INFO | 2026-07-07 18:51:26
+POBIERANIE_KONTAKTU https://fundacjapogonlwow.pl/kontakty — Client error '404 Not Found' for url 'https://fundacjapogonlwow.pl/kontakty'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404 | ERROR | 2026-07-07 18:51:33
+PLAYWRIGHT https://fundacjapogonlwow.pl/kontakty — Page.goto: net::ERR_CONNECTION_RESET at https://fundacjapogonlwow.pl/kontakty
+Call log:
+  - navigating to "https://fundacjapogonlwow.pl/kontakty", waiting until "domcontentloaded"
+ | ERROR | 2026-07-07 18:51:47
+POBIERANIE_KONTAKTU https://fundacjapogonlwow.pl/o-nas — Client error '404 Not Found' for url 'https://fundacjapogonlwow.pl/o-nas'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404 | ERROR | 2026-07-07 18:51:48
+PLAYWRIGHT https://fundacjapogonlwow.pl/o-nas — Page.goto: net::ERR_CONNECTION_RESET at https://fundacjapogonlwow.pl/o-nas
+Call log:
+  - navigating to "https://fundacjapogonlwow.pl/o-nas", waiting until "domcontentloaded"
+ | ERROR | 2026-07-07 18:52:02
+POBIERANIE_KONTAKTU https://fundacjapogonlwow.pl/contact — Client error '404 Not Found' for url 'https://fundacjapogonlwow.pl/contact'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404 | ERROR | 2026-07-07 18:52:06
+PLAYWRIGHT https://fundacjapogonlwow.pl/contact — Page.goto: net::ERR_CONNECTION_RESET at https://fundacjapogonlwow.pl/contact
+Call log:
+  - navigating to "https://fundacjapogonlwow.pl/contact", waiting until "domcontentloaded"
+ | ERROR | 2026-07-07 18:52:20
+KONTAKT_SPRAWDZONY — 0000855921 — https://fundacjapogonlwow.pl | INFO | 2026-07-07 18:52:20
+START_SKRYPTU — Zadanie: organizacje_polonijne | INFO | 2026-07-07 18:52:39
+KONTAKT_SPRAWDZONY — 0000852796 — https://fundacjanadrzeka.com | INFO | 2026-07-07 18:52:42
+START_SKRYPTU — Zadanie: organizacje_polonijne | INFO | 2026-07-07 18:52:43
+POBIERANIE_KONTAKTU https://fundacjaidylla.org/kontakt — Client error '404 Not Found' for url 'https://fundacjaidylla.org/kontakt'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404 | ERROR | 2026-07-07 18:52:50
+PLAYWRIGHT https://fundacjaidylla.org/kontakt — Page.goto: net::ERR_CONNECTION_RESET at https://fundacjaidylla.org/kontakt
+Call log:
+  - navigating to "https://fundacjaidylla.org/kontakt", waiting until "domcontentloaded"
+ | ERROR | 2026-07-07 18:53:04
+POBIERANIE_KONTAKTU https://fundacjaidylla.org/kontakty — Client error '404 Not Found' for url 'https://fundacjaidylla.org/kontakty'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404 | ERROR | 2026-07-07 18:53:06
+PLAYWRIGHT https://fundacjaidylla.org/kontakty — Page.goto: net::ERR_CONNECTION_RESET at https://fundacjaidylla.org/kontakty
+Call log:
+  - navigating to "https://fundacjaidylla.org/kontakty", waiting until "domcontentloaded"
+ | ERROR | 2026-07-07 18:53:20
+POBIERANIE_KONTAKTU https://fundacjaidylla.org/o-nas — Client error '404 Not Found' for url 'https://fundacjaidylla.org/o-nas'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404 | ERROR | 2026-07-07 18:53:22
+PLAYWRIGHT https://fundacjaidylla.org/o-nas — Page.goto: net::ERR_CONNECTION_RESET at https://fundacjaidylla.org/o-nas
+Call log:
+  - navigating to "https://fundacjaidylla.org/o-nas", waiting until "domcontentloaded"
+ | ERROR | 2026-07-07 18:53:36
+POBIERANIE_KONTAKTU https://fundacjaidylla.org/contact — Client error '404 Not Found' for url 'https://fundacjaidylla.org/contact'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404 | ERROR | 2026-07-07 18:53:38
+PLAYWRIGHT https://fundacjaidylla.org/contact — Page.goto: net::ERR_CONNECTION_RESET at https://fundacjaidylla.org/contact
+Call log:
+  - navigating to "https://fundacjaidylla.org/contact", waiting until "domcontentloaded"
+ | ERROR | 2026-07-07 18:53:52
+KONTAKT_SPRAWDZONY — 0000859912 — https://fundacjaidylla.org | INFO | 2026-07-07 18:53:52
+START_SKRYPTU — Zadanie: organizacje_polonijne | INFO | 2026-07-07 18:53:52
+POBIERANIE_KONTAKTU https://fundacjapansih.pl — 502 Bad Gateway | ERROR | 2026-07-07 18:53:53
+PLAYWRIGHT https://fundacjapansih.pl — Page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://fundacjapansih.pl/
+Call log:
+  - navigating to "https://fundacjapansih.pl/", waiting until "domcontentloaded"
+ | ERROR | 2026-07-07 18:53:54
+POBIERANIE_KONTAKTU https://fundacjapansih.pl/kontakt — 502 Bad Gateway | ERROR | 2026-07-07 18:53:55
+PLAYWRIGHT https://fundacjapansih.pl/kontakt — Page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://fundacjapansih.pl/kontakt
+Call log:
+  - navigating to "https://fundacjapansih.pl/kontakt", waiting until "domcontentloaded"
+ | ERROR | 2026-07-07 18:53:56
+POBIERANIE_KONTAKTU https://fundacjapansih.pl/kontakty — 502 Bad Gateway | ERROR | 2026-07-07 18:53:56
+PLAYWRIGHT https://fundacjapansih.pl/kontakty — Page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://fundacjapansih.pl/kontakty
+Call log:
+  - navigating to "https://fundacjapansih.pl/kontakty", waiting until "domcontentloaded"
+ | ERROR | 2026-07-07 18:53:57
+POBIERANIE_KONTAKTU https://fundacjapansih.pl/o-nas — 502 Bad Gateway | ERROR | 2026-07-07 18:53:58
+PLAYWRIGHT https://fundacjapansih.pl/o-nas — Page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://fundacjapansih.pl/o-nas
+Call log:
+  - navigating to "https://fundacjapansih.pl/o-nas", waiting until "domcontentloaded"
+ | ERROR | 2026-07-07 18:53:59
+POBIERANIE_KONTAKTU https://fundacjapansih.pl/contact — 502 Bad Gateway | ERROR | 2026-07-07 18:53:59
+PLAYWRIGHT https://fundacjapansih.pl/contact — Page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://fundacjapansih.pl/contact
+Call log:
+  - navigating to "https://fundacjapansih.pl/contact", waiting until "domcontentloaded"
+ | ERROR | 2026-07-07 18:54:00
+KONTAKT_SPRAWDZONY — 0000860094 — https://fundacjapansih.pl | INFO | 2026-07-07 18:54:00
+START_SKRYPTU — Zadanie: organizacje_polonijne | INFO | 2026-07-07 18:54:01
+KONTAKT_SPRAWDZONY — 0000862218 — https://aktywnydialog.pl | INFO | 2026-07-07 18:54:07
+START_SKRYPTU — Zadanie: organizacje_polonijne | INFO | 2026-07-07 18:54:27
+POBIERANIE_KONTAKTU https://www.anthill.com.pl/kontakt — Client error '404 Not Found' for url 'https://www.anthill.com.pl/kontakt'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404 | ERROR | 2026-07-07 18:54:31
+PLAYWRIGHT https://www.anthill.com.pl/kontakt — Page.goto: net::ERR_CONNECTION_RESET at https://www.anthill.com.pl/kontakt
+Call log:
+  - navigating to "https://www.anthill.com.pl/kontakt", waiting until "domcontentloaded"
+ | ERROR | 2026-07-07 18:54:45
+POBIERANIE_KONTAKTU https://www.anthill.com.pl/kontakty — Client error '404 Not Found' for url 'https://www.anthill.com.pl/kontakty'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404 | ERROR | 2026-07-07 18:54:46
+PLAYWRIGHT https://www.anthill.com.pl/kontakty — Page.goto: net::ERR_CONNECTION_RESET at https://www.anthill.com.pl/kontakty
+Call log:
+  - navigating to "https://www.anthill.com.pl/kontakty", waiting until "domcontentloaded"
+ | ERROR | 2026-07-07 18:55:00
+POBIERANIE_KONTAKTU https://www.anthill.com.pl/o-nas — Client error '404 Not Found' for url 'https://www.anthill.com.pl/o-nas'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404 | ERROR | 2026-07-07 18:55:00
+PLAYWRIGHT https://www.anthill.com.pl/o-nas — Page.goto: net::ERR_CONNECTION_RESET at https://www.anthill.com.pl/o-nas
+Call log:
+  - navigating to "https://www.anthill.com.pl/o-nas", waiting until "domcontentloaded"
+ | ERROR | 2026-07-07 18:55:14
+POBIERANIE_KONTAKTU https://www.anthill.com.pl/contact — Client error '404 Not Found' for url 'https://www.anthill.com.pl/contact'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404 | ERROR | 2026-07-07 18:55:15
+PLAYWRIGHT https://www.anthill.com.pl/contact — Page.goto: net::ERR_CONNECTION_RESET at https://www.anthill.com.pl/contact
+Call log:
+  - navigating to "https://www.anthill.com.pl/contact", waiting until "domcontentloaded"
+ | ERROR | 2026-07-07 18:55:28
+KONTAKT_SPRAWDZONY — 0000862741 — https://www.anthill.com.pl | INFO | 2026-07-07 18:55:28
