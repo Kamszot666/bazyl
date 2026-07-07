@@ -2867,3 +2867,105 @@ Call log:
   - navigating to "https://instytutbirm.pl/contact", waiting until "domcontentloaded"
  | ERROR | 2026-07-07 18:43:53
 KONTAKT_SPRAWDZONY — 0000787390 — https://instytutbirm.pl | INFO | 2026-07-07 18:43:53
+START_SKRYPTU — Zadanie: organizacje_polonijne | INFO | 2026-07-07 18:44:57
+KONTAKT_SPRAWDZONY — 0000805058 — https://www.znakipamieci.pl | INFO | 2026-07-07 18:45:08
+START_SKRYPTU — Zadanie: organizacje_polonijne | INFO | 2026-07-07 18:45:08
+POBIERANIE_KONTAKTU https://mwcup.pl — Client error '403 Forbidden' for url 'https://mwcup.pl'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403 | ERROR | 2026-07-07 18:45:09
+PLAYWRIGHT https://mwcup.pl — Page.goto: net::ERR_CONNECTION_RESET at https://mwcup.pl/
+Call log:
+  - navigating to "https://mwcup.pl/", waiting until "domcontentloaded"
+ | ERROR | 2026-07-07 18:45:23
+POBIERANIE_KONTAKTU https://mwcup.pl/kontakt — Client error '403 Forbidden' for url 'https://mwcup.pl/kontakt'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403 | ERROR | 2026-07-07 18:45:23
+PLAYWRIGHT https://mwcup.pl/kontakt — Page.goto: net::ERR_CONNECTION_RESET at https://mwcup.pl/kontakt
+Call log:
+  - navigating to "https://mwcup.pl/kontakt", waiting until "domcontentloaded"
+ | ERROR | 2026-07-07 18:45:37
+POBIERANIE_KONTAKTU https://mwcup.pl/kontakty — Client error '403 Forbidden' for url 'https://mwcup.pl/kontakty'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403 | ERROR | 2026-07-07 18:45:37
+PLAYWRIGHT https://mwcup.pl/kontakty — Page.goto: net::ERR_CONNECTION_RESET at https://mwcup.pl/kontakty
+Call log:
+  - navigating to "https://mwcup.pl/kontakty", waiting until "domcontentloaded"
+ | ERROR | 2026-07-07 18:45:51
+POBIERANIE_KONTAKTU https://mwcup.pl/o-nas — Client error '403 Forbidden' for url 'https://mwcup.pl/o-nas'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403 | ERROR | 2026-07-07 18:45:51
+PLAYWRIGHT https://mwcup.pl/o-nas — Page.goto: net::ERR_CONNECTION_RESET at https://mwcup.pl/o-nas
+Call log:
+  - navigating to "https://mwcup.pl/o-nas", waiting until "domcontentloaded"
+ | ERROR | 2026-07-07 18:46:05
+POBIERANIE_KONTAKTU https://mwcup.pl/contact — Client error '403 Forbidden' for url 'https://mwcup.pl/contact'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403 | ERROR | 2026-07-07 18:46:05
+PLAYWRIGHT https://mwcup.pl/contact — Page.goto: net::ERR_CONNECTION_RESET at https://mwcup.pl/contact
+Call log:
+  - navigating to "https://mwcup.pl/contact", waiting until "domcontentloaded"
+ | ERROR | 2026-07-07 18:46:19
+KONTAKT_SPRAWDZONY — 0000805148 — https://mwcup.pl | INFO | 2026-07-07 18:46:19
+START_SKRYPTU — Zadanie: organizacje_polonijne | INFO | 2026-07-07 18:46:20
+KONTAKT_SPRAWDZONY — 0000809797 — https://fundacja.edunowa.pl | INFO | 2026-07-07 18:46:24
+START_SKRYPTU — Zadanie: organizacje_polonijne | INFO | 2026-07-07 18:46:25
+KONTAKT_SPRAWDZONY — 0000812837 — https://polskazwycieska.pl | INFO | 2026-07-07 18:46:38
+START_SKRYPTU — Zadanie: organizacje_polonijne | INFO | 2026-07-07 18:46:45
+POBIERANIE_KONTAKTU https://mwcup.eu — 502 Bad Gateway | ERROR | 2026-07-07 18:46:46
+PLAYWRIGHT https://mwcup.eu — Page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://mwcup.eu/
+Call log:
+  - navigating to "https://mwcup.eu/", waiting until "domcontentloaded"
+ | ERROR | 2026-07-07 18:46:47
+POBIERANIE_KONTAKTU https://mwcup.eu/kontakt — 502 Bad Gateway | ERROR | 2026-07-07 18:46:48
+PLAYWRIGHT https://mwcup.eu/kontakt — Page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://mwcup.eu/kontakt
+Call log:
+  - navigating to "https://mwcup.eu/kontakt", waiting until "domcontentloaded"
+ | ERROR | 2026-07-07 18:46:49
+POBIERANIE_KONTAKTU https://mwcup.eu/kontakty — 502 Bad Gateway | ERROR | 2026-07-07 18:46:49
+PLAYWRIGHT https://mwcup.eu/kontakty — Page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://mwcup.eu/kontakty
+Call log:
+  - navigating to "https://mwcup.eu/kontakty", waiting until "domcontentloaded"
+ | ERROR | 2026-07-07 18:46:50
+POBIERANIE_KONTAKTU https://mwcup.eu/o-nas — 502 Bad Gateway | ERROR | 2026-07-07 18:46:51
+PLAYWRIGHT https://mwcup.eu/o-nas — Page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://mwcup.eu/o-nas
+Call log:
+  - navigating to "https://mwcup.eu/o-nas", waiting until "domcontentloaded"
+ | ERROR | 2026-07-07 18:46:52
+POBIERANIE_KONTAKTU https://mwcup.eu/contact — 502 Bad Gateway | ERROR | 2026-07-07 18:46:52
+PLAYWRIGHT https://mwcup.eu/contact — Page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://mwcup.eu/contact
+Call log:
+  - navigating to "https://mwcup.eu/contact", waiting until "domcontentloaded"
+ | ERROR | 2026-07-07 18:46:54
+KONTAKT_SPRAWDZONY — 0000805148 — https://mwcup.eu | INFO | 2026-07-07 18:46:54
+START_SKRYPTU — Zadanie: organizacje_polonijne | INFO | 2026-07-07 18:47:12
+POBIERANIE_KONTAKTU https://cinemamedia.art — 502 Bad Gateway | ERROR | 2026-07-07 18:47:13
+PLAYWRIGHT https://cinemamedia.art — Page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://cinemamedia.art/
+Call log:
+  - navigating to "https://cinemamedia.art/", waiting until "domcontentloaded"
+ | ERROR | 2026-07-07 18:47:14
+POBIERANIE_KONTAKTU https://cinemamedia.art/kontakt — 502 Bad Gateway | ERROR | 2026-07-07 18:47:14
+PLAYWRIGHT https://cinemamedia.art/kontakt — Page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://cinemamedia.art/kontakt
+Call log:
+  - navigating to "https://cinemamedia.art/kontakt", waiting until "domcontentloaded"
+ | ERROR | 2026-07-07 18:47:15
+POBIERANIE_KONTAKTU https://cinemamedia.art/kontakty — 502 Bad Gateway | ERROR | 2026-07-07 18:47:16
+PLAYWRIGHT https://cinemamedia.art/kontakty — Page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://cinemamedia.art/kontakty
+Call log:
+  - navigating to "https://cinemamedia.art/kontakty", waiting until "domcontentloaded"
+ | ERROR | 2026-07-07 18:47:17
+POBIERANIE_KONTAKTU https://cinemamedia.art/o-nas — 502 Bad Gateway | ERROR | 2026-07-07 18:47:17
+PLAYWRIGHT https://cinemamedia.art/o-nas — Page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://cinemamedia.art/o-nas
+Call log:
+  - navigating to "https://cinemamedia.art/o-nas", waiting until "domcontentloaded"
+ | ERROR | 2026-07-07 18:47:18
+POBIERANIE_KONTAKTU https://cinemamedia.art/contact — 502 Bad Gateway | ERROR | 2026-07-07 18:47:19
+PLAYWRIGHT https://cinemamedia.art/contact — Page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://cinemamedia.art/contact
+Call log:
+  - navigating to "https://cinemamedia.art/contact", waiting until "domcontentloaded"
+ | ERROR | 2026-07-07 18:47:20
+KONTAKT_SPRAWDZONY — 0000828012 — https://cinemamedia.art | INFO | 2026-07-07 18:47:20
+START_SKRYPTU — Zadanie: organizacje_polonijne | INFO | 2026-07-07 18:47:21
+KONTAKT_SPRAWDZONY — 0000834289 — https://ezw.edu.pl | INFO | 2026-07-07 18:47:27
+START_SKRYPTU — Zadanie: organizacje_polonijne | INFO | 2026-07-07 18:47:27
+KONTAKT_SPRAWDZONY — 0000835764 — https://patriotyzm.org | INFO | 2026-07-07 18:47:32
+START_SKRYPTU — Zadanie: organizacje_polonijne | INFO | 2026-07-07 18:47:32
+KONTAKT_SPRAWDZONY — 0000841814 — https://fundacjakadr.pl | INFO | 2026-07-07 18:47:37
+START_SKRYPTU — Zadanie: organizacje_polonijne | INFO | 2026-07-07 18:48:28
+KONTAKT_SPRAWDZONY — 0000843666 — https://mirinstytut.pl | INFO | 2026-07-07 18:48:32
+START_SKRYPTU — Zadanie: organizacje_polonijne | INFO | 2026-07-07 18:48:33
+KONTAKT_SPRAWDZONY — 0000843781 — https://tylkoorly.com | INFO | 2026-07-07 18:48:37
