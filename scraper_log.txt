@@ -856,3 +856,668 @@ POBIERANIE_KONTAKTU https://www.manko.pl/kontakty — ('Connection aborted.', Co
 POBIERANIE_KONTAKTU https://www.manko.pl/o-nas — ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer')) | ERROR | 2026-07-07 02:17:03
 POBIERANIE_KONTAKTU https://www.manko.pl/contact — ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer')) | ERROR | 2026-07-07 02:17:09
 KONTAKT_SPRAWDZONY — 0000225549 — https://www.manko.pl/ | INFO | 2026-07-07 02:17:09
+START_SKRYPTU — Zadanie: organizacje_polonijne | INFO | 2026-07-07 02:28:53
+SELENIUM_START — nie udało się uruchomić przeglądarki — zapasowo requests: Message: session not created: This version of ChromeDriver only supports Chrome version 147
+Current browser version is 150.0.7871.46 with binary path /root/.cache/selenium/chrome/linux64/150.0.7871.46/chrome; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception
+Stacktrace:
+#0 0x560ea7aa738a <unknown>
+#1 0x560ea74a93a5 <unknown>
+#2 0x560ea74ec82f <unknown>
+#3 0x560ea74eb5e0 <unknown>
+#4 0x560ea74e6ade <unknown>
+#5 0x560ea74e0d59 <unknown>
+#6 0x560ea7530fbe <unknown>
+#7 0x560ea75306ac <unknown>
+#8 0x560ea74ef6ef <unknown>
+#9 0x560ea74f04b1 <unknown>
+#10 0x560ea7a6acfb <unknown>
+#11 0x560ea7a6dcad <unknown>
+#12 0x560ea7a57408 <unknown>
+#13 0x560ea7a6e840 <unknown>
+#14 0x560ea7a3de50 <unknown>
+#15 0x560ea7a94188 <unknown>
+#16 0x560ea7a94358 <unknown>
+#17 0x560ea7aa5dce <unknown>
+#18 0x7ff89e49caa4 <unknown>
+#19 0x7ff89e529c6c <unknown>
+ | ERROR | 2026-07-07 02:29:07
+POBIERANIE_KONTAKTU https://www.manko.pl/ — ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer')) | ERROR | 2026-07-07 02:29:13
+POBIERANIE_KONTAKTU https://www.manko.pl/kontakt — ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer')) | ERROR | 2026-07-07 02:29:20
+START_SKRYPTU — Zadanie: organizacje_polonijne | INFO | 2026-07-07 02:30:03
+SELENIUM https://www.manko.pl/ — Message: timeout: Timed out receiving message from renderer: -0.001
+  (Session info: chrome=150.0.7871.46)
+Stacktrace:
+#0 0x55f9be0090fa <unknown>
+#1 0x55f9bd9e2939 <unknown>
+#2 0x55f9bd9ca3ba <unknown>
+#3 0x55f9bd9ca036 <unknown>
+#4 0x55f9bd9c7c18 <unknown>
+#5 0x55f9bd9c859f <unknown>
+#6 0x55f9bd9d7780 <unknown>
+#7 0x55f9bd9f16a7 <unknown>
+#8 0x55f9bd9f8f0b <unknown>
+#9 0x55f9bd9c8cf9 <unknown>
+#10 0x55f9bd9f143d <unknown>
+#11 0x55f9bda801d0 <unknown>
+#12 0x55f9bda2b49f <unknown>
+#13 0x55f9bda2c301 <unknown>
+#14 0x55f9bdfcf167 <unknown>
+#15 0x55f9bdfcd948 <unknown>
+#16 0x55f9bdfb8dc6 <unknown>
+#17 0x55f9bdfce50a <unknown>
+#18 0x55f9bdfa0e70 <unknown>
+#19 0x55f9bdff4c38 <unknown>
+#20 0x55f9bdff4dd5 <unknown>
+#21 0x55f9be007cae <unknown>
+#22 0x7f876a69caa4 <unknown>
+#23 0x7f876a729c6c <unknown>
+ | ERROR | 2026-07-07 02:30:19
+POBIERANIE_KONTAKTU https://www.manko.pl/ — ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer')) | ERROR | 2026-07-07 02:30:25
+SELENIUM https://www.manko.pl/kontakt — Message: unknown error: net::ERR_CONNECTION_RESET
+  (Session info: chrome=150.0.7871.46)
+Stacktrace:
+#0 0x55f9be0090fa <unknown>
+#1 0x55f9bd9e2939 <unknown>
+#2 0x55f9bd9d982c <unknown>
+#3 0x55f9bd9ca8a1 <unknown>
+#4 0x55f9bd9cc61c <unknown>
+#5 0x55f9bd9cad9a <unknown>
+#6 0x55f9bd9ca418 <unknown>
+#7 0x55f9bd9ca036 <unknown>
+#8 0x55f9bd9c7c18 <unknown>
+#9 0x55f9bd9c8460 <unknown>
+#10 0x55f9bd9e63ed <unknown>
+#11 0x55f9bda8101b <unknown>
+#12 0x55f9bda8030d <unknown>
+#13 0x55f9bda2b49f <unknown>
+#14 0x55f9bda2c301 <unknown>
+#15 0x55f9bdfcf167 <unknown>
+#16 0x55f9bdfcd948 <unknown>
+#17 0x55f9bdfb8dc6 <unknown>
+#18 0x55f9bdfce50a <unknown>
+#19 0x55f9bdfa0e70 <unknown>
+#20 0x55f9bdff4c38 <unknown>
+#21 0x55f9bdff4dd5 <unknown>
+#22 0x55f9be007cae <unknown>
+#23 0x7f876a69caa4 <unknown>
+#24 0x7f876a729c6c <unknown>
+ | ERROR | 2026-07-07 02:30:29
+POBIERANIE_KONTAKTU https://www.manko.pl/kontakt — ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer')) | ERROR | 2026-07-07 02:30:36
+SELENIUM https://www.manko.pl/kontakty — Message: unknown error: net::ERR_CONNECTION_RESET
+  (Session info: chrome=150.0.7871.46)
+Stacktrace:
+#0 0x55f9be0090fa <unknown>
+#1 0x55f9bd9e2939 <unknown>
+#2 0x55f9bd9d982c <unknown>
+#3 0x55f9bd9ca8a1 <unknown>
+#4 0x55f9bd9cc61c <unknown>
+#5 0x55f9bd9cad9a <unknown>
+#6 0x55f9bd9ca418 <unknown>
+#7 0x55f9bd9ca036 <unknown>
+#8 0x55f9bd9c7c18 <unknown>
+#9 0x55f9bd9c8460 <unknown>
+#10 0x55f9bd9e63ed <unknown>
+#11 0x55f9bda8101b <unknown>
+#12 0x55f9bda8030d <unknown>
+#13 0x55f9bda2b49f <unknown>
+#14 0x55f9bda2c301 <unknown>
+#15 0x55f9bdfcf167 <unknown>
+#16 0x55f9bdfcd948 <unknown>
+#17 0x55f9bdfb8dc6 <unknown>
+#18 0x55f9bdfce50a <unknown>
+#19 0x55f9bdfa0e70 <unknown>
+#20 0x55f9bdff4c38 <unknown>
+#21 0x55f9bdff4dd5 <unknown>
+#22 0x55f9be007cae <unknown>
+#23 0x7f876a69caa4 <unknown>
+#24 0x7f876a729c6c <unknown>
+ | ERROR | 2026-07-07 02:30:51
+POBIERANIE_KONTAKTU https://www.manko.pl/kontakty — ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer')) | ERROR | 2026-07-07 02:30:58
+SELENIUM https://www.manko.pl/o-nas — Message: unknown error: net::ERR_CONNECTION_RESET
+  (Session info: chrome=150.0.7871.46)
+Stacktrace:
+#0 0x55f9be0090fa <unknown>
+#1 0x55f9bd9e2939 <unknown>
+#2 0x55f9bd9d982c <unknown>
+#3 0x55f9bd9ca8a1 <unknown>
+#4 0x55f9bd9cc61c <unknown>
+#5 0x55f9bd9cad9a <unknown>
+#6 0x55f9bd9ca418 <unknown>
+#7 0x55f9bd9ca036 <unknown>
+#8 0x55f9bd9c7c18 <unknown>
+#9 0x55f9bd9c8460 <unknown>
+#10 0x55f9bd9e63ed <unknown>
+#11 0x55f9bda8101b <unknown>
+#12 0x55f9bda8030d <unknown>
+#13 0x55f9bda2b49f <unknown>
+#14 0x55f9bda2c301 <unknown>
+#15 0x55f9bdfcf167 <unknown>
+#16 0x55f9bdfcd948 <unknown>
+#17 0x55f9bdfb8dc6 <unknown>
+#18 0x55f9bdfce50a <unknown>
+#19 0x55f9bdfa0e70 <unknown>
+#20 0x55f9bdff4c38 <unknown>
+#21 0x55f9bdff4dd5 <unknown>
+#22 0x55f9be007cae <unknown>
+#23 0x7f876a69caa4 <unknown>
+#24 0x7f876a729c6c <unknown>
+ | ERROR | 2026-07-07 02:31:02
+POBIERANIE_KONTAKTU https://www.manko.pl/o-nas — ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer')) | ERROR | 2026-07-07 02:31:08
+SELENIUM https://www.manko.pl/contact — Message: unknown error: net::ERR_CONNECTION_RESET
+  (Session info: chrome=150.0.7871.46)
+Stacktrace:
+#0 0x55f9be0090fa <unknown>
+#1 0x55f9bd9e2939 <unknown>
+#2 0x55f9bd9d982c <unknown>
+#3 0x55f9bd9ca8a1 <unknown>
+#4 0x55f9bd9cc61c <unknown>
+#5 0x55f9bd9cad9a <unknown>
+#6 0x55f9bd9ca418 <unknown>
+#7 0x55f9bd9ca036 <unknown>
+#8 0x55f9bd9c7c18 <unknown>
+#9 0x55f9bd9c8460 <unknown>
+#10 0x55f9bd9e63ed <unknown>
+#11 0x55f9bda8101b <unknown>
+#12 0x55f9bda8030d <unknown>
+#13 0x55f9bda2b49f <unknown>
+#14 0x55f9bda2c301 <unknown>
+#15 0x55f9bdfcf167 <unknown>
+#16 0x55f9bdfcd948 <unknown>
+#17 0x55f9bdfb8dc6 <unknown>
+#18 0x55f9bdfce50a <unknown>
+#19 0x55f9bdfa0e70 <unknown>
+#20 0x55f9bdff4c38 <unknown>
+#21 0x55f9bdff4dd5 <unknown>
+#22 0x55f9be007cae <unknown>
+#23 0x7f876a69caa4 <unknown>
+#24 0x7f876a729c6c <unknown>
+ | ERROR | 2026-07-07 02:31:23
+POBIERANIE_KONTAKTU https://www.manko.pl/contact — ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer')) | ERROR | 2026-07-07 02:31:30
+START_SKRYPTU — Zadanie: organizacje_polonijne | INFO | 2026-07-07 02:33:14
+SELENIUM https://www.manko.pl/ — Message: timeout: Timed out receiving message from renderer: -0.001
+  (Session info: chrome=150.0.7871.46)
+Stacktrace:
+#0 0x5628e39380fa <unknown>
+#1 0x5628e3311939 <unknown>
+#2 0x5628e32f93ba <unknown>
+#3 0x5628e32f9036 <unknown>
+#4 0x5628e32f6c18 <unknown>
+#5 0x5628e32f759f <unknown>
+#6 0x5628e3306780 <unknown>
+#7 0x5628e33206a7 <unknown>
+#8 0x5628e3327f0b <unknown>
+#9 0x5628e32f7cf9 <unknown>
+#10 0x5628e332043d <unknown>
+#11 0x5628e33af1d0 <unknown>
+#12 0x5628e335a49f <unknown>
+#13 0x5628e335b301 <unknown>
+#14 0x5628e38fe167 <unknown>
+#15 0x5628e38fc948 <unknown>
+#16 0x5628e38e7dc6 <unknown>
+#17 0x5628e38fd50a <unknown>
+#18 0x5628e38cfe70 <unknown>
+#19 0x5628e3923c38 <unknown>
+#20 0x5628e3923dd5 <unknown>
+#21 0x5628e3936cae <unknown>
+#22 0x7f92c1a9caa4 <unknown>
+#23 0x7f92c1b29c6c <unknown>
+ | ERROR | 2026-07-07 02:33:29
+POBIERANIE_KONTAKTU https://www.manko.pl/ — ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer')) | ERROR | 2026-07-07 02:33:36
+SELENIUM https://www.manko.pl/kontakt — Message: timeout: Timed out receiving message from renderer: 15.000
+  (Session info: chrome=150.0.7871.46)
+Stacktrace:
+#0 0x5628e39380fa <unknown>
+#1 0x5628e3311939 <unknown>
+#2 0x5628e32f93ba <unknown>
+#3 0x5628e32f9036 <unknown>
+#4 0x5628e32f6c18 <unknown>
+#5 0x5628e32f7460 <unknown>
+#6 0x5628e33153ed <unknown>
+#7 0x5628e33b001b <unknown>
+#8 0x5628e33af30d <unknown>
+#9 0x5628e335a49f <unknown>
+#10 0x5628e335b301 <unknown>
+#11 0x5628e38fe167 <unknown>
+#12 0x5628e38fc948 <unknown>
+#13 0x5628e38e7dc6 <unknown>
+#14 0x5628e38fd50a <unknown>
+#15 0x5628e38cfe70 <unknown>
+#16 0x5628e3923c38 <unknown>
+#17 0x5628e3923dd5 <unknown>
+#18 0x5628e3936cae <unknown>
+#19 0x7f92c1a9caa4 <unknown>
+#20 0x7f92c1b29c6c <unknown>
+ | ERROR | 2026-07-07 02:33:51
+POBIERANIE_KONTAKTU https://www.manko.pl/kontakt — ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer')) | ERROR | 2026-07-07 02:33:57
+SELENIUM https://www.manko.pl/kontakty — Message: unknown error: net::ERR_CONNECTION_RESET
+  (Session info: chrome=150.0.7871.46)
+Stacktrace:
+#0 0x5628e39380fa <unknown>
+#1 0x5628e3311939 <unknown>
+#2 0x5628e330882c <unknown>
+#3 0x5628e32f98a1 <unknown>
+#4 0x5628e32fb61c <unknown>
+#5 0x5628e32f9d9a <unknown>
+#6 0x5628e32f9418 <unknown>
+#7 0x5628e32f9036 <unknown>
+#8 0x5628e32f6c18 <unknown>
+#9 0x5628e32f7460 <unknown>
+#10 0x5628e33153ed <unknown>
+#11 0x5628e33b001b <unknown>
+#12 0x5628e33af30d <unknown>
+#13 0x5628e335a49f <unknown>
+#14 0x5628e335b301 <unknown>
+#15 0x5628e38fe167 <unknown>
+#16 0x5628e38fc948 <unknown>
+#17 0x5628e38e7dc6 <unknown>
+#18 0x5628e38fd50a <unknown>
+#19 0x5628e38cfe70 <unknown>
+#20 0x5628e3923c38 <unknown>
+#21 0x5628e3923dd5 <unknown>
+#22 0x5628e3936cae <unknown>
+#23 0x7f92c1a9caa4 <unknown>
+#24 0x7f92c1b29c6c <unknown>
+ | ERROR | 2026-07-07 02:34:02
+POBIERANIE_KONTAKTU https://www.manko.pl/kontakty — ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer')) | ERROR | 2026-07-07 02:34:08
+SELENIUM https://www.manko.pl/ — Message: timeout: Timed out receiving message from renderer: -0.001
+  (Session info: chrome=150.0.7871.46)
+Stacktrace:
+#0 0x55dfdfe8b0fa <unknown>
+#1 0x55dfdf864939 <unknown>
+#2 0x55dfdf84c3ba <unknown>
+#3 0x55dfdf84c036 <unknown>
+#4 0x55dfdf849c18 <unknown>
+#5 0x55dfdf84a59f <unknown>
+#6 0x55dfdf859780 <unknown>
+#7 0x55dfdf8736a7 <unknown>
+#8 0x55dfdf87af0b <unknown>
+#9 0x55dfdf84acf9 <unknown>
+#10 0x55dfdf87343d <unknown>
+#11 0x55dfdf9021d0 <unknown>
+#12 0x55dfdf8ad49f <unknown>
+#13 0x55dfdf8ae301 <unknown>
+#14 0x55dfdfe51167 <unknown>
+#15 0x55dfdfe4f948 <unknown>
+#16 0x55dfdfe3adc6 <unknown>
+#17 0x55dfdfe5050a <unknown>
+#18 0x55dfdfe22e70 <unknown>
+#19 0x55dfdfe76c38 <unknown>
+#20 0x55dfdfe76dd5 <unknown>
+#21 0x55dfdfe89cae <unknown>
+#22 0x7f11d3a9caa4 <unknown>
+#23 0x7f11d3b29c6c <unknown>
+ | ERROR | 2026-07-07 02:34:46
+START_SKRYPTU — Zadanie: organizacje_polonijne | INFO | 2026-07-07 02:34:54
+SELENIUM https://www.manko.pl/ — Message: timeout: Timed out receiving message from renderer: -0.001
+  (Session info: chrome=150.0.7871.46)
+Stacktrace:
+#0 0x55b72a59c0fa <unknown>
+#1 0x55b729f75939 <unknown>
+#2 0x55b729f5d3ba <unknown>
+#3 0x55b729f5d036 <unknown>
+#4 0x55b729f5ac18 <unknown>
+#5 0x55b729f5b59f <unknown>
+#6 0x55b729f6a780 <unknown>
+#7 0x55b729f846a7 <unknown>
+#8 0x55b729f8bf0b <unknown>
+#9 0x55b729f5bcf9 <unknown>
+#10 0x55b729f8443d <unknown>
+#11 0x55b72a0131d0 <unknown>
+#12 0x55b729fbe49f <unknown>
+#13 0x55b729fbf301 <unknown>
+#14 0x55b72a562167 <unknown>
+#15 0x55b72a560948 <unknown>
+#16 0x55b72a54bdc6 <unknown>
+#17 0x55b72a56150a <unknown>
+#18 0x55b72a533e70 <unknown>
+#19 0x55b72a587c38 <unknown>
+#20 0x55b72a587dd5 <unknown>
+#21 0x55b72a59acae <unknown>
+#22 0x7f10d549caa4 <unknown>
+#23 0x7f10d5529c6c <unknown>
+ | ERROR | 2026-07-07 02:35:09
+POBIERANIE_KONTAKTU https://www.manko.pl/ — ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer')) | ERROR | 2026-07-07 02:35:16
+SELENIUM https://www.manko.pl/kontakt — Message: unknown error: net::ERR_CONNECTION_RESET
+  (Session info: chrome=150.0.7871.46)
+Stacktrace:
+#0 0x55b72a59c0fa <unknown>
+#1 0x55b729f75939 <unknown>
+#2 0x55b729f6c82c <unknown>
+#3 0x55b729f5d8a1 <unknown>
+#4 0x55b729f5f61c <unknown>
+#5 0x55b729f5dd9a <unknown>
+#6 0x55b729f5d418 <unknown>
+#7 0x55b729f5d036 <unknown>
+#8 0x55b729f5ac18 <unknown>
+#9 0x55b729f5b460 <unknown>
+#10 0x55b729f793ed <unknown>
+#11 0x55b72a01401b <unknown>
+#12 0x55b72a01330d <unknown>
+#13 0x55b729fbe49f <unknown>
+#14 0x55b729fbf301 <unknown>
+#15 0x55b72a562167 <unknown>
+#16 0x55b72a560948 <unknown>
+#17 0x55b72a54bdc6 <unknown>
+#18 0x55b72a56150a <unknown>
+#19 0x55b72a533e70 <unknown>
+#20 0x55b72a587c38 <unknown>
+#21 0x55b72a587dd5 <unknown>
+#22 0x55b72a59acae <unknown>
+#23 0x7f10d549caa4 <unknown>
+#24 0x7f10d5529c6c <unknown>
+ | ERROR | 2026-07-07 02:35:20
+POBIERANIE_KONTAKTU https://www.manko.pl/kontakt — ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer')) | ERROR | 2026-07-07 02:35:27
+SELENIUM https://www.manko.pl/kontakty — Message: timeout: Timed out receiving message from renderer: 15.000
+  (Session info: chrome=150.0.7871.46)
+Stacktrace:
+#0 0x55b72a59c0fa <unknown>
+#1 0x55b729f75939 <unknown>
+#2 0x55b729f5d3ba <unknown>
+#3 0x55b729f5d036 <unknown>
+#4 0x55b729f5ac18 <unknown>
+#5 0x55b729f5b460 <unknown>
+#6 0x55b729f793ed <unknown>
+#7 0x55b72a01401b <unknown>
+#8 0x55b72a01330d <unknown>
+#9 0x55b729fbe49f <unknown>
+#10 0x55b729fbf301 <unknown>
+#11 0x55b72a562167 <unknown>
+#12 0x55b72a560948 <unknown>
+#13 0x55b72a54bdc6 <unknown>
+#14 0x55b72a56150a <unknown>
+#15 0x55b72a533e70 <unknown>
+#16 0x55b72a587c38 <unknown>
+#17 0x55b72a587dd5 <unknown>
+#18 0x55b72a59acae <unknown>
+#19 0x7f10d549caa4 <unknown>
+#20 0x7f10d5529c6c <unknown>
+ | ERROR | 2026-07-07 02:35:42
+POBIERANIE_KONTAKTU https://www.manko.pl/kontakty — ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer')) | ERROR | 2026-07-07 02:35:48
+SELENIUM https://www.manko.pl/o-nas — Message: timeout: Timed out receiving message from renderer: 15.000
+  (Session info: chrome=150.0.7871.46)
+Stacktrace:
+#0 0x55b72a59c0fa <unknown>
+#1 0x55b729f75939 <unknown>
+#2 0x55b729f5d3ba <unknown>
+#3 0x55b729f5d036 <unknown>
+#4 0x55b729f5ac18 <unknown>
+#5 0x55b729f5b460 <unknown>
+#6 0x55b729f793ed <unknown>
+#7 0x55b72a01401b <unknown>
+#8 0x55b72a01330d <unknown>
+#9 0x55b729fbe49f <unknown>
+#10 0x55b729fbf301 <unknown>
+#11 0x55b72a562167 <unknown>
+#12 0x55b72a560948 <unknown>
+#13 0x55b72a54bdc6 <unknown>
+#14 0x55b72a56150a <unknown>
+#15 0x55b72a533e70 <unknown>
+#16 0x55b72a587c38 <unknown>
+#17 0x55b72a587dd5 <unknown>
+#18 0x55b72a59acae <unknown>
+#19 0x7f10d549caa4 <unknown>
+#20 0x7f10d5529c6c <unknown>
+ | ERROR | 2026-07-07 02:36:03
+POBIERANIE_KONTAKTU https://www.manko.pl/o-nas — ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer')) | ERROR | 2026-07-07 02:36:10
+START_SKRYPTU — Zadanie: organizacje_polonijne | INFO | 2026-07-07 05:07:50
+SELENIUM https://www.manko.pl/ — Message: timeout: Timed out receiving message from renderer: -0.001
+  (Session info: chrome=150.0.7871.46)
+Stacktrace:
+#0 0x563b77ccd0fa <unknown>
+#1 0x563b776a6939 <unknown>
+#2 0x563b7768e3ba <unknown>
+#3 0x563b7768e036 <unknown>
+#4 0x563b7768bc18 <unknown>
+#5 0x563b7768c59f <unknown>
+#6 0x563b7769b780 <unknown>
+#7 0x563b776b56a7 <unknown>
+#8 0x563b776bcf0b <unknown>
+#9 0x563b7768ccf9 <unknown>
+#10 0x563b776b543d <unknown>
+#11 0x563b777441d0 <unknown>
+#12 0x563b776ef49f <unknown>
+#13 0x563b776f0301 <unknown>
+#14 0x563b77c93167 <unknown>
+#15 0x563b77c91948 <unknown>
+#16 0x563b77c7cdc6 <unknown>
+#17 0x563b77c9250a <unknown>
+#18 0x563b77c64e70 <unknown>
+#19 0x563b77cb8c38 <unknown>
+#20 0x563b77cb8dd5 <unknown>
+#21 0x563b77ccbcae <unknown>
+#22 0x7fb53109caa4 <unknown>
+#23 0x7fb531129c6c <unknown>
+ | ERROR | 2026-07-07 05:08:27
+POBIERANIE_KONTAKTU https://www.manko.pl/ — ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer')) | ERROR | 2026-07-07 05:08:33
+SELENIUM https://www.manko.pl/kontakt — Message: timeout: Timed out receiving message from renderer: -0.001
+  (Session info: chrome=150.0.7871.46)
+Stacktrace:
+#0 0x55b0c2a200fa <unknown>
+#1 0x55b0c23f9939 <unknown>
+#2 0x55b0c23e13ba <unknown>
+#3 0x55b0c23e1036 <unknown>
+#4 0x55b0c23dec18 <unknown>
+#5 0x55b0c23df59f <unknown>
+#6 0x55b0c23ee780 <unknown>
+#7 0x55b0c24086a7 <unknown>
+#8 0x55b0c240ff0b <unknown>
+#9 0x55b0c23dfcf9 <unknown>
+#10 0x55b0c240843d <unknown>
+#11 0x55b0c24971d0 <unknown>
+#12 0x55b0c244249f <unknown>
+#13 0x55b0c2443301 <unknown>
+#14 0x55b0c29e6167 <unknown>
+#15 0x55b0c29e4948 <unknown>
+#16 0x55b0c29cfdc6 <unknown>
+#17 0x55b0c29e550a <unknown>
+#18 0x55b0c29b7e70 <unknown>
+#19 0x55b0c2a0bc38 <unknown>
+#20 0x55b0c2a0bdd5 <unknown>
+#21 0x55b0c2a1ecae <unknown>
+#22 0x7f9fc6a9caa4 <unknown>
+#23 0x7f9fc6b29c6c <unknown>
+ | ERROR | 2026-07-07 05:08:49
+POBIERANIE_KONTAKTU https://www.manko.pl/kontakt — ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer')) | ERROR | 2026-07-07 05:08:55
+SELENIUM https://www.manko.pl/kontakty — Message: timeout: Timed out receiving message from renderer: -0.001
+  (Session info: chrome=150.0.7871.46)
+Stacktrace:
+#0 0x557544fb80fa <unknown>
+#1 0x557544991939 <unknown>
+#2 0x5575449793ba <unknown>
+#3 0x557544979036 <unknown>
+#4 0x557544976c18 <unknown>
+#5 0x55754497759f <unknown>
+#6 0x557544986780 <unknown>
+#7 0x5575449a06a7 <unknown>
+#8 0x5575449a7f0b <unknown>
+#9 0x557544977cf9 <unknown>
+#10 0x5575449a043d <unknown>
+#11 0x557544a2f1d0 <unknown>
+#12 0x5575449da49f <unknown>
+#13 0x5575449db301 <unknown>
+#14 0x557544f7e167 <unknown>
+#15 0x557544f7c948 <unknown>
+#16 0x557544f67dc6 <unknown>
+#17 0x557544f7d50a <unknown>
+#18 0x557544f4fe70 <unknown>
+#19 0x557544fa3c38 <unknown>
+#20 0x557544fa3dd5 <unknown>
+#21 0x557544fb6cae <unknown>
+#22 0x7f582a29caa4 <unknown>
+#23 0x7f582a329c6c <unknown>
+ | ERROR | 2026-07-07 05:09:11
+POBIERANIE_KONTAKTU https://www.manko.pl/kontakty — ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer')) | ERROR | 2026-07-07 05:09:17
+SELENIUM https://www.manko.pl/o-nas — Message: timeout: Timed out receiving message from renderer: -0.001
+  (Session info: chrome=150.0.7871.46)
+Stacktrace:
+#0 0x55e79b3610fa <unknown>
+#1 0x55e79ad3a939 <unknown>
+#2 0x55e79ad223ba <unknown>
+#3 0x55e79ad22036 <unknown>
+#4 0x55e79ad1fc18 <unknown>
+#5 0x55e79ad2059f <unknown>
+#6 0x55e79ad2f780 <unknown>
+#7 0x55e79ad496a7 <unknown>
+#8 0x55e79ad50f0b <unknown>
+#9 0x55e79ad20cf9 <unknown>
+#10 0x55e79ad4943d <unknown>
+#11 0x55e79add81d0 <unknown>
+#12 0x55e79ad8349f <unknown>
+#13 0x55e79ad84301 <unknown>
+#14 0x55e79b327167 <unknown>
+#15 0x55e79b325948 <unknown>
+#16 0x55e79b310dc6 <unknown>
+#17 0x55e79b32650a <unknown>
+#18 0x55e79b2f8e70 <unknown>
+#19 0x55e79b34cc38 <unknown>
+#20 0x55e79b34cdd5 <unknown>
+#21 0x55e79b35fcae <unknown>
+#22 0x7f7395e9caa4 <unknown>
+#23 0x7f7395f29c6c <unknown>
+ | ERROR | 2026-07-07 05:09:33
+POBIERANIE_KONTAKTU https://www.manko.pl/o-nas — ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer')) | ERROR | 2026-07-07 05:09:40
+SELENIUM https://www.manko.pl/ — Message: timeout: Timed out receiving message from renderer: -0.001
+  (Session info: chrome=150.0.7871.46)
+Stacktrace:
+#0 0x556d003750fa <unknown>
+#1 0x556cffd4e939 <unknown>
+#2 0x556cffd363ba <unknown>
+#3 0x556cffd36036 <unknown>
+#4 0x556cffd33c18 <unknown>
+#5 0x556cffd3459f <unknown>
+#6 0x556cffd43780 <unknown>
+#7 0x556cffd5d6a7 <unknown>
+#8 0x556cffd64f0b <unknown>
+#9 0x556cffd34cf9 <unknown>
+#10 0x556cffd5d43d <unknown>
+#11 0x556cffdec1d0 <unknown>
+#12 0x556cffd9749f <unknown>
+#13 0x556cffd98301 <unknown>
+#14 0x556d0033b167 <unknown>
+#15 0x556d00339948 <unknown>
+#16 0x556d00324dc6 <unknown>
+#17 0x556d0033a50a <unknown>
+#18 0x556d0030ce70 <unknown>
+#19 0x556d00360c38 <unknown>
+#20 0x556d00360dd5 <unknown>
+#21 0x556d00373cae <unknown>
+#22 0x7f7f1809caa4 <unknown>
+#23 0x7f7f18129c6c <unknown>
+ | ERROR | 2026-07-07 05:10:17
+POBIERANIE_KONTAKTU https://www.manko.pl/ — ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer')) | ERROR | 2026-07-07 05:10:23
+SELENIUM https://www.manko.pl/kontakt — Message: timeout: Timed out receiving message from renderer: -0.002
+  (Session info: chrome=150.0.7871.46)
+Stacktrace:
+#0 0x55f3163e50fa <unknown>
+#1 0x55f315dbe939 <unknown>
+#2 0x55f315da63ba <unknown>
+#3 0x55f315da6036 <unknown>
+#4 0x55f315da3c18 <unknown>
+#5 0x55f315da459f <unknown>
+#6 0x55f315db3780 <unknown>
+#7 0x55f315dcd6a7 <unknown>
+#8 0x55f315dd4f0b <unknown>
+#9 0x55f315da4cf9 <unknown>
+#10 0x55f315dcd43d <unknown>
+#11 0x55f315e5c1d0 <unknown>
+#12 0x55f315e0749f <unknown>
+#13 0x55f315e08301 <unknown>
+#14 0x55f3163ab167 <unknown>
+#15 0x55f3163a9948 <unknown>
+#16 0x55f316394dc6 <unknown>
+#17 0x55f3163aa50a <unknown>
+#18 0x55f31637ce70 <unknown>
+#19 0x55f3163d0c38 <unknown>
+#20 0x55f3163d0dd5 <unknown>
+#21 0x55f3163e3cae <unknown>
+#22 0x7f6675e9caa4 <unknown>
+#23 0x7f6675f29c6c <unknown>
+ | ERROR | 2026-07-07 05:10:39
+POBIERANIE_KONTAKTU https://www.manko.pl/kontakt — ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer')) | ERROR | 2026-07-07 05:10:45
+SELENIUM https://www.manko.pl/kontakty — Message: timeout: Timed out receiving message from renderer: -0.002
+  (Session info: chrome=150.0.7871.46)
+Stacktrace:
+#0 0x5647f92b80fa <unknown>
+#1 0x5647f8c91939 <unknown>
+#2 0x5647f8c793ba <unknown>
+#3 0x5647f8c79036 <unknown>
+#4 0x5647f8c76c18 <unknown>
+#5 0x5647f8c7759f <unknown>
+#6 0x5647f8c86780 <unknown>
+#7 0x5647f8ca06a7 <unknown>
+#8 0x5647f8ca7f0b <unknown>
+#9 0x5647f8c77cf9 <unknown>
+#10 0x5647f8ca043d <unknown>
+#11 0x5647f8d2f1d0 <unknown>
+#12 0x5647f8cda49f <unknown>
+#13 0x5647f8cdb301 <unknown>
+#14 0x5647f927e167 <unknown>
+#15 0x5647f927c948 <unknown>
+#16 0x5647f9267dc6 <unknown>
+#17 0x5647f927d50a <unknown>
+#18 0x5647f924fe70 <unknown>
+#19 0x5647f92a3c38 <unknown>
+#20 0x5647f92a3dd5 <unknown>
+#21 0x5647f92b6cae <unknown>
+#22 0x7f63d629caa4 <unknown>
+#23 0x7f63d6329c6c <unknown>
+ | ERROR | 2026-07-07 05:11:01
+POBIERANIE_KONTAKTU https://www.manko.pl/kontakty — ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer')) | ERROR | 2026-07-07 05:11:07
+SELENIUM https://www.manko.pl/o-nas — Message: timeout: Timed out receiving message from renderer: -0.002
+  (Session info: chrome=150.0.7871.46)
+Stacktrace:
+#0 0x556ae85410fa <unknown>
+#1 0x556ae7f1a939 <unknown>
+#2 0x556ae7f023ba <unknown>
+#3 0x556ae7f02036 <unknown>
+#4 0x556ae7effc18 <unknown>
+#5 0x556ae7f0059f <unknown>
+#6 0x556ae7f0f780 <unknown>
+#7 0x556ae7f296a7 <unknown>
+#8 0x556ae7f30f0b <unknown>
+#9 0x556ae7f00cf9 <unknown>
+#10 0x556ae7f2943d <unknown>
+#11 0x556ae7fb81d0 <unknown>
+#12 0x556ae7f6349f <unknown>
+#13 0x556ae7f64301 <unknown>
+#14 0x556ae8507167 <unknown>
+#15 0x556ae8505948 <unknown>
+#16 0x556ae84f0dc6 <unknown>
+#17 0x556ae850650a <unknown>
+#18 0x556ae84d8e70 <unknown>
+#19 0x556ae852cc38 <unknown>
+#20 0x556ae852cdd5 <unknown>
+#21 0x556ae853fcae <unknown>
+#22 0x7f2e6469caa4 <unknown>
+#23 0x7f2e64729c6c <unknown>
+ | ERROR | 2026-07-07 05:11:23
+POBIERANIE_KONTAKTU https://www.manko.pl/o-nas — ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer')) | ERROR | 2026-07-07 05:11:29
+SELENIUM https://www.manko.pl/contact — Message: timeout: Timed out receiving message from renderer: -0.001
+  (Session info: chrome=150.0.7871.46)
+Stacktrace:
+#0 0x55905c3070fa <unknown>
+#1 0x55905bce0939 <unknown>
+#2 0x55905bcc83ba <unknown>
+#3 0x55905bcc8036 <unknown>
+#4 0x55905bcc5c18 <unknown>
+#5 0x55905bcc659f <unknown>
+#6 0x55905bcd5780 <unknown>
+#7 0x55905bcef6a7 <unknown>
+#8 0x55905bcf6f0b <unknown>
+#9 0x55905bcc6cf9 <unknown>
+#10 0x55905bcef43d <unknown>
+#11 0x55905bd7e1d0 <unknown>
+#12 0x55905bd2949f <unknown>
+#13 0x55905bd2a301 <unknown>
+#14 0x55905c2cd167 <unknown>
+#15 0x55905c2cb948 <unknown>
+#16 0x55905c2b6dc6 <unknown>
+#17 0x55905c2cc50a <unknown>
+#18 0x55905c29ee70 <unknown>
+#19 0x55905c2f2c38 <unknown>
+#20 0x55905c2f2dd5 <unknown>
+#21 0x55905c305cae <unknown>
+#22 0x7f925169caa4 <unknown>
+#23 0x7f9251729c6c <unknown>
+ | ERROR | 2026-07-07 05:11:45
+POBIERANIE_KONTAKTU https://www.manko.pl/contact — ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer')) | ERROR | 2026-07-07 05:11:51
