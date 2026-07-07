@@ -2134,3 +2134,206 @@ Call log:
   - navigating to "https://nowaprzestrzen.org/contact", waiting until "domcontentloaded"
  | ERROR | 2026-07-07 10:30:59
 KONTAKT_SPRAWDZONY — 0000622287 — https://nowaprzestrzen.org/kontakt/ | INFO | 2026-07-07 10:30:59
+START_SKRYPTU — Zadanie: organizacje_polonijne | INFO | 2026-07-07 10:36:11
+KONTAKT_SPRAWDZONY — 0000623995 — https://godzinyotwarcia24.pl/Fundacja-Klubu-Ronina-Warszawa-RbW633 | INFO | 2026-07-07 10:36:33
+START_SKRYPTU — Zadanie: organizacje_polonijne | INFO | 2026-07-07 10:36:57
+POBIERANIE_KONTAKTU https://www.findglocal.com/kontakt — Client error '404 Not Found' for url 'https://www.findglocal.com/kontakt'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404 | ERROR | 2026-07-07 10:37:15
+PLAYWRIGHT https://www.findglocal.com/kontakt — Page.goto: net::ERR_CONNECTION_RESET at https://www.findglocal.com/kontakt
+Call log:
+  - navigating to "https://www.findglocal.com/kontakt", waiting until "domcontentloaded"
+ | ERROR | 2026-07-07 10:37:29
+POBIERANIE_KONTAKTU https://www.findglocal.com/kontakty — Client error '404 Not Found' for url 'https://www.findglocal.com/kontakty'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404 | ERROR | 2026-07-07 10:37:30
+PLAYWRIGHT https://www.findglocal.com/kontakty — Page.goto: net::ERR_CONNECTION_RESET at https://www.findglocal.com/kontakty
+Call log:
+  - navigating to "https://www.findglocal.com/kontakty", waiting until "domcontentloaded"
+ | ERROR | 2026-07-07 10:37:43
+POBIERANIE_KONTAKTU https://www.findglocal.com/o-nas — Client error '404 Not Found' for url 'https://www.findglocal.com/o-nas'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404 | ERROR | 2026-07-07 10:37:44
+PLAYWRIGHT https://www.findglocal.com/o-nas — Page.goto: net::ERR_CONNECTION_RESET at https://www.findglocal.com/o-nas
+Call log:
+  - navigating to "https://www.findglocal.com/o-nas", waiting until "domcontentloaded"
+ | ERROR | 2026-07-07 10:37:57
+KONTAKT_SPRAWDZONY — 0000626174 — https://www.findglocal.com/PL/Muszyna/155740071502513/Polski-Zespół-Humanitarny | INFO | 2026-07-07 10:37:59
+START_SKRYPTU — Zadanie: organizacje_polonijne | INFO | 2026-07-07 10:38:13
+KONTAKT_SPRAWDZONY — 0000626890 — https://schuman.pl/strona-glowna/ | INFO | 2026-07-07 10:38:37
+START_SKRYPTU — Zadanie: organizacje_polonijne | INFO | 2026-07-07 10:38:37
+KONTAKT_SPRAWDZONY — 0000630792 — https://lelenfant.org/kontakt/ | INFO | 2026-07-07 10:38:54
+START_SKRYPTU — Zadanie: organizacje_polonijne | INFO | 2026-07-07 10:38:54
+DDGS_ZABLOKOWANE — Wyłączam automatyczne wyszukiwanie do końca uruchomienia — wymagane ręczne wyszukiwanie: error sending request for url (https://yandex.com/search/site/?text=%22FUNDACJA+SLOW+BESKID%22+kontakt&web=1&searchid=5837615) > operation timed out | ERROR | 2026-07-07 10:39:19
+Nie znaleziono strony dla FUNDACJA SLOW BESKID (KRS 0000636554) — wyszukaj ręcznie | SUCCESS | 2026-07-07 10:39:19
+START_SKRYPTU — Zadanie: organizacje_polonijne | INFO | 2026-07-07 10:39:20
+KONTAKT_SPRAWDZONY — 0000637028 — https://fsmm.pl/partner/fundacja-instytut-bialowieski/ | INFO | 2026-07-07 10:39:33
+START_SKRYPTU — Zadanie: organizacje_polonijne | INFO | 2026-07-07 10:39:33
+POBIERANIE_KONTAKTU https://giveradar.com/kontakt — Client error '404 Not Found' for url 'https://giveradar.com/kontakt'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404 | ERROR | 2026-07-07 10:39:48
+PLAYWRIGHT https://giveradar.com/kontakt — Page.goto: net::ERR_CONNECTION_RESET at https://giveradar.com/kontakt
+Call log:
+  - navigating to "https://giveradar.com/kontakt", waiting until "domcontentloaded"
+ | ERROR | 2026-07-07 10:40:02
+POBIERANIE_KONTAKTU https://giveradar.com/kontakty — Client error '404 Not Found' for url 'https://giveradar.com/kontakty'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404 | ERROR | 2026-07-07 10:40:02
+START_SKRYPTU — Zadanie: organizacje_polonijne | INFO | 2026-07-07 10:40:19
+POBIERANIE_KONTAKTU https://giveradar.com/kontakt — Client error '404 Not Found' for url 'https://giveradar.com/kontakt'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404 | ERROR | 2026-07-07 10:40:43
+PLAYWRIGHT https://giveradar.com/kontakt — Page.goto: net::ERR_CONNECTION_RESET at https://giveradar.com/kontakt
+Call log:
+  - navigating to "https://giveradar.com/kontakt", waiting until "domcontentloaded"
+ | ERROR | 2026-07-07 10:40:57
+POBIERANIE_KONTAKTU https://giveradar.com/kontakty — Client error '404 Not Found' for url 'https://giveradar.com/kontakty'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404 | ERROR | 2026-07-07 10:40:58
+PLAYWRIGHT https://giveradar.com/kontakty — Page.goto: net::ERR_CONNECTION_RESET at https://giveradar.com/kontakty
+Call log:
+  - navigating to "https://giveradar.com/kontakty", waiting until "domcontentloaded"
+ | ERROR | 2026-07-07 10:41:11
+POBIERANIE_KONTAKTU https://giveradar.com/o-nas — Client error '404 Not Found' for url 'https://giveradar.com/o-nas'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404 | ERROR | 2026-07-07 10:41:12
+PLAYWRIGHT https://giveradar.com/o-nas — Page.goto: net::ERR_CONNECTION_RESET at https://giveradar.com/o-nas
+Call log:
+  - navigating to "https://giveradar.com/o-nas", waiting until "domcontentloaded"
+ | ERROR | 2026-07-07 10:41:26
+POBIERANIE_KONTAKTU https://giveradar.com/contact — Client error '404 Not Found' for url 'https://giveradar.com/contact'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404 | ERROR | 2026-07-07 10:41:27
+PLAYWRIGHT https://giveradar.com/contact — Page.goto: net::ERR_CONNECTION_RESET at https://giveradar.com/contact
+Call log:
+  - navigating to "https://giveradar.com/contact", waiting until "domcontentloaded"
+ | ERROR | 2026-07-07 10:41:40
+KONTAKT_SPRAWDZONY — 0000639229 — https://giveradar.com/charity/fundacja-rotunda-ponocna-pl/ | INFO | 2026-07-07 10:41:40
+START_SKRYPTU — Zadanie: organizacje_polonijne | INFO | 2026-07-07 10:41:49
+DDGS_ZABLOKOWANE — Wyłączam automatyczne wyszukiwanie do końca uruchomienia — wymagane ręczne wyszukiwanie: error sending request for url (https://www.startpage.com/) > operation timed out | ERROR | 2026-07-07 10:42:15
+Nie znaleziono strony dla FUNDACJA SLOW BESKID (KRS 0000636554) — wyszukaj ręcznie | SUCCESS | 2026-07-07 10:42:15
+START_SKRYPTU — Zadanie: organizacje_polonijne | INFO | 2026-07-07 10:42:54
+KONTAKT_SPRAWDZONY — 0000630792 — https://polskawielkiprojekt.pl | INFO | 2026-07-07 10:42:58
+START_SKRYPTU — Zadanie: organizacje_polonijne | INFO | 2026-07-07 10:42:58
+POBIERANIE_KONTAKTU https://i.bialowieza.pl — [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'i.bialowieza.pl'. (_ssl.c:1016) | ERROR | 2026-07-07 10:42:59
+PLAYWRIGHT https://i.bialowieza.pl — Page.goto: net::ERR_CONNECTION_RESET at https://i.bialowieza.pl/
+Call log:
+  - navigating to "https://i.bialowieza.pl/", waiting until "domcontentloaded"
+ | ERROR | 2026-07-07 10:43:13
+POBIERANIE_KONTAKTU https://i.bialowieza.pl/kontakt — [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'i.bialowieza.pl'. (_ssl.c:1016) | ERROR | 2026-07-07 10:43:14
+PLAYWRIGHT https://i.bialowieza.pl/kontakt — Page.goto: net::ERR_CONNECTION_RESET at https://i.bialowieza.pl/kontakt
+Call log:
+  - navigating to "https://i.bialowieza.pl/kontakt", waiting until "domcontentloaded"
+ | ERROR | 2026-07-07 10:43:28
+POBIERANIE_KONTAKTU https://i.bialowieza.pl/kontakty — [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'i.bialowieza.pl'. (_ssl.c:1016) | ERROR | 2026-07-07 10:43:28
+PLAYWRIGHT https://i.bialowieza.pl/kontakty — Page.goto: net::ERR_CONNECTION_RESET at https://i.bialowieza.pl/kontakty
+Call log:
+  - navigating to "https://i.bialowieza.pl/kontakty", waiting until "domcontentloaded"
+ | ERROR | 2026-07-07 10:43:43
+POBIERANIE_KONTAKTU https://i.bialowieza.pl/o-nas — [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'i.bialowieza.pl'. (_ssl.c:1016) | ERROR | 2026-07-07 10:43:43
+PLAYWRIGHT https://i.bialowieza.pl/o-nas — Page.goto: net::ERR_CONNECTION_RESET at https://i.bialowieza.pl/o-nas
+Call log:
+  - navigating to "https://i.bialowieza.pl/o-nas", waiting until "domcontentloaded"
+ | ERROR | 2026-07-07 10:43:57
+POBIERANIE_KONTAKTU https://i.bialowieza.pl/contact — [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'i.bialowieza.pl'. (_ssl.c:1016) | ERROR | 2026-07-07 10:43:58
+PLAYWRIGHT https://i.bialowieza.pl/contact — Page.goto: net::ERR_CONNECTION_RESET at https://i.bialowieza.pl/contact
+Call log:
+  - navigating to "https://i.bialowieza.pl/contact", waiting until "domcontentloaded"
+ | ERROR | 2026-07-07 10:44:12
+KONTAKT_SPRAWDZONY — 0000637028 — https://i.bialowieza.pl | INFO | 2026-07-07 10:44:12
+START_SKRYPTU — Zadanie: organizacje_polonijne | INFO | 2026-07-07 10:44:12
+POBIERANIE_KONTAKTU http://rotunda.club — [Errno -2] Name or service not known | ERROR | 2026-07-07 10:44:12
+PLAYWRIGHT http://rotunda.club — Page.goto: net::ERR_NAME_NOT_RESOLVED at http://rotunda.club/
+Call log:
+  - navigating to "http://rotunda.club/", waiting until "domcontentloaded"
+ | ERROR | 2026-07-07 10:44:14
+POBIERANIE_KONTAKTU http://rotunda.club/kontakt — [Errno -2] Name or service not known | ERROR | 2026-07-07 10:44:15
+PLAYWRIGHT http://rotunda.club/kontakt — Page.goto: net::ERR_NAME_NOT_RESOLVED at http://rotunda.club/kontakt
+Call log:
+  - navigating to "http://rotunda.club/kontakt", waiting until "domcontentloaded"
+ | ERROR | 2026-07-07 10:44:16
+POBIERANIE_KONTAKTU http://rotunda.club/kontakty — [Errno -2] Name or service not known | ERROR | 2026-07-07 10:44:16
+PLAYWRIGHT http://rotunda.club/kontakty — Page.goto: net::ERR_NAME_NOT_RESOLVED at http://rotunda.club/kontakty
+Call log:
+  - navigating to "http://rotunda.club/kontakty", waiting until "domcontentloaded"
+ | ERROR | 2026-07-07 10:44:17
+POBIERANIE_KONTAKTU http://rotunda.club/o-nas — [Errno -2] Name or service not known | ERROR | 2026-07-07 10:44:17
+PLAYWRIGHT http://rotunda.club/o-nas — Page.goto: net::ERR_NAME_NOT_RESOLVED at http://rotunda.club/o-nas
+Call log:
+  - navigating to "http://rotunda.club/o-nas", waiting until "domcontentloaded"
+ | ERROR | 2026-07-07 10:44:18
+POBIERANIE_KONTAKTU http://rotunda.club/contact — [Errno -2] Name or service not known | ERROR | 2026-07-07 10:44:18
+PLAYWRIGHT http://rotunda.club/contact — Page.goto: net::ERR_NAME_NOT_RESOLVED at http://rotunda.club/contact
+Call log:
+  - navigating to "http://rotunda.club/contact", waiting until "domcontentloaded"
+ | ERROR | 2026-07-07 10:44:19
+KONTAKT_SPRAWDZONY — 0000639229 — http://rotunda.club | INFO | 2026-07-07 10:44:19
+START_SKRYPTU — Zadanie: organizacje_polonijne | INFO | 2026-07-07 10:44:25
+POBIERANIE_KONTAKTU https://www.i.bialowieza.pl — [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'www.i.bialowieza.pl'. (_ssl.c:1016) | ERROR | 2026-07-07 10:44:26
+PLAYWRIGHT https://www.i.bialowieza.pl — Page.goto: net::ERR_CONNECTION_RESET at https://www.i.bialowieza.pl/
+Call log:
+  - navigating to "https://www.i.bialowieza.pl/", waiting until "domcontentloaded"
+ | ERROR | 2026-07-07 10:44:40
+POBIERANIE_KONTAKTU https://www.i.bialowieza.pl/kontakt — [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'www.i.bialowieza.pl'. (_ssl.c:1016) | ERROR | 2026-07-07 10:44:40
+PLAYWRIGHT https://www.i.bialowieza.pl/kontakt — Page.goto: net::ERR_CONNECTION_RESET at https://www.i.bialowieza.pl/kontakt
+Call log:
+  - navigating to "https://www.i.bialowieza.pl/kontakt", waiting until "domcontentloaded"
+ | ERROR | 2026-07-07 10:44:54
+POBIERANIE_KONTAKTU https://www.i.bialowieza.pl/kontakty — [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'www.i.bialowieza.pl'. (_ssl.c:1016) | ERROR | 2026-07-07 10:44:55
+PLAYWRIGHT https://www.i.bialowieza.pl/kontakty — Page.goto: net::ERR_CONNECTION_RESET at https://www.i.bialowieza.pl/kontakty
+Call log:
+  - navigating to "https://www.i.bialowieza.pl/kontakty", waiting until "domcontentloaded"
+ | ERROR | 2026-07-07 10:45:09
+POBIERANIE_KONTAKTU https://www.i.bialowieza.pl/o-nas — [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'www.i.bialowieza.pl'. (_ssl.c:1016) | ERROR | 2026-07-07 10:45:10
+PLAYWRIGHT https://www.i.bialowieza.pl/o-nas — Page.goto: net::ERR_CONNECTION_RESET at https://www.i.bialowieza.pl/o-nas
+Call log:
+  - navigating to "https://www.i.bialowieza.pl/o-nas", waiting until "domcontentloaded"
+ | ERROR | 2026-07-07 10:45:23
+POBIERANIE_KONTAKTU https://www.i.bialowieza.pl/contact — [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'www.i.bialowieza.pl'. (_ssl.c:1016) | ERROR | 2026-07-07 10:45:24
+PLAYWRIGHT https://www.i.bialowieza.pl/contact — Page.goto: net::ERR_CONNECTION_RESET at https://www.i.bialowieza.pl/contact
+Call log:
+  - navigating to "https://www.i.bialowieza.pl/contact", waiting until "domcontentloaded"
+ | ERROR | 2026-07-07 10:45:37
+KONTAKT_SPRAWDZONY — 0000637028 — https://www.i.bialowieza.pl | INFO | 2026-07-07 10:45:37
+START_SKRYPTU — Zadanie: organizacje_polonijne | INFO | 2026-07-07 10:45:38
+POBIERANIE_KONTAKTU https://rotunda.club — 502 Bad Gateway | ERROR | 2026-07-07 10:45:38
+PLAYWRIGHT https://rotunda.club — Page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://rotunda.club/
+Call log:
+  - navigating to "https://rotunda.club/", waiting until "domcontentloaded"
+ | ERROR | 2026-07-07 10:45:39
+POBIERANIE_KONTAKTU https://rotunda.club/kontakt — 502 Bad Gateway | ERROR | 2026-07-07 10:45:40
+PLAYWRIGHT https://rotunda.club/kontakt — Page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://rotunda.club/kontakt
+Call log:
+  - navigating to "https://rotunda.club/kontakt", waiting until "domcontentloaded"
+ | ERROR | 2026-07-07 10:45:41
+POBIERANIE_KONTAKTU https://rotunda.club/kontakty — 502 Bad Gateway | ERROR | 2026-07-07 10:45:41
+PLAYWRIGHT https://rotunda.club/kontakty — Page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://rotunda.club/kontakty
+Call log:
+  - navigating to "https://rotunda.club/kontakty", waiting until "domcontentloaded"
+ | ERROR | 2026-07-07 10:45:42
+POBIERANIE_KONTAKTU https://rotunda.club/o-nas — 502 Bad Gateway | ERROR | 2026-07-07 10:45:43
+PLAYWRIGHT https://rotunda.club/o-nas — Page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://rotunda.club/o-nas
+Call log:
+  - navigating to "https://rotunda.club/o-nas", waiting until "domcontentloaded"
+ | ERROR | 2026-07-07 10:45:44
+POBIERANIE_KONTAKTU https://rotunda.club/contact — 502 Bad Gateway | ERROR | 2026-07-07 10:45:44
+PLAYWRIGHT https://rotunda.club/contact — Page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://rotunda.club/contact
+Call log:
+  - navigating to "https://rotunda.club/contact", waiting until "domcontentloaded"
+ | ERROR | 2026-07-07 10:45:45
+KONTAKT_SPRAWDZONY — 0000639229 — https://rotunda.club | INFO | 2026-07-07 10:45:45
+START_SKRYPTU — Zadanie: organizacje_polonijne | INFO | 2026-07-07 10:46:17
+POBIERANIE_KONTAKTU https://jagiellonska.org/kontakty — Client error '404 Not Found' for url 'https://jagiellonska.org/kontakty'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404 | ERROR | 2026-07-07 10:46:25
+PLAYWRIGHT https://jagiellonska.org/kontakty — Page.goto: net::ERR_CONNECTION_RESET at https://jagiellonska.org/kontakty
+Call log:
+  - navigating to "https://jagiellonska.org/kontakty", waiting until "domcontentloaded"
+ | ERROR | 2026-07-07 10:46:39
+POBIERANIE_KONTAKTU https://jagiellonska.org/o-nas — Client error '404 Not Found' for url 'https://jagiellonska.org/o-nas'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404 | ERROR | 2026-07-07 10:46:40
+PLAYWRIGHT https://jagiellonska.org/o-nas — Page.goto: net::ERR_CONNECTION_RESET at https://jagiellonska.org/o-nas
+Call log:
+  - navigating to "https://jagiellonska.org/o-nas", waiting until "domcontentloaded"
+ | ERROR | 2026-07-07 10:46:54
+POBIERANIE_KONTAKTU https://jagiellonska.org/contact — Client error '404 Not Found' for url 'https://jagiellonska.org/contact'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404 | ERROR | 2026-07-07 10:46:55
+PLAYWRIGHT https://jagiellonska.org/contact — Page.goto: net::ERR_CONNECTION_RESET at https://jagiellonska.org/contact
+Call log:
+  - navigating to "https://jagiellonska.org/contact", waiting until "domcontentloaded"
+ | ERROR | 2026-07-07 10:47:09
+KONTAKT_SPRAWDZONY — 0000643785 — https://jagiellonska.org | INFO | 2026-07-07 10:47:09
+START_SKRYPTU — Zadanie: organizacje_polonijne | INFO | 2026-07-07 10:47:10
+KONTAKT_SPRAWDZONY — 0000658614 — https://www.ambasadakultury.com | INFO | 2026-07-07 10:47:22
+START_SKRYPTU — Zadanie: organizacje_polonijne | INFO | 2026-07-07 10:48:02
+KONTAKT_SPRAWDZONY — 0000673936 — https://www.bratniadusza.org | INFO | 2026-07-07 10:48:07

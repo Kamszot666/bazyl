@@ -1172,7 +1172,8 @@ DOMENY_REJESTROW_DO_POMINIECIA = [
     "facebook.com", "instagram.com", "linkedin.com", "twitter.com", "x.com",
     "cylex-polska.pl", "cylex.pl", "firmy.net", "biznes-firmy.pl",
     "oferteo.pl", "panoramafirm.eu", "pkt.pl", "firmy.pwginfo.pl",
-    "mapa.targeo.pl", "zumi.pl", "firmania.pl",
+    "mapa.targeo.pl", "zumi.pl", "firmania.pl", "godzinyotwarcia24.pl",
+    "findglocal.com", "giveradar.com", "onas.org.pl",
 ]
 
 
