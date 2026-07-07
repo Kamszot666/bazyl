@@ -1173,7 +1173,7 @@ DOMENY_REJESTROW_DO_POMINIECIA = [
     "cylex-polska.pl", "cylex.pl", "firmy.net", "biznes-firmy.pl",
     "oferteo.pl", "panoramafirm.eu", "pkt.pl", "firmy.pwginfo.pl",
     "mapa.targeo.pl", "zumi.pl", "firmania.pl", "godzinyotwarcia24.pl",
-    "findglocal.com", "giveradar.com", "onas.org.pl",
+    "findglocal.com", "giveradar.com", "onas.org.pl", "egospodarka.pl", "owg.pl",
 ]
 
 

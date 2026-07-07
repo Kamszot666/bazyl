@@ -2717,3 +2717,153 @@ Call log:
   - navigating to "https://miceandu.pl/contact", waiting until "domcontentloaded"
  | ERROR | 2026-07-07 11:06:13
 KONTAKT_SPRAWDZONY — 0000769858 — https://miceandu.pl | INFO | 2026-07-07 11:06:13
+START_SKRYPTU — Zadanie: organizacje_polonijne | INFO | 2026-07-07 18:36:24
+KONTAKT_SPRAWDZONY — 0000794053 — https://ypsilon.org.pl | INFO | 2026-07-07 18:36:34
+START_SKRYPTU — Zadanie: organizacje_polonijne | INFO | 2026-07-07 18:36:41
+KONTAKT_SPRAWDZONY — 0000794053 — https://ypsilonart.org.pl | INFO | 2026-07-07 18:36:49
+START_SKRYPTU — Zadanie: organizacje_polonijne | INFO | 2026-07-07 18:36:53
+KONTAKT_SPRAWDZONY — 0000774901 — https://www.torunskanauka.pl/ | INFO | 2026-07-07 18:37:08
+START_SKRYPTU — Zadanie: organizacje_polonijne | INFO | 2026-07-07 18:37:13
+POBIERANIE_KONTAKTU https://www.firma.egospodarka.pl/kontakt — Client error '404 Not Found' for url 'https://www.firma.egospodarka.pl/kontakt'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404 | ERROR | 2026-07-07 18:37:27
+PLAYWRIGHT https://www.firma.egospodarka.pl/kontakt — Page.goto: net::ERR_CONNECTION_RESET at https://www.firma.egospodarka.pl/kontakt
+Call log:
+  - navigating to "https://www.firma.egospodarka.pl/kontakt", waiting until "domcontentloaded"
+ | ERROR | 2026-07-07 18:37:49
+POBIERANIE_KONTAKTU https://www.firma.egospodarka.pl/kontakty — Client error '404 Not Found' for url 'https://www.firma.egospodarka.pl/kontakty'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404 | ERROR | 2026-07-07 18:37:50
+PLAYWRIGHT https://www.firma.egospodarka.pl/kontakty — Page.goto: net::ERR_CONNECTION_RESET at https://www.firma.egospodarka.pl/kontakty
+Call log:
+  - navigating to "https://www.firma.egospodarka.pl/kontakty", waiting until "domcontentloaded"
+ | ERROR | 2026-07-07 18:38:04
+POBIERANIE_KONTAKTU https://www.firma.egospodarka.pl/o-nas — Client error '404 Not Found' for url 'https://www.firma.egospodarka.pl/o-nas'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404 | ERROR | 2026-07-07 18:38:06
+PLAYWRIGHT https://www.firma.egospodarka.pl/o-nas — Page.goto: net::ERR_CONNECTION_RESET at https://www.firma.egospodarka.pl/o-nas
+Call log:
+  - navigating to "https://www.firma.egospodarka.pl/o-nas", waiting until "domcontentloaded"
+ | ERROR | 2026-07-07 18:38:19
+POBIERANIE_KONTAKTU https://www.firma.egospodarka.pl/contact — Client error '404 Not Found' for url 'https://www.firma.egospodarka.pl/contact'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404 | ERROR | 2026-07-07 18:38:20
+PLAYWRIGHT https://www.firma.egospodarka.pl/contact — Page.goto: net::ERR_CONNECTION_RESET at https://www.firma.egospodarka.pl/contact
+Call log:
+  - navigating to "https://www.firma.egospodarka.pl/contact", waiting until "domcontentloaded"
+ | ERROR | 2026-07-07 18:38:34
+KONTAKT_SPRAWDZONY — 0000777258 — https://www.firma.egospodarka.pl/raporty-o-firmach/firma,21713420,stowarzyszenie-scena-kultury-wokalnej-spiewanie-bez-granic.html | INFO | 2026-07-07 18:38:34
+START_SKRYPTU — Zadanie: organizacje_polonijne | INFO | 2026-07-07 18:38:43
+POBIERANIE_KONTAKTU https://www.owg.pl/krs-rs/stowarzyszenie_scena_kultury_wokal — [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'www.owg.pl'. (_ssl.c:1016) | ERROR | 2026-07-07 18:39:00
+PLAYWRIGHT https://www.owg.pl/krs-rs/stowarzyszenie_scena_kultury_wokal — Page.goto: net::ERR_CONNECTION_RESET at https://www.owg.pl/krs-rs/stowarzyszenie_scena_kultury_wokalnej_spiewanie_bez_granic_9,32,000077725,0000777258
+Call log:
+  - navigating to "https://www.owg.pl/krs-rs/stowarzyszenie_scena_kultury_wokalnej_spiewanie_bez_granic_9,32,000077725,0000777258", waiting until "domcontentloaded"
+ | ERROR | 2026-07-07 18:39:14
+POBIERANIE_KONTAKTU https://www.owg.pl/kontakt — [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'www.owg.pl'. (_ssl.c:1016) | ERROR | 2026-07-07 18:39:14
+PLAYWRIGHT https://www.owg.pl/kontakt — Page.goto: net::ERR_CONNECTION_RESET at https://www.owg.pl/kontakt
+Call log:
+  - navigating to "https://www.owg.pl/kontakt", waiting until "domcontentloaded"
+ | ERROR | 2026-07-07 18:39:28
+POBIERANIE_KONTAKTU https://www.owg.pl/kontakty — [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'www.owg.pl'. (_ssl.c:1016) | ERROR | 2026-07-07 18:39:29
+PLAYWRIGHT https://www.owg.pl/kontakty — Page.goto: net::ERR_CONNECTION_RESET at https://www.owg.pl/kontakty
+Call log:
+  - navigating to "https://www.owg.pl/kontakty", waiting until "domcontentloaded"
+ | ERROR | 2026-07-07 18:39:43
+POBIERANIE_KONTAKTU https://www.owg.pl/o-nas — [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'www.owg.pl'. (_ssl.c:1016) | ERROR | 2026-07-07 18:39:43
+PLAYWRIGHT https://www.owg.pl/o-nas — Page.goto: net::ERR_CONNECTION_RESET at https://www.owg.pl/o-nas
+Call log:
+  - navigating to "https://www.owg.pl/o-nas", waiting until "domcontentloaded"
+ | ERROR | 2026-07-07 18:39:57
+POBIERANIE_KONTAKTU https://www.owg.pl/contact — [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'www.owg.pl'. (_ssl.c:1016) | ERROR | 2026-07-07 18:39:58
+PLAYWRIGHT https://www.owg.pl/contact — Page.goto: net::ERR_CONNECTION_RESET at https://www.owg.pl/contact
+Call log:
+  - navigating to "https://www.owg.pl/contact", waiting until "domcontentloaded"
+ | ERROR | 2026-07-07 18:40:11
+KONTAKT_SPRAWDZONY — 0000777258 — https://www.owg.pl/krs-rs/stowarzyszenie_scena_kultury_wokalnej_spiewanie_bez_granic_9,32,000077725,0000777258 | INFO | 2026-07-07 18:40:11
+START_SKRYPTU — Zadanie: organizacje_polonijne | INFO | 2026-07-07 18:40:22
+DDGS_ZABLOKOWANE — Wyłączam automatyczne wyszukiwanie do końca uruchomienia — wymagane ręczne wyszukiwanie: error sending request for url (https://www.startpage.com/) > operation timed out | ERROR | 2026-07-07 18:40:43
+Nie znaleziono strony dla FUNDACJA HATIKVA (KRS 0000777275) — wyszukaj ręcznie | SUCCESS | 2026-07-07 18:40:43
+START_SKRYPTU — Zadanie: organizacje_polonijne | INFO | 2026-07-07 18:40:57
+POBIERANIE_KONTAKTU https://fundacja.hatikva.pl — 502 Bad Gateway | ERROR | 2026-07-07 18:40:58
+PLAYWRIGHT https://fundacja.hatikva.pl — Page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://fundacja.hatikva.pl/
+Call log:
+  - navigating to "https://fundacja.hatikva.pl/", waiting until "domcontentloaded"
+ | ERROR | 2026-07-07 18:40:59
+POBIERANIE_KONTAKTU https://fundacja.hatikva.pl/kontakt — 502 Bad Gateway | ERROR | 2026-07-07 18:40:59
+PLAYWRIGHT https://fundacja.hatikva.pl/kontakt — Page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://fundacja.hatikva.pl/kontakt
+Call log:
+  - navigating to "https://fundacja.hatikva.pl/kontakt", waiting until "domcontentloaded"
+ | ERROR | 2026-07-07 18:41:01
+POBIERANIE_KONTAKTU https://fundacja.hatikva.pl/kontakty — 502 Bad Gateway | ERROR | 2026-07-07 18:41:01
+PLAYWRIGHT https://fundacja.hatikva.pl/kontakty — Page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://fundacja.hatikva.pl/kontakty
+Call log:
+  - navigating to "https://fundacja.hatikva.pl/kontakty", waiting until "domcontentloaded"
+ | ERROR | 2026-07-07 18:41:03
+POBIERANIE_KONTAKTU https://fundacja.hatikva.pl/o-nas — 502 Bad Gateway | ERROR | 2026-07-07 18:41:03
+PLAYWRIGHT https://fundacja.hatikva.pl/o-nas — Page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://fundacja.hatikva.pl/o-nas
+Call log:
+  - navigating to "https://fundacja.hatikva.pl/o-nas", waiting until "domcontentloaded"
+ | ERROR | 2026-07-07 18:41:04
+POBIERANIE_KONTAKTU https://fundacja.hatikva.pl/contact — 502 Bad Gateway | ERROR | 2026-07-07 18:41:05
+PLAYWRIGHT https://fundacja.hatikva.pl/contact — Page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://fundacja.hatikva.pl/contact
+Call log:
+  - navigating to "https://fundacja.hatikva.pl/contact", waiting until "domcontentloaded"
+ | ERROR | 2026-07-07 18:41:06
+KONTAKT_SPRAWDZONY — 0000777275 — https://fundacja.hatikva.pl | INFO | 2026-07-07 18:41:06
+START_SKRYPTU — Zadanie: organizacje_polonijne | INFO | 2026-07-07 18:41:14
+POBIERANIE_KONTAKTU https://portalhatikva.pl — 502 Bad Gateway | ERROR | 2026-07-07 18:41:15
+PLAYWRIGHT https://portalhatikva.pl — Page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://portalhatikva.pl/
+Call log:
+  - navigating to "https://portalhatikva.pl/", waiting until "domcontentloaded"
+ | ERROR | 2026-07-07 18:41:16
+POBIERANIE_KONTAKTU https://portalhatikva.pl/kontakt — 502 Bad Gateway | ERROR | 2026-07-07 18:41:16
+PLAYWRIGHT https://portalhatikva.pl/kontakt — Page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://portalhatikva.pl/kontakt
+Call log:
+  - navigating to "https://portalhatikva.pl/kontakt", waiting until "domcontentloaded"
+ | ERROR | 2026-07-07 18:41:17
+POBIERANIE_KONTAKTU https://portalhatikva.pl/kontakty — 502 Bad Gateway | ERROR | 2026-07-07 18:41:18
+PLAYWRIGHT https://portalhatikva.pl/kontakty — Page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://portalhatikva.pl/kontakty
+Call log:
+  - navigating to "https://portalhatikva.pl/kontakty", waiting until "domcontentloaded"
+ | ERROR | 2026-07-07 18:41:19
+POBIERANIE_KONTAKTU https://portalhatikva.pl/o-nas — 502 Bad Gateway | ERROR | 2026-07-07 18:41:19
+PLAYWRIGHT https://portalhatikva.pl/o-nas — Page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://portalhatikva.pl/o-nas
+Call log:
+  - navigating to "https://portalhatikva.pl/o-nas", waiting until "domcontentloaded"
+ | ERROR | 2026-07-07 18:41:21
+POBIERANIE_KONTAKTU https://portalhatikva.pl/contact — 502 Bad Gateway | ERROR | 2026-07-07 18:41:22
+PLAYWRIGHT https://portalhatikva.pl/contact — Page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://portalhatikva.pl/contact
+Call log:
+  - navigating to "https://portalhatikva.pl/contact", waiting until "domcontentloaded"
+ | ERROR | 2026-07-07 18:41:23
+KONTAKT_SPRAWDZONY — 0000777275 — https://portalhatikva.pl | INFO | 2026-07-07 18:41:23
+START_SKRYPTU — Zadanie: organizacje_polonijne | INFO | 2026-07-07 18:41:43
+KONTAKT_SPRAWDZONY — 0000780514 — https://odraniemen.org | INFO | 2026-07-07 18:41:48
+START_SKRYPTU — Zadanie: organizacje_polonijne | INFO | 2026-07-07 18:41:49
+KONTAKT_SPRAWDZONY — 0000780900 — https://instytutboyma.org | INFO | 2026-07-07 18:41:55
+START_SKRYPTU — Zadanie: organizacje_polonijne | INFO | 2026-07-07 18:41:56
+KONTAKT_SPRAWDZONY — 0000784089 — https://diversitypl.org | INFO | 2026-07-07 18:41:59
+START_SKRYPTU — Zadanie: organizacje_polonijne | INFO | 2026-07-07 18:42:23
+POBIERANIE_KONTAKTU https://macierzpolonii.com/kontakt — Client error '404 Not Found' for url 'https://macierzpolonii.com/kontakt'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404 | ERROR | 2026-07-07 18:42:29
+PLAYWRIGHT https://macierzpolonii.com/kontakt — Page.goto: net::ERR_CONNECTION_RESET at https://macierzpolonii.com/kontakt
+Call log:
+  - navigating to "https://macierzpolonii.com/kontakt", waiting until "domcontentloaded"
+ | ERROR | 2026-07-07 18:42:43
+POBIERANIE_KONTAKTU https://macierzpolonii.com/kontakty — Client error '404 Not Found' for url 'https://macierzpolonii.com/kontakty'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404 | ERROR | 2026-07-07 18:42:44
+PLAYWRIGHT https://macierzpolonii.com/kontakty — Page.goto: net::ERR_CONNECTION_RESET at https://macierzpolonii.com/kontakty
+Call log:
+  - navigating to "https://macierzpolonii.com/kontakty", waiting until "domcontentloaded"
+ | ERROR | 2026-07-07 18:42:57
+POBIERANIE_KONTAKTU https://macierzpolonii.com/contact — Client error '404 Not Found' for url 'https://macierzpolonii.com/contact'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404 | ERROR | 2026-07-07 18:43:02
+PLAYWRIGHT https://macierzpolonii.com/contact — Page.goto: net::ERR_CONNECTION_RESET at https://macierzpolonii.com/contact
+Call log:
+  - navigating to "https://macierzpolonii.com/contact", waiting until "domcontentloaded"
+ | ERROR | 2026-07-07 18:43:16
+KONTAKT_SPRAWDZONY — 0000781483 — https://macierzpolonii.com | INFO | 2026-07-07 18:43:16
+START_SKRYPTU — Zadanie: organizacje_polonijne | INFO | 2026-07-07 18:43:17
+POBIERANIE_KONTAKTU https://instytutbirm.pl/contact — Client error '404 Not Found' for url 'https://instytutbirm.pl/contact'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404 | ERROR | 2026-07-07 18:43:39
+PLAYWRIGHT https://instytutbirm.pl/contact — Page.goto: net::ERR_CONNECTION_RESET at https://instytutbirm.pl/contact
+Call log:
+  - navigating to "https://instytutbirm.pl/contact", waiting until "domcontentloaded"
+ | ERROR | 2026-07-07 18:43:53
+KONTAKT_SPRAWDZONY — 0000787390 — https://instytutbirm.pl | INFO | 2026-07-07 18:43:53
