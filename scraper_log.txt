@@ -2542,3 +2542,178 @@ Call log:
   - navigating to "https://hagiamarina.org/contact", waiting until "domcontentloaded"
  | ERROR | 2026-07-07 10:58:46
 KONTAKT_SPRAWDZONY — 0000726821 — https://hagiamarina.org | INFO | 2026-07-07 10:58:46
+START_SKRYPTU — Zadanie: organizacje_polonijne | INFO | 2026-07-07 10:59:53
+KONTAKT_SPRAWDZONY — 0000730409 — http://jatezmammarzenia.pl | INFO | 2026-07-07 10:59:59
+START_SKRYPTU — Zadanie: organizacje_polonijne | INFO | 2026-07-07 10:59:59
+POBIERANIE_KONTAKTU https://www.ambitnapolska.pl/kontakty — Client error '404 Not Found' for url 'https://www.ambitnapolska.pl/kontakty'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404 | ERROR | 2026-07-07 11:00:07
+PLAYWRIGHT https://www.ambitnapolska.pl/kontakty — Page.goto: net::ERR_CONNECTION_RESET at https://www.ambitnapolska.pl/kontakty
+Call log:
+  - navigating to "https://www.ambitnapolska.pl/kontakty", waiting until "domcontentloaded"
+ | ERROR | 2026-07-07 11:00:21
+POBIERANIE_KONTAKTU https://www.ambitnapolska.pl/o-nas — Client error '404 Not Found' for url 'https://www.ambitnapolska.pl/o-nas'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404 | ERROR | 2026-07-07 11:00:22
+PLAYWRIGHT https://www.ambitnapolska.pl/o-nas — Page.goto: net::ERR_CONNECTION_RESET at https://www.ambitnapolska.pl/o-nas
+Call log:
+  - navigating to "https://www.ambitnapolska.pl/o-nas", waiting until "domcontentloaded"
+ | ERROR | 2026-07-07 11:00:37
+POBIERANIE_KONTAKTU https://www.ambitnapolska.pl/contact — Client error '404 Not Found' for url 'https://www.ambitnapolska.pl/contact'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404 | ERROR | 2026-07-07 11:00:38
+PLAYWRIGHT https://www.ambitnapolska.pl/contact — Page.goto: net::ERR_CONNECTION_RESET at https://www.ambitnapolska.pl/contact
+Call log:
+  - navigating to "https://www.ambitnapolska.pl/contact", waiting until "domcontentloaded"
+ | ERROR | 2026-07-07 11:00:52
+KONTAKT_SPRAWDZONY — 0000732603 — https://www.ambitnapolska.pl | INFO | 2026-07-07 11:00:52
+START_SKRYPTU — Zadanie: organizacje_polonijne | INFO | 2026-07-07 11:00:52
+POBIERANIE_KONTAKTU http://lifeandart.eu/kontakt — Client error '404 Not Found' for url 'http://lifeandart.eu/kontakt'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404 | ERROR | 2026-07-07 11:00:57
+POBIERANIE_KONTAKTU http://lifeandart.eu/kontakty — Server error '503 Service Unavailable' for url 'http://lifeandart.eu/kontakty'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/503 | ERROR | 2026-07-07 11:01:13
+POBIERANIE_KONTAKTU http://lifeandart.eu/o-nas — Client error '404 Not Found' for url 'http://lifeandart.eu/o-nas'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404 | ERROR | 2026-07-07 11:01:31
+POBIERANIE_KONTAKTU http://lifeandart.eu/contact — Client error '404 Not Found' for url 'http://lifeandart.eu/contact'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404 | ERROR | 2026-07-07 11:01:47
+START_SKRYPTU — Zadanie: organizacje_polonijne | INFO | 2026-07-07 11:01:57
+POBIERANIE_KONTAKTU https://www.mdptrojmiasto.org/kontakt — Client error '404 Not Found' for url 'https://www.mdptrojmiasto.org/kontakt'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404 | ERROR | 2026-07-07 11:02:03
+KONTAKT_SPRAWDZONY — 0000737335 — http://lifeandart.eu | INFO | 2026-07-07 11:02:03
+START_SKRYPTU — Zadanie: organizacje_polonijne | INFO | 2026-07-07 11:02:04
+POBIERANIE_KONTAKTU https://fundacjaimperio.pl/kontakty — Client error '404 Not Found' for url 'https://fundacjaimperio.pl/kontakty'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404 | ERROR | 2026-07-07 11:02:09
+PLAYWRIGHT https://www.mdptrojmiasto.org/kontakt — Page.goto: net::ERR_CONNECTION_RESET at https://www.mdptrojmiasto.org/kontakt
+Call log:
+  - navigating to "https://www.mdptrojmiasto.org/kontakt", waiting until "domcontentloaded"
+ | ERROR | 2026-07-07 11:02:17
+POBIERANIE_KONTAKTU https://www.mdptrojmiasto.org/kontakty — Client error '404 Not Found' for url 'https://www.mdptrojmiasto.org/kontakty'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404 | ERROR | 2026-07-07 11:02:19
+PLAYWRIGHT https://fundacjaimperio.pl/kontakty — Page.goto: net::ERR_CONNECTION_RESET at https://fundacjaimperio.pl/kontakty
+Call log:
+  - navigating to "https://fundacjaimperio.pl/kontakty", waiting until "domcontentloaded"
+ | ERROR | 2026-07-07 11:02:23
+POBIERANIE_KONTAKTU https://fundacjaimperio.pl/contact — Client error '404 Not Found' for url 'https://fundacjaimperio.pl/contact'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404 | ERROR | 2026-07-07 11:02:28
+PLAYWRIGHT https://www.mdptrojmiasto.org/kontakty — Page.goto: net::ERR_CONNECTION_RESET at https://www.mdptrojmiasto.org/kontakty
+Call log:
+  - navigating to "https://www.mdptrojmiasto.org/kontakty", waiting until "domcontentloaded"
+ | ERROR | 2026-07-07 11:02:33
+POBIERANIE_KONTAKTU https://www.mdptrojmiasto.org/o-nas — Client error '404 Not Found' for url 'https://www.mdptrojmiasto.org/o-nas'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404 | ERROR | 2026-07-07 11:02:35
+PLAYWRIGHT https://fundacjaimperio.pl/contact — Page.goto: net::ERR_CONNECTION_RESET at https://fundacjaimperio.pl/contact
+Call log:
+  - navigating to "https://fundacjaimperio.pl/contact", waiting until "domcontentloaded"
+ | ERROR | 2026-07-07 11:02:42
+KONTAKT_SPRAWDZONY — 0000737508 — https://fundacjaimperio.pl | INFO | 2026-07-07 11:02:42
+PLAYWRIGHT https://www.mdptrojmiasto.org/o-nas — Page.goto: net::ERR_CONNECTION_RESET at https://www.mdptrojmiasto.org/o-nas
+Call log:
+  - navigating to "https://www.mdptrojmiasto.org/o-nas", waiting until "domcontentloaded"
+ | ERROR | 2026-07-07 11:02:49
+POBIERANIE_KONTAKTU https://www.mdptrojmiasto.org/contact — Client error '404 Not Found' for url 'https://www.mdptrojmiasto.org/contact'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404 | ERROR | 2026-07-07 11:02:51
+PLAYWRIGHT https://www.mdptrojmiasto.org/contact — Page.goto: net::ERR_CONNECTION_RESET at https://www.mdptrojmiasto.org/contact
+Call log:
+  - navigating to "https://www.mdptrojmiasto.org/contact", waiting until "domcontentloaded"
+ | ERROR | 2026-07-07 11:03:05
+KONTAKT_SPRAWDZONY — 0000743893 — https://www.mdptrojmiasto.org | INFO | 2026-07-07 11:03:05
+START_SKRYPTU — Zadanie: organizacje_polonijne | INFO | 2026-07-07 11:03:06
+POBIERANIE_KONTAKTU https://frelichowski.pl/kontakty — Client error '404 Not Found' for url 'https://frelichowski.pl/kontakty'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404 | ERROR | 2026-07-07 11:03:16
+PLAYWRIGHT https://frelichowski.pl/kontakty — Page.goto: net::ERR_CONNECTION_RESET at https://frelichowski.pl/kontakty
+Call log:
+  - navigating to "https://frelichowski.pl/kontakty", waiting until "domcontentloaded"
+ | ERROR | 2026-07-07 11:03:30
+POBIERANIE_KONTAKTU https://frelichowski.pl/contact — Client error '404 Not Found' for url 'https://frelichowski.pl/contact'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404 | ERROR | 2026-07-07 11:03:37
+PLAYWRIGHT https://frelichowski.pl/contact — Page.goto: net::ERR_CONNECTION_RESET at https://frelichowski.pl/contact
+Call log:
+  - navigating to "https://frelichowski.pl/contact", waiting until "domcontentloaded"
+ | ERROR | 2026-07-07 11:03:51
+KONTAKT_SPRAWDZONY — 0000750394 — https://frelichowski.pl | INFO | 2026-07-07 11:03:51
+START_SKRYPTU — Zadanie: organizacje_polonijne | INFO | 2026-07-07 11:03:51
+POBIERANIE_KONTAKTU https://www.fpc.org.pl/kontakty — Client error '404 Not Found' for url 'https://www.fpc.org.pl/kontakty'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404 | ERROR | 2026-07-07 11:04:01
+START_SKRYPTU — Zadanie: organizacje_polonijne | INFO | 2026-07-07 11:04:09
+PLAYWRIGHT https://www.fpc.org.pl/kontakty — Page.goto: net::ERR_CONNECTION_RESET at https://www.fpc.org.pl/kontakty
+Call log:
+  - navigating to "https://www.fpc.org.pl/kontakty", waiting until "domcontentloaded"
+ | ERROR | 2026-07-07 11:04:15
+POBIERANIE_KONTAKTU https://www.fpc.org.pl/kontakty — Client error '404 Not Found' for url 'https://www.fpc.org.pl/kontakty'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404 | ERROR | 2026-07-07 11:04:18
+POBIERANIE_KONTAKTU https://www.fpc.org.pl/o-nas — Client error '404 Not Found' for url 'https://www.fpc.org.pl/o-nas'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404 | ERROR | 2026-07-07 11:04:18
+PLAYWRIGHT https://www.fpc.org.pl/kontakty — Page.goto: net::ERR_CONNECTION_RESET at https://www.fpc.org.pl/kontakty
+Call log:
+  - navigating to "https://www.fpc.org.pl/kontakty", waiting until "domcontentloaded"
+ | ERROR | 2026-07-07 11:04:31
+PLAYWRIGHT https://www.fpc.org.pl/o-nas — Page.goto: net::ERR_CONNECTION_RESET at https://www.fpc.org.pl/o-nas
+Call log:
+  - navigating to "https://www.fpc.org.pl/o-nas", waiting until "domcontentloaded"
+ | ERROR | 2026-07-07 11:04:32
+POBIERANIE_KONTAKTU https://www.fpc.org.pl/o-nas — Client error '404 Not Found' for url 'https://www.fpc.org.pl/o-nas'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404 | ERROR | 2026-07-07 11:04:33
+POBIERANIE_KONTAKTU https://www.fpc.org.pl/contact — Client error '404 Not Found' for url 'https://www.fpc.org.pl/contact'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404 | ERROR | 2026-07-07 11:04:33
+PLAYWRIGHT https://www.fpc.org.pl/o-nas — Page.goto: net::ERR_CONNECTION_RESET at https://www.fpc.org.pl/o-nas
+Call log:
+  - navigating to "https://www.fpc.org.pl/o-nas", waiting until "domcontentloaded"
+ | ERROR | 2026-07-07 11:04:47
+PLAYWRIGHT https://www.fpc.org.pl/contact — Page.goto: net::ERR_CONNECTION_RESET at https://www.fpc.org.pl/contact
+Call log:
+  - navigating to "https://www.fpc.org.pl/contact", waiting until "domcontentloaded"
+ | ERROR | 2026-07-07 11:04:47
+KONTAKT_SPRAWDZONY — 0000756841 — https://www.fpc.org.pl | INFO | 2026-07-07 11:04:47
+POBIERANIE_KONTAKTU https://www.fpc.org.pl/contact — Client error '404 Not Found' for url 'https://www.fpc.org.pl/contact'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404 | ERROR | 2026-07-07 11:04:49
+PLAYWRIGHT https://www.fpc.org.pl/contact — Page.goto: net::ERR_CONNECTION_RESET at https://www.fpc.org.pl/contact
+Call log:
+  - navigating to "https://www.fpc.org.pl/contact", waiting until "domcontentloaded"
+ | ERROR | 2026-07-07 11:05:02
+KONTAKT_SPRAWDZONY — 0000756841 — https://www.fpc.org.pl | INFO | 2026-07-07 11:05:02
+START_SKRYPTU — Zadanie: organizacje_polonijne | INFO | 2026-07-07 11:05:08
+KONTAKT_SPRAWDZONY — 0000758897 — https://kulturaihistoria.org | INFO | 2026-07-07 11:05:12
+START_SKRYPTU — Zadanie: organizacje_polonijne | INFO | 2026-07-07 11:05:12
+POBIERANIE_KONTAKTU http://bmhub.org/kontakt — Client error '404 Not Found' for url 'http://bmhub.org/kontakt'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404 | ERROR | 2026-07-07 11:05:16
+PLAYWRIGHT http://bmhub.org/kontakt — Page.goto: net::ERR_CONNECTION_RESET at http://bmhub.org/kontakt
+Call log:
+  - navigating to "http://bmhub.org/kontakt", waiting until "domcontentloaded"
+ | ERROR | 2026-07-07 11:05:30
+POBIERANIE_KONTAKTU http://bmhub.org/kontakty — Client error '404 Not Found' for url 'http://bmhub.org/kontakty'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404 | ERROR | 2026-07-07 11:05:30
+PLAYWRIGHT http://bmhub.org/kontakty — Page.goto: Timeout 15000ms exceeded.
+Call log:
+  - navigating to "http://bmhub.org/kontakty", waiting until "domcontentloaded"
+ | ERROR | 2026-07-07 11:05:46
+POBIERANIE_KONTAKTU http://bmhub.org/o-nas — Client error '404 Not Found' for url 'http://bmhub.org/o-nas'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404 | ERROR | 2026-07-07 11:05:47
+PLAYWRIGHT http://bmhub.org/o-nas — Page.goto: Timeout 15000ms exceeded.
+Call log:
+  - navigating to "http://bmhub.org/o-nas", waiting until "domcontentloaded"
+ | ERROR | 2026-07-07 11:06:02
+KONTAKT_SPRAWDZONY — 0000759981 — http://bmhub.org/pl/ | INFO | 2026-07-07 11:06:05
+START_SKRYPTU — Zadanie: organizacje_polonijne | INFO | 2026-07-07 11:06:05
+POBIERANIE_KONTAKTU https://miceandu.pl — 502 Bad Gateway | ERROR | 2026-07-07 11:06:06
+PLAYWRIGHT https://miceandu.pl — Page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://miceandu.pl/
+Call log:
+  - navigating to "https://miceandu.pl/", waiting until "domcontentloaded"
+ | ERROR | 2026-07-07 11:06:07
+POBIERANIE_KONTAKTU https://miceandu.pl/kontakt — 502 Bad Gateway | ERROR | 2026-07-07 11:06:07
+PLAYWRIGHT https://miceandu.pl/kontakt — Page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://miceandu.pl/kontakt
+Call log:
+  - navigating to "https://miceandu.pl/kontakt", waiting until "domcontentloaded"
+ | ERROR | 2026-07-07 11:06:08
+POBIERANIE_KONTAKTU https://miceandu.pl/kontakty — 502 Bad Gateway | ERROR | 2026-07-07 11:06:09
+PLAYWRIGHT https://miceandu.pl/kontakty — Page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://miceandu.pl/kontakty
+Call log:
+  - navigating to "https://miceandu.pl/kontakty", waiting until "domcontentloaded"
+ | ERROR | 2026-07-07 11:06:10
+POBIERANIE_KONTAKTU https://miceandu.pl/o-nas — 502 Bad Gateway | ERROR | 2026-07-07 11:06:10
+PLAYWRIGHT https://miceandu.pl/o-nas — Page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://miceandu.pl/o-nas
+Call log:
+  - navigating to "https://miceandu.pl/o-nas", waiting until "domcontentloaded"
+ | ERROR | 2026-07-07 11:06:11
+POBIERANIE_KONTAKTU https://miceandu.pl/contact — 502 Bad Gateway | ERROR | 2026-07-07 11:06:12
+PLAYWRIGHT https://miceandu.pl/contact — Page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://miceandu.pl/contact
+Call log:
+  - navigating to "https://miceandu.pl/contact", waiting until "domcontentloaded"
+ | ERROR | 2026-07-07 11:06:13
+KONTAKT_SPRAWDZONY — 0000769858 — https://miceandu.pl | INFO | 2026-07-07 11:06:13
