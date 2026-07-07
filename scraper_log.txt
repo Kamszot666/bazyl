@@ -3558,3 +3558,29 @@ For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/St
 POBIERANIE_KONTAKTU http://sportale.pl/contact — Client error '404 Not Found' for url 'http://sportale.pl/contact'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404 | ERROR | 2026-07-07 19:17:48
 KONTAKT_SPRAWDZONY — 0001007526 — http://sportale.pl | INFO | 2026-07-07 19:17:54
+START_SKRYPTU — Zadanie: organizacje_polonijne | INFO | 2026-07-07 19:18:41
+PLAYWRIGHT https://www.kulturalnaturystyka.pl — Page.goto: net::ERR_CONNECTION_RESET at https://www.kulturalnaturystyka.pl/
+Call log:
+  - navigating to "https://www.kulturalnaturystyka.pl/", waiting until "domcontentloaded"
+ | ERROR | 2026-07-07 19:18:56
+PLAYWRIGHT https://www.kulturalnaturystyka.pl/kontakt — Page.goto: net::ERR_CONNECTION_RESET at https://www.kulturalnaturystyka.pl/kontakt
+Call log:
+  - navigating to "https://www.kulturalnaturystyka.pl/kontakt", waiting until "domcontentloaded"
+ | ERROR | 2026-07-07 19:19:15
+PLAYWRIGHT https://www.kulturalnaturystyka.pl/kontakty — Page.goto: net::ERR_CONNECTION_RESET at https://www.kulturalnaturystyka.pl/kontakty
+Call log:
+  - navigating to "https://www.kulturalnaturystyka.pl/kontakty", waiting until "domcontentloaded"
+ | ERROR | 2026-07-07 19:19:31
+PLAYWRIGHT https://www.kulturalnaturystyka.pl/o-nas — Page.goto: net::ERR_CONNECTION_RESET at https://www.kulturalnaturystyka.pl/o-nas
+Call log:
+  - navigating to "https://www.kulturalnaturystyka.pl/o-nas", waiting until "domcontentloaded"
+ | ERROR | 2026-07-07 19:19:49
+PLAYWRIGHT https://www.kulturalnaturystyka.pl/contact — Page.goto: net::ERR_CONNECTION_RESET at https://www.kulturalnaturystyka.pl/contact
+Call log:
+  - navigating to "https://www.kulturalnaturystyka.pl/contact", waiting until "domcontentloaded"
+ | ERROR | 2026-07-07 19:20:07
+KONTAKT_SPRAWDZONY — 0001018453 — https://www.kulturalnaturystyka.pl | INFO | 2026-07-07 19:20:09
+START_SKRYPTU — Zadanie: organizacje_polonijne | INFO | 2026-07-07 19:20:10
+KONTAKT_SPRAWDZONY — 0001030592 — https://fundacjazagumnego.pl | INFO | 2026-07-07 19:20:19
+START_SKRYPTU — Zadanie: organizacje_polonijne | INFO | 2026-07-07 19:20:20
+KONTAKT_SPRAWDZONY — 0001039845 — https://konstantygorski.pl | INFO | 2026-07-07 19:20:25
