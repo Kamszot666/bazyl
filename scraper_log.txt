@@ -3120,3 +3120,137 @@ Call log:
   - navigating to "https://www.anthill.com.pl/contact", waiting until "domcontentloaded"
  | ERROR | 2026-07-07 18:55:28
 KONTAKT_SPRAWDZONY — 0000862741 — https://www.anthill.com.pl | INFO | 2026-07-07 18:55:28
+START_SKRYPTU — Zadanie: organizacje_polonijne | INFO | 2026-07-07 18:56:35
+KONTAKT_SPRAWDZONY — 0000866848 — https://pamiecnarodow.pl | INFO | 2026-07-07 18:56:38
+START_SKRYPTU — Zadanie: organizacje_polonijne | INFO | 2026-07-07 18:56:39
+KONTAKT_SPRAWDZONY — 0000868143 — https://muzadei.pl | INFO | 2026-07-07 18:56:49
+START_SKRYPTU — Zadanie: organizacje_polonijne | INFO | 2026-07-07 18:56:50
+POBIERANIE_KONTAKTU https://isk.org.pl/kontakty — Client error '404 Not Found' for url 'https://isk.org.pl/kontakty'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404 | ERROR | 2026-07-07 18:56:55
+PLAYWRIGHT https://isk.org.pl/kontakty — Page.goto: net::ERR_CONNECTION_RESET at https://isk.org.pl/kontakty
+Call log:
+  - navigating to "https://isk.org.pl/kontakty", waiting until "domcontentloaded"
+ | ERROR | 2026-07-07 18:57:10
+POBIERANIE_KONTAKTU https://isk.org.pl/contact — Client error '404 Not Found' for url 'https://isk.org.pl/contact'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404 | ERROR | 2026-07-07 18:57:15
+PLAYWRIGHT https://isk.org.pl/contact — Page.goto: net::ERR_CONNECTION_RESET at https://isk.org.pl/contact
+Call log:
+  - navigating to "https://isk.org.pl/contact", waiting until "domcontentloaded"
+ | ERROR | 2026-07-07 18:57:29
+KONTAKT_SPRAWDZONY — 0000871660 — https://isk.org.pl | INFO | 2026-07-07 18:57:29
+START_SKRYPTU — Zadanie: organizacje_polonijne | INFO | 2026-07-07 18:57:29
+POBIERANIE_KONTAKTU https://fundacjapolmed.org/kontakty — Client error '404 Not Found' for url 'https://fundacjapolmed.org/kontakty'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404 | ERROR | 2026-07-07 18:57:37
+PLAYWRIGHT https://fundacjapolmed.org/kontakty — Page.goto: net::ERR_CONNECTION_RESET at https://fundacjapolmed.org/kontakty
+Call log:
+  - navigating to "https://fundacjapolmed.org/kontakty", waiting until "domcontentloaded"
+ | ERROR | 2026-07-07 18:57:51
+POBIERANIE_KONTAKTU https://fundacjapolmed.org/o-nas — Client error '404 Not Found' for url 'https://fundacjapolmed.org/o-nas'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404 | ERROR | 2026-07-07 18:57:53
+PLAYWRIGHT https://fundacjapolmed.org/o-nas — Page.goto: net::ERR_CONNECTION_RESET at https://fundacjapolmed.org/o-nas
+Call log:
+  - navigating to "https://fundacjapolmed.org/o-nas", waiting until "domcontentloaded"
+ | ERROR | 2026-07-07 18:58:07
+POBIERANIE_KONTAKTU https://fundacjapolmed.org/contact — Client error '404 Not Found' for url 'https://fundacjapolmed.org/contact'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404 | ERROR | 2026-07-07 18:58:08
+PLAYWRIGHT https://fundacjapolmed.org/contact — Page.goto: net::ERR_CONNECTION_RESET at https://fundacjapolmed.org/contact
+Call log:
+  - navigating to "https://fundacjapolmed.org/contact", waiting until "domcontentloaded"
+ | ERROR | 2026-07-07 18:58:22
+KONTAKT_SPRAWDZONY — 0000872812 — https://fundacjapolmed.org | INFO | 2026-07-07 18:58:22
+START_SKRYPTU — Zadanie: organizacje_polonijne | INFO | 2026-07-07 18:58:58
+KONTAKT_SPRAWDZONY — 0000872927 — https://swpzdrowie.org.pl | INFO | 2026-07-07 18:59:02
+START_SKRYPTU — Zadanie: organizacje_polonijne | INFO | 2026-07-07 18:59:03
+POBIERANIE_KONTAKTU https://edueko.org — 502 Bad Gateway | ERROR | 2026-07-07 18:59:03
+PLAYWRIGHT https://edueko.org — Page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://edueko.org/
+Call log:
+  - navigating to "https://edueko.org/", waiting until "domcontentloaded"
+ | ERROR | 2026-07-07 18:59:04
+POBIERANIE_KONTAKTU https://edueko.org/kontakt — 502 Bad Gateway | ERROR | 2026-07-07 18:59:05
+PLAYWRIGHT https://edueko.org/kontakt — Page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://edueko.org/kontakt
+Call log:
+  - navigating to "https://edueko.org/kontakt", waiting until "domcontentloaded"
+ | ERROR | 2026-07-07 18:59:06
+POBIERANIE_KONTAKTU https://edueko.org/kontakty — 502 Bad Gateway | ERROR | 2026-07-07 18:59:06
+PLAYWRIGHT https://edueko.org/kontakty — Page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://edueko.org/kontakty
+Call log:
+  - navigating to "https://edueko.org/kontakty", waiting until "domcontentloaded"
+ | ERROR | 2026-07-07 18:59:08
+POBIERANIE_KONTAKTU https://edueko.org/o-nas — 502 Bad Gateway | ERROR | 2026-07-07 18:59:08
+PLAYWRIGHT https://edueko.org/o-nas — Page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://edueko.org/o-nas
+Call log:
+  - navigating to "https://edueko.org/o-nas", waiting until "domcontentloaded"
+ | ERROR | 2026-07-07 18:59:09
+POBIERANIE_KONTAKTU https://edueko.org/contact — 502 Bad Gateway | ERROR | 2026-07-07 18:59:10
+PLAYWRIGHT https://edueko.org/contact — Page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://edueko.org/contact
+Call log:
+  - navigating to "https://edueko.org/contact", waiting until "domcontentloaded"
+ | ERROR | 2026-07-07 18:59:11
+KONTAKT_SPRAWDZONY — 0000879807 — https://edueko.org | INFO | 2026-07-07 18:59:11
+START_SKRYPTU — Zadanie: organizacje_polonijne | INFO | 2026-07-07 18:59:11
+POBIERANIE_KONTAKTU https://pefundacja.org/kontakt — Client error '404 Not Found' for url 'https://pefundacja.org/kontakt'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404 | ERROR | 2026-07-07 18:59:16
+PLAYWRIGHT https://pefundacja.org/kontakt — Page.goto: net::ERR_CONNECTION_RESET at https://pefundacja.org/kontakt
+Call log:
+  - navigating to "https://pefundacja.org/kontakt", waiting until "domcontentloaded"
+ | ERROR | 2026-07-07 18:59:30
+POBIERANIE_KONTAKTU https://pefundacja.org/kontakty — Client error '404 Not Found' for url 'https://pefundacja.org/kontakty'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404 | ERROR | 2026-07-07 18:59:32
+PLAYWRIGHT https://pefundacja.org/kontakty — Page.goto: net::ERR_CONNECTION_RESET at https://pefundacja.org/kontakty
+Call log:
+  - navigating to "https://pefundacja.org/kontakty", waiting until "domcontentloaded"
+ | ERROR | 2026-07-07 18:59:45
+POBIERANIE_KONTAKTU https://pefundacja.org/o-nas — Client error '404 Not Found' for url 'https://pefundacja.org/o-nas'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404 | ERROR | 2026-07-07 18:59:47
+PLAYWRIGHT https://pefundacja.org/o-nas — Page.goto: net::ERR_CONNECTION_RESET at https://pefundacja.org/o-nas
+Call log:
+  - navigating to "https://pefundacja.org/o-nas", waiting until "domcontentloaded"
+ | ERROR | 2026-07-07 19:00:00
+POBIERANIE_KONTAKTU https://pefundacja.org/contact — Client error '404 Not Found' for url 'https://pefundacja.org/contact'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404 | ERROR | 2026-07-07 19:00:02
+PLAYWRIGHT https://pefundacja.org/contact — Page.goto: net::ERR_CONNECTION_RESET at https://pefundacja.org/contact
+Call log:
+  - navigating to "https://pefundacja.org/contact", waiting until "domcontentloaded"
+ | ERROR | 2026-07-07 19:00:16
+KONTAKT_SPRAWDZONY — 0000883548 — https://pefundacja.org | INFO | 2026-07-07 19:00:16
+START_SKRYPTU — Zadanie: organizacje_polonijne | INFO | 2026-07-07 19:00:31
+POBIERANIE_KONTAKTU https://warsawhouse.org/kontakty — Client error '404 Not Found' for url 'https://warsawhouse.org/kontakty'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404 | ERROR | 2026-07-07 19:00:38
+PLAYWRIGHT https://warsawhouse.org/kontakty — Page.goto: net::ERR_CONNECTION_RESET at https://warsawhouse.org/kontakty
+Call log:
+  - navigating to "https://warsawhouse.org/kontakty", waiting until "domcontentloaded"
+ | ERROR | 2026-07-07 19:00:52
+POBIERANIE_KONTAKTU https://warsawhouse.org/o-nas — Client error '404 Not Found' for url 'https://warsawhouse.org/o-nas'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404 | ERROR | 2026-07-07 19:00:53
+PLAYWRIGHT https://warsawhouse.org/o-nas — Page.goto: net::ERR_CONNECTION_RESET at https://warsawhouse.org/o-nas
+Call log:
+  - navigating to "https://warsawhouse.org/o-nas", waiting until "domcontentloaded"
+ | ERROR | 2026-07-07 19:01:07
+KONTAKT_SPRAWDZONY — 0000888258 — https://warsawhouse.org | INFO | 2026-07-07 19:01:11
+START_SKRYPTU — Zadanie: organizacje_polonijne | INFO | 2026-07-07 19:01:11
+POBIERANIE_KONTAKTU https://www.fiik.pl — 502 Bad Gateway | ERROR | 2026-07-07 19:01:13
+PLAYWRIGHT https://www.fiik.pl — Page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://www.fiik.pl/
+Call log:
+  - navigating to "https://www.fiik.pl/", waiting until "domcontentloaded"
+ | ERROR | 2026-07-07 19:01:15
+POBIERANIE_KONTAKTU https://www.fiik.pl/kontakt — 502 Bad Gateway | ERROR | 2026-07-07 19:01:16
+PLAYWRIGHT https://www.fiik.pl/kontakt — Page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://www.fiik.pl/kontakt
+Call log:
+  - navigating to "https://www.fiik.pl/kontakt", waiting until "domcontentloaded"
+ | ERROR | 2026-07-07 19:01:18
+POBIERANIE_KONTAKTU https://www.fiik.pl/kontakty — 502 Bad Gateway | ERROR | 2026-07-07 19:01:19
+PLAYWRIGHT https://www.fiik.pl/kontakty — Page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://www.fiik.pl/kontakty
+Call log:
+  - navigating to "https://www.fiik.pl/kontakty", waiting until "domcontentloaded"
+ | ERROR | 2026-07-07 19:01:21
+POBIERANIE_KONTAKTU https://www.fiik.pl/o-nas — 502 Bad Gateway | ERROR | 2026-07-07 19:01:22
+PLAYWRIGHT https://www.fiik.pl/o-nas — Page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://www.fiik.pl/o-nas
+Call log:
+  - navigating to "https://www.fiik.pl/o-nas", waiting until "domcontentloaded"
+ | ERROR | 2026-07-07 19:01:24
+POBIERANIE_KONTAKTU https://www.fiik.pl/contact — 502 Bad Gateway | ERROR | 2026-07-07 19:01:25
+PLAYWRIGHT https://www.fiik.pl/contact — Page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://www.fiik.pl/contact
+Call log:
+  - navigating to "https://www.fiik.pl/contact", waiting until "domcontentloaded"
+ | ERROR | 2026-07-07 19:01:27
+KONTAKT_SPRAWDZONY — 0000889819 — https://www.fiik.pl | INFO | 2026-07-07 19:01:27
