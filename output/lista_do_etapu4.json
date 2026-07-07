@@ -1,0 +1,1862 @@
+[
+  {
+    "krs": "0000000291",
+    "nazwa": "FUNDACJA NA RZECZ POMOCY DZIECIOM Z GRODZIEŃSZCZYZNY",
+    "wojewodztwo": "podlaskie",
+    "adres": "Świętojańska 24, 15-277 Białystok"
+  },
+  {
+    "krs": "0000010057",
+    "nazwa": "TOWARZYSTWO NAUKOWE KATOLICKIEGO UNIWERSYTETU LUBELSKIEGO JANA PAWŁA II",
+    "wojewodztwo": "lubelskie",
+    "adres": "ul. Spokojna 1/408-409, 20-074 Lublin"
+  },
+  {
+    "krs": "0000010771",
+    "nazwa": "STOWARZYSZENIE ŁAGIERNIKÓW ŻOŁNIERZY ARMII KRAJOWEJ",
+    "wojewodztwo": "mazowieckie",
+    "adres": "ul. Zielna 39, 00-108 Warszawa"
+  },
+  {
+    "krs": "0000015776",
+    "nazwa": "FUNDACJA \"POKOLENIA-POKOLENIOM\"",
+    "wojewodztwo": "mazowieckie",
+    "adres": "Marii Dąbrowskiej 4, 05-800 Pruszków"
+  },
+  {
+    "krs": "0000030680",
+    "nazwa": "FUNDACJA \"OŚWIATA POLSKA ZA GRANICĄ\"",
+    "wojewodztwo": "mazowieckie",
+    "adres": "Skwer Kardynała Wyszyńskiego 9 9/A3, 01-015 Warszawa"
+  },
+  {
+    "krs": "0000032061",
+    "nazwa": "STOWARZYSZENIE KULTURALNE \"RÓWNICA\" W USTRONIU",
+    "wojewodztwo": "śląskie",
+    "adres": "Partyzantów 2A, 43-450 Ustroń"
+  },
+  {
+    "krs": "0000032787",
+    "nazwa": "ŁOMŻYŃSKIE TOWARZYSTWO NAUKOWE IM. WAGÓW",
+    "wojewodztwo": "podlaskie",
+    "adres": "Długa 13, 18-400 Łomża"
+  },
+  {
+    "krs": "0000034914",
+    "nazwa": "STOWARZYSZENIE \"WSPÓLNOTA POLSKA\"",
+    "wojewodztwo": "mazowieckie",
+    "adres": "Krakowskie Przedmieście 64, 00-322 Warszawa"
+  },
+  {
+    "krs": "0000039814",
+    "nazwa": "FUNDACJA IM.KARDYNAŁA AUGUSTA HLONDA",
+    "wojewodztwo": "wielkopolskie",
+    "adres": "Panny Marii 4, 60-962 Poznań"
+  },
+  {
+    "krs": "0000050394",
+    "nazwa": "ZWIĄZEK PODHALAN W POLSCE IM. ŚWIĘTEGO JANA PAWŁA II",
+    "wojewodztwo": "małopolskie",
+    "adres": "ul. Jana Pawła Ii 116, 34-471 Ludźmierz"
+  },
+  {
+    "krs": "0000053657",
+    "nazwa": "ZWIĄZEK SYBIRAKÓW \nZARZĄD GŁÓWNY",
+    "wojewodztwo": "mazowieckie",
+    "adres": "ul. Chmielna 15/108, 00-021 Warszawa"
+  },
+  {
+    "krs": "0000057720",
+    "nazwa": "ZWIĄZEK HARCERSTWA RZECZYPOSPOLITEJ",
+    "wojewodztwo": "mazowieckie",
+    "adres": "Litewska 11/13, 00-589 Warszawa"
+  },
+  {
+    "krs": "0000057907",
+    "nazwa": "POLSKI KOMITET OLIMPIJSKI",
+    "wojewodztwo": "mazowieckie",
+    "adres": "Wybrzeże Gdyńskie 4, 01-531 Warszawa"
+  },
+  {
+    "krs": "0000076966",
+    "nazwa": "STOWARZYSZENIE ŁEJERY",
+    "wojewodztwo": "wielkopolskie",
+    "adres": "Brandstaettera 1, 61 - 659 Poznań"
+  },
+  {
+    "krs": "0000081518",
+    "nazwa": "FUNDACJA \"ŚWIAT NA TAK\"",
+    "wojewodztwo": "mazowieckie",
+    "adres": "al. Szucha 27, 00-580 Warszawa"
+  },
+  {
+    "krs": "0000083534",
+    "nazwa": "STOWARZYSZENIE RODZINA W CIECHANOWCU",
+    "wojewodztwo": "podlaskie",
+    "adres": "ul. 11 Listopada 5A, 18-230 Ciechanowiec"
+  },
+  {
+    "krs": "0000084948",
+    "nazwa": "FUNDACJA \"KRZYŻOWA\" DLA POROZUMIENIA EUROPEJSKIEGO",
+    "wojewodztwo": "dolnośląskie",
+    "adres": "Krzyżowa 7, 58-112 Grodziszcze"
+  },
+  {
+    "krs": "0000085223",
+    "nazwa": "FUNDACJA ROZWOJU KATOLICKIEGO UNIWERSYTETU LUBELSKIEGO JANA PAWŁA II",
+    "wojewodztwo": "lubelskie",
+    "adres": "Al.Racławickie 14, 20-950 Lublin"
+  },
+  {
+    "krs": "0000091640",
+    "nazwa": "REGIONALNA RADA POLSKIEGO KOMITETU OLIMPIJSKIEGO W CZĘSTOCHOWIE",
+    "wojewodztwo": "śląskie",
+    "adres": "ul. Tkacka 5/8, 42-202 Częstochowa"
+  },
+  {
+    "krs": "0000092992",
+    "nazwa": "ŚWIATOWA RADA BADAŃ NAD POLONIĄ",
+    "wojewodztwo": "mazowieckie",
+    "adres": "K. Wóycickiego 1/3 BL.23/315, 01-815 Warszawa"
+  },
+  {
+    "krs": "0000094699",
+    "nazwa": "ZWIĄZEK HARCERSTWA POLSKIEGO",
+    "wojewodztwo": "mazowieckie",
+    "adres": "ul. Marii Konopnickiej 6, 00-491 Warszawa"
+  },
+  {
+    "krs": "0000103409",
+    "nazwa": "STOWARZYSZENIE EDUKACJI KULTURALNEJ WIDOK",
+    "wojewodztwo": "podlaskie",
+    "adres": "ul. Jana Kochanowskiego 7, 15-416 Białystok"
+  },
+  {
+    "krs": "0000104450",
+    "nazwa": "TOWARZYSTWO PRZYJACIÓŁ GRODNA I WILNA",
+    "wojewodztwo": "mazowieckie",
+    "adres": "Krakowskie Przedmieście 64, 00-322 Warszawa"
+  },
+  {
+    "krs": "0000114542",
+    "nazwa": "STOWARZYSZENIE POMOCY POLAKOM NA WSCHODZIE KRESY",
+    "wojewodztwo": "małopolskie",
+    "adres": "Św. Marka 6/2 C, 31-012 Kraków"
+  },
+  {
+    "krs": "0000116961",
+    "nazwa": "\"FUNDACJA EDUKACJA I PRZYSZŁOŚĆ\"",
+    "wojewodztwo": "lubelskie",
+    "adres": "Sidorska 95/97, 21-500 Biała Podlaska"
+  },
+  {
+    "krs": "0000119061",
+    "nazwa": "STOWARZYSZENIE PRZYJACIÓŁ HARCERSKIEGO ZESPOŁU PIEŚNI I TAŃCA \"DZIECI PŁOCKA\"",
+    "wojewodztwo": "mazowieckie",
+    "adres": "Jachowicza 34, 09-402 Płock"
+  },
+  {
+    "krs": "0000119146",
+    "nazwa": "FUNDACJA OŚRODKA KARTA",
+    "wojewodztwo": "mazowieckie",
+    "adres": "Narbutta 29, 02-536 Warszawa"
+  },
+  {
+    "krs": "0000124134",
+    "nazwa": "STOWARZYSZENIE \"PARAFIADA\" IM. ŚW. JÓZEFA KALASANCJUSZA",
+    "wojewodztwo": "mazowieckie",
+    "adres": "Gwintowa 3, 00-704 Warszawa"
+  },
+  {
+    "krs": "0000124380",
+    "nazwa": "TOWARZYSTWO IMIENIA MARII KONOPNICKIEJ",
+    "wojewodztwo": "mazowieckie",
+    "adres": "Brzozowa 6/8/2, 00-286 Warszawa"
+  },
+  {
+    "krs": "0000125315",
+    "nazwa": "TOWARZYSTWO MIŁOŚNIKÓW WILNA I ZIEMI WILEŃSKIEJ ODDZIAŁ W MRĄGOWIE",
+    "wojewodztwo": "warmińsko-mazurskie",
+    "adres": "ul. Warszawska 26, 11-700 Mrągowo"
+  },
+  {
+    "krs": "0000125465",
+    "nazwa": "WSCHODNIA FUNDACJA KULTURY \"AKCENT\"",
+    "wojewodztwo": "lubelskie",
+    "adres": "Grodzka 3, 20-112 Lublin"
+  },
+  {
+    "krs": "0000125684",
+    "nazwa": "ORGANIZACJA TURYSTYCZNA LESZNO-REGION",
+    "wojewodztwo": "wielkopolskie",
+    "adres": "Karasia 15, 64-100 Leszno"
+  },
+  {
+    "krs": "0000128315",
+    "nazwa": "KLUB JAGIELLOŃSKI",
+    "wojewodztwo": "małopolskie",
+    "adres": "Rynek Główny 34, 31-010 Kraków"
+  },
+  {
+    "krs": "0000130056",
+    "nazwa": "FUNDACJA \"POMOC POLAKOM NA WSCHODZIE\" IM. JANA OLSZEWSKIEGO",
+    "wojewodztwo": "mazowieckie",
+    "adres": "Jazdów 10A, 00-467 Warszawa"
+  },
+  {
+    "krs": "0000133146",
+    "nazwa": "STOWARZYSZENIE ODRA - NIEMEN",
+    "wojewodztwo": "dolnośląskie",
+    "adres": "ul. Aleksandra Zelwerowicza 16/3, 53-676 Wrocław"
+  },
+  {
+    "krs": "0000135677",
+    "nazwa": "DZIEŁO ODBUDOWY MIŁOŚCI, FUNDACJA D.O.M.",
+    "wojewodztwo": "mazowieckie",
+    "adres": "Madalińskiego 69A, 02-549 Warszawa"
+  },
+  {
+    "krs": "0000135856",
+    "nazwa": "STOWARZYSZENIE \"RODZINA KOLPINGA\"",
+    "wojewodztwo": "dolnośląskie",
+    "adres": "Kościelna 8, 56-500 Syców"
+  },
+  {
+    "krs": "0000137089",
+    "nazwa": "FUNDACJA POMOCY WZAJEMNEJ \"BARKA\"",
+    "wojewodztwo": "wielkopolskie",
+    "adres": "ul. Św. Wincentego 6/9, 61-003 Poznań"
+  },
+  {
+    "krs": "0000138020",
+    "nazwa": "POLSKIE BRACTWO KAWALERÓW GUTENBERGA",
+    "wojewodztwo": "mazowieckie",
+    "adres": "ul. Juliusza Słowackiego 28, 05-800 Pruszków"
+  },
+  {
+    "krs": "0000139568",
+    "nazwa": "TERRA HUMANA",
+    "wojewodztwo": "mazowieckie",
+    "adres": "ul. Floriańska 12/21, 03-707 Warszawa"
+  },
+  {
+    "krs": "0000178115",
+    "nazwa": "FUNDACJA OPOKA",
+    "wojewodztwo": "mazowieckie",
+    "adres": "Skwer Ks. Kard. Wyszyńskiego 6, 01-015 Warszawa"
+  },
+  {
+    "krs": "0000180210",
+    "nazwa": "BYTOMSKI KLUB SAMORZĄDOWY",
+    "wojewodztwo": "śląskie",
+    "adres": "Rynek 19/3 A, 41-902 Bytom"
+  },
+  {
+    "krs": "0000182491",
+    "nazwa": "WARSZAWSKIE TOWARZYSTWO PRZYJACIÓŁ WILNA I GRODNA",
+    "wojewodztwo": "mazowieckie",
+    "adres": "Krakowskie Przedmieście 64/4, 00-322 Warszawa"
+  },
+  {
+    "krs": "0000185365",
+    "nazwa": "FUNDACJA \"GOLGOTA WSCHODU\"",
+    "wojewodztwo": "mazowieckie",
+    "adres": "Kanonia 8/1, 00-278 Warszawa"
+  },
+  {
+    "krs": "0000191557",
+    "nazwa": "FUNDACJA PRZYJACIÓŁ WILNA I GRODNA \"SERCE DZIECIOM\"",
+    "wojewodztwo": "pomorskie",
+    "adres": "Nauczycielska 14/10, 81-614 Gdynia"
+  },
+  {
+    "krs": "0000191928",
+    "nazwa": "FUNDACJA INSTYTUT SPRAW OBYWATELSKICH",
+    "wojewodztwo": "łódzkie",
+    "adres": "Pomorska 40, 91-408 Łódź"
+  },
+  {
+    "krs": "0000195433",
+    "nazwa": "STOWARZYSZENIE WOLNEGO SŁOWA",
+    "wojewodztwo": "mazowieckie",
+    "adres": "Marszałkowska 7, 00-626 Warszawa"
+  },
+  {
+    "krs": "0000204819",
+    "nazwa": "CARITAS ARCHIDIECEZJI LUBELSKIEJ",
+    "wojewodztwo": "lubelskie",
+    "adres": "Wyszyńskiego 2, 20-950 Lublin"
+  },
+  {
+    "krs": "0000211879",
+    "nazwa": "REGIONALNE STOWARZYSZENIE WSCHÓD-ZACHÓD",
+    "wojewodztwo": "mazowieckie",
+    "adres": "Dworcowa 2, 09-402 Płock"
+  },
+  {
+    "krs": "0000213557",
+    "nazwa": "POLSKA AKADEMIA UMIEJĘTNOŚCI",
+    "wojewodztwo": "małopolskie",
+    "adres": "Sławkowska 17, 31-016 Kraków"
+  },
+  {
+    "krs": "0000214614",
+    "nazwa": "FUNDACJA EDUKACYJNA PRO MUSICA",
+    "wojewodztwo": "wielkopolskie",
+    "adres": "Geodetów 1, 64-100 Leszno"
+  },
+  {
+    "krs": "0000216810",
+    "nazwa": "STOWARZYSZENIE FRESCO SONARE",
+    "wojewodztwo": "małopolskie",
+    "adres": "ul. Papiernicza 2, 31-221 Kraków"
+  },
+  {
+    "krs": "0000217537",
+    "nazwa": "STOWARZYSZENIE \"INTRO\"",
+    "wojewodztwo": "dolnośląskie",
+    "adres": "ul. Traktatowa 1, 54-425 Wrocław"
+  },
+  {
+    "krs": "0000224827",
+    "nazwa": "\"FUNDACJA POLSKA-EUROPA-POLONIA\"",
+    "wojewodztwo": "mazowieckie",
+    "adres": "ul. Janusza Meissnera 7/9, 03-982 Warszawa"
+  },
+  {
+    "krs": "0000225549",
+    "nazwa": "STOWARZYSZENIE MANKO",
+    "wojewodztwo": "małopolskie",
+    "adres": "Osiedle Urocze 12, 31-953 Kraków"
+  },
+  {
+    "krs": "0000227056",
+    "nazwa": "LESZCZYŃSKIE TOWARZYSTWO MUZYCZNE IM. ROMANA MACIEJEWSKIEGO",
+    "wojewodztwo": "wielkopolskie",
+    "adres": "Bolesława Chrobrego 3, 64-100 Leszno"
+  },
+  {
+    "krs": "0000236575",
+    "nazwa": "FUNDACJA NA RZECZ ROZWIJANIA MUZYKALNOŚCI POLAKÓW \"MUZYKA JEST DLA WSZYSTKICH\"",
+    "wojewodztwo": "mazowieckie",
+    "adres": "ul. Angorska 21/3, 03-913 Warszawa"
+  },
+  {
+    "krs": "0000245057",
+    "nazwa": "STOWARZYSZENIE \"SOLIDARNI RAZEM\"",
+    "wojewodztwo": "zachodniopomorskie",
+    "adres": "Wojska Polskiego 113, 70-483 Szczecin"
+  },
+  {
+    "krs": "0000248432",
+    "nazwa": "STOWARZYSZENIE MIŁOŚNIKÓW MUZYKI ŚWIĘTOGÓRSKIEJ IM. JÓZEFA ZEIDLERA",
+    "wojewodztwo": "wielkopolskie",
+    "adres": "Święta Góra 1, 63-800 Gostyń"
+  },
+  {
+    "krs": "0000248771",
+    "nazwa": "FUNDACJA NA RZECZ ROZPOWSZECHNIANIA I PROMOCJI TAŃCÓW HISTORYCZNYCH I KULTURY DWORSKIEJ ARDENTE SOLE",
+    "wojewodztwo": "małopolskie",
+    "adres": "al. Krasińskiego 20/9 A, 30-101 Kraków"
+  },
+  {
+    "krs": "0000249712",
+    "nazwa": "WOLNOŚĆ I DEMOKRACJA",
+    "wojewodztwo": "mazowieckie",
+    "adres": "ul. Zakopiańska 15, 03-934 Warszawa"
+  },
+  {
+    "krs": "0000255486",
+    "nazwa": "FUNDACJA MUZYKI SAKRALNEJ \"CAECILIANUM\"",
+    "wojewodztwo": "mazowieckie",
+    "adres": "Polna 54/68, 00-644 Warszawa"
+  },
+  {
+    "krs": "0000257707",
+    "nazwa": "STOWARZYSZENIE LYSKOR",
+    "wojewodztwo": "śląskie",
+    "adres": "ul. Sportowa 1, 44-295 Lyski"
+  },
+  {
+    "krs": "0000261943",
+    "nazwa": "EUROPEJSKA WSPÓLNOTA GOSPODARCZA POLONII",
+    "wojewodztwo": "mazowieckie",
+    "adres": "Krakowskie Przedmieście 79/406, 00-79 Warszawa Śródmieście"
+  },
+  {
+    "krs": "0000269051",
+    "nazwa": "FUNDACJA APETYT NA KULTURĘ",
+    "wojewodztwo": "mazowieckie",
+    "adres": "ul. Zygmunta Modzelewskiego 12/5, 02-679 Warszawa"
+  },
+  {
+    "krs": "0000273492",
+    "nazwa": "ZWIĄZEK HARCERSTWA POLSKIEGO CHORĄGIEW KRAKOWSKA",
+    "wojewodztwo": "małopolskie",
+    "adres": "Karmelicka 31, 31-131 Kraków"
+  },
+  {
+    "krs": "0000275175",
+    "nazwa": "FUNDACJA CENTRUM ROZWOJU LOKALNEGO",
+    "wojewodztwo": "lubelskie",
+    "adres": "ul. Głęboka 45, 20-612 Lublin"
+  },
+  {
+    "krs": "0000276917",
+    "nazwa": "POLSKIE TOWARZYSTWO HERALDYCZNE",
+    "wojewodztwo": "mazowieckie",
+    "adres": "ul. Długa 7, 00-263 Warszawa"
+  },
+  {
+    "krs": "0000277422",
+    "nazwa": "FUNDACJA WILEŃSZCZYZNA",
+    "wojewodztwo": "mazowieckie",
+    "adres": "Hoża 86/410, 00-682 Warszawa"
+  },
+  {
+    "krs": "0000277617",
+    "nazwa": "GDAŃSKA FUNDACJA INNOWACJI SPOŁECZNEJ",
+    "wojewodztwo": "pomorskie",
+    "adres": "ul. Gościnna 1, 80-032 Gdańsk"
+  },
+  {
+    "krs": "0000279476",
+    "nazwa": "ŁÓDZKIE STOWARZYSZENIE INICJATYW MIEJSKICH \"TOPOGRAFIE\"",
+    "wojewodztwo": "łódzkie",
+    "adres": "ul. Piotrkowska 56/4U, 90-105 Łódź"
+  },
+  {
+    "krs": "0000281349",
+    "nazwa": "ZWIĄZEK HARCERSTWA POLSKIEGO CHORĄGIEW KIELECKA",
+    "wojewodztwo": "świętokrzyskie",
+    "adres": "Pańska 1/A, 25-811 Kielce"
+  },
+  {
+    "krs": "0000281597",
+    "nazwa": "FUNDACJA IM. AGNIESZKI MARCZYŃSKIEJ",
+    "wojewodztwo": "podlaskie",
+    "adres": "Zajzdra 1, 16-123 Kuźnica"
+  },
+  {
+    "krs": "0000283814",
+    "nazwa": "ZWIĄZEK HARCERSTWA POLSKIEGO CHORĄGIEW ŁÓDZKA",
+    "wojewodztwo": "łódzkie",
+    "adres": "Stefanowskiego 19, 90-537 Łódź"
+  },
+  {
+    "krs": "0000299155",
+    "nazwa": "FUNDACJA KISIELA",
+    "wojewodztwo": "mazowieckie",
+    "adres": "Nowogrodzka 31, 00-511 Warszawa"
+  },
+  {
+    "krs": "0000309499",
+    "nazwa": "\"PALLOTYŃSKA FUNDACJA MISYJNA SALVATTI.PL\"",
+    "wojewodztwo": "mazowieckie",
+    "adres": "Wilcza 8, 05-091 Ząbki"
+  },
+  {
+    "krs": "0000312392",
+    "nazwa": "FUNDACJA POLSKA PRZEDSIĘBIORCZA",
+    "wojewodztwo": "mazowieckie",
+    "adres": "ul. Mokotowska 1, 00-640 Warszawa"
+  },
+  {
+    "krs": "0000314197",
+    "nazwa": "ARI ARI",
+    "wojewodztwo": "kujawsko-pomorskie",
+    "adres": "ul. Jana Pestalozziego 3, 85-095 Bydgoszcz"
+  },
+  {
+    "krs": "0000314821",
+    "nazwa": "AKADEMIA TRZECIEGO WIEKU PRZY MIEJSKIM OŚRODKU KULTURY W OLSZTYNIE",
+    "wojewodztwo": "warmińsko-mazurskie",
+    "adres": "ul. Dąbrowszczaków 3, 10-538 Olsztyn"
+  },
+  {
+    "krs": "0000316994",
+    "nazwa": "FUNDACJA URBAN FORMS",
+    "wojewodztwo": "łódzkie",
+    "adres": "Celestynów 8A, 95-035 Ozorków"
+  },
+  {
+    "krs": "0000317024",
+    "nazwa": "FUNDACJA SEMPER FIDELIS NA RZECZ ARCHIDIECEZJI LWOWSKIEJ",
+    "wojewodztwo": "podkarpackie",
+    "adres": "Cetnarskiego 33, 37-100 Łańcut"
+  },
+  {
+    "krs": "0000319089",
+    "nazwa": "FUNDACJA \"CENTRUM IM. PROFESORA BRONISŁAWA GEREMKA\"",
+    "wojewodztwo": "mazowieckie",
+    "adres": "Wilcza 9A/7, 00-538 Warszawa"
+  },
+  {
+    "krs": "0000324591",
+    "nazwa": "INTEGRO - EU",
+    "wojewodztwo": "małopolskie",
+    "adres": "ul. Przewóz 36B/97, 30-716 Kraków"
+  },
+  {
+    "krs": "0000325672",
+    "nazwa": "FUNDACJA \"COGNOSCO\"",
+    "wojewodztwo": "małopolskie",
+    "adres": "ul. Henryka I Karola Czeczów 14/4, 30-798 Kraków"
+  },
+  {
+    "krs": "0000325784",
+    "nazwa": "\"HARFA DZIECIOM\"",
+    "wojewodztwo": "mazowieckie",
+    "adres": "ul. Jana Kochanowskiego 51A, 01-864 Warszawa"
+  },
+  {
+    "krs": "0000326115",
+    "nazwa": "STOWARZYSZENIE PRZYJACIÓŁ PODOLA",
+    "wojewodztwo": "małopolskie",
+    "adres": "Lwowska 22, 33-100 Tarnów"
+  },
+  {
+    "krs": "0000326359",
+    "nazwa": "FUNDACJA \"MAXIMUM\" INSTYTUT WYDAWNICZY CENTRUM KULTURY-BIZNESU-EDUKACJI",
+    "wojewodztwo": "małopolskie",
+    "adres": "ul. Walerego Sławka 21, 30-633 Kraków"
+  },
+  {
+    "krs": "0000326847",
+    "nazwa": "FUNDACJA LWÓW I KRESY POŁUDNIOWO-WSCHODNIE",
+    "wojewodztwo": "mazowieckie",
+    "adres": "ul. Biniszewicze 4, 96-325 Radziejowice"
+  },
+  {
+    "krs": "0000336560",
+    "nazwa": "FUNDACJA ARS ACTIVA",
+    "wojewodztwo": "lubuskie",
+    "adres": "Podgórna 31b/49, 65-213 Zielona Góra"
+  },
+  {
+    "krs": "0000339553",
+    "nazwa": "\"FUNDACJA DLA MŁODZIEŻY\"",
+    "wojewodztwo": "mazowieckie",
+    "adres": "ul. Ogińskiego 6A, 05-070 Sulejówek"
+  },
+  {
+    "krs": "0000342036",
+    "nazwa": "STOWARZYSZENIE PRZEWODNIKÓW TURYSTYCZNYCH \"ZŁOTA KACZKA\"",
+    "wojewodztwo": "mazowieckie",
+    "adres": "Rynek Starego Miasta 10/7, 00-272 Warszawa"
+  },
+  {
+    "krs": "0000342229",
+    "nazwa": "STOWARZYSZENIE UŁANÓW KARPACKICH",
+    "wojewodztwo": "wielkopolskie",
+    "adres": "ul. Rolna 51/53, 61-715 Poznań"
+  },
+  {
+    "krs": "0000346229",
+    "nazwa": "POLSKA FUNDACJA KOŚCIUSZKOWSKA",
+    "wojewodztwo": "mazowieckie",
+    "adres": "Rynek 2, 08-480 Maciejowice"
+  },
+  {
+    "krs": "0000348972",
+    "nazwa": "FUNDACJA FIDES ET RATIO - W DARZE BOŻEJ OPATRZNOŚCI",
+    "wojewodztwo": "mazowieckie",
+    "adres": "Franciszkańska 3/47, 00-233 Warszawa"
+  },
+  {
+    "krs": "0000349151",
+    "nazwa": "FUNDACJA HUMANDOC",
+    "wojewodztwo": "opolskie",
+    "adres": "ul. Krzysztofa Kamila Baczyńskiego 15, 45-523 Opole"
+  },
+  {
+    "krs": "0000349426",
+    "nazwa": "FUNDACJA POLSKA - HAITI",
+    "wojewodztwo": "mazowieckie",
+    "adres": "Filtrowa 36, 02-032 Warszawa"
+  },
+  {
+    "krs": "0000349650",
+    "nazwa": "FUNDACJA \"PRO ANIMA\"",
+    "wojewodztwo": "podlaskie",
+    "adres": "ul. Jagienki 4, 15-480 Białystok"
+  },
+  {
+    "krs": "0000360172",
+    "nazwa": "OGÓLNOPOLSKIE STOWARZYSZENIE \"Z MUZYKĄ DO LUDZI\"",
+    "wojewodztwo": "wielkopolskie",
+    "adres": "ul. Maliny 26, 63-140 Nowieczek"
+  },
+  {
+    "krs": "0000362461",
+    "nazwa": "FUNDACJA IMIENIEM KAZIMIERZA DEYNY",
+    "wojewodztwo": "mazowieckie",
+    "adres": "ul. Łazienkowska 3, 00-449 Warszawa"
+  },
+  {
+    "krs": "0000362534",
+    "nazwa": "STOWARZYSZENIE \"SCENA KULTURY\"",
+    "wojewodztwo": "mazowieckie",
+    "adres": "Bieżanowska 2/14, 02-655 Warszawa"
+  },
+  {
+    "krs": "0000362654",
+    "nazwa": "FUNDACJA \"BLIŻEJ POLSKI\"",
+    "wojewodztwo": "mazowieckie",
+    "adres": "ul. Poznańska 57D, 05-850 Ożarów Mazowiecki"
+  },
+  {
+    "krs": "0000364727",
+    "nazwa": "STOWARZYSZENIE INTEGRACJA EUROPA - WSCHÓD",
+    "wojewodztwo": "świętokrzyskie",
+    "adres": "ul. Karczunek 8, 25-551 Kielce"
+  },
+  {
+    "krs": "0000365293",
+    "nazwa": "FUNDACJA PROMOCJI MEDIACJI I EDUKACJI PRAWNEJ LEX NOSTRA",
+    "wojewodztwo": "mazowieckie",
+    "adres": "Sienna 45/5, 00-121 Warszawa"
+  },
+  {
+    "krs": "0000375824",
+    "nazwa": "FUNDACJA SZTUKI I EDUKACJI FILMOWEJ \"SZTUKA POZNANIA\"",
+    "wojewodztwo": "wielkopolskie",
+    "adres": "Błażeja 6H/30, 61-608 Poznań"
+  },
+  {
+    "krs": "0000376247",
+    "nazwa": "STOWARZYSZENIE REEMIGRANTÓW Z BOŚNI, ICH POTOMKÓW ORAZ PRZYJACIÓŁ",
+    "wojewodztwo": "dolnośląskie",
+    "adres": "Pl.Piłsudskiego 1C, 59-700 Bolesławiec"
+  },
+  {
+    "krs": "0000377928",
+    "nazwa": "\"KAMIENICA 1 - FUNDACJA NA RZECZ ROZWOJU SZTUKI I PROMOCJI ZDROWIA\"",
+    "wojewodztwo": "zachodniopomorskie",
+    "adres": "Aleja Wojska Polskiego 90, 70-482 Szczecin"
+  },
+  {
+    "krs": "0000385808",
+    "nazwa": "STOWARZYSZENIE BEZPIECZNA LUBELSZCZYZNA",
+    "wojewodztwo": "lubelskie",
+    "adres": "ul. Nałęczowska 25/10, 20-701 Lublin"
+  },
+  {
+    "krs": "0000390292",
+    "nazwa": "POLSKI INSTYTUT STUDIÓW NAD SZTUKĄ ŚWIATA",
+    "wojewodztwo": "mazowieckie",
+    "adres": "Warecka 4/6/10, 00-040 Warszawa"
+  },
+  {
+    "krs": "0000393575",
+    "nazwa": "FUNDACJA \"ZDOLNE DZIECI\"",
+    "wojewodztwo": "dolnośląskie",
+    "adres": "Czekoladowa 54/2, 52-326 Wrocław"
+  },
+  {
+    "krs": "0000394365",
+    "nazwa": "STOWARZYSZENIE GRUPA INICJATYW KULTURALNYCH",
+    "wojewodztwo": "lubelskie",
+    "adres": "ul. Bohdana Dobrzańskiego 1/I.12.L, 20-262 Lublin"
+  },
+  {
+    "krs": "0000395315",
+    "nazwa": "MIEJSKI KLUB SPORTOWY KALISZ SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ",
+    "wojewodztwo": "wielkopolskie",
+    "adres": "ul. Prymasa Stefana Wyszyńskiego 22-24, 62-800 Kalisz"
+  },
+  {
+    "krs": "0000397954",
+    "nazwa": "FUNDACJA BRAT SŁOŃCE",
+    "wojewodztwo": "małopolskie",
+    "adres": "Hetmana Żółkiewskiego 14, 31-539 Kraków"
+  },
+  {
+    "krs": "0000403745",
+    "nazwa": "FUNDACJA KOSSAKOWSKIEGO",
+    "wojewodztwo": "mazowieckie",
+    "adres": "Warszawice 39, 00-843 Sobienie-Jeziory"
+  },
+  {
+    "krs": "0000405141",
+    "nazwa": "FUNDACJA \"TOWARZYSTWO PROJEKTÓW EDUKACYJNYCH\"",
+    "wojewodztwo": "mazowieckie",
+    "adres": "ul. Puławska 130/20, 02-620 Warszawa"
+  },
+  {
+    "krs": "0000408145",
+    "nazwa": "STOWARZYSZENIE \"PRZESZŁOŚĆ-PRZYSZŁOŚCI\"",
+    "wojewodztwo": "lubelskie",
+    "adres": "Kołłątaja 56/2, 24-100 Puławy"
+  },
+  {
+    "krs": "0000408166",
+    "nazwa": "STOWARZYSZENIE \"SANCTUS PAULUS\"",
+    "wojewodztwo": "kujawsko-pomorskie",
+    "adres": "Ks. Jerzego Popiełuszki 3, 85-863 Bydgoszcz"
+  },
+  {
+    "krs": "0000410110",
+    "nazwa": "ARTE FUNDACJA KULTURY I EDUKACJI",
+    "wojewodztwo": "mazowieckie",
+    "adres": "Białowieska 5 A/10, 04-063 Warszawa"
+  },
+  {
+    "krs": "0000410331",
+    "nazwa": "FUNDACJA CZAS DZIECI",
+    "wojewodztwo": "małopolskie",
+    "adres": "plac Teodora Axentowicza 3/2, 30-034 Kraków"
+  },
+  {
+    "krs": "0000410623",
+    "nazwa": "FUNDACJA \"ZATRZYMAĆ CZAS\"",
+    "wojewodztwo": "zachodniopomorskie",
+    "adres": "ul. Świętego Marcina 4, 72-015 Police"
+  },
+  {
+    "krs": "0000412885",
+    "nazwa": "STOWARZYSZENIE HISTORYCZNE IM. DANUTY SIEDZIKÓWNY \"INKI\"",
+    "wojewodztwo": "podlaskie",
+    "adres": "ul. 3 Maja 58/20, 17-200 Hajnówka"
+  },
+  {
+    "krs": "0000414081",
+    "nazwa": "FUNDACJA GÓRNIKA ZABRZE",
+    "wojewodztwo": "śląskie",
+    "adres": "Roosevelta 81, 41-800 Zabrze"
+  },
+  {
+    "krs": "0000419616",
+    "nazwa": "ORMIAŃSKO-POLSKI KOMITET SPOŁECZNY",
+    "wojewodztwo": "śląskie",
+    "adres": "Tatarkiewicza 22C/2, 41-800 Zabrze"
+  },
+  {
+    "krs": "0000423252",
+    "nazwa": "FUNDACJA \"DLA POLONII\"",
+    "wojewodztwo": "mazowieckie",
+    "adres": "ul. Bobrowiecka 9, 00-728 Warszawa"
+  },
+  {
+    "krs": "0000424471",
+    "nazwa": "FUNDACJA BAŁTYCKI INSTYTUT MATEMATYKI",
+    "wojewodztwo": "mazowieckie",
+    "adres": "ul. Domaniewska 24/106, 02-672 Warszawa"
+  },
+  {
+    "krs": "0000429155",
+    "nazwa": "FUNDACJA DZIEDZICTWO WIELKIEGO XIĘSTWA LITEWSKIEGO",
+    "wojewodztwo": "mazowieckie",
+    "adres": "Elektoralna 13/103, 00-137 Warszawa"
+  },
+  {
+    "krs": "0000429191",
+    "nazwa": "FUNDACJA „PADEREWSKI INTERNATIONAL FOUNDATION”",
+    "wojewodztwo": "mazowieckie",
+    "adres": "ul. Emiliana Konopczyńskiego 5/7/3, 00-335 Warszawa"
+  },
+  {
+    "krs": "0000433185",
+    "nazwa": "FUNDACJA TAK - TEMAT AKTUALNY KULTURA",
+    "wojewodztwo": "mazowieckie",
+    "adres": "Górczewska 43/2, 01-144 Warszawa"
+  },
+  {
+    "krs": "0000434568",
+    "nazwa": "TOWARZYSTWO POLONIA-KRESY",
+    "wojewodztwo": "opolskie",
+    "adres": "Dubois 41/5, 45-067 Opole"
+  },
+  {
+    "krs": "0000437460",
+    "nazwa": "FUNDACJA KLUBÓW GAZETY POLSKIEJ",
+    "wojewodztwo": "małopolskie",
+    "adres": "ul. Bracka 15/--, 31-005 Kraków"
+  },
+  {
+    "krs": "0000439213",
+    "nazwa": "FUNDACJA SZTUK KRYTYCZNYCH",
+    "wojewodztwo": "mazowieckie",
+    "adres": "Plutonu Torpedy 27, 02-495 Warszawa"
+  },
+  {
+    "krs": "0000439624",
+    "nazwa": "\"FUNDACJA DZIEDZICTWA KULTUROWEGO\"",
+    "wojewodztwo": "mazowieckie",
+    "adres": "ul. Juliana Smulikowskiego 7A/8, 00-389 Warszawa"
+  },
+  {
+    "krs": "0000442083",
+    "nazwa": "FUNDACJA ARMENIAN FOUNDATION",
+    "wojewodztwo": "mazowieckie",
+    "adres": "Filtrowa 83/21, 02-032 Warszawa"
+  },
+  {
+    "krs": "0000443664",
+    "nazwa": "\"FUNDACJA JÓZEFA SZANIAWSKIEGO\"",
+    "wojewodztwo": "mazowieckie",
+    "adres": "Jezuicka 1/3, 00-281 Warszawa"
+  },
+  {
+    "krs": "0000458144",
+    "nazwa": "FUNDACJA NIEZALEŻNY ZESPÓŁ BADAWCZY",
+    "wojewodztwo": "mazowieckie",
+    "adres": "ul. Artura Grottgera 19/13, 00-785 Warszawa"
+  },
+  {
+    "krs": "0000462082",
+    "nazwa": "STOWARZYSZENIE \"CENTRUM DIALOGU KULTUR\"",
+    "wojewodztwo": "mazowieckie",
+    "adres": "ul. Tadeusza Kościuszki 37, 07-100 Węgrów"
+  },
+  {
+    "krs": "0000464098",
+    "nazwa": "FUNDACJA RENESART",
+    "wojewodztwo": "mazowieckie",
+    "adres": "Bajana 34, 01-904 Warszawa"
+  },
+  {
+    "krs": "0000468950",
+    "nazwa": "FUNDACJA INSTYTUT NOWYCH MEDIÓW",
+    "wojewodztwo": "mazowieckie",
+    "adres": "ul. Marii Konopnickiej 6, 00-491 Warszawa"
+  },
+  {
+    "krs": "0000471971",
+    "nazwa": "FUNDACJA \"MULTIOCALENIE\"",
+    "wojewodztwo": "mazowieckie",
+    "adres": "Kasprowicza 70/1, 01-949 Warszawa"
+  },
+  {
+    "krs": "0000472791",
+    "nazwa": "FUNDACJA KULTURY PARYSKIEJ",
+    "wojewodztwo": "małopolskie",
+    "adres": "ul. Henryka Siemiradzkiego 21/1, 31-137 Kraków"
+  },
+  {
+    "krs": "0000477637",
+    "nazwa": "FUNDACJA DZIEDZICTWA RZECZYPOSPOLITEJ",
+    "wojewodztwo": "podlaskie",
+    "adres": "Mieruniszki 26, 16-424 Filipów"
+  },
+  {
+    "krs": "0000478182",
+    "nazwa": "FUNDACJA VOLENS",
+    "wojewodztwo": "śląskie",
+    "adres": "ul. Mennicza 14, 43-400 Cieszyn"
+  },
+  {
+    "krs": "0000494847",
+    "nazwa": "FUNDACJA 20",
+    "wojewodztwo": "mazowieckie",
+    "adres": "Ul.Libijska 3A, 03-977 Warszawa"
+  },
+  {
+    "krs": "0000497472",
+    "nazwa": "FUNDACJA JOANNY LAMPARSKIEJ NA RZECZ OCHRONY DZIEDZICTWA KULTUROWEGO \"PROJEKT HISTORIA\"",
+    "wojewodztwo": "dolnośląskie",
+    "adres": "Korfantego 27, 53-021 Wrocław"
+  },
+  {
+    "krs": "0000501795",
+    "nazwa": "INSTYTUT KREOWANIA PRZEDSIĘBIORCZOŚCI SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ",
+    "wojewodztwo": "mazowieckie",
+    "adres": "Świeradowska 47, 02-662 Warszawa"
+  },
+  {
+    "krs": "0000509561",
+    "nazwa": "SZKOŁA LIDERSTWA IM. ZBIGNIEWA PEŁCZYŃSKIEGO",
+    "wojewodztwo": "mazowieckie",
+    "adres": "Wiejska 12A, 00-490 Warszawa"
+  },
+  {
+    "krs": "0000515100",
+    "nazwa": "FUNDACJA ACTION - LIFE",
+    "wojewodztwo": "mazowieckie",
+    "adres": "Jodłowa 23B, 02-907 Warszawa"
+  },
+  {
+    "krs": "0000516027",
+    "nazwa": "FUNDACJA INSTYTUT PAŃSTWA I PRAWA",
+    "wojewodztwo": "małopolskie",
+    "adres": "ul. Stefana Czarnieckiego 5, 33-300 Nowy Sącz"
+  },
+  {
+    "krs": "0000517842",
+    "nazwa": "FUNDACJA ROZWOJU KINEMATOGRAFII",
+    "wojewodztwo": "mazowieckie",
+    "adres": "ul. Czerniakowska 73/79, 00-817 Warszawa"
+  },
+  {
+    "krs": "0000518786",
+    "nazwa": "FUNDACJA PRO ARTE ET HISTORIA",
+    "wojewodztwo": "podkarpackie",
+    "adres": "Krasiczyn 179/124, 37-741 Krasiczyn"
+  },
+  {
+    "krs": "0000521093",
+    "nazwa": "FUNDACJA OTWARTY DIALOG - POLSKA",
+    "wojewodztwo": "mazowieckie",
+    "adres": "ul. Pirenejska 2C, 01-493 Warszawa"
+  },
+  {
+    "krs": "0000524177",
+    "nazwa": "FUNDACJA NA RZECZ DZIEDZICTWA NARODOWEGO IMIENIA JÓZEFA PIŁSUDSKIEGO",
+    "wojewodztwo": "łódzkie",
+    "adres": "Liściasta 4/8/45, 91-357 Łódź"
+  },
+  {
+    "krs": "0000528517",
+    "nazwa": "TOWARZYSTWO IMIENIA MARII KONOPNICKIEJ ODDZIAŁ W GÓRACH MOKRYCH",
+    "wojewodztwo": "łódzkie",
+    "adres": "Góry Mokre 2, 97-570 Przedbórz"
+  },
+  {
+    "krs": "0000528534",
+    "nazwa": "FUNDACJA ARTINTRANSLATION",
+    "wojewodztwo": "mazowieckie",
+    "adres": "ul. Ludwika Rydygiera 8/B.20A/32, 01-793 Warszawa"
+  },
+  {
+    "krs": "0000538549",
+    "nazwa": "STOWARZYSZENIE YOUTH HUMAN IMPACT",
+    "wojewodztwo": "podlaskie",
+    "adres": "ul. Kazańska 18/30, 18-400 Łomża"
+  },
+  {
+    "krs": "0000539836",
+    "nazwa": "ŻURAW GDAŃSK",
+    "wojewodztwo": "pomorskie",
+    "adres": "ul. Franciszka Hynka 18/U23, 80-465 Gdańsk"
+  },
+  {
+    "krs": "0000546643",
+    "nazwa": "FUNDACJA \"INSTYTUT ZRÓWNOWAŻONEGO ROZWOJU TERENÓW WIEJSKICH\"",
+    "wojewodztwo": "mazowieckie",
+    "adres": "Łukomie 62, 09-204 Rościszewo"
+  },
+  {
+    "krs": "0000551222",
+    "nazwa": "FUNDACJA AVA ARTS",
+    "wojewodztwo": "łódzkie",
+    "adres": "ul. Papieża Jana Pawła Ii 5/98, 99-300 Kutno"
+  },
+  {
+    "krs": "0000553247",
+    "nazwa": "STOWARZYSZENIE GROM",
+    "wojewodztwo": "mazowieckie",
+    "adres": "ul. Władysława Umińskiego 5/58, 03-984 Warszawa"
+  },
+  {
+    "krs": "0000553932",
+    "nazwa": "FUNDACJA TEATRU MŁODYCH",
+    "wojewodztwo": "pomorskie",
+    "adres": "al. Grunwaldzka 5, 80-236 Gdańsk"
+  },
+  {
+    "krs": "0000556033",
+    "nazwa": "FUNDACJA ART JUNCTION",
+    "wojewodztwo": "wielkopolskie",
+    "adres": "ul. Antoniego Madalińskiego 4/12, 61-511 Poznań"
+  },
+  {
+    "krs": "0000563759",
+    "nazwa": "FUNDACJA \"NIEZALEŻNY FUNDUSZ KULTURY POLCANART\"",
+    "wojewodztwo": "mazowieckie",
+    "adres": "plac Inwalidów 10/50, 01-552 Warszawa"
+  },
+  {
+    "krs": "0000565921",
+    "nazwa": "FUNDACJA \"MOCNI MOCĄ NADZIEI\"",
+    "wojewodztwo": "mazowieckie",
+    "adres": "Białoskóry 31, 09-212 Białoskóry"
+  },
+  {
+    "krs": "0000569399",
+    "nazwa": "FUNDACJA OBCHODÓW 100 ROCZNICY ODZYSKANIA PRZEZ POLSKĘ NIEPODLEGŁOŚCI",
+    "wojewodztwo": "mazowieckie",
+    "adres": "ul. Dynasy 2A/3, 00-354 Warszawa"
+  },
+  {
+    "krs": "0000570130",
+    "nazwa": "STOWARZYSZENIE \"COMMUNIO CRUCIS\" IM. ŚW. EDYTY STEIN, PATRONKI EUROPY",
+    "wojewodztwo": "małopolskie",
+    "adres": "ul. Rakowicka 18A/-, 31-510 Kraków"
+  },
+  {
+    "krs": "0000570948",
+    "nazwa": "FUNDACJA STUDIO WSCHÓD",
+    "wojewodztwo": "dolnośląskie",
+    "adres": "Karkonoska 10, 53-015 Wrocław"
+  },
+  {
+    "krs": "0000573269",
+    "nazwa": "FUNDACJA NA RZECZ KULTURY I SZTUKI AVANGART",
+    "wojewodztwo": "łódzkie",
+    "adres": "ul. Krzewowa 1, 91-478 Łódź"
+  },
+  {
+    "krs": "0000576132",
+    "nazwa": "FUNDACJA DARIUSZA KORDKA KULTURA.PL",
+    "wojewodztwo": "mazowieckie",
+    "adres": "ul. Aleksandra Patkowskiego 2/5, 02-750 Warszawa"
+  },
+  {
+    "krs": "0000577605",
+    "nazwa": "FUNDACJA LEGIA SOCCER SCHOOLS",
+    "wojewodztwo": "mazowieckie",
+    "adres": "Łazienkowska 3, 00-449 Warszawa"
+  },
+  {
+    "krs": "0000581223",
+    "nazwa": "FUNDACJA MŁODE KRESY",
+    "wojewodztwo": "mazowieckie",
+    "adres": "ul. Lazurowa 11/36, 01-314 Warszawa"
+  },
+  {
+    "krs": "0000585483",
+    "nazwa": "PEŁNI KULTURY",
+    "wojewodztwo": "małopolskie",
+    "adres": "Czerwone Maki 45/96, 30-392 Kraków"
+  },
+  {
+    "krs": "0000588727",
+    "nazwa": "FUNDACJA POLSKA360",
+    "wojewodztwo": "mazowieckie",
+    "adres": "ul. Zielna 39/P.IX POK.5, 00-108 Warszawa"
+  },
+  {
+    "krs": "0000593203",
+    "nazwa": "FUNDACJA IM. ANNY I HENRYKA ŚWIĄTKOWSKICH",
+    "wojewodztwo": "łódzkie",
+    "adres": "ul. Bonifraterska 9, 99-400 Łowicz"
+  },
+  {
+    "krs": "0000598727",
+    "nazwa": "FUNDACJA IM. JANUSZA KURTYKI",
+    "wojewodztwo": "małopolskie",
+    "adres": "ul. Marii I Bolesława Wysłouchów 4/20, 30-611 Kraków"
+  },
+  {
+    "krs": "0000600505",
+    "nazwa": "\"FUNDACJA INSTYTUT MEDIÓW\"",
+    "wojewodztwo": "śląskie",
+    "adres": "ul. 3 Maja 12, 42-200 Częstochowa"
+  },
+  {
+    "krs": "0000600551",
+    "nazwa": "MUZYKA ZAKORZENIONA",
+    "wojewodztwo": "mazowieckie",
+    "adres": "ul. Mieczysława Wolfkego 14/26, 01-494 Warszawa"
+  },
+  {
+    "krs": "0000606712",
+    "nazwa": "FUNDACJA NA RZECZ WSPIERANIA I ROZWOJU SZKÓŁ POLONIJNYCH",
+    "wojewodztwo": "mazowieckie",
+    "adres": "ul. Energetyczna 9/25, 05-500 Piaseczno"
+  },
+  {
+    "krs": "0000607263",
+    "nazwa": "FUNDACJA PRO SPE",
+    "wojewodztwo": "podkarpackie",
+    "adres": "ul. Stanisława Jabłońskiego 7/7, 35-068 Rzeszów"
+  },
+  {
+    "krs": "0000610553",
+    "nazwa": "FUNDACJA \"ŁOPACIŃSKICH ŚWIAT\"",
+    "wojewodztwo": "kujawsko-pomorskie",
+    "adres": "Olszynowa 16, 87-122 Dobrzejewice"
+  },
+  {
+    "krs": "0000621890",
+    "nazwa": "FUNDACJA POLONIUM",
+    "wojewodztwo": "mazowieckie",
+    "adres": "plac Bankowy 2, 00-095 Warszawa"
+  },
+  {
+    "krs": "0000622287",
+    "nazwa": "FUNDACJA NOWA PRZESTRZEŃ",
+    "wojewodztwo": "mazowieckie",
+    "adres": "ul. Iwonicka 40, 02-924 Warszawa"
+  },
+  {
+    "krs": "0000623995",
+    "nazwa": "FUNDACJA KLUBU RONINA",
+    "wojewodztwo": "mazowieckie",
+    "adres": "ul. Chmielna 9, 00-021 Warszawa"
+  },
+  {
+    "krs": "0000626174",
+    "nazwa": "POLSKI ZESPÓŁ HUMANITARNY",
+    "wojewodztwo": "małopolskie",
+    "adres": "al. Zdrojowa 18, 33-370 Muszyna"
+  },
+  {
+    "krs": "0000626890",
+    "nazwa": "FUNDACJA \"INSTYTUT MYŚLI SCHUMANA\"",
+    "wojewodztwo": "mazowieckie",
+    "adres": "ul. Chmielna 2/31, 00-020 Warszawa"
+  },
+  {
+    "krs": "0000630792",
+    "nazwa": "\"FUNDACJA POLSKA WIELKI PROJEKT\"",
+    "wojewodztwo": "mazowieckie",
+    "adres": "ul. Łowicka 39A, 02-551 Warszawa"
+  },
+  {
+    "krs": "0000636554",
+    "nazwa": "FUNDACJA SLOW BESKID",
+    "wojewodztwo": "podkarpackie",
+    "adres": "Kombornia 1, 38-420 Korczyna"
+  },
+  {
+    "krs": "0000637028",
+    "nazwa": "FUNDACJA INSTYTUT BIAŁOWIESKI",
+    "wojewodztwo": "podlaskie",
+    "adres": "ul. Rumiankowa 14/4, 15-665 Białystok"
+  },
+  {
+    "krs": "0000639229",
+    "nazwa": "FUNDACJA ROTUNDA PÓŁNOCNA",
+    "wojewodztwo": "zachodniopomorskie",
+    "adres": "ul. Tkacka 66/12, 70-556 Szczecin"
+  },
+  {
+    "krs": "0000643785",
+    "nazwa": "FUNDACJA JAGIELLOŃSKA",
+    "wojewodztwo": "podkarpackie",
+    "adres": "ul. Zielona 70, 37-100 Łańcut"
+  },
+  {
+    "krs": "0000658614",
+    "nazwa": "FUNDACJA AMBASADA KULTURY",
+    "wojewodztwo": "mazowieckie",
+    "adres": "ul. Wiosenna 6, 05-520 Słomczyn"
+  },
+  {
+    "krs": "0000673936",
+    "nazwa": "\"BRATNIA DUSZA\"",
+    "wojewodztwo": "małopolskie",
+    "adres": "ul. Józefa Ignacego Kraszewskiego 19, 33-380 Krynica-Zdrój"
+  },
+  {
+    "krs": "0000674193",
+    "nazwa": "POLSKO-GRECKA IZBA PRZEMYSŁOWO-HANDLOWA",
+    "wojewodztwo": "mazowieckie",
+    "adres": "ul. Stanisława Grzesiuka 4/14, 02-904 Warszawa"
+  },
+  {
+    "krs": "0000675270",
+    "nazwa": "FUNDACJA SANT-TECH PRO BONO MAIORE",
+    "wojewodztwo": "małopolskie",
+    "adres": "ul. Półłanki 31G, 30-740 Kraków"
+  },
+  {
+    "krs": "0000682444",
+    "nazwa": "ZACHODNIOPOMORSKI UNIWERSYTET LUDOWY - FUNDACJA",
+    "wojewodztwo": "zachodniopomorskie",
+    "adres": "ul. Welecka 13 B, 72-006 Mierzyn"
+  },
+  {
+    "krs": "0000683371",
+    "nazwa": "STOWARZYSZENIE KLUB SPORTOWY FUTSAL LESZNO",
+    "wojewodztwo": "wielkopolskie",
+    "adres": "ul. Święciechowska 37, 64-100 Leszno"
+  },
+  {
+    "krs": "0000687373",
+    "nazwa": "FUNDACJA MIGRA",
+    "wojewodztwo": "mazowieckie",
+    "adres": "ul. Zamkowa 13/1, 03-890 Warszawa"
+  },
+  {
+    "krs": "0000690041",
+    "nazwa": "ŚWIATOWY KONGRES POLAKÓW",
+    "wojewodztwo": "mazowieckie",
+    "adres": "ul. Witolda Gombrowicza 17, 01-682 Warszawa"
+  },
+  {
+    "krs": "0000693617",
+    "nazwa": "STOWARZYSZENIE \"PRO ARTIS\"",
+    "wojewodztwo": "podkarpackie",
+    "adres": "ul. Franciszkańska 4, 38-500 Sanok"
+  },
+  {
+    "krs": "0000697193",
+    "nazwa": "FUNDACJA RZECZYPOSPOLITEJ POLONIKA",
+    "wojewodztwo": "mazowieckie",
+    "adres": "ul. Zielna 39/P.IX POK.5, 00-108 Warszawa"
+  },
+  {
+    "krs": "0000697399",
+    "nazwa": "FUNDACJA KONKURSU HISTORYCZNEGO PATRIA NOSTRA",
+    "wojewodztwo": "mazowieckie",
+    "adres": "ul. Wojska Polskiego 10, 05-220 Zielonka"
+  },
+  {
+    "krs": "0000698336",
+    "nazwa": "FUNDACJA \"POLSKIE MAKI\"",
+    "wojewodztwo": "mazowieckie",
+    "adres": "ul. Modlińska 7/29, 05-135 Wieliszew"
+  },
+  {
+    "krs": "0000698770",
+    "nazwa": "WIELKOPOLSKI ZWIĄZEK CHÓRÓW I ORKIESTR Z SIEDZIBĄ W LESZNIE",
+    "wojewodztwo": "wielkopolskie",
+    "adres": "plac Jana Metziga 32, 64-100 Leszno"
+  },
+  {
+    "krs": "0000699917",
+    "nazwa": "FUNDACJA BĘDZIEM POLAKAMI",
+    "wojewodztwo": "kujawsko-pomorskie",
+    "adres": "ul. Podhalańska 3, 85-132 Bydgoszcz"
+  },
+  {
+    "krs": "0000700808",
+    "nazwa": "\"FUNDACJA KULTURY I SPORTU 44\"",
+    "wojewodztwo": "mazowieckie",
+    "adres": "ul. Obozowa 70/37, 01-426 Warszawa"
+  },
+  {
+    "krs": "0000703653",
+    "nazwa": "FUNDACJA ,,DAMY RADĘ - Z KULTURĄ!\"",
+    "wojewodztwo": "mazowieckie",
+    "adres": "ul. Obrzeżna 5A/19, 02-691 Warszawa"
+  },
+  {
+    "krs": "0000705516",
+    "nazwa": "STOWARZYSZENIE TOWARZYSTWO WSPÓŁPRACY Z POLAKAMI W KAZACHSTANIE KRAKÓW-KARAGANDA",
+    "wojewodztwo": "małopolskie",
+    "adres": "ul. Józefa Dietla 50/12, 31-039 Kraków"
+  },
+  {
+    "krs": "0000708935",
+    "nazwa": "KLUB PIŁKARSKI \"POLONIA 1912 LESZNO\"",
+    "wojewodztwo": "wielkopolskie",
+    "adres": "ul. Górowska 49, 64-100 Leszno"
+  },
+  {
+    "krs": "0000710818",
+    "nazwa": "FUNDACJA \"LOGTV FILMS POLSKA\"",
+    "wojewodztwo": "mazowieckie",
+    "adres": "ul. Złota 11/96, 00-019 Warszawa"
+  },
+  {
+    "krs": "0000710994",
+    "nazwa": "ARTCHATA",
+    "wojewodztwo": "małopolskie",
+    "adres": "ul. Sodowa 18, 30-376 Kraków"
+  },
+  {
+    "krs": "0000721789",
+    "nazwa": "FUNDACJA MISJA KAMPINOS",
+    "wojewodztwo": "mazowieckie",
+    "adres": "ul. Łąki 8, 05-870 Błonie"
+  },
+  {
+    "krs": "0000726821",
+    "nazwa": "FUNDACJA \"HAGIA MARINA\"",
+    "wojewodztwo": "mazowieckie",
+    "adres": "ul. Dywizjonu 303 161A/25, 01-470 Warszawa"
+  },
+  {
+    "krs": "0000730409",
+    "nazwa": "FUNDACJA JA TEŻ MAM MARZENIA",
+    "wojewodztwo": "małopolskie",
+    "adres": "ul. Sobieskiego 13, 33-340 Stary Sącz"
+  },
+  {
+    "krs": "0000732603",
+    "nazwa": "FUNDACJA \"AMBITNA POLSKA\"",
+    "wojewodztwo": "łódzkie",
+    "adres": "ul. Łąkowa 11, 90-562 Łódź"
+  },
+  {
+    "krs": "0000737335",
+    "nazwa": "FUNDACJA LIFE AND ART",
+    "wojewodztwo": "małopolskie",
+    "adres": "ul. Macieja Słomczyńskiego 19/86, 31-234 Kraków"
+  },
+  {
+    "krs": "0000737508",
+    "nazwa": "FUNDACJA IMPERIO",
+    "wojewodztwo": "pomorskie",
+    "adres": "ul. Prof. Stanisława Herbsta 12/17, 76-200 Słupsk"
+  },
+  {
+    "krs": "0000743893",
+    "nazwa": "MŁODZI DLA POLSKI TRÓJMIASTO",
+    "wojewodztwo": "pomorskie",
+    "adres": "ul. Władysława Świechockiego 2B/17, 80-041 Gdańsk"
+  },
+  {
+    "krs": "0000750394",
+    "nazwa": "FUNDACJA CARITAS SUPER OMNIA EST IM. BŁOGOSŁAWIONEGO STEFANA WINCENTEGO FRELICHOWSKIEGO",
+    "wojewodztwo": "kujawsko-pomorskie",
+    "adres": "ul. Panny Marii 2, 87-100 Toruń"
+  },
+  {
+    "krs": "0000756841",
+    "nazwa": "\"FUNDACJA POWSZECHNEGO CZYTANIA\"",
+    "wojewodztwo": "mazowieckie",
+    "adres": "ul. Przyokopowa 33, 01-208 Warszawa"
+  },
+  {
+    "krs": "0000758897",
+    "nazwa": "FUNDACJA KULTURA I HISTORIA",
+    "wojewodztwo": "mazowieckie",
+    "adres": "ul. Rokosowska 2/65, 02-348 Warszawa"
+  },
+  {
+    "krs": "0000759981",
+    "nazwa": "STOWARZYSZENIE \" BIAŁORUSKI MŁODZIEŻOWY HUB\"",
+    "wojewodztwo": "mazowieckie",
+    "adres": "plac Konstytucji 6, 00-550 Warszawa"
+  },
+  {
+    "krs": "0000769858",
+    "nazwa": "FUNDACJA \"MICE&U\"",
+    "wojewodztwo": "mazowieckie",
+    "adres": "ul. Świętokrzyska 30/63, 00-116 Warszawa"
+  },
+  {
+    "krs": "0000774901",
+    "nazwa": "FUNDACJA SCIENTIA THORUNENSIA",
+    "wojewodztwo": "kujawsko-pomorskie",
+    "adres": "ul. Henryka Strobanda 11A/43, 87-100 Toruń"
+  },
+  {
+    "krs": "0000777258",
+    "nazwa": "STOWARZYSZENIE SCENA KULTURY WOKALNEJ ŚPIEWANIE BEZ GRANIC",
+    "wojewodztwo": "małopolskie",
+    "adres": "ul. Henryka Sienkiewicza 29, 32-067 Tenczynek"
+  },
+  {
+    "krs": "0000777275",
+    "nazwa": "FUNDACJA HATIKVA",
+    "wojewodztwo": "łódzkie",
+    "adres": "Łódź, Łódź"
+  },
+  {
+    "krs": "0000780514",
+    "nazwa": "STOWARZYSZENIE ODRA - NIEMEN ODDZIAŁ MAZOWIECKI-WSCHODNI PATRIOCI",
+    "wojewodztwo": "mazowieckie",
+    "adres": "ul. Długa 29/11, 00-238 Warszawa"
+  },
+  {
+    "krs": "0000780900",
+    "nazwa": "\"FUNDACJA INSTYTUT STUDIÓW AZJATYCKICH I GLOBALNYCH IM. MICHAŁA BOYMA\"",
+    "wojewodztwo": "mazowieckie",
+    "adres": "ul. Freta 11/5, 00-227 Warszawa"
+  },
+  {
+    "krs": "0000781483",
+    "nazwa": "FUNDACJA ROZWOJU CENTRUM MACIERZ POLONII",
+    "wojewodztwo": "małopolskie",
+    "adres": "ul. Polonijna 22, 32-091 Michałowice"
+  },
+  {
+    "krs": "0000784089",
+    "nazwa": "FUNDACJA DIVERSITYPL",
+    "wojewodztwo": "pomorskie",
+    "adres": "ul. Leśna 1, 81-876 Sopot"
+  },
+  {
+    "krs": "0000787390",
+    "nazwa": "INSTYTUT BEZPIECZEŃSTWA I ROZWOJU MIĘDZYNARODOWEGO",
+    "wojewodztwo": "mazowieckie",
+    "adres": "Aleja 3 Maja 28, 05-120 Legionowo"
+  },
+  {
+    "krs": "0000794053",
+    "nazwa": "FUNDACJA YPSILON ART",
+    "wojewodztwo": "mazowieckie",
+    "adres": "ul. Józefa Sowińskiego 51A/24, 01-105 Warszawa"
+  },
+  {
+    "krs": "0000796895",
+    "nazwa": "\"ZDROWIE W GŁOWIE\"",
+    "wojewodztwo": "mazowieckie",
+    "adres": "ul. Karola Rychlińskiego 1, 05-091 Ząbki"
+  },
+  {
+    "krs": "0000805058",
+    "nazwa": "FUNDACJA ZNAKI PAMIĘCI",
+    "wojewodztwo": "mazowieckie",
+    "adres": "ul. Pułku Ak \"Baszta\" 2/116, 02-649 Warszawa"
+  },
+  {
+    "krs": "0000805148",
+    "nazwa": "FUNDACJA MEDIA WORLD CUP",
+    "wojewodztwo": "lubelskie",
+    "adres": "ul. Beliniaków 6/15, 20-045 Lublin"
+  },
+  {
+    "krs": "0000809797",
+    "nazwa": "FUNDACJA NA RZECZ DWUJĘZYCZNOŚCI EDUNOWA",
+    "wojewodztwo": "mazowieckie",
+    "adres": "ul. Czarnieckiego 33, 05-502 Piaseczno"
+  },
+  {
+    "krs": "0000812837",
+    "nazwa": "FUNDACJA POLSKA ZWYCIĘSKA 1920-2020",
+    "wojewodztwo": "mazowieckie",
+    "adres": "ul. Klaudyny 32/245, 01-684 Warszawa"
+  },
+  {
+    "krs": "0000828012",
+    "nazwa": "FUNDACJA CINEMA MEDIA ART",
+    "wojewodztwo": "lubelskie",
+    "adres": "ul. Beliniaków 6/15, 20-045 Lublin"
+  },
+  {
+    "krs": "0000834289",
+    "nazwa": "FUNDACJA EDUKACJA DO WARTOŚCI",
+    "wojewodztwo": "mazowieckie",
+    "adres": "ul. Nowy Świat 6/12, 00-400 Warszawa"
+  },
+  {
+    "krs": "0000835764",
+    "nazwa": "FUNDACJA PROJEKT PATRIOTYZM",
+    "wojewodztwo": "mazowieckie",
+    "adres": "ul. Ludwika Zamenhofa 1/43, 00-153 Warszawa"
+  },
+  {
+    "krs": "0000841814",
+    "nazwa": "FUNDACJA KADR",
+    "wojewodztwo": "podkarpackie",
+    "adres": "ul. Fryderyka Szopena 35C/W164, 35-055 Rzeszów"
+  },
+  {
+    "krs": "0000843666",
+    "nazwa": "METROPOLITARNY INSTYTUT ROZWOJU Z SIEDZIBĄ W SOSNOWCU",
+    "wojewodztwo": "śląskie",
+    "adres": "ul. 1 Maja 34/37, 41-200 Sosnowiec"
+  },
+  {
+    "krs": "0000843781",
+    "nazwa": "FUNDACJA TYLKO ORŁY",
+    "wojewodztwo": "mazowieckie",
+    "adres": "ul. Zgierska 16, 04-092 Warszawa"
+  },
+  {
+    "krs": "0000849242",
+    "nazwa": "STOWARZYSZENIE FORUM MNIEJSZOŚCI PODLASIA",
+    "wojewodztwo": "podlaskie",
+    "adres": "ul. Ogrodowa 60A, 17-100 Bielsk Podlaski"
+  },
+  {
+    "krs": "0000851142",
+    "nazwa": "FUNDACJA WESOŁA GÓRA",
+    "wojewodztwo": "warmińsko-mazurskie",
+    "adres": "Szwarcenowo 18A, 13-340 Biskupiec"
+  },
+  {
+    "krs": "0000852796",
+    "nazwa": "FUNDACJA KRZEWIENIA KULTURY I TURYSTYKI \" NAD RZEKĄ\"",
+    "wojewodztwo": "kujawsko-pomorskie",
+    "adres": "ul. Bartosza Głowackiego 41/32, 85-717 Bydgoszcz"
+  },
+  {
+    "krs": "0000855921",
+    "nazwa": "FUNDACJA POGOŃ LWÓW",
+    "wojewodztwo": "dolnośląskie",
+    "adres": "ul. Poczdamska 1, 67-200 Głogów"
+  },
+  {
+    "krs": "0000859912",
+    "nazwa": "FUNDACJA IDYLLA",
+    "wojewodztwo": "mazowieckie",
+    "adres": "ul. Mazowiecka 11/49, 00-052 Warszawa"
+  },
+  {
+    "krs": "0000860094",
+    "nazwa": "FUNDACJA POLSKIEJ AKADEMII NAUK SPOŁECZNYCH I HUMANISTYCZNYCH",
+    "wojewodztwo": "pomorskie",
+    "adres": "ul. Kołłątaja 2A/2, 83-110 Tczew"
+  },
+  {
+    "krs": "0000860197",
+    "nazwa": "FUNDACJA TRÓJMORZE",
+    "wojewodztwo": "mazowieckie",
+    "adres": "Marszałkowska 107, 00-110 Warszawa"
+  },
+  {
+    "krs": "0000862218",
+    "nazwa": "STOWARZYSZENIE AKTYWNY DIALOG",
+    "wojewodztwo": "lubelskie",
+    "adres": "ul. Montażowa 16, 20-214 Lublin"
+  },
+  {
+    "krs": "0000862741",
+    "nazwa": "ANTHILL",
+    "wojewodztwo": "lubelskie",
+    "adres": "ul. Kowalska 5/203, 20-115 Lublin"
+  },
+  {
+    "krs": "0000862828",
+    "nazwa": "FUNDACJA ZACHÓD WSCHÓD WSPARCIE",
+    "wojewodztwo": "mazowieckie",
+    "adres": "ul. Nowogrodzka 64/43, 02-014 Warszawa"
+  },
+  {
+    "krs": "0000866848",
+    "nazwa": "FUNDACJA PAMIĘCI NARODÓW",
+    "wojewodztwo": "mazowieckie",
+    "adres": "ul. Bergamotki 2/53, 02-765 Warszawa"
+  },
+  {
+    "krs": "0000868143",
+    "nazwa": "FUNDACJA MUZA DEI - CENTRUM NOWEJ KULTURY",
+    "wojewodztwo": "śląskie",
+    "adres": "ul. Kazimierza Pułaskiego 11, 41-253 Czeladź"
+  },
+  {
+    "krs": "0000871660",
+    "nazwa": "FUNDACJA INSTYTUT SPRAW KONSTYTUCYJNYCH",
+    "wojewodztwo": "mazowieckie",
+    "adres": "ul. Leona Kruczkowskiego 6 B/8, 00-412 Warszawa"
+  },
+  {
+    "krs": "0000872812",
+    "nazwa": "FUNDACJA POLONII MEDYCZNEJ",
+    "wojewodztwo": "śląskie",
+    "adres": "ul. Gen. Jana Henryka Dąbrowskiego 42/4, 42-218 Częstochowa"
+  },
+  {
+    "krs": "0000872927",
+    "nazwa": "FUNDACJA \"SWP ZDROWIE\"",
+    "wojewodztwo": "warmińsko-mazurskie",
+    "adres": "ul. Warmińska 7/1, 10-544 Olsztyn"
+  },
+  {
+    "krs": "0000877535",
+    "nazwa": "ADAM'S COMPANY SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ",
+    "wojewodztwo": "pomorskie",
+    "adres": "Żuromino 215, 83-323 Kamienica Szlachecka"
+  },
+  {
+    "krs": "0000879807",
+    "nazwa": "FUNDACJA EDUEKO",
+    "wojewodztwo": "lubuskie",
+    "adres": "pl. Im. Jana Pawła Ii 1, 69-100 Słubice"
+  },
+  {
+    "krs": "0000883548",
+    "nazwa": "PRACOWNIA EKSPERYMENTU - FUNDACJA",
+    "wojewodztwo": "mazowieckie",
+    "adres": "ul. Jana Czeczota 31, 02-607 Warszawa"
+  },
+  {
+    "krs": "0000888258",
+    "nazwa": "FUNDACJA THE WARSAW HOUSE",
+    "wojewodztwo": "mazowieckie",
+    "adres": "plac Bankowy 2, 00-095 Warszawa"
+  },
+  {
+    "krs": "0000889819",
+    "nazwa": "FUNDACJA ILUSTRACJI I KOMIKSU",
+    "wojewodztwo": "mazowieckie",
+    "adres": "ul. Tadeusza Rechniewskiego 5/25, 03-980 Warszawa"
+  },
+  {
+    "krs": "0000895104",
+    "nazwa": "FUNDACJA KULTURY I KRZEWIENIA POLSKOŚCI ZA GRANICĄ \"GRONO POLSKOŚCI\"",
+    "wojewodztwo": "małopolskie",
+    "adres": "ul. Jana Brzechwy 3, 32-500 Chrzanów"
+  },
+  {
+    "krs": "0000900516",
+    "nazwa": "FUNDACJA ROZWOJU SPOŁECZEŃSTWA KREATYWNEGO",
+    "wojewodztwo": "mazowieckie",
+    "adres": "ul. Nowy Świat 33/13, 00-029 Warszawa"
+  },
+  {
+    "krs": "0000902616",
+    "nazwa": "\"FUNDACJA JAZZ PO POLSKU\"",
+    "wojewodztwo": "mazowieckie",
+    "adres": "ul. Tomasza Nocznickiego 9/35, 01-948 Warszawa"
+  },
+  {
+    "krs": "0000911341",
+    "nazwa": "ŚWIATOWE STOWARZYSZENIE \"REPUBLIKA POLONIA\"",
+    "wojewodztwo": "mazowieckie",
+    "adres": "ul. Mikołaja Kopernika 30/537, 00-336 Warszawa"
+  },
+  {
+    "krs": "0000920643",
+    "nazwa": "STOWARZYSZENIE \"AGLOMERACJA CHRZANOWSKA\"",
+    "wojewodztwo": "małopolskie",
+    "adres": "ul. Aleja Henryka 20, 32-500 Chrzanów"
+  },
+  {
+    "krs": "0000923846",
+    "nazwa": "FUNDACJA \"DROGA NA SZCZYT\"",
+    "wojewodztwo": "pomorskie",
+    "adres": "ul. Franciszka Hynka 18/U23, 80-465 Gdańsk"
+  },
+  {
+    "krs": "0000935489",
+    "nazwa": "FUNDACJA OBRONY PRAW CZŁOWIEKA I OBYWATELA",
+    "wojewodztwo": "warmińsko-mazurskie",
+    "adres": "ul. Wiązowa 20, 82-300 Elbląg"
+  },
+  {
+    "krs": "0000946850",
+    "nazwa": "STOWARZYSZENIE KRAKOWSKICH INICJATYW LOKALNYCH LIDERÓW",
+    "wojewodztwo": "małopolskie",
+    "adres": "ul. Helclów 15/12, 31-148 Kraków"
+  },
+  {
+    "krs": "0000949089",
+    "nazwa": "FUNDACJA ROZWOJU SZKOLNICTWA WYŻSZEGO",
+    "wojewodztwo": "łódzkie",
+    "adres": "Aleja T. Kościuszki 71, 90-436 Łódź"
+  },
+  {
+    "krs": "0000957504",
+    "nazwa": "FUNDACJA PROJEKT 22",
+    "wojewodztwo": "pomorskie",
+    "adres": "Aleja Grunwaldzka 573/14, 80-339 Gdańsk"
+  },
+  {
+    "krs": "0000962437",
+    "nazwa": "FUNDACJA \"PO SĄSIEDZKU\"",
+    "wojewodztwo": "mazowieckie",
+    "adres": "ul. Stefana Żeromskiego 84/1, 26-600 Radom"
+  },
+  {
+    "krs": "0000965463",
+    "nazwa": "FUNDACJA MICHALICKIE CENTRUM MŁODZIEŻY MICHAEL",
+    "wojewodztwo": "podkarpackie",
+    "adres": "ul. Księdza Bronisława Markiewicza 25A, 38-430 Miejsce Piastowe"
+  },
+  {
+    "krs": "0000966500",
+    "nazwa": "FUNDACJA MISTRZOWIE SPORTU",
+    "wojewodztwo": "mazowieckie",
+    "adres": "ul. Marszałkowska 115/338, 00-102 Warszawa"
+  },
+  {
+    "krs": "0000967813",
+    "nazwa": "STOWARZYSZENIE \"CENTRUM LUBICZ - POGRANICZE KULTUR\"",
+    "wojewodztwo": "kujawsko-pomorskie",
+    "adres": "ul. Boczna 4, 87-162 Lubicz"
+  },
+  {
+    "krs": "0000969807",
+    "nazwa": "FUNDACJA POMAGAMY I KROPKA",
+    "wojewodztwo": "dolnośląskie",
+    "adres": "ul. Stanisława Żółkiewskiego 4/5, 59-220 Legnica"
+  },
+  {
+    "krs": "0000971156",
+    "nazwa": "INSTYTUT KALISKI NON PROFIT SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ",
+    "wojewodztwo": "wielkopolskie",
+    "adres": "ul. Widok 89/93, 62-800 Kalisz"
+  },
+  {
+    "krs": "0000972286",
+    "nazwa": "FUNDACJA FOLKOWISKO",
+    "wojewodztwo": "podkarpackie",
+    "adres": "Gorajec 14, 37-611 Cieszanów"
+  },
+  {
+    "krs": "0000972533",
+    "nazwa": "FUNDACJA PROMOCJI KULTURY I TURYSTYKI \"Z NURTEM DANIELKI\"",
+    "wojewodztwo": "śląskie",
+    "adres": "ul. Generała Zygmunta Wróblewskiego 17/9, 41-907 Bytom"
+  },
+  {
+    "krs": "0000972710",
+    "nazwa": "FUNDACJA 60MLN.PL",
+    "wojewodztwo": "mazowieckie",
+    "adres": "ul. Kabaretowa 21, 01-942 Warszawa"
+  },
+  {
+    "krs": "0000973329",
+    "nazwa": "FUNDACJA ACTIVNI",
+    "wojewodztwo": "pomorskie",
+    "adres": "ul. Morenowe Wzgórze 20/54, 80-283 Gdańsk"
+  },
+  {
+    "krs": "0000975899",
+    "nazwa": "STOWARZYSZENIE ZOSTAŃ W POLSCE",
+    "wojewodztwo": "mazowieckie",
+    "adres": "ul. Mikołaja Kopernika 30/302, 00-336 Warszawa"
+  },
+  {
+    "krs": "0000981494",
+    "nazwa": "FUNDACJA POLSKA PRZYSZŁOŚĆ „ORLIK”",
+    "wojewodztwo": "mazowieckie",
+    "adres": "Aleje Jerozolimskie 85/21, 02-001 Warszawa"
+  },
+  {
+    "krs": "0000986572",
+    "nazwa": "\"STOWARZYSZENIE OLIMPIJSKIE WYGRYWAMY\"",
+    "wojewodztwo": "mazowieckie",
+    "adres": "ul. Lipska 18/13, 03-904 Warszawa"
+  },
+  {
+    "krs": "0000987952",
+    "nazwa": "FUNDACJA ZAKRES",
+    "wojewodztwo": "dolnośląskie",
+    "adres": "Ceramiczna 28A, 59-700 Bolesławiec"
+  },
+  {
+    "krs": "0000995909",
+    "nazwa": "FUNDACJA MOJA MUZA",
+    "wojewodztwo": "pomorskie",
+    "adres": "ul. Ignacego Paderewskiego 2/42, 80-170 Gdańsk"
+  },
+  {
+    "krs": "0000996924",
+    "nazwa": "FUNDACJA JOANNY SZCZEPKOWSKIEJ NA RZECZ INICJATYW ARTYSTYCZNYCH I SPOŁECZNYCH",
+    "wojewodztwo": "mazowieckie",
+    "adres": "ul. Lipska 27/23, 03-908 Warszawa"
+  },
+  {
+    "krs": "0001003714",
+    "nazwa": "STOWARZYSZENIE W TROSCE O DOM OJCZYSTY IMIENIA ANNY WALENTYNOWICZ",
+    "wojewodztwo": "śląskie",
+    "adres": "ul. Chocimska 15, 43-600 Jaworzno"
+  },
+  {
+    "krs": "0001007526",
+    "nazwa": "FUNDACJA \"ALE POLSKA\"",
+    "wojewodztwo": "śląskie",
+    "adres": "ul. Warszawska 270, 43-155 Bieruń"
+  },
+  {
+    "krs": "0001018453",
+    "nazwa": "FUNDACJA KULTURALNA TURYSTYKA",
+    "wojewodztwo": "mazowieckie",
+    "adres": "ul. Prosta 51, 08-300 Sokołów Podlaski"
+  },
+  {
+    "krs": "0001030592",
+    "nazwa": "FUNDACJA PAWŁA ZAGUMNEGO",
+    "wojewodztwo": "mazowieckie",
+    "adres": "ul. Resorowa 28, 02-956 Warszawa"
+  },
+  {
+    "krs": "0001039845",
+    "nazwa": "TOWARZYSTWO MUZYCZNE IM. KONSTANTEGO GORSKIEGO",
+    "wojewodztwo": "mazowieckie",
+    "adres": "ul. Płatnerska 4/22, 04-473 Warszawa"
+  },
+  {
+    "krs": "0001040538",
+    "nazwa": "FUNDACJA TRANSATLANTIC ALLIANCE",
+    "wojewodztwo": "mazowieckie",
+    "adres": "Aleja Zjednoczenia 50, 01-801 Warszawa"
+  },
+  {
+    "krs": "0001053973",
+    "nazwa": "FUNDACJA VIELHARMONIA",
+    "wojewodztwo": "mazowieckie",
+    "adres": "Stanisławice 84A, 26-900 Kozienice"
+  },
+  {
+    "krs": "0001054010",
+    "nazwa": "MIĘDZYNARODOWE STOWARZYSZENIE ODWAŻNE KOBIETY",
+    "wojewodztwo": "mazowieckie",
+    "adres": "ul. Karczewska 12C, 05-400 Otwock"
+  },
+  {
+    "krs": "0001054164",
+    "nazwa": "FUNDACJA POLONII ŚWIATA",
+    "wojewodztwo": "mazowieckie",
+    "adres": "ul. Zielna 39/P. 7, 00-108 Warszawa"
+  },
+  {
+    "krs": "0001054227",
+    "nazwa": "FUNDACJA OPEN HEARTS",
+    "wojewodztwo": "świętokrzyskie",
+    "adres": "ul. Siennieńska 2-3, 27-400 Ostrowiec Świętokrzyski"
+  },
+  {
+    "krs": "0001054579",
+    "nazwa": "FUNDACJA HARMONIA W RELACJI",
+    "wojewodztwo": "kujawsko-pomorskie",
+    "adres": "ul. Partyzanta 14/50M, 87-200 Wąbrzeźno"
+  },
+  {
+    "krs": "0001059139",
+    "nazwa": "CALIFORNIA EDUCATIONAL FOUNDATION IN POLAND",
+    "wojewodztwo": "mazowieckie",
+    "adres": "ul. Mokotowska 65/1, 00-533 Warszawa"
+  },
+  {
+    "krs": "0001059678",
+    "nazwa": "FUNDACJA EDUKATOR",
+    "wojewodztwo": "mazowieckie",
+    "adres": "ul. Warszawska 67A, 05-075 Warszawa"
+  },
+  {
+    "krs": "0001065784",
+    "nazwa": "FUNDACJA ISKRA INNOWACJI",
+    "wojewodztwo": "lubelskie",
+    "adres": "ul. Hutnicza 14/87, 20-218 Lublin"
+  },
+  {
+    "krs": "0001069082",
+    "nazwa": "FUNDACJA AQUILAE",
+    "wojewodztwo": "lubelskie",
+    "adres": "ul. Vetterów 5, 20-277 Lublin"
+  },
+  {
+    "krs": "0001077157",
+    "nazwa": "STOWARZYSZENIE OŚWIATOWE HUGO",
+    "wojewodztwo": "mazowieckie",
+    "adres": "ul. Grójecka 93, 02-101 Warszawa"
+  },
+  {
+    "krs": "0001082504",
+    "nazwa": "FUNDACJA KITSUP",
+    "wojewodztwo": "mazowieckie",
+    "adres": "ul. Budowlana 7/U9, 03-315 Warszawa"
+  },
+  {
+    "krs": "0001083398",
+    "nazwa": "STOWARZYSZENIE PORADNIA POLONIJNA",
+    "wojewodztwo": "śląskie",
+    "adres": "ul. Akacjowa 1403, 34-381 Radziechowy"
+  },
+  {
+    "krs": "0001086343",
+    "nazwa": "FUNDACJA PRZYSZŁOŚĆ BEZ BARIER",
+    "wojewodztwo": "lubelskie",
+    "adres": "ul. Wolska 11A/4, 20-411 Lublin"
+  },
+  {
+    "krs": "0001101722",
+    "nazwa": "FUNDACJA ARTE SUAVE",
+    "wojewodztwo": "świętokrzyskie",
+    "adres": "ul. Złota 6/4, 25-015 Kielce"
+  },
+  {
+    "krs": "0001108116",
+    "nazwa": "FUNDACJA EUREKOT",
+    "wojewodztwo": "łódzkie",
+    "adres": "ul. Traktorowa 128/001, 91-204 Łódź"
+  },
+  {
+    "krs": "0001133422",
+    "nazwa": "FUNDACJA MŁODE POKOLENIA",
+    "wojewodztwo": "pomorskie",
+    "adres": "Aleja Wojska Polskiego 21/4, 80-277 Gdańsk"
+  },
+  {
+    "krs": "0001195949",
+    "nazwa": "FUNDACJA SAPERE AUDE INCIPE",
+    "wojewodztwo": "mazowieckie",
+    "adres": "ul. Harcerza Antolka Gradowskiego 15/17, 09-402 Płock"
+  },
+  {
+    "krs": "0001223849",
+    "nazwa": "\"GLOBAL POLISH STUDENT SOCIETY\"",
+    "wojewodztwo": "dolnośląskie",
+    "adres": "ul. Księska 2A/4, 52-020 Wrocław"
+  }
+]
