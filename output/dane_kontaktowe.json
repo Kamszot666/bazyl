@@ -13,7 +13,9 @@
     "email_osoby_kontaktowej": "rafalcierniak@fundacja.sos.pl",
     "zrodlo_url": "http://www.fundacja.sos.pl/",
     "status": "znaleziono",
-    "notatka": null
+    "notatka": null,
+    "charakterystyka_realna": null,
+    "branza_typ": null
   },
   {
     "krs": "0000010057",
@@ -29,7 +31,9 @@
     "email_osoby_kontaktowej": "brak",
     "zrodlo_url": "https://tnkul.pl/en/contact/",
     "status": "znaleziono",
-    "notatka": null
+    "notatka": null,
+    "charakterystyka_realna": "Towarzystwo naukowe skupiające ponad 700 członków z ośrodków naukowych w całej Polsce, działające od 1934 roku, prowadzące działalność wydawniczą (m.in. Wydawnictwo TN KUL).",
+    "branza_typ": "nauka"
   },
   {
     "krs": "0000010771",
@@ -45,7 +49,9 @@
     "email_osoby_kontaktowej": "brak",
     "zrodlo_url": "https://armiakrajowa-lagiernicy.pl/kontakt/",
     "status": "znaleziono_czesciowo",
-    "notatka": "nie znaleziono numeru telefonu"
+    "notatka": "nie znaleziono numeru telefonu",
+    "charakterystyka_realna": null,
+    "branza_typ": null
   },
   {
     "krs": "0000015776",
@@ -61,7 +67,9 @@
     "email_osoby_kontaktowej": "brak",
     "zrodlo_url": "https://www.gowork.pl/fundacja-pokolenia-pokoleniom,21929640/dane-kontaktowe-firmy",
     "status": "znaleziono",
-    "notatka": null
+    "notatka": null,
+    "charakterystyka_realna": "Fundacja pożytku publicznego prowadząca działalność charytatywną na rzecz edukacji ustawicznej, promocji kultury i sztuki, ochrony dziedzictwa narodowego oraz współpracy międzynarodowej.",
+    "branza_typ": "kultura i edukacja"
   },
   {
     "krs": "0000030680",
@@ -77,7 +85,9 @@
     "email_osoby_kontaktowej": "brak",
     "zrodlo_url": "https://oswiatapolska.pl/",
     "status": "znaleziono",
-    "notatka": null
+    "notatka": null,
+    "charakterystyka_realna": "Fundacja wspierająca polskie placówki oświatowe za granicą, zwłaszcza w krajach byłego ZSRR, w Rumunii i na Zaolziu, oraz odradzanie się tam polskiego szkolnictwa.",
+    "branza_typ": "edukacja polonijna"
   },
   {
     "krs": "0000032061",
@@ -93,7 +103,9 @@
     "email_osoby_kontaktowej": "brak",
     "zrodlo_url": "http://rownica.ustron.pl/wp/kontakt",
     "status": "znaleziono",
-    "notatka": null
+    "notatka": null,
+    "charakterystyka_realna": null,
+    "branza_typ": null
   },
   {
     "krs": "0000032787",
@@ -109,7 +121,9 @@
     "email_osoby_kontaktowej": "brak",
     "zrodlo_url": "https://ltn.lomza.pl/kontakt/",
     "status": "znaleziono_czesciowo",
-    "notatka": "nie znaleziono adresu e-mail"
+    "notatka": "nie znaleziono adresu e-mail",
+    "charakterystyka_realna": null,
+    "branza_typ": null
   },
   {
     "krs": "0000034914",
@@ -125,7 +139,9 @@
     "email_osoby_kontaktowej": "brak",
     "zrodlo_url": "https://www.wspolnotapolska.org.pl/bieg1918/kontakt.php",
     "status": "znaleziono",
-    "notatka": null
+    "notatka": null,
+    "charakterystyka_realna": "Największa polska organizacja pozarządowa wspierająca Polonię i Polaków za granicą, z siedzibą główną w Warszawie i siecią oddziałów regionalnych w całej Polsce.",
+    "branza_typ": "wsparcie Polonii"
   },
   {
     "krs": "0000039814",
@@ -141,7 +157,9 @@
     "email_osoby_kontaktowej": "brak",
     "zrodlo_url": "https://fundacjahlonda.chrystusowcy.pl/",
     "status": "znaleziono",
-    "notatka": "adres siedziby (Panny Marii 4, Poznań) zgodny z zapisem w KRS - potwierdza wlasciwa strone, odrozniona od niepowiazanej Prymasowskiej Fundacji im. Kard. Augusta Hlonda (fundacjahlonda.pl)"
+    "notatka": "adres siedziby (Panny Marii 4, Poznań) zgodny z zapisem w KRS - potwierdza wlasciwa strone, odrozniona od niepowiazanej Prymasowskiej Fundacji im. Kard. Augusta Hlonda (fundacjahlonda.pl)",
+    "charakterystyka_realna": null,
+    "branza_typ": null
   },
   {
     "krs": "0000050394",
@@ -157,7 +175,9 @@
     "email_osoby_kontaktowej": "brak",
     "zrodlo_url": "https://zwiazek-podhalan.com/kontakt/",
     "status": "znaleziono",
-    "notatka": "adres biura (Jana Pawla II 116, Ludzmierz) zgodny z zapisem w KRS"
+    "notatka": "adres biura (Jana Pawla II 116, Ludzmierz) zgodny z zapisem w KRS",
+    "charakterystyka_realna": null,
+    "branza_typ": null
   },
   {
     "krs": "0000053657",
@@ -173,7 +193,9 @@
     "email_osoby_kontaktowej": null,
     "zrodlo_url": null,
     "status": "nie_sprawdzono",
-    "notatka": null
+    "notatka": null,
+    "charakterystyka_realna": null,
+    "branza_typ": null
   },
   {
     "krs": "0000057720",
@@ -189,7 +211,9 @@
     "email_osoby_kontaktowej": null,
     "zrodlo_url": null,
     "status": "nie_sprawdzono",
-    "notatka": null
+    "notatka": null,
+    "charakterystyka_realna": null,
+    "branza_typ": null
   },
   {
     "krs": "0000057907",
@@ -205,7 +229,9 @@
     "email_osoby_kontaktowej": null,
     "zrodlo_url": null,
     "status": "nie_sprawdzono",
-    "notatka": null
+    "notatka": null,
+    "charakterystyka_realna": null,
+    "branza_typ": null
   },
   {
     "krs": "0000076966",
@@ -221,7 +247,9 @@
     "email_osoby_kontaktowej": null,
     "zrodlo_url": null,
     "status": "nie_sprawdzono",
-    "notatka": null
+    "notatka": null,
+    "charakterystyka_realna": null,
+    "branza_typ": null
   },
   {
     "krs": "0000081518",
@@ -237,7 +265,9 @@
     "email_osoby_kontaktowej": null,
     "zrodlo_url": null,
     "status": "nie_sprawdzono",
-    "notatka": null
+    "notatka": null,
+    "charakterystyka_realna": null,
+    "branza_typ": null
   },
   {
     "krs": "0000083534",
@@ -253,7 +283,9 @@
     "email_osoby_kontaktowej": null,
     "zrodlo_url": null,
     "status": "nie_sprawdzono",
-    "notatka": null
+    "notatka": null,
+    "charakterystyka_realna": null,
+    "branza_typ": null
   },
   {
     "krs": "0000084948",
@@ -269,7 +301,9 @@
     "email_osoby_kontaktowej": null,
     "zrodlo_url": null,
     "status": "nie_sprawdzono",
-    "notatka": null
+    "notatka": null,
+    "charakterystyka_realna": null,
+    "branza_typ": null
   },
   {
     "krs": "0000085223",
@@ -285,7 +319,9 @@
     "email_osoby_kontaktowej": null,
     "zrodlo_url": null,
     "status": "nie_sprawdzono",
-    "notatka": null
+    "notatka": null,
+    "charakterystyka_realna": null,
+    "branza_typ": null
   },
   {
     "krs": "0000091640",
@@ -301,7 +337,9 @@
     "email_osoby_kontaktowej": null,
     "zrodlo_url": null,
     "status": "nie_sprawdzono",
-    "notatka": null
+    "notatka": null,
+    "charakterystyka_realna": null,
+    "branza_typ": null
   },
   {
     "krs": "0000092992",
@@ -317,7 +355,9 @@
     "email_osoby_kontaktowej": null,
     "zrodlo_url": null,
     "status": "nie_sprawdzono",
-    "notatka": null
+    "notatka": null,
+    "charakterystyka_realna": null,
+    "branza_typ": null
   },
   {
     "krs": "0000094699",
@@ -333,7 +373,9 @@
     "email_osoby_kontaktowej": null,
     "zrodlo_url": null,
     "status": "nie_sprawdzono",
-    "notatka": null
+    "notatka": null,
+    "charakterystyka_realna": null,
+    "branza_typ": null
   },
   {
     "krs": "0000103409",
@@ -349,7 +391,9 @@
     "email_osoby_kontaktowej": null,
     "zrodlo_url": null,
     "status": "nie_sprawdzono",
-    "notatka": null
+    "notatka": null,
+    "charakterystyka_realna": null,
+    "branza_typ": null
   },
   {
     "krs": "0000104450",
@@ -365,7 +409,9 @@
     "email_osoby_kontaktowej": null,
     "zrodlo_url": null,
     "status": "nie_sprawdzono",
-    "notatka": null
+    "notatka": null,
+    "charakterystyka_realna": null,
+    "branza_typ": null
   },
   {
     "krs": "0000114542",
@@ -381,7 +427,9 @@
     "email_osoby_kontaktowej": null,
     "zrodlo_url": null,
     "status": "nie_sprawdzono",
-    "notatka": null
+    "notatka": null,
+    "charakterystyka_realna": null,
+    "branza_typ": null
   },
   {
     "krs": "0000116961",
@@ -397,7 +445,9 @@
     "email_osoby_kontaktowej": null,
     "zrodlo_url": null,
     "status": "nie_sprawdzono",
-    "notatka": null
+    "notatka": null,
+    "charakterystyka_realna": null,
+    "branza_typ": null
   },
   {
     "krs": "0000119061",
@@ -413,7 +463,9 @@
     "email_osoby_kontaktowej": null,
     "zrodlo_url": null,
     "status": "nie_sprawdzono",
-    "notatka": null
+    "notatka": null,
+    "charakterystyka_realna": null,
+    "branza_typ": null
   },
   {
     "krs": "0000119146",
@@ -429,7 +481,9 @@
     "email_osoby_kontaktowej": null,
     "zrodlo_url": null,
     "status": "nie_sprawdzono",
-    "notatka": null
+    "notatka": null,
+    "charakterystyka_realna": null,
+    "branza_typ": null
   },
   {
     "krs": "0000124134",
@@ -445,7 +499,9 @@
     "email_osoby_kontaktowej": null,
     "zrodlo_url": null,
     "status": "nie_sprawdzono",
-    "notatka": null
+    "notatka": null,
+    "charakterystyka_realna": null,
+    "branza_typ": null
   },
   {
     "krs": "0000124380",
@@ -461,7 +517,9 @@
     "email_osoby_kontaktowej": null,
     "zrodlo_url": null,
     "status": "nie_sprawdzono",
-    "notatka": null
+    "notatka": null,
+    "charakterystyka_realna": null,
+    "branza_typ": null
   },
   {
     "krs": "0000125315",
@@ -477,7 +535,9 @@
     "email_osoby_kontaktowej": null,
     "zrodlo_url": null,
     "status": "nie_sprawdzono",
-    "notatka": null
+    "notatka": null,
+    "charakterystyka_realna": null,
+    "branza_typ": null
   },
   {
     "krs": "0000125465",
@@ -493,7 +553,9 @@
     "email_osoby_kontaktowej": null,
     "zrodlo_url": null,
     "status": "nie_sprawdzono",
-    "notatka": null
+    "notatka": null,
+    "charakterystyka_realna": null,
+    "branza_typ": null
   },
   {
     "krs": "0000125684",
@@ -509,7 +571,9 @@
     "email_osoby_kontaktowej": null,
     "zrodlo_url": null,
     "status": "nie_sprawdzono",
-    "notatka": null
+    "notatka": null,
+    "charakterystyka_realna": null,
+    "branza_typ": null
   },
   {
     "krs": "0000128315",
@@ -525,7 +589,9 @@
     "email_osoby_kontaktowej": null,
     "zrodlo_url": null,
     "status": "nie_sprawdzono",
-    "notatka": null
+    "notatka": null,
+    "charakterystyka_realna": null,
+    "branza_typ": null
   },
   {
     "krs": "0000130056",
@@ -541,7 +607,9 @@
     "email_osoby_kontaktowej": null,
     "zrodlo_url": null,
     "status": "nie_sprawdzono",
-    "notatka": null
+    "notatka": null,
+    "charakterystyka_realna": null,
+    "branza_typ": null
   },
   {
     "krs": "0000133146",
@@ -557,7 +625,9 @@
     "email_osoby_kontaktowej": null,
     "zrodlo_url": null,
     "status": "nie_sprawdzono",
-    "notatka": null
+    "notatka": null,
+    "charakterystyka_realna": null,
+    "branza_typ": null
   },
   {
     "krs": "0000135677",
@@ -573,7 +643,9 @@
     "email_osoby_kontaktowej": null,
     "zrodlo_url": null,
     "status": "nie_sprawdzono",
-    "notatka": null
+    "notatka": null,
+    "charakterystyka_realna": null,
+    "branza_typ": null
   },
   {
     "krs": "0000135856",
@@ -589,7 +661,9 @@
     "email_osoby_kontaktowej": null,
     "zrodlo_url": null,
     "status": "nie_sprawdzono",
-    "notatka": null
+    "notatka": null,
+    "charakterystyka_realna": null,
+    "branza_typ": null
   },
   {
     "krs": "0000137089",
@@ -605,7 +679,9 @@
     "email_osoby_kontaktowej": null,
     "zrodlo_url": null,
     "status": "nie_sprawdzono",
-    "notatka": null
+    "notatka": null,
+    "charakterystyka_realna": null,
+    "branza_typ": null
   },
   {
     "krs": "0000138020",
@@ -621,7 +697,9 @@
     "email_osoby_kontaktowej": null,
     "zrodlo_url": null,
     "status": "nie_sprawdzono",
-    "notatka": null
+    "notatka": null,
+    "charakterystyka_realna": null,
+    "branza_typ": null
   },
   {
     "krs": "0000139568",
@@ -637,7 +715,9 @@
     "email_osoby_kontaktowej": null,
     "zrodlo_url": null,
     "status": "nie_sprawdzono",
-    "notatka": null
+    "notatka": null,
+    "charakterystyka_realna": null,
+    "branza_typ": null
   },
   {
     "krs": "0000178115",
@@ -653,7 +733,9 @@
     "email_osoby_kontaktowej": null,
     "zrodlo_url": null,
     "status": "nie_sprawdzono",
-    "notatka": null
+    "notatka": null,
+    "charakterystyka_realna": null,
+    "branza_typ": null
   },
   {
     "krs": "0000180210",
@@ -669,7 +751,9 @@
     "email_osoby_kontaktowej": null,
     "zrodlo_url": null,
     "status": "nie_sprawdzono",
-    "notatka": null
+    "notatka": null,
+    "charakterystyka_realna": null,
+    "branza_typ": null
   },
   {
     "krs": "0000182491",
@@ -685,7 +769,9 @@
     "email_osoby_kontaktowej": null,
     "zrodlo_url": null,
     "status": "nie_sprawdzono",
-    "notatka": null
+    "notatka": null,
+    "charakterystyka_realna": null,
+    "branza_typ": null
   },
   {
     "krs": "0000185365",
@@ -701,7 +787,9 @@
     "email_osoby_kontaktowej": null,
     "zrodlo_url": null,
     "status": "nie_sprawdzono",
-    "notatka": null
+    "notatka": null,
+    "charakterystyka_realna": null,
+    "branza_typ": null
   },
   {
     "krs": "0000191557",
@@ -717,7 +805,9 @@
     "email_osoby_kontaktowej": null,
     "zrodlo_url": null,
     "status": "nie_sprawdzono",
-    "notatka": null
+    "notatka": null,
+    "charakterystyka_realna": null,
+    "branza_typ": null
   },
   {
     "krs": "0000191928",
@@ -733,7 +823,9 @@
     "email_osoby_kontaktowej": null,
     "zrodlo_url": null,
     "status": "nie_sprawdzono",
-    "notatka": null
+    "notatka": null,
+    "charakterystyka_realna": null,
+    "branza_typ": null
   },
   {
     "krs": "0000195433",
@@ -749,7 +841,9 @@
     "email_osoby_kontaktowej": null,
     "zrodlo_url": null,
     "status": "nie_sprawdzono",
-    "notatka": null
+    "notatka": null,
+    "charakterystyka_realna": null,
+    "branza_typ": null
   },
   {
     "krs": "0000204819",
@@ -765,7 +859,9 @@
     "email_osoby_kontaktowej": null,
     "zrodlo_url": null,
     "status": "nie_sprawdzono",
-    "notatka": null
+    "notatka": null,
+    "charakterystyka_realna": null,
+    "branza_typ": null
   },
   {
     "krs": "0000211879",
@@ -781,7 +877,9 @@
     "email_osoby_kontaktowej": null,
     "zrodlo_url": null,
     "status": "nie_sprawdzono",
-    "notatka": null
+    "notatka": null,
+    "charakterystyka_realna": null,
+    "branza_typ": null
   },
   {
     "krs": "0000213557",
@@ -797,7 +895,9 @@
     "email_osoby_kontaktowej": null,
     "zrodlo_url": null,
     "status": "nie_sprawdzono",
-    "notatka": null
+    "notatka": null,
+    "charakterystyka_realna": null,
+    "branza_typ": null
   },
   {
     "krs": "0000214614",
@@ -813,7 +913,9 @@
     "email_osoby_kontaktowej": null,
     "zrodlo_url": null,
     "status": "nie_sprawdzono",
-    "notatka": null
+    "notatka": null,
+    "charakterystyka_realna": null,
+    "branza_typ": null
   },
   {
     "krs": "0000216810",
@@ -829,7 +931,9 @@
     "email_osoby_kontaktowej": null,
     "zrodlo_url": null,
     "status": "nie_sprawdzono",
-    "notatka": null
+    "notatka": null,
+    "charakterystyka_realna": null,
+    "branza_typ": null
   },
   {
     "krs": "0000217537",
@@ -845,7 +949,9 @@
     "email_osoby_kontaktowej": null,
     "zrodlo_url": null,
     "status": "nie_sprawdzono",
-    "notatka": null
+    "notatka": null,
+    "charakterystyka_realna": null,
+    "branza_typ": null
   },
   {
     "krs": "0000224827",
@@ -861,7 +967,9 @@
     "email_osoby_kontaktowej": null,
     "zrodlo_url": null,
     "status": "nie_sprawdzono",
-    "notatka": null
+    "notatka": null,
+    "charakterystyka_realna": null,
+    "branza_typ": null
   },
   {
     "krs": "0000225549",
@@ -877,7 +985,9 @@
     "email_osoby_kontaktowej": null,
     "zrodlo_url": null,
     "status": "nie_sprawdzono",
-    "notatka": null
+    "notatka": null,
+    "charakterystyka_realna": null,
+    "branza_typ": null
   },
   {
     "krs": "0000227056",
@@ -893,7 +1003,9 @@
     "email_osoby_kontaktowej": null,
     "zrodlo_url": null,
     "status": "nie_sprawdzono",
-    "notatka": null
+    "notatka": null,
+    "charakterystyka_realna": null,
+    "branza_typ": null
   },
   {
     "krs": "0000236575",
@@ -909,7 +1021,9 @@
     "email_osoby_kontaktowej": null,
     "zrodlo_url": null,
     "status": "nie_sprawdzono",
-    "notatka": null
+    "notatka": null,
+    "charakterystyka_realna": null,
+    "branza_typ": null
   },
   {
     "krs": "0000245057",
@@ -925,7 +1039,9 @@
     "email_osoby_kontaktowej": null,
     "zrodlo_url": null,
     "status": "nie_sprawdzono",
-    "notatka": null
+    "notatka": null,
+    "charakterystyka_realna": null,
+    "branza_typ": null
   },
   {
     "krs": "0000248432",
@@ -941,7 +1057,9 @@
     "email_osoby_kontaktowej": null,
     "zrodlo_url": null,
     "status": "nie_sprawdzono",
-    "notatka": null
+    "notatka": null,
+    "charakterystyka_realna": null,
+    "branza_typ": null
   },
   {
     "krs": "0000248771",
@@ -957,7 +1075,9 @@
     "email_osoby_kontaktowej": null,
     "zrodlo_url": null,
     "status": "nie_sprawdzono",
-    "notatka": null
+    "notatka": null,
+    "charakterystyka_realna": null,
+    "branza_typ": null
   },
   {
     "krs": "0000249712",
@@ -973,7 +1093,9 @@
     "email_osoby_kontaktowej": null,
     "zrodlo_url": null,
     "status": "nie_sprawdzono",
-    "notatka": null
+    "notatka": null,
+    "charakterystyka_realna": null,
+    "branza_typ": null
   },
   {
     "krs": "0000255486",
@@ -989,7 +1111,9 @@
     "email_osoby_kontaktowej": null,
     "zrodlo_url": null,
     "status": "nie_sprawdzono",
-    "notatka": null
+    "notatka": null,
+    "charakterystyka_realna": null,
+    "branza_typ": null
   },
   {
     "krs": "0000257707",
@@ -1005,7 +1129,9 @@
     "email_osoby_kontaktowej": null,
     "zrodlo_url": null,
     "status": "nie_sprawdzono",
-    "notatka": null
+    "notatka": null,
+    "charakterystyka_realna": null,
+    "branza_typ": null
   },
   {
     "krs": "0000261943",
@@ -1021,7 +1147,9 @@
     "email_osoby_kontaktowej": null,
     "zrodlo_url": null,
     "status": "nie_sprawdzono",
-    "notatka": null
+    "notatka": null,
+    "charakterystyka_realna": null,
+    "branza_typ": null
   },
   {
     "krs": "0000269051",
@@ -1037,7 +1165,9 @@
     "email_osoby_kontaktowej": null,
     "zrodlo_url": null,
     "status": "nie_sprawdzono",
-    "notatka": null
+    "notatka": null,
+    "charakterystyka_realna": null,
+    "branza_typ": null
   },
   {
     "krs": "0000273492",
@@ -1053,7 +1183,9 @@
     "email_osoby_kontaktowej": null,
     "zrodlo_url": null,
     "status": "nie_sprawdzono",
-    "notatka": null
+    "notatka": null,
+    "charakterystyka_realna": null,
+    "branza_typ": null
   },
   {
     "krs": "0000275175",
@@ -1069,7 +1201,9 @@
     "email_osoby_kontaktowej": null,
     "zrodlo_url": null,
     "status": "nie_sprawdzono",
-    "notatka": null
+    "notatka": null,
+    "charakterystyka_realna": null,
+    "branza_typ": null
   },
   {
     "krs": "0000276917",
@@ -1085,7 +1219,9 @@
     "email_osoby_kontaktowej": null,
     "zrodlo_url": null,
     "status": "nie_sprawdzono",
-    "notatka": null
+    "notatka": null,
+    "charakterystyka_realna": null,
+    "branza_typ": null
   },
   {
     "krs": "0000277422",
@@ -1101,7 +1237,9 @@
     "email_osoby_kontaktowej": null,
     "zrodlo_url": null,
     "status": "nie_sprawdzono",
-    "notatka": null
+    "notatka": null,
+    "charakterystyka_realna": null,
+    "branza_typ": null
   },
   {
     "krs": "0000277617",
@@ -1117,7 +1255,9 @@
     "email_osoby_kontaktowej": null,
     "zrodlo_url": null,
     "status": "nie_sprawdzono",
-    "notatka": null
+    "notatka": null,
+    "charakterystyka_realna": null,
+    "branza_typ": null
   },
   {
     "krs": "0000279476",
@@ -1133,7 +1273,9 @@
     "email_osoby_kontaktowej": null,
     "zrodlo_url": null,
     "status": "nie_sprawdzono",
-    "notatka": null
+    "notatka": null,
+    "charakterystyka_realna": null,
+    "branza_typ": null
   },
   {
     "krs": "0000281349",
@@ -1149,7 +1291,9 @@
     "email_osoby_kontaktowej": null,
     "zrodlo_url": null,
     "status": "nie_sprawdzono",
-    "notatka": null
+    "notatka": null,
+    "charakterystyka_realna": null,
+    "branza_typ": null
   },
   {
     "krs": "0000281597",
@@ -1165,7 +1309,9 @@
     "email_osoby_kontaktowej": null,
     "zrodlo_url": null,
     "status": "nie_sprawdzono",
-    "notatka": null
+    "notatka": null,
+    "charakterystyka_realna": null,
+    "branza_typ": null
   },
   {
     "krs": "0000283814",
@@ -1181,7 +1327,9 @@
     "email_osoby_kontaktowej": null,
     "zrodlo_url": null,
     "status": "nie_sprawdzono",
-    "notatka": null
+    "notatka": null,
+    "charakterystyka_realna": null,
+    "branza_typ": null
   },
   {
     "krs": "0000299155",
@@ -1197,7 +1345,9 @@
     "email_osoby_kontaktowej": null,
     "zrodlo_url": null,
     "status": "nie_sprawdzono",
-    "notatka": null
+    "notatka": null,
+    "charakterystyka_realna": null,
+    "branza_typ": null
   },
   {
     "krs": "0000309499",
@@ -1213,7 +1363,9 @@
     "email_osoby_kontaktowej": null,
     "zrodlo_url": null,
     "status": "nie_sprawdzono",
-    "notatka": null
+    "notatka": null,
+    "charakterystyka_realna": null,
+    "branza_typ": null
   },
   {
     "krs": "0000312392",
@@ -1229,7 +1381,9 @@
     "email_osoby_kontaktowej": null,
     "zrodlo_url": null,
     "status": "nie_sprawdzono",
-    "notatka": null
+    "notatka": null,
+    "charakterystyka_realna": null,
+    "branza_typ": null
   },
   {
     "krs": "0000314197",
@@ -1245,7 +1399,9 @@
     "email_osoby_kontaktowej": null,
     "zrodlo_url": null,
     "status": "nie_sprawdzono",
-    "notatka": null
+    "notatka": null,
+    "charakterystyka_realna": null,
+    "branza_typ": null
   },
   {
     "krs": "0000314821",
@@ -1261,7 +1417,9 @@
     "email_osoby_kontaktowej": null,
     "zrodlo_url": null,
     "status": "nie_sprawdzono",
-    "notatka": null
+    "notatka": null,
+    "charakterystyka_realna": null,
+    "branza_typ": null
   },
   {
     "krs": "0000316994",
@@ -1277,7 +1435,9 @@
     "email_osoby_kontaktowej": null,
     "zrodlo_url": null,
     "status": "nie_sprawdzono",
-    "notatka": null
+    "notatka": null,
+    "charakterystyka_realna": null,
+    "branza_typ": null
   },
   {
     "krs": "0000317024",
@@ -1293,7 +1453,9 @@
     "email_osoby_kontaktowej": null,
     "zrodlo_url": null,
     "status": "nie_sprawdzono",
-    "notatka": null
+    "notatka": null,
+    "charakterystyka_realna": null,
+    "branza_typ": null
   },
   {
     "krs": "0000319089",
@@ -1309,7 +1471,9 @@
     "email_osoby_kontaktowej": null,
     "zrodlo_url": null,
     "status": "nie_sprawdzono",
-    "notatka": null
+    "notatka": null,
+    "charakterystyka_realna": null,
+    "branza_typ": null
   },
   {
     "krs": "0000324591",
@@ -1325,7 +1489,9 @@
     "email_osoby_kontaktowej": null,
     "zrodlo_url": null,
     "status": "nie_sprawdzono",
-    "notatka": null
+    "notatka": null,
+    "charakterystyka_realna": null,
+    "branza_typ": null
   },
   {
     "krs": "0000325672",
@@ -1341,7 +1507,9 @@
     "email_osoby_kontaktowej": null,
     "zrodlo_url": null,
     "status": "nie_sprawdzono",
-    "notatka": null
+    "notatka": null,
+    "charakterystyka_realna": null,
+    "branza_typ": null
   },
   {
     "krs": "0000325784",
@@ -1357,7 +1525,9 @@
     "email_osoby_kontaktowej": null,
     "zrodlo_url": null,
     "status": "nie_sprawdzono",
-    "notatka": null
+    "notatka": null,
+    "charakterystyka_realna": null,
+    "branza_typ": null
   },
   {
     "krs": "0000326115",
@@ -1373,7 +1543,9 @@
     "email_osoby_kontaktowej": null,
     "zrodlo_url": null,
     "status": "nie_sprawdzono",
-    "notatka": null
+    "notatka": null,
+    "charakterystyka_realna": null,
+    "branza_typ": null
   },
   {
     "krs": "0000326359",
@@ -1389,7 +1561,9 @@
     "email_osoby_kontaktowej": null,
     "zrodlo_url": null,
     "status": "nie_sprawdzono",
-    "notatka": null
+    "notatka": null,
+    "charakterystyka_realna": null,
+    "branza_typ": null
   },
   {
     "krs": "0000326847",
@@ -1405,7 +1579,9 @@
     "email_osoby_kontaktowej": null,
     "zrodlo_url": null,
     "status": "nie_sprawdzono",
-    "notatka": null
+    "notatka": null,
+    "charakterystyka_realna": null,
+    "branza_typ": null
   },
   {
     "krs": "0000336560",
@@ -1421,7 +1597,9 @@
     "email_osoby_kontaktowej": null,
     "zrodlo_url": null,
     "status": "nie_sprawdzono",
-    "notatka": null
+    "notatka": null,
+    "charakterystyka_realna": null,
+    "branza_typ": null
   },
   {
     "krs": "0000339553",
@@ -1437,7 +1615,9 @@
     "email_osoby_kontaktowej": null,
     "zrodlo_url": null,
     "status": "nie_sprawdzono",
-    "notatka": null
+    "notatka": null,
+    "charakterystyka_realna": null,
+    "branza_typ": null
   },
   {
     "krs": "0000342036",
@@ -1453,7 +1633,9 @@
     "email_osoby_kontaktowej": null,
     "zrodlo_url": null,
     "status": "nie_sprawdzono",
-    "notatka": null
+    "notatka": null,
+    "charakterystyka_realna": null,
+    "branza_typ": null
   },
   {
     "krs": "0000342229",
@@ -1469,7 +1651,9 @@
     "email_osoby_kontaktowej": null,
     "zrodlo_url": null,
     "status": "nie_sprawdzono",
-    "notatka": null
+    "notatka": null,
+    "charakterystyka_realna": null,
+    "branza_typ": null
   },
   {
     "krs": "0000346229",
@@ -1485,7 +1669,9 @@
     "email_osoby_kontaktowej": null,
     "zrodlo_url": null,
     "status": "nie_sprawdzono",
-    "notatka": null
+    "notatka": null,
+    "charakterystyka_realna": null,
+    "branza_typ": null
   },
   {
     "krs": "0000348972",
@@ -1501,7 +1687,9 @@
     "email_osoby_kontaktowej": null,
     "zrodlo_url": null,
     "status": "nie_sprawdzono",
-    "notatka": null
+    "notatka": null,
+    "charakterystyka_realna": null,
+    "branza_typ": null
   },
   {
     "krs": "0000349151",
@@ -1517,7 +1705,9 @@
     "email_osoby_kontaktowej": null,
     "zrodlo_url": null,
     "status": "nie_sprawdzono",
-    "notatka": null
+    "notatka": null,
+    "charakterystyka_realna": null,
+    "branza_typ": null
   },
   {
     "krs": "0000349426",
@@ -1533,7 +1723,9 @@
     "email_osoby_kontaktowej": null,
     "zrodlo_url": null,
     "status": "nie_sprawdzono",
-    "notatka": null
+    "notatka": null,
+    "charakterystyka_realna": null,
+    "branza_typ": null
   },
   {
     "krs": "0000349650",
@@ -1549,7 +1741,9 @@
     "email_osoby_kontaktowej": null,
     "zrodlo_url": null,
     "status": "nie_sprawdzono",
-    "notatka": null
+    "notatka": null,
+    "charakterystyka_realna": null,
+    "branza_typ": null
   },
   {
     "krs": "0000360172",
@@ -1565,7 +1759,9 @@
     "email_osoby_kontaktowej": null,
     "zrodlo_url": null,
     "status": "nie_sprawdzono",
-    "notatka": null
+    "notatka": null,
+    "charakterystyka_realna": null,
+    "branza_typ": null
   },
   {
     "krs": "0000362461",
@@ -1581,7 +1777,9 @@
     "email_osoby_kontaktowej": null,
     "zrodlo_url": null,
     "status": "nie_sprawdzono",
-    "notatka": null
+    "notatka": null,
+    "charakterystyka_realna": null,
+    "branza_typ": null
   },
   {
     "krs": "0000362534",
@@ -1597,7 +1795,9 @@
     "email_osoby_kontaktowej": null,
     "zrodlo_url": null,
     "status": "nie_sprawdzono",
-    "notatka": null
+    "notatka": null,
+    "charakterystyka_realna": null,
+    "branza_typ": null
   },
   {
     "krs": "0000362654",
@@ -1613,7 +1813,9 @@
     "email_osoby_kontaktowej": null,
     "zrodlo_url": null,
     "status": "nie_sprawdzono",
-    "notatka": null
+    "notatka": null,
+    "charakterystyka_realna": null,
+    "branza_typ": null
   },
   {
     "krs": "0000364727",
@@ -1629,7 +1831,9 @@
     "email_osoby_kontaktowej": null,
     "zrodlo_url": null,
     "status": "nie_sprawdzono",
-    "notatka": null
+    "notatka": null,
+    "charakterystyka_realna": null,
+    "branza_typ": null
   },
   {
     "krs": "0000365293",
@@ -1645,7 +1849,9 @@
     "email_osoby_kontaktowej": null,
     "zrodlo_url": null,
     "status": "nie_sprawdzono",
-    "notatka": null
+    "notatka": null,
+    "charakterystyka_realna": null,
+    "branza_typ": null
   },
   {
     "krs": "0000375824",
@@ -1661,7 +1867,9 @@
     "email_osoby_kontaktowej": null,
     "zrodlo_url": null,
     "status": "nie_sprawdzono",
-    "notatka": null
+    "notatka": null,
+    "charakterystyka_realna": null,
+    "branza_typ": null
   },
   {
     "krs": "0000376247",
@@ -1677,7 +1885,9 @@
     "email_osoby_kontaktowej": null,
     "zrodlo_url": null,
     "status": "nie_sprawdzono",
-    "notatka": null
+    "notatka": null,
+    "charakterystyka_realna": null,
+    "branza_typ": null
   },
   {
     "krs": "0000377928",
@@ -1693,7 +1903,9 @@
     "email_osoby_kontaktowej": null,
     "zrodlo_url": null,
     "status": "nie_sprawdzono",
-    "notatka": null
+    "notatka": null,
+    "charakterystyka_realna": null,
+    "branza_typ": null
   },
   {
     "krs": "0000385808",
@@ -1709,7 +1921,9 @@
     "email_osoby_kontaktowej": null,
     "zrodlo_url": null,
     "status": "nie_sprawdzono",
-    "notatka": null
+    "notatka": null,
+    "charakterystyka_realna": null,
+    "branza_typ": null
   },
   {
     "krs": "0000390292",
@@ -1725,7 +1939,9 @@
     "email_osoby_kontaktowej": null,
     "zrodlo_url": null,
     "status": "nie_sprawdzono",
-    "notatka": null
+    "notatka": null,
+    "charakterystyka_realna": null,
+    "branza_typ": null
   },
   {
     "krs": "0000393575",
@@ -1741,7 +1957,9 @@
     "email_osoby_kontaktowej": null,
     "zrodlo_url": null,
     "status": "nie_sprawdzono",
-    "notatka": null
+    "notatka": null,
+    "charakterystyka_realna": null,
+    "branza_typ": null
   },
   {
     "krs": "0000394365",
@@ -1757,7 +1975,9 @@
     "email_osoby_kontaktowej": null,
     "zrodlo_url": null,
     "status": "nie_sprawdzono",
-    "notatka": null
+    "notatka": null,
+    "charakterystyka_realna": null,
+    "branza_typ": null
   },
   {
     "krs": "0000395315",
@@ -1773,7 +1993,9 @@
     "email_osoby_kontaktowej": null,
     "zrodlo_url": null,
     "status": "nie_sprawdzono",
-    "notatka": null
+    "notatka": null,
+    "charakterystyka_realna": null,
+    "branza_typ": null
   },
   {
     "krs": "0000397954",
@@ -1789,7 +2011,9 @@
     "email_osoby_kontaktowej": null,
     "zrodlo_url": null,
     "status": "nie_sprawdzono",
-    "notatka": null
+    "notatka": null,
+    "charakterystyka_realna": null,
+    "branza_typ": null
   },
   {
     "krs": "0000403745",
@@ -1805,7 +2029,9 @@
     "email_osoby_kontaktowej": null,
     "zrodlo_url": null,
     "status": "nie_sprawdzono",
-    "notatka": null
+    "notatka": null,
+    "charakterystyka_realna": null,
+    "branza_typ": null
   },
   {
     "krs": "0000405141",
@@ -1821,7 +2047,9 @@
     "email_osoby_kontaktowej": null,
     "zrodlo_url": null,
     "status": "nie_sprawdzono",
-    "notatka": null
+    "notatka": null,
+    "charakterystyka_realna": null,
+    "branza_typ": null
   },
   {
     "krs": "0000408145",
@@ -1837,7 +2065,9 @@
     "email_osoby_kontaktowej": null,
     "zrodlo_url": null,
     "status": "nie_sprawdzono",
-    "notatka": null
+    "notatka": null,
+    "charakterystyka_realna": null,
+    "branza_typ": null
   },
   {
     "krs": "0000408166",
@@ -1853,7 +2083,9 @@
     "email_osoby_kontaktowej": null,
     "zrodlo_url": null,
     "status": "nie_sprawdzono",
-    "notatka": null
+    "notatka": null,
+    "charakterystyka_realna": null,
+    "branza_typ": null
   },
   {
     "krs": "0000410110",
@@ -1869,7 +2101,9 @@
     "email_osoby_kontaktowej": null,
     "zrodlo_url": null,
     "status": "nie_sprawdzono",
-    "notatka": null
+    "notatka": null,
+    "charakterystyka_realna": null,
+    "branza_typ": null
   },
   {
     "krs": "0000410331",
@@ -1885,7 +2119,9 @@
     "email_osoby_kontaktowej": null,
     "zrodlo_url": null,
     "status": "nie_sprawdzono",
-    "notatka": null
+    "notatka": null,
+    "charakterystyka_realna": null,
+    "branza_typ": null
   },
   {
     "krs": "0000410623",
@@ -1901,7 +2137,9 @@
     "email_osoby_kontaktowej": null,
     "zrodlo_url": null,
     "status": "nie_sprawdzono",
-    "notatka": null
+    "notatka": null,
+    "charakterystyka_realna": null,
+    "branza_typ": null
   },
   {
     "krs": "0000412885",
@@ -1917,7 +2155,9 @@
     "email_osoby_kontaktowej": null,
     "zrodlo_url": null,
     "status": "nie_sprawdzono",
-    "notatka": null
+    "notatka": null,
+    "charakterystyka_realna": null,
+    "branza_typ": null
   },
   {
     "krs": "0000414081",
@@ -1933,7 +2173,9 @@
     "email_osoby_kontaktowej": null,
     "zrodlo_url": null,
     "status": "nie_sprawdzono",
-    "notatka": null
+    "notatka": null,
+    "charakterystyka_realna": null,
+    "branza_typ": null
   },
   {
     "krs": "0000419616",
@@ -1949,7 +2191,9 @@
     "email_osoby_kontaktowej": null,
     "zrodlo_url": null,
     "status": "nie_sprawdzono",
-    "notatka": null
+    "notatka": null,
+    "charakterystyka_realna": null,
+    "branza_typ": null
   },
   {
     "krs": "0000423252",
@@ -1965,7 +2209,9 @@
     "email_osoby_kontaktowej": null,
     "zrodlo_url": null,
     "status": "nie_sprawdzono",
-    "notatka": null
+    "notatka": null,
+    "charakterystyka_realna": null,
+    "branza_typ": null
   },
   {
     "krs": "0000424471",
@@ -1981,7 +2227,9 @@
     "email_osoby_kontaktowej": null,
     "zrodlo_url": null,
     "status": "nie_sprawdzono",
-    "notatka": null
+    "notatka": null,
+    "charakterystyka_realna": null,
+    "branza_typ": null
   },
   {
     "krs": "0000429155",
@@ -1997,7 +2245,9 @@
     "email_osoby_kontaktowej": null,
     "zrodlo_url": null,
     "status": "nie_sprawdzono",
-    "notatka": null
+    "notatka": null,
+    "charakterystyka_realna": null,
+    "branza_typ": null
   },
   {
     "krs": "0000429191",
@@ -2013,7 +2263,9 @@
     "email_osoby_kontaktowej": null,
     "zrodlo_url": null,
     "status": "nie_sprawdzono",
-    "notatka": null
+    "notatka": null,
+    "charakterystyka_realna": null,
+    "branza_typ": null
   },
   {
     "krs": "0000433185",
@@ -2029,7 +2281,9 @@
     "email_osoby_kontaktowej": null,
     "zrodlo_url": null,
     "status": "nie_sprawdzono",
-    "notatka": null
+    "notatka": null,
+    "charakterystyka_realna": null,
+    "branza_typ": null
   },
   {
     "krs": "0000434568",
@@ -2045,7 +2299,9 @@
     "email_osoby_kontaktowej": null,
     "zrodlo_url": null,
     "status": "nie_sprawdzono",
-    "notatka": null
+    "notatka": null,
+    "charakterystyka_realna": null,
+    "branza_typ": null
   },
   {
     "krs": "0000437460",
@@ -2061,7 +2317,9 @@
     "email_osoby_kontaktowej": null,
     "zrodlo_url": null,
     "status": "nie_sprawdzono",
-    "notatka": null
+    "notatka": null,
+    "charakterystyka_realna": null,
+    "branza_typ": null
   },
   {
     "krs": "0000439213",
@@ -2077,7 +2335,9 @@
     "email_osoby_kontaktowej": null,
     "zrodlo_url": null,
     "status": "nie_sprawdzono",
-    "notatka": null
+    "notatka": null,
+    "charakterystyka_realna": null,
+    "branza_typ": null
   },
   {
     "krs": "0000439624",
@@ -2093,7 +2353,9 @@
     "email_osoby_kontaktowej": null,
     "zrodlo_url": null,
     "status": "nie_sprawdzono",
-    "notatka": null
+    "notatka": null,
+    "charakterystyka_realna": null,
+    "branza_typ": null
   },
   {
     "krs": "0000442083",
@@ -2109,7 +2371,9 @@
     "email_osoby_kontaktowej": null,
     "zrodlo_url": null,
     "status": "nie_sprawdzono",
-    "notatka": null
+    "notatka": null,
+    "charakterystyka_realna": null,
+    "branza_typ": null
   },
   {
     "krs": "0000443664",
@@ -2125,7 +2389,9 @@
     "email_osoby_kontaktowej": null,
     "zrodlo_url": null,
     "status": "nie_sprawdzono",
-    "notatka": null
+    "notatka": null,
+    "charakterystyka_realna": null,
+    "branza_typ": null
   },
   {
     "krs": "0000458144",
@@ -2141,7 +2407,9 @@
     "email_osoby_kontaktowej": null,
     "zrodlo_url": null,
     "status": "nie_sprawdzono",
-    "notatka": null
+    "notatka": null,
+    "charakterystyka_realna": null,
+    "branza_typ": null
   },
   {
     "krs": "0000462082",
@@ -2157,7 +2425,9 @@
     "email_osoby_kontaktowej": null,
     "zrodlo_url": null,
     "status": "nie_sprawdzono",
-    "notatka": null
+    "notatka": null,
+    "charakterystyka_realna": null,
+    "branza_typ": null
   },
   {
     "krs": "0000464098",
@@ -2173,7 +2443,9 @@
     "email_osoby_kontaktowej": null,
     "zrodlo_url": null,
     "status": "nie_sprawdzono",
-    "notatka": null
+    "notatka": null,
+    "charakterystyka_realna": null,
+    "branza_typ": null
   },
   {
     "krs": "0000468950",
@@ -2189,7 +2461,9 @@
     "email_osoby_kontaktowej": null,
     "zrodlo_url": null,
     "status": "nie_sprawdzono",
-    "notatka": null
+    "notatka": null,
+    "charakterystyka_realna": null,
+    "branza_typ": null
   },
   {
     "krs": "0000471971",
@@ -2205,7 +2479,9 @@
     "email_osoby_kontaktowej": null,
     "zrodlo_url": null,
     "status": "nie_sprawdzono",
-    "notatka": null
+    "notatka": null,
+    "charakterystyka_realna": null,
+    "branza_typ": null
   },
   {
     "krs": "0000472791",
@@ -2221,7 +2497,9 @@
     "email_osoby_kontaktowej": null,
     "zrodlo_url": null,
     "status": "nie_sprawdzono",
-    "notatka": null
+    "notatka": null,
+    "charakterystyka_realna": null,
+    "branza_typ": null
   },
   {
     "krs": "0000477637",
@@ -2237,7 +2515,9 @@
     "email_osoby_kontaktowej": null,
     "zrodlo_url": null,
     "status": "nie_sprawdzono",
-    "notatka": null
+    "notatka": null,
+    "charakterystyka_realna": null,
+    "branza_typ": null
   },
   {
     "krs": "0000478182",
@@ -2253,7 +2533,9 @@
     "email_osoby_kontaktowej": null,
     "zrodlo_url": null,
     "status": "nie_sprawdzono",
-    "notatka": null
+    "notatka": null,
+    "charakterystyka_realna": null,
+    "branza_typ": null
   },
   {
     "krs": "0000494847",
@@ -2269,7 +2551,9 @@
     "email_osoby_kontaktowej": null,
     "zrodlo_url": null,
     "status": "nie_sprawdzono",
-    "notatka": null
+    "notatka": null,
+    "charakterystyka_realna": null,
+    "branza_typ": null
   },
   {
     "krs": "0000497472",
@@ -2285,7 +2569,9 @@
     "email_osoby_kontaktowej": null,
     "zrodlo_url": null,
     "status": "nie_sprawdzono",
-    "notatka": null
+    "notatka": null,
+    "charakterystyka_realna": null,
+    "branza_typ": null
   },
   {
     "krs": "0000501795",
@@ -2301,7 +2587,9 @@
     "email_osoby_kontaktowej": null,
     "zrodlo_url": null,
     "status": "nie_sprawdzono",
-    "notatka": null
+    "notatka": null,
+    "charakterystyka_realna": null,
+    "branza_typ": null
   },
   {
     "krs": "0000509561",
@@ -2317,7 +2605,9 @@
     "email_osoby_kontaktowej": null,
     "zrodlo_url": null,
     "status": "nie_sprawdzono",
-    "notatka": null
+    "notatka": null,
+    "charakterystyka_realna": null,
+    "branza_typ": null
   },
   {
     "krs": "0000515100",
@@ -2333,7 +2623,9 @@
     "email_osoby_kontaktowej": null,
     "zrodlo_url": null,
     "status": "nie_sprawdzono",
-    "notatka": null
+    "notatka": null,
+    "charakterystyka_realna": null,
+    "branza_typ": null
   },
   {
     "krs": "0000516027",
@@ -2349,7 +2641,9 @@
     "email_osoby_kontaktowej": null,
     "zrodlo_url": null,
     "status": "nie_sprawdzono",
-    "notatka": null
+    "notatka": null,
+    "charakterystyka_realna": null,
+    "branza_typ": null
   },
   {
     "krs": "0000517842",
@@ -2365,7 +2659,9 @@
     "email_osoby_kontaktowej": null,
     "zrodlo_url": null,
     "status": "nie_sprawdzono",
-    "notatka": null
+    "notatka": null,
+    "charakterystyka_realna": null,
+    "branza_typ": null
   },
   {
     "krs": "0000518786",
@@ -2381,7 +2677,9 @@
     "email_osoby_kontaktowej": null,
     "zrodlo_url": null,
     "status": "nie_sprawdzono",
-    "notatka": null
+    "notatka": null,
+    "charakterystyka_realna": null,
+    "branza_typ": null
   },
   {
     "krs": "0000521093",
@@ -2397,7 +2695,9 @@
     "email_osoby_kontaktowej": null,
     "zrodlo_url": null,
     "status": "nie_sprawdzono",
-    "notatka": null
+    "notatka": null,
+    "charakterystyka_realna": null,
+    "branza_typ": null
   },
   {
     "krs": "0000524177",
@@ -2413,7 +2713,9 @@
     "email_osoby_kontaktowej": null,
     "zrodlo_url": null,
     "status": "nie_sprawdzono",
-    "notatka": null
+    "notatka": null,
+    "charakterystyka_realna": null,
+    "branza_typ": null
   },
   {
     "krs": "0000528517",
@@ -2429,7 +2731,9 @@
     "email_osoby_kontaktowej": null,
     "zrodlo_url": null,
     "status": "nie_sprawdzono",
-    "notatka": null
+    "notatka": null,
+    "charakterystyka_realna": null,
+    "branza_typ": null
   },
   {
     "krs": "0000528534",
@@ -2445,7 +2749,9 @@
     "email_osoby_kontaktowej": null,
     "zrodlo_url": null,
     "status": "nie_sprawdzono",
-    "notatka": null
+    "notatka": null,
+    "charakterystyka_realna": null,
+    "branza_typ": null
   },
   {
     "krs": "0000538549",
@@ -2461,7 +2767,9 @@
     "email_osoby_kontaktowej": null,
     "zrodlo_url": null,
     "status": "nie_sprawdzono",
-    "notatka": null
+    "notatka": null,
+    "charakterystyka_realna": null,
+    "branza_typ": null
   },
   {
     "krs": "0000539836",
@@ -2477,7 +2785,9 @@
     "email_osoby_kontaktowej": null,
     "zrodlo_url": null,
     "status": "nie_sprawdzono",
-    "notatka": null
+    "notatka": null,
+    "charakterystyka_realna": null,
+    "branza_typ": null
   },
   {
     "krs": "0000546643",
@@ -2493,7 +2803,9 @@
     "email_osoby_kontaktowej": null,
     "zrodlo_url": null,
     "status": "nie_sprawdzono",
-    "notatka": null
+    "notatka": null,
+    "charakterystyka_realna": null,
+    "branza_typ": null
   },
   {
     "krs": "0000551222",
@@ -2509,7 +2821,9 @@
     "email_osoby_kontaktowej": null,
     "zrodlo_url": null,
     "status": "nie_sprawdzono",
-    "notatka": null
+    "notatka": null,
+    "charakterystyka_realna": null,
+    "branza_typ": null
   },
   {
     "krs": "0000553247",
@@ -2525,7 +2839,9 @@
     "email_osoby_kontaktowej": null,
     "zrodlo_url": null,
     "status": "nie_sprawdzono",
-    "notatka": null
+    "notatka": null,
+    "charakterystyka_realna": null,
+    "branza_typ": null
   },
   {
     "krs": "0000553932",
@@ -2541,7 +2857,9 @@
     "email_osoby_kontaktowej": null,
     "zrodlo_url": null,
     "status": "nie_sprawdzono",
-    "notatka": null
+    "notatka": null,
+    "charakterystyka_realna": null,
+    "branza_typ": null
   },
   {
     "krs": "0000556033",
@@ -2557,7 +2875,9 @@
     "email_osoby_kontaktowej": null,
     "zrodlo_url": null,
     "status": "nie_sprawdzono",
-    "notatka": null
+    "notatka": null,
+    "charakterystyka_realna": null,
+    "branza_typ": null
   },
   {
     "krs": "0000563759",
@@ -2573,7 +2893,9 @@
     "email_osoby_kontaktowej": null,
     "zrodlo_url": null,
     "status": "nie_sprawdzono",
-    "notatka": null
+    "notatka": null,
+    "charakterystyka_realna": null,
+    "branza_typ": null
   },
   {
     "krs": "0000565921",
@@ -2589,7 +2911,9 @@
     "email_osoby_kontaktowej": null,
     "zrodlo_url": null,
     "status": "nie_sprawdzono",
-    "notatka": null
+    "notatka": null,
+    "charakterystyka_realna": null,
+    "branza_typ": null
   },
   {
     "krs": "0000569399",
@@ -2605,7 +2929,9 @@
     "email_osoby_kontaktowej": null,
     "zrodlo_url": null,
     "status": "nie_sprawdzono",
-    "notatka": null
+    "notatka": null,
+    "charakterystyka_realna": null,
+    "branza_typ": null
   },
   {
     "krs": "0000570130",
@@ -2621,7 +2947,9 @@
     "email_osoby_kontaktowej": null,
     "zrodlo_url": null,
     "status": "nie_sprawdzono",
-    "notatka": null
+    "notatka": null,
+    "charakterystyka_realna": null,
+    "branza_typ": null
   },
   {
     "krs": "0000570948",
@@ -2637,7 +2965,9 @@
     "email_osoby_kontaktowej": null,
     "zrodlo_url": null,
     "status": "nie_sprawdzono",
-    "notatka": null
+    "notatka": null,
+    "charakterystyka_realna": null,
+    "branza_typ": null
   },
   {
     "krs": "0000573269",
@@ -2653,7 +2983,9 @@
     "email_osoby_kontaktowej": null,
     "zrodlo_url": null,
     "status": "nie_sprawdzono",
-    "notatka": null
+    "notatka": null,
+    "charakterystyka_realna": null,
+    "branza_typ": null
   },
   {
     "krs": "0000576132",
@@ -2669,7 +3001,9 @@
     "email_osoby_kontaktowej": null,
     "zrodlo_url": null,
     "status": "nie_sprawdzono",
-    "notatka": null
+    "notatka": null,
+    "charakterystyka_realna": null,
+    "branza_typ": null
   },
   {
     "krs": "0000577605",
@@ -2685,7 +3019,9 @@
     "email_osoby_kontaktowej": null,
     "zrodlo_url": null,
     "status": "nie_sprawdzono",
-    "notatka": null
+    "notatka": null,
+    "charakterystyka_realna": null,
+    "branza_typ": null
   },
   {
     "krs": "0000581223",
@@ -2701,7 +3037,9 @@
     "email_osoby_kontaktowej": null,
     "zrodlo_url": null,
     "status": "nie_sprawdzono",
-    "notatka": null
+    "notatka": null,
+    "charakterystyka_realna": null,
+    "branza_typ": null
   },
   {
     "krs": "0000585483",
@@ -2717,7 +3055,9 @@
     "email_osoby_kontaktowej": null,
     "zrodlo_url": null,
     "status": "nie_sprawdzono",
-    "notatka": null
+    "notatka": null,
+    "charakterystyka_realna": null,
+    "branza_typ": null
   },
   {
     "krs": "0000588727",
@@ -2733,7 +3073,9 @@
     "email_osoby_kontaktowej": null,
     "zrodlo_url": null,
     "status": "nie_sprawdzono",
-    "notatka": null
+    "notatka": null,
+    "charakterystyka_realna": null,
+    "branza_typ": null
   },
   {
     "krs": "0000593203",
@@ -2749,7 +3091,9 @@
     "email_osoby_kontaktowej": null,
     "zrodlo_url": null,
     "status": "nie_sprawdzono",
-    "notatka": null
+    "notatka": null,
+    "charakterystyka_realna": null,
+    "branza_typ": null
   },
   {
     "krs": "0000598727",
@@ -2765,7 +3109,9 @@
     "email_osoby_kontaktowej": null,
     "zrodlo_url": null,
     "status": "nie_sprawdzono",
-    "notatka": null
+    "notatka": null,
+    "charakterystyka_realna": null,
+    "branza_typ": null
   },
   {
     "krs": "0000600505",
@@ -2781,7 +3127,9 @@
     "email_osoby_kontaktowej": null,
     "zrodlo_url": null,
     "status": "nie_sprawdzono",
-    "notatka": null
+    "notatka": null,
+    "charakterystyka_realna": null,
+    "branza_typ": null
   },
   {
     "krs": "0000600551",
@@ -2797,7 +3145,9 @@
     "email_osoby_kontaktowej": null,
     "zrodlo_url": null,
     "status": "nie_sprawdzono",
-    "notatka": null
+    "notatka": null,
+    "charakterystyka_realna": null,
+    "branza_typ": null
   },
   {
     "krs": "0000606712",
@@ -2813,7 +3163,9 @@
     "email_osoby_kontaktowej": null,
     "zrodlo_url": null,
     "status": "nie_sprawdzono",
-    "notatka": null
+    "notatka": null,
+    "charakterystyka_realna": null,
+    "branza_typ": null
   },
   {
     "krs": "0000607263",
@@ -2829,7 +3181,9 @@
     "email_osoby_kontaktowej": null,
     "zrodlo_url": null,
     "status": "nie_sprawdzono",
-    "notatka": null
+    "notatka": null,
+    "charakterystyka_realna": null,
+    "branza_typ": null
   },
   {
     "krs": "0000610553",
@@ -2845,7 +3199,9 @@
     "email_osoby_kontaktowej": null,
     "zrodlo_url": null,
     "status": "nie_sprawdzono",
-    "notatka": null
+    "notatka": null,
+    "charakterystyka_realna": null,
+    "branza_typ": null
   },
   {
     "krs": "0000621890",
@@ -2861,7 +3217,9 @@
     "email_osoby_kontaktowej": null,
     "zrodlo_url": null,
     "status": "nie_sprawdzono",
-    "notatka": null
+    "notatka": null,
+    "charakterystyka_realna": null,
+    "branza_typ": null
   },
   {
     "krs": "0000622287",
@@ -2877,7 +3235,9 @@
     "email_osoby_kontaktowej": null,
     "zrodlo_url": null,
     "status": "nie_sprawdzono",
-    "notatka": null
+    "notatka": null,
+    "charakterystyka_realna": null,
+    "branza_typ": null
   },
   {
     "krs": "0000623995",
@@ -2893,7 +3253,9 @@
     "email_osoby_kontaktowej": null,
     "zrodlo_url": null,
     "status": "nie_sprawdzono",
-    "notatka": null
+    "notatka": null,
+    "charakterystyka_realna": null,
+    "branza_typ": null
   },
   {
     "krs": "0000626174",
@@ -2909,7 +3271,9 @@
     "email_osoby_kontaktowej": null,
     "zrodlo_url": null,
     "status": "nie_sprawdzono",
-    "notatka": null
+    "notatka": null,
+    "charakterystyka_realna": null,
+    "branza_typ": null
   },
   {
     "krs": "0000626890",
@@ -2925,7 +3289,9 @@
     "email_osoby_kontaktowej": null,
     "zrodlo_url": null,
     "status": "nie_sprawdzono",
-    "notatka": null
+    "notatka": null,
+    "charakterystyka_realna": null,
+    "branza_typ": null
   },
   {
     "krs": "0000630792",
@@ -2941,7 +3307,9 @@
     "email_osoby_kontaktowej": null,
     "zrodlo_url": null,
     "status": "nie_sprawdzono",
-    "notatka": null
+    "notatka": null,
+    "charakterystyka_realna": null,
+    "branza_typ": null
   },
   {
     "krs": "0000636554",
@@ -2957,7 +3325,9 @@
     "email_osoby_kontaktowej": null,
     "zrodlo_url": null,
     "status": "nie_sprawdzono",
-    "notatka": null
+    "notatka": null,
+    "charakterystyka_realna": null,
+    "branza_typ": null
   },
   {
     "krs": "0000637028",
@@ -2973,7 +3343,9 @@
     "email_osoby_kontaktowej": null,
     "zrodlo_url": null,
     "status": "nie_sprawdzono",
-    "notatka": null
+    "notatka": null,
+    "charakterystyka_realna": null,
+    "branza_typ": null
   },
   {
     "krs": "0000639229",
@@ -2989,7 +3361,9 @@
     "email_osoby_kontaktowej": null,
     "zrodlo_url": null,
     "status": "nie_sprawdzono",
-    "notatka": null
+    "notatka": null,
+    "charakterystyka_realna": null,
+    "branza_typ": null
   },
   {
     "krs": "0000643785",
@@ -3005,7 +3379,9 @@
     "email_osoby_kontaktowej": null,
     "zrodlo_url": null,
     "status": "nie_sprawdzono",
-    "notatka": null
+    "notatka": null,
+    "charakterystyka_realna": null,
+    "branza_typ": null
   },
   {
     "krs": "0000658614",
@@ -3021,7 +3397,9 @@
     "email_osoby_kontaktowej": null,
     "zrodlo_url": null,
     "status": "nie_sprawdzono",
-    "notatka": null
+    "notatka": null,
+    "charakterystyka_realna": null,
+    "branza_typ": null
   },
   {
     "krs": "0000673936",
@@ -3037,7 +3415,9 @@
     "email_osoby_kontaktowej": null,
     "zrodlo_url": null,
     "status": "nie_sprawdzono",
-    "notatka": null
+    "notatka": null,
+    "charakterystyka_realna": null,
+    "branza_typ": null
   },
   {
     "krs": "0000674193",
@@ -3053,7 +3433,9 @@
     "email_osoby_kontaktowej": null,
     "zrodlo_url": null,
     "status": "nie_sprawdzono",
-    "notatka": null
+    "notatka": null,
+    "charakterystyka_realna": null,
+    "branza_typ": null
   },
   {
     "krs": "0000675270",
@@ -3069,7 +3451,9 @@
     "email_osoby_kontaktowej": null,
     "zrodlo_url": null,
     "status": "nie_sprawdzono",
-    "notatka": null
+    "notatka": null,
+    "charakterystyka_realna": null,
+    "branza_typ": null
   },
   {
     "krs": "0000682444",
@@ -3085,7 +3469,9 @@
     "email_osoby_kontaktowej": null,
     "zrodlo_url": null,
     "status": "nie_sprawdzono",
-    "notatka": null
+    "notatka": null,
+    "charakterystyka_realna": null,
+    "branza_typ": null
   },
   {
     "krs": "0000683371",
@@ -3101,7 +3487,9 @@
     "email_osoby_kontaktowej": null,
     "zrodlo_url": null,
     "status": "nie_sprawdzono",
-    "notatka": null
+    "notatka": null,
+    "charakterystyka_realna": null,
+    "branza_typ": null
   },
   {
     "krs": "0000687373",
@@ -3117,7 +3505,9 @@
     "email_osoby_kontaktowej": null,
     "zrodlo_url": null,
     "status": "nie_sprawdzono",
-    "notatka": null
+    "notatka": null,
+    "charakterystyka_realna": null,
+    "branza_typ": null
   },
   {
     "krs": "0000690041",
@@ -3133,7 +3523,9 @@
     "email_osoby_kontaktowej": null,
     "zrodlo_url": null,
     "status": "nie_sprawdzono",
-    "notatka": null
+    "notatka": null,
+    "charakterystyka_realna": null,
+    "branza_typ": null
   },
   {
     "krs": "0000693617",
@@ -3149,7 +3541,9 @@
     "email_osoby_kontaktowej": null,
     "zrodlo_url": null,
     "status": "nie_sprawdzono",
-    "notatka": null
+    "notatka": null,
+    "charakterystyka_realna": null,
+    "branza_typ": null
   },
   {
     "krs": "0000697193",
@@ -3165,7 +3559,9 @@
     "email_osoby_kontaktowej": null,
     "zrodlo_url": null,
     "status": "nie_sprawdzono",
-    "notatka": null
+    "notatka": null,
+    "charakterystyka_realna": null,
+    "branza_typ": null
   },
   {
     "krs": "0000697399",
@@ -3181,7 +3577,9 @@
     "email_osoby_kontaktowej": null,
     "zrodlo_url": null,
     "status": "nie_sprawdzono",
-    "notatka": null
+    "notatka": null,
+    "charakterystyka_realna": null,
+    "branza_typ": null
   },
   {
     "krs": "0000698336",
@@ -3197,7 +3595,9 @@
     "email_osoby_kontaktowej": null,
     "zrodlo_url": null,
     "status": "nie_sprawdzono",
-    "notatka": null
+    "notatka": null,
+    "charakterystyka_realna": null,
+    "branza_typ": null
   },
   {
     "krs": "0000698770",
@@ -3213,7 +3613,9 @@
     "email_osoby_kontaktowej": null,
     "zrodlo_url": null,
     "status": "nie_sprawdzono",
-    "notatka": null
+    "notatka": null,
+    "charakterystyka_realna": null,
+    "branza_typ": null
   },
   {
     "krs": "0000699917",
@@ -3229,7 +3631,9 @@
     "email_osoby_kontaktowej": null,
     "zrodlo_url": null,
     "status": "nie_sprawdzono",
-    "notatka": null
+    "notatka": null,
+    "charakterystyka_realna": null,
+    "branza_typ": null
   },
   {
     "krs": "0000700808",
@@ -3245,7 +3649,9 @@
     "email_osoby_kontaktowej": null,
     "zrodlo_url": null,
     "status": "nie_sprawdzono",
-    "notatka": null
+    "notatka": null,
+    "charakterystyka_realna": null,
+    "branza_typ": null
   },
   {
     "krs": "0000703653",
@@ -3261,7 +3667,9 @@
     "email_osoby_kontaktowej": null,
     "zrodlo_url": null,
     "status": "nie_sprawdzono",
-    "notatka": null
+    "notatka": null,
+    "charakterystyka_realna": null,
+    "branza_typ": null
   },
   {
     "krs": "0000705516",
@@ -3277,7 +3685,9 @@
     "email_osoby_kontaktowej": null,
     "zrodlo_url": null,
     "status": "nie_sprawdzono",
-    "notatka": null
+    "notatka": null,
+    "charakterystyka_realna": null,
+    "branza_typ": null
   },
   {
     "krs": "0000708935",
@@ -3293,7 +3703,9 @@
     "email_osoby_kontaktowej": null,
     "zrodlo_url": null,
     "status": "nie_sprawdzono",
-    "notatka": null
+    "notatka": null,
+    "charakterystyka_realna": null,
+    "branza_typ": null
   },
   {
     "krs": "0000710818",
@@ -3309,7 +3721,9 @@
     "email_osoby_kontaktowej": null,
     "zrodlo_url": null,
     "status": "nie_sprawdzono",
-    "notatka": null
+    "notatka": null,
+    "charakterystyka_realna": null,
+    "branza_typ": null
   },
   {
     "krs": "0000710994",
@@ -3325,7 +3739,9 @@
     "email_osoby_kontaktowej": null,
     "zrodlo_url": null,
     "status": "nie_sprawdzono",
-    "notatka": null
+    "notatka": null,
+    "charakterystyka_realna": null,
+    "branza_typ": null
   },
   {
     "krs": "0000721789",
@@ -3341,7 +3757,9 @@
     "email_osoby_kontaktowej": null,
     "zrodlo_url": null,
     "status": "nie_sprawdzono",
-    "notatka": null
+    "notatka": null,
+    "charakterystyka_realna": null,
+    "branza_typ": null
   },
   {
     "krs": "0000726821",
@@ -3357,7 +3775,9 @@
     "email_osoby_kontaktowej": null,
     "zrodlo_url": null,
     "status": "nie_sprawdzono",
-    "notatka": null
+    "notatka": null,
+    "charakterystyka_realna": null,
+    "branza_typ": null
   },
   {
     "krs": "0000730409",
@@ -3373,7 +3793,9 @@
     "email_osoby_kontaktowej": null,
     "zrodlo_url": null,
     "status": "nie_sprawdzono",
-    "notatka": null
+    "notatka": null,
+    "charakterystyka_realna": null,
+    "branza_typ": null
   },
   {
     "krs": "0000732603",
@@ -3389,7 +3811,9 @@
     "email_osoby_kontaktowej": null,
     "zrodlo_url": null,
     "status": "nie_sprawdzono",
-    "notatka": null
+    "notatka": null,
+    "charakterystyka_realna": null,
+    "branza_typ": null
   },
   {
     "krs": "0000737335",
@@ -3405,7 +3829,9 @@
     "email_osoby_kontaktowej": null,
     "zrodlo_url": null,
     "status": "nie_sprawdzono",
-    "notatka": null
+    "notatka": null,
+    "charakterystyka_realna": null,
+    "branza_typ": null
   },
   {
     "krs": "0000737508",
@@ -3421,7 +3847,9 @@
     "email_osoby_kontaktowej": null,
     "zrodlo_url": null,
     "status": "nie_sprawdzono",
-    "notatka": null
+    "notatka": null,
+    "charakterystyka_realna": null,
+    "branza_typ": null
   },
   {
     "krs": "0000743893",
@@ -3437,7 +3865,9 @@
     "email_osoby_kontaktowej": null,
     "zrodlo_url": null,
     "status": "nie_sprawdzono",
-    "notatka": null
+    "notatka": null,
+    "charakterystyka_realna": null,
+    "branza_typ": null
   },
   {
     "krs": "0000750394",
@@ -3453,7 +3883,9 @@
     "email_osoby_kontaktowej": null,
     "zrodlo_url": null,
     "status": "nie_sprawdzono",
-    "notatka": null
+    "notatka": null,
+    "charakterystyka_realna": null,
+    "branza_typ": null
   },
   {
     "krs": "0000756841",
@@ -3469,7 +3901,9 @@
     "email_osoby_kontaktowej": null,
     "zrodlo_url": null,
     "status": "nie_sprawdzono",
-    "notatka": null
+    "notatka": null,
+    "charakterystyka_realna": null,
+    "branza_typ": null
   },
   {
     "krs": "0000758897",
@@ -3485,7 +3919,9 @@
     "email_osoby_kontaktowej": null,
     "zrodlo_url": null,
     "status": "nie_sprawdzono",
-    "notatka": null
+    "notatka": null,
+    "charakterystyka_realna": null,
+    "branza_typ": null
   },
   {
     "krs": "0000759981",
@@ -3501,7 +3937,9 @@
     "email_osoby_kontaktowej": null,
     "zrodlo_url": null,
     "status": "nie_sprawdzono",
-    "notatka": null
+    "notatka": null,
+    "charakterystyka_realna": null,
+    "branza_typ": null
   },
   {
     "krs": "0000769858",
@@ -3517,7 +3955,9 @@
     "email_osoby_kontaktowej": null,
     "zrodlo_url": null,
     "status": "nie_sprawdzono",
-    "notatka": null
+    "notatka": null,
+    "charakterystyka_realna": null,
+    "branza_typ": null
   },
   {
     "krs": "0000774901",
@@ -3533,7 +3973,9 @@
     "email_osoby_kontaktowej": null,
     "zrodlo_url": null,
     "status": "nie_sprawdzono",
-    "notatka": null
+    "notatka": null,
+    "charakterystyka_realna": null,
+    "branza_typ": null
   },
   {
     "krs": "0000777258",
@@ -3549,7 +3991,9 @@
     "email_osoby_kontaktowej": null,
     "zrodlo_url": null,
     "status": "nie_sprawdzono",
-    "notatka": null
+    "notatka": null,
+    "charakterystyka_realna": null,
+    "branza_typ": null
   },
   {
     "krs": "0000777275",
@@ -3565,7 +4009,9 @@
     "email_osoby_kontaktowej": null,
     "zrodlo_url": null,
     "status": "nie_sprawdzono",
-    "notatka": null
+    "notatka": null,
+    "charakterystyka_realna": null,
+    "branza_typ": null
   },
   {
     "krs": "0000780514",
@@ -3581,7 +4027,9 @@
     "email_osoby_kontaktowej": null,
     "zrodlo_url": null,
     "status": "nie_sprawdzono",
-    "notatka": null
+    "notatka": null,
+    "charakterystyka_realna": null,
+    "branza_typ": null
   },
   {
     "krs": "0000780900",
@@ -3597,7 +4045,9 @@
     "email_osoby_kontaktowej": null,
     "zrodlo_url": null,
     "status": "nie_sprawdzono",
-    "notatka": null
+    "notatka": null,
+    "charakterystyka_realna": null,
+    "branza_typ": null
   },
   {
     "krs": "0000781483",
@@ -3613,7 +4063,9 @@
     "email_osoby_kontaktowej": null,
     "zrodlo_url": null,
     "status": "nie_sprawdzono",
-    "notatka": null
+    "notatka": null,
+    "charakterystyka_realna": null,
+    "branza_typ": null
   },
   {
     "krs": "0000784089",
@@ -3629,7 +4081,9 @@
     "email_osoby_kontaktowej": null,
     "zrodlo_url": null,
     "status": "nie_sprawdzono",
-    "notatka": null
+    "notatka": null,
+    "charakterystyka_realna": null,
+    "branza_typ": null
   },
   {
     "krs": "0000787390",
@@ -3645,7 +4099,9 @@
     "email_osoby_kontaktowej": null,
     "zrodlo_url": null,
     "status": "nie_sprawdzono",
-    "notatka": null
+    "notatka": null,
+    "charakterystyka_realna": null,
+    "branza_typ": null
   },
   {
     "krs": "0000794053",
@@ -3661,7 +4117,9 @@
     "email_osoby_kontaktowej": null,
     "zrodlo_url": null,
     "status": "nie_sprawdzono",
-    "notatka": null
+    "notatka": null,
+    "charakterystyka_realna": null,
+    "branza_typ": null
   },
   {
     "krs": "0000796895",
@@ -3677,7 +4135,9 @@
     "email_osoby_kontaktowej": null,
     "zrodlo_url": null,
     "status": "nie_sprawdzono",
-    "notatka": null
+    "notatka": null,
+    "charakterystyka_realna": null,
+    "branza_typ": null
   },
   {
     "krs": "0000805058",
@@ -3693,7 +4153,9 @@
     "email_osoby_kontaktowej": null,
     "zrodlo_url": null,
     "status": "nie_sprawdzono",
-    "notatka": null
+    "notatka": null,
+    "charakterystyka_realna": null,
+    "branza_typ": null
   },
   {
     "krs": "0000805148",
@@ -3709,7 +4171,9 @@
     "email_osoby_kontaktowej": null,
     "zrodlo_url": null,
     "status": "nie_sprawdzono",
-    "notatka": null
+    "notatka": null,
+    "charakterystyka_realna": null,
+    "branza_typ": null
   },
   {
     "krs": "0000809797",
@@ -3725,7 +4189,9 @@
     "email_osoby_kontaktowej": null,
     "zrodlo_url": null,
     "status": "nie_sprawdzono",
-    "notatka": null
+    "notatka": null,
+    "charakterystyka_realna": null,
+    "branza_typ": null
   },
   {
     "krs": "0000812837",
@@ -3741,7 +4207,9 @@
     "email_osoby_kontaktowej": null,
     "zrodlo_url": null,
     "status": "nie_sprawdzono",
-    "notatka": null
+    "notatka": null,
+    "charakterystyka_realna": null,
+    "branza_typ": null
   },
   {
     "krs": "0000828012",
@@ -3757,7 +4225,9 @@
     "email_osoby_kontaktowej": null,
     "zrodlo_url": null,
     "status": "nie_sprawdzono",
-    "notatka": null
+    "notatka": null,
+    "charakterystyka_realna": null,
+    "branza_typ": null
   },
   {
     "krs": "0000834289",
@@ -3773,7 +4243,9 @@
     "email_osoby_kontaktowej": null,
     "zrodlo_url": null,
     "status": "nie_sprawdzono",
-    "notatka": null
+    "notatka": null,
+    "charakterystyka_realna": null,
+    "branza_typ": null
   },
   {
     "krs": "0000835764",
@@ -3789,7 +4261,9 @@
     "email_osoby_kontaktowej": null,
     "zrodlo_url": null,
     "status": "nie_sprawdzono",
-    "notatka": null
+    "notatka": null,
+    "charakterystyka_realna": null,
+    "branza_typ": null
   },
   {
     "krs": "0000841814",
@@ -3805,7 +4279,9 @@
     "email_osoby_kontaktowej": null,
     "zrodlo_url": null,
     "status": "nie_sprawdzono",
-    "notatka": null
+    "notatka": null,
+    "charakterystyka_realna": null,
+    "branza_typ": null
   },
   {
     "krs": "0000843666",
@@ -3821,7 +4297,9 @@
     "email_osoby_kontaktowej": null,
     "zrodlo_url": null,
     "status": "nie_sprawdzono",
-    "notatka": null
+    "notatka": null,
+    "charakterystyka_realna": null,
+    "branza_typ": null
   },
   {
     "krs": "0000843781",
@@ -3837,7 +4315,9 @@
     "email_osoby_kontaktowej": null,
     "zrodlo_url": null,
     "status": "nie_sprawdzono",
-    "notatka": null
+    "notatka": null,
+    "charakterystyka_realna": null,
+    "branza_typ": null
   },
   {
     "krs": "0000849242",
@@ -3853,7 +4333,9 @@
     "email_osoby_kontaktowej": null,
     "zrodlo_url": null,
     "status": "nie_sprawdzono",
-    "notatka": null
+    "notatka": null,
+    "charakterystyka_realna": null,
+    "branza_typ": null
   },
   {
     "krs": "0000851142",
@@ -3869,7 +4351,9 @@
     "email_osoby_kontaktowej": null,
     "zrodlo_url": null,
     "status": "nie_sprawdzono",
-    "notatka": null
+    "notatka": null,
+    "charakterystyka_realna": null,
+    "branza_typ": null
   },
   {
     "krs": "0000852796",
@@ -3885,7 +4369,9 @@
     "email_osoby_kontaktowej": null,
     "zrodlo_url": null,
     "status": "nie_sprawdzono",
-    "notatka": null
+    "notatka": null,
+    "charakterystyka_realna": null,
+    "branza_typ": null
   },
   {
     "krs": "0000855921",
@@ -3901,7 +4387,9 @@
     "email_osoby_kontaktowej": null,
     "zrodlo_url": null,
     "status": "nie_sprawdzono",
-    "notatka": null
+    "notatka": null,
+    "charakterystyka_realna": null,
+    "branza_typ": null
   },
   {
     "krs": "0000859912",
@@ -3917,7 +4405,9 @@
     "email_osoby_kontaktowej": null,
     "zrodlo_url": null,
     "status": "nie_sprawdzono",
-    "notatka": null
+    "notatka": null,
+    "charakterystyka_realna": null,
+    "branza_typ": null
   },
   {
     "krs": "0000860094",
@@ -3933,7 +4423,9 @@
     "email_osoby_kontaktowej": null,
     "zrodlo_url": null,
     "status": "nie_sprawdzono",
-    "notatka": null
+    "notatka": null,
+    "charakterystyka_realna": null,
+    "branza_typ": null
   },
   {
     "krs": "0000860197",
@@ -3949,7 +4441,9 @@
     "email_osoby_kontaktowej": null,
     "zrodlo_url": null,
     "status": "nie_sprawdzono",
-    "notatka": null
+    "notatka": null,
+    "charakterystyka_realna": null,
+    "branza_typ": null
   },
   {
     "krs": "0000862218",
@@ -3965,7 +4459,9 @@
     "email_osoby_kontaktowej": null,
     "zrodlo_url": null,
     "status": "nie_sprawdzono",
-    "notatka": null
+    "notatka": null,
+    "charakterystyka_realna": null,
+    "branza_typ": null
   },
   {
     "krs": "0000862741",
@@ -3981,7 +4477,9 @@
     "email_osoby_kontaktowej": null,
     "zrodlo_url": null,
     "status": "nie_sprawdzono",
-    "notatka": null
+    "notatka": null,
+    "charakterystyka_realna": null,
+    "branza_typ": null
   },
   {
     "krs": "0000862828",
@@ -3997,7 +4495,9 @@
     "email_osoby_kontaktowej": null,
     "zrodlo_url": null,
     "status": "nie_sprawdzono",
-    "notatka": null
+    "notatka": null,
+    "charakterystyka_realna": null,
+    "branza_typ": null
   },
   {
     "krs": "0000866848",
@@ -4013,7 +4513,9 @@
     "email_osoby_kontaktowej": null,
     "zrodlo_url": null,
     "status": "nie_sprawdzono",
-    "notatka": null
+    "notatka": null,
+    "charakterystyka_realna": null,
+    "branza_typ": null
   },
   {
     "krs": "0000868143",
@@ -4029,7 +4531,9 @@
     "email_osoby_kontaktowej": null,
     "zrodlo_url": null,
     "status": "nie_sprawdzono",
-    "notatka": null
+    "notatka": null,
+    "charakterystyka_realna": null,
+    "branza_typ": null
   },
   {
     "krs": "0000871660",
@@ -4045,7 +4549,9 @@
     "email_osoby_kontaktowej": null,
     "zrodlo_url": null,
     "status": "nie_sprawdzono",
-    "notatka": null
+    "notatka": null,
+    "charakterystyka_realna": null,
+    "branza_typ": null
   },
   {
     "krs": "0000872812",
@@ -4061,7 +4567,9 @@
     "email_osoby_kontaktowej": null,
     "zrodlo_url": null,
     "status": "nie_sprawdzono",
-    "notatka": null
+    "notatka": null,
+    "charakterystyka_realna": null,
+    "branza_typ": null
   },
   {
     "krs": "0000872927",
@@ -4077,7 +4585,9 @@
     "email_osoby_kontaktowej": null,
     "zrodlo_url": null,
     "status": "nie_sprawdzono",
-    "notatka": null
+    "notatka": null,
+    "charakterystyka_realna": null,
+    "branza_typ": null
   },
   {
     "krs": "0000877535",
@@ -4093,7 +4603,9 @@
     "email_osoby_kontaktowej": null,
     "zrodlo_url": null,
     "status": "nie_sprawdzono",
-    "notatka": null
+    "notatka": null,
+    "charakterystyka_realna": null,
+    "branza_typ": null
   },
   {
     "krs": "0000879807",
@@ -4109,7 +4621,9 @@
     "email_osoby_kontaktowej": null,
     "zrodlo_url": null,
     "status": "nie_sprawdzono",
-    "notatka": null
+    "notatka": null,
+    "charakterystyka_realna": null,
+    "branza_typ": null
   },
   {
     "krs": "0000883548",
@@ -4125,7 +4639,9 @@
     "email_osoby_kontaktowej": null,
     "zrodlo_url": null,
     "status": "nie_sprawdzono",
-    "notatka": null
+    "notatka": null,
+    "charakterystyka_realna": null,
+    "branza_typ": null
   },
   {
     "krs": "0000888258",
@@ -4141,7 +4657,9 @@
     "email_osoby_kontaktowej": null,
     "zrodlo_url": null,
     "status": "nie_sprawdzono",
-    "notatka": null
+    "notatka": null,
+    "charakterystyka_realna": null,
+    "branza_typ": null
   },
   {
     "krs": "0000889819",
@@ -4157,7 +4675,9 @@
     "email_osoby_kontaktowej": null,
     "zrodlo_url": null,
     "status": "nie_sprawdzono",
-    "notatka": null
+    "notatka": null,
+    "charakterystyka_realna": null,
+    "branza_typ": null
   },
   {
     "krs": "0000895104",
@@ -4173,7 +4693,9 @@
     "email_osoby_kontaktowej": null,
     "zrodlo_url": null,
     "status": "nie_sprawdzono",
-    "notatka": null
+    "notatka": null,
+    "charakterystyka_realna": null,
+    "branza_typ": null
   },
   {
     "krs": "0000900516",
@@ -4189,7 +4711,9 @@
     "email_osoby_kontaktowej": null,
     "zrodlo_url": null,
     "status": "nie_sprawdzono",
-    "notatka": null
+    "notatka": null,
+    "charakterystyka_realna": null,
+    "branza_typ": null
   },
   {
     "krs": "0000902616",
@@ -4205,7 +4729,9 @@
     "email_osoby_kontaktowej": null,
     "zrodlo_url": null,
     "status": "nie_sprawdzono",
-    "notatka": null
+    "notatka": null,
+    "charakterystyka_realna": null,
+    "branza_typ": null
   },
   {
     "krs": "0000911341",
@@ -4221,7 +4747,9 @@
     "email_osoby_kontaktowej": null,
     "zrodlo_url": null,
     "status": "nie_sprawdzono",
-    "notatka": null
+    "notatka": null,
+    "charakterystyka_realna": null,
+    "branza_typ": null
   },
   {
     "krs": "0000920643",
@@ -4237,7 +4765,9 @@
     "email_osoby_kontaktowej": null,
     "zrodlo_url": null,
     "status": "nie_sprawdzono",
-    "notatka": null
+    "notatka": null,
+    "charakterystyka_realna": null,
+    "branza_typ": null
   },
   {
     "krs": "0000923846",
@@ -4253,7 +4783,9 @@
     "email_osoby_kontaktowej": null,
     "zrodlo_url": null,
     "status": "nie_sprawdzono",
-    "notatka": null
+    "notatka": null,
+    "charakterystyka_realna": null,
+    "branza_typ": null
   },
   {
     "krs": "0000935489",
@@ -4269,7 +4801,9 @@
     "email_osoby_kontaktowej": null,
     "zrodlo_url": null,
     "status": "nie_sprawdzono",
-    "notatka": null
+    "notatka": null,
+    "charakterystyka_realna": null,
+    "branza_typ": null
   },
   {
     "krs": "0000946850",
@@ -4285,7 +4819,9 @@
     "email_osoby_kontaktowej": null,
     "zrodlo_url": null,
     "status": "nie_sprawdzono",
-    "notatka": null
+    "notatka": null,
+    "charakterystyka_realna": null,
+    "branza_typ": null
   },
   {
     "krs": "0000949089",
@@ -4301,7 +4837,9 @@
     "email_osoby_kontaktowej": null,
     "zrodlo_url": null,
     "status": "nie_sprawdzono",
-    "notatka": null
+    "notatka": null,
+    "charakterystyka_realna": null,
+    "branza_typ": null
   },
   {
     "krs": "0000957504",
@@ -4317,7 +4855,9 @@
     "email_osoby_kontaktowej": null,
     "zrodlo_url": null,
     "status": "nie_sprawdzono",
-    "notatka": null
+    "notatka": null,
+    "charakterystyka_realna": null,
+    "branza_typ": null
   },
   {
     "krs": "0000962437",
@@ -4333,7 +4873,9 @@
     "email_osoby_kontaktowej": null,
     "zrodlo_url": null,
     "status": "nie_sprawdzono",
-    "notatka": null
+    "notatka": null,
+    "charakterystyka_realna": null,
+    "branza_typ": null
   },
   {
     "krs": "0000965463",
@@ -4349,7 +4891,9 @@
     "email_osoby_kontaktowej": null,
     "zrodlo_url": null,
     "status": "nie_sprawdzono",
-    "notatka": null
+    "notatka": null,
+    "charakterystyka_realna": null,
+    "branza_typ": null
   },
   {
     "krs": "0000966500",
@@ -4365,7 +4909,9 @@
     "email_osoby_kontaktowej": null,
     "zrodlo_url": null,
     "status": "nie_sprawdzono",
-    "notatka": null
+    "notatka": null,
+    "charakterystyka_realna": null,
+    "branza_typ": null
   },
   {
     "krs": "0000967813",
@@ -4381,7 +4927,9 @@
     "email_osoby_kontaktowej": null,
     "zrodlo_url": null,
     "status": "nie_sprawdzono",
-    "notatka": null
+    "notatka": null,
+    "charakterystyka_realna": null,
+    "branza_typ": null
   },
   {
     "krs": "0000969807",
@@ -4397,7 +4945,9 @@
     "email_osoby_kontaktowej": null,
     "zrodlo_url": null,
     "status": "nie_sprawdzono",
-    "notatka": null
+    "notatka": null,
+    "charakterystyka_realna": null,
+    "branza_typ": null
   },
   {
     "krs": "0000971156",
@@ -4413,7 +4963,9 @@
     "email_osoby_kontaktowej": null,
     "zrodlo_url": null,
     "status": "nie_sprawdzono",
-    "notatka": null
+    "notatka": null,
+    "charakterystyka_realna": null,
+    "branza_typ": null
   },
   {
     "krs": "0000972286",
@@ -4429,7 +4981,9 @@
     "email_osoby_kontaktowej": null,
     "zrodlo_url": null,
     "status": "nie_sprawdzono",
-    "notatka": null
+    "notatka": null,
+    "charakterystyka_realna": null,
+    "branza_typ": null
   },
   {
     "krs": "0000972533",
@@ -4445,7 +4999,9 @@
     "email_osoby_kontaktowej": null,
     "zrodlo_url": null,
     "status": "nie_sprawdzono",
-    "notatka": null
+    "notatka": null,
+    "charakterystyka_realna": null,
+    "branza_typ": null
   },
   {
     "krs": "0000972710",
@@ -4461,7 +5017,9 @@
     "email_osoby_kontaktowej": null,
     "zrodlo_url": null,
     "status": "nie_sprawdzono",
-    "notatka": null
+    "notatka": null,
+    "charakterystyka_realna": null,
+    "branza_typ": null
   },
   {
     "krs": "0000973329",
@@ -4477,7 +5035,9 @@
     "email_osoby_kontaktowej": null,
     "zrodlo_url": null,
     "status": "nie_sprawdzono",
-    "notatka": null
+    "notatka": null,
+    "charakterystyka_realna": null,
+    "branza_typ": null
   },
   {
     "krs": "0000975899",
@@ -4493,7 +5053,9 @@
     "email_osoby_kontaktowej": null,
     "zrodlo_url": null,
     "status": "nie_sprawdzono",
-    "notatka": null
+    "notatka": null,
+    "charakterystyka_realna": null,
+    "branza_typ": null
   },
   {
     "krs": "0000981494",
@@ -4509,7 +5071,9 @@
     "email_osoby_kontaktowej": null,
     "zrodlo_url": null,
     "status": "nie_sprawdzono",
-    "notatka": null
+    "notatka": null,
+    "charakterystyka_realna": null,
+    "branza_typ": null
   },
   {
     "krs": "0000986572",
@@ -4525,7 +5089,9 @@
     "email_osoby_kontaktowej": null,
     "zrodlo_url": null,
     "status": "nie_sprawdzono",
-    "notatka": null
+    "notatka": null,
+    "charakterystyka_realna": null,
+    "branza_typ": null
   },
   {
     "krs": "0000987952",
@@ -4541,7 +5107,9 @@
     "email_osoby_kontaktowej": null,
     "zrodlo_url": null,
     "status": "nie_sprawdzono",
-    "notatka": null
+    "notatka": null,
+    "charakterystyka_realna": null,
+    "branza_typ": null
   },
   {
     "krs": "0000995909",
@@ -4557,7 +5125,9 @@
     "email_osoby_kontaktowej": null,
     "zrodlo_url": null,
     "status": "nie_sprawdzono",
-    "notatka": null
+    "notatka": null,
+    "charakterystyka_realna": null,
+    "branza_typ": null
   },
   {
     "krs": "0000996924",
@@ -4573,7 +5143,9 @@
     "email_osoby_kontaktowej": null,
     "zrodlo_url": null,
     "status": "nie_sprawdzono",
-    "notatka": null
+    "notatka": null,
+    "charakterystyka_realna": null,
+    "branza_typ": null
   },
   {
     "krs": "0001003714",
@@ -4589,7 +5161,9 @@
     "email_osoby_kontaktowej": null,
     "zrodlo_url": null,
     "status": "nie_sprawdzono",
-    "notatka": null
+    "notatka": null,
+    "charakterystyka_realna": null,
+    "branza_typ": null
   },
   {
     "krs": "0001007526",
@@ -4605,7 +5179,9 @@
     "email_osoby_kontaktowej": null,
     "zrodlo_url": null,
     "status": "nie_sprawdzono",
-    "notatka": null
+    "notatka": null,
+    "charakterystyka_realna": null,
+    "branza_typ": null
   },
   {
     "krs": "0001018453",
@@ -4621,7 +5197,9 @@
     "email_osoby_kontaktowej": null,
     "zrodlo_url": null,
     "status": "nie_sprawdzono",
-    "notatka": null
+    "notatka": null,
+    "charakterystyka_realna": null,
+    "branza_typ": null
   },
   {
     "krs": "0001030592",
@@ -4637,7 +5215,9 @@
     "email_osoby_kontaktowej": null,
     "zrodlo_url": null,
     "status": "nie_sprawdzono",
-    "notatka": null
+    "notatka": null,
+    "charakterystyka_realna": null,
+    "branza_typ": null
   },
   {
     "krs": "0001039845",
@@ -4653,7 +5233,9 @@
     "email_osoby_kontaktowej": null,
     "zrodlo_url": null,
     "status": "nie_sprawdzono",
-    "notatka": null
+    "notatka": null,
+    "charakterystyka_realna": null,
+    "branza_typ": null
   },
   {
     "krs": "0001040538",
@@ -4669,7 +5251,9 @@
     "email_osoby_kontaktowej": null,
     "zrodlo_url": null,
     "status": "nie_sprawdzono",
-    "notatka": null
+    "notatka": null,
+    "charakterystyka_realna": null,
+    "branza_typ": null
   },
   {
     "krs": "0001053973",
@@ -4685,7 +5269,9 @@
     "email_osoby_kontaktowej": null,
     "zrodlo_url": null,
     "status": "nie_sprawdzono",
-    "notatka": null
+    "notatka": null,
+    "charakterystyka_realna": null,
+    "branza_typ": null
   },
   {
     "krs": "0001054010",
@@ -4701,7 +5287,9 @@
     "email_osoby_kontaktowej": null,
     "zrodlo_url": null,
     "status": "nie_sprawdzono",
-    "notatka": null
+    "notatka": null,
+    "charakterystyka_realna": null,
+    "branza_typ": null
   },
   {
     "krs": "0001054164",
@@ -4717,7 +5305,9 @@
     "email_osoby_kontaktowej": null,
     "zrodlo_url": null,
     "status": "nie_sprawdzono",
-    "notatka": null
+    "notatka": null,
+    "charakterystyka_realna": null,
+    "branza_typ": null
   },
   {
     "krs": "0001054227",
@@ -4733,7 +5323,9 @@
     "email_osoby_kontaktowej": null,
     "zrodlo_url": null,
     "status": "nie_sprawdzono",
-    "notatka": null
+    "notatka": null,
+    "charakterystyka_realna": null,
+    "branza_typ": null
   },
   {
     "krs": "0001054579",
@@ -4749,7 +5341,9 @@
     "email_osoby_kontaktowej": null,
     "zrodlo_url": null,
     "status": "nie_sprawdzono",
-    "notatka": null
+    "notatka": null,
+    "charakterystyka_realna": null,
+    "branza_typ": null
   },
   {
     "krs": "0001059139",
@@ -4765,7 +5359,9 @@
     "email_osoby_kontaktowej": null,
     "zrodlo_url": null,
     "status": "nie_sprawdzono",
-    "notatka": null
+    "notatka": null,
+    "charakterystyka_realna": null,
+    "branza_typ": null
   },
   {
     "krs": "0001059678",
@@ -4781,7 +5377,9 @@
     "email_osoby_kontaktowej": null,
     "zrodlo_url": null,
     "status": "nie_sprawdzono",
-    "notatka": null
+    "notatka": null,
+    "charakterystyka_realna": null,
+    "branza_typ": null
   },
   {
     "krs": "0001065784",
@@ -4797,7 +5395,9 @@
     "email_osoby_kontaktowej": null,
     "zrodlo_url": null,
     "status": "nie_sprawdzono",
-    "notatka": null
+    "notatka": null,
+    "charakterystyka_realna": null,
+    "branza_typ": null
   },
   {
     "krs": "0001069082",
@@ -4813,7 +5413,9 @@
     "email_osoby_kontaktowej": null,
     "zrodlo_url": null,
     "status": "nie_sprawdzono",
-    "notatka": null
+    "notatka": null,
+    "charakterystyka_realna": null,
+    "branza_typ": null
   },
   {
     "krs": "0001077157",
@@ -4829,7 +5431,9 @@
     "email_osoby_kontaktowej": null,
     "zrodlo_url": null,
     "status": "nie_sprawdzono",
-    "notatka": null
+    "notatka": null,
+    "charakterystyka_realna": null,
+    "branza_typ": null
   },
   {
     "krs": "0001082504",
@@ -4845,7 +5449,9 @@
     "email_osoby_kontaktowej": null,
     "zrodlo_url": null,
     "status": "nie_sprawdzono",
-    "notatka": null
+    "notatka": null,
+    "charakterystyka_realna": null,
+    "branza_typ": null
   },
   {
     "krs": "0001083398",
@@ -4861,7 +5467,9 @@
     "email_osoby_kontaktowej": null,
     "zrodlo_url": null,
     "status": "nie_sprawdzono",
-    "notatka": null
+    "notatka": null,
+    "charakterystyka_realna": null,
+    "branza_typ": null
   },
   {
     "krs": "0001086343",
@@ -4877,7 +5485,9 @@
     "email_osoby_kontaktowej": null,
     "zrodlo_url": null,
     "status": "nie_sprawdzono",
-    "notatka": null
+    "notatka": null,
+    "charakterystyka_realna": null,
+    "branza_typ": null
   },
   {
     "krs": "0001101722",
@@ -4893,7 +5503,9 @@
     "email_osoby_kontaktowej": null,
     "zrodlo_url": null,
     "status": "nie_sprawdzono",
-    "notatka": null
+    "notatka": null,
+    "charakterystyka_realna": null,
+    "branza_typ": null
   },
   {
     "krs": "0001108116",
@@ -4909,7 +5521,9 @@
     "email_osoby_kontaktowej": null,
     "zrodlo_url": null,
     "status": "nie_sprawdzono",
-    "notatka": null
+    "notatka": null,
+    "charakterystyka_realna": null,
+    "branza_typ": null
   },
   {
     "krs": "0001133422",
@@ -4925,7 +5539,9 @@
     "email_osoby_kontaktowej": null,
     "zrodlo_url": null,
     "status": "nie_sprawdzono",
-    "notatka": null
+    "notatka": null,
+    "charakterystyka_realna": null,
+    "branza_typ": null
   },
   {
     "krs": "0001195949",
@@ -4941,7 +5557,9 @@
     "email_osoby_kontaktowej": null,
     "zrodlo_url": null,
     "status": "nie_sprawdzono",
-    "notatka": null
+    "notatka": null,
+    "charakterystyka_realna": null,
+    "branza_typ": null
   },
   {
     "krs": "0001223849",
@@ -4957,6 +5575,8 @@
     "email_osoby_kontaktowej": null,
     "zrodlo_url": null,
     "status": "nie_sprawdzono",
-    "notatka": null
+    "notatka": null,
+    "charakterystyka_realna": null,
+    "branza_typ": null
   }
 ]
