@@ -1171,7 +1171,8 @@ DOMENY_REJESTROW_DO_POMINIECIA = [
     "bing.com", "duckduckgo.com", "wikipedia.org", "youtube.com",
     "facebook.com", "instagram.com", "linkedin.com", "twitter.com", "x.com",
     "cylex-polska.pl", "cylex.pl", "firmy.net", "biznes-firmy.pl",
-    "oferteo.pl", "panoramafirm.eu",
+    "oferteo.pl", "panoramafirm.eu", "pkt.pl", "firmy.pwginfo.pl",
+    "mapa.targeo.pl", "zumi.pl", "firmania.pl",
 ]
 
 
