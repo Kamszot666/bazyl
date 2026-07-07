@@ -3437,3 +3437,108 @@ Call log:
 KONTAKT_SPRAWDZONY — 0000935489 — https://fundacjaobronypraw.pl | INFO | 2026-07-07 19:08:16
 START_SKRYPTU — Zadanie: organizacje_polonijne | INFO | 2026-07-07 19:08:38
 KONTAKT_SPRAWDZONY — 0000949089 — https://www.fundacjarozwojuszkolnictwawyzszego.pl | INFO | 2026-07-07 19:08:46
+START_SKRYPTU — Zadanie: organizacje_polonijne | INFO | 2026-07-07 19:09:55
+KONTAKT_SPRAWDZONY — 0000966500 — https://fundacjamistrzowiesportu.pl | INFO | 2026-07-07 19:10:01
+START_SKRYPTU — Zadanie: organizacje_polonijne | INFO | 2026-07-07 19:10:02
+POBIERANIE_KONTAKTU https://centrumpograniczekultur.pl — 502 Bad Gateway | ERROR | 2026-07-07 19:10:02
+PLAYWRIGHT https://centrumpograniczekultur.pl — Page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://centrumpograniczekultur.pl/
+Call log:
+  - navigating to "https://centrumpograniczekultur.pl/", waiting until "domcontentloaded"
+ | ERROR | 2026-07-07 19:10:04
+POBIERANIE_KONTAKTU https://centrumpograniczekultur.pl/kontakt — 502 Bad Gateway | ERROR | 2026-07-07 19:10:04
+PLAYWRIGHT https://centrumpograniczekultur.pl/kontakt — Page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://centrumpograniczekultur.pl/kontakt
+Call log:
+  - navigating to "https://centrumpograniczekultur.pl/kontakt", waiting until "domcontentloaded"
+ | ERROR | 2026-07-07 19:10:05
+POBIERANIE_KONTAKTU https://centrumpograniczekultur.pl/kontakty — 502 Bad Gateway | ERROR | 2026-07-07 19:10:06
+PLAYWRIGHT https://centrumpograniczekultur.pl/kontakty — Page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://centrumpograniczekultur.pl/kontakty
+Call log:
+  - navigating to "https://centrumpograniczekultur.pl/kontakty", waiting until "domcontentloaded"
+ | ERROR | 2026-07-07 19:10:07
+POBIERANIE_KONTAKTU https://centrumpograniczekultur.pl/o-nas — 502 Bad Gateway | ERROR | 2026-07-07 19:10:07
+PLAYWRIGHT https://centrumpograniczekultur.pl/o-nas — Page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://centrumpograniczekultur.pl/o-nas
+Call log:
+  - navigating to "https://centrumpograniczekultur.pl/o-nas", waiting until "domcontentloaded"
+ | ERROR | 2026-07-07 19:10:08
+POBIERANIE_KONTAKTU https://centrumpograniczekultur.pl/contact — 502 Bad Gateway | ERROR | 2026-07-07 19:10:09
+PLAYWRIGHT https://centrumpograniczekultur.pl/contact — Page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://centrumpograniczekultur.pl/contact
+Call log:
+  - navigating to "https://centrumpograniczekultur.pl/contact", waiting until "domcontentloaded"
+ | ERROR | 2026-07-07 19:10:10
+KONTAKT_SPRAWDZONY — 0000967813 — https://centrumpograniczekultur.pl | INFO | 2026-07-07 19:10:10
+START_SKRYPTU — Zadanie: organizacje_polonijne | INFO | 2026-07-07 19:10:36
+KONTAKT_SPRAWDZONY — 0000972286 — https://fundacja.folkowisko.org | INFO | 2026-07-07 19:10:44
+START_SKRYPTU — Zadanie: organizacje_polonijne | INFO | 2026-07-07 19:10:45
+POBIERANIE_KONTAKTU https://znurtemdanielki.pl/kontakt — Client error '404 Not Found' for url 'https://znurtemdanielki.pl/kontakt'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404 | ERROR | 2026-07-07 19:10:51
+PLAYWRIGHT https://znurtemdanielki.pl/kontakt — Page.goto: net::ERR_CONNECTION_RESET at https://znurtemdanielki.pl/kontakt
+Call log:
+  - navigating to "https://znurtemdanielki.pl/kontakt", waiting until "domcontentloaded"
+ | ERROR | 2026-07-07 19:11:04
+POBIERANIE_KONTAKTU https://znurtemdanielki.pl/kontakty — Client error '404 Not Found' for url 'https://znurtemdanielki.pl/kontakty'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404 | ERROR | 2026-07-07 19:11:06
+PLAYWRIGHT https://znurtemdanielki.pl/kontakty — Page.goto: net::ERR_CONNECTION_RESET at https://znurtemdanielki.pl/kontakty
+Call log:
+  - navigating to "https://znurtemdanielki.pl/kontakty", waiting until "domcontentloaded"
+ | ERROR | 2026-07-07 19:11:20
+POBIERANIE_KONTAKTU https://znurtemdanielki.pl/o-nas — Client error '404 Not Found' for url 'https://znurtemdanielki.pl/o-nas'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404 | ERROR | 2026-07-07 19:11:21
+PLAYWRIGHT https://znurtemdanielki.pl/o-nas — Page.goto: net::ERR_CONNECTION_RESET at https://znurtemdanielki.pl/o-nas
+Call log:
+  - navigating to "https://znurtemdanielki.pl/o-nas", waiting until "domcontentloaded"
+ | ERROR | 2026-07-07 19:11:35
+POBIERANIE_KONTAKTU https://znurtemdanielki.pl/contact — Client error '404 Not Found' for url 'https://znurtemdanielki.pl/contact'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404 | ERROR | 2026-07-07 19:11:36
+PLAYWRIGHT https://znurtemdanielki.pl/contact — Page.goto: net::ERR_CONNECTION_RESET at https://znurtemdanielki.pl/contact
+Call log:
+  - navigating to "https://znurtemdanielki.pl/contact", waiting until "domcontentloaded"
+ | ERROR | 2026-07-07 19:11:49
+KONTAKT_SPRAWDZONY — 0000972533 — https://znurtemdanielki.pl | INFO | 2026-07-07 19:11:49
+START_SKRYPTU — Zadanie: organizacje_polonijne | INFO | 2026-07-07 19:12:14
+KONTAKT_SPRAWDZONY — 0000971156 — https://instytutkaliski.pl | INFO | 2026-07-07 19:12:20
+START_SKRYPTU — Zadanie: organizacje_polonijne | INFO | 2026-07-07 19:12:20
+PLAYWRIGHT https://60mln.pl — Page.goto: net::ERR_CONNECTION_RESET at https://60mln.pl/
+Call log:
+  - navigating to "https://60mln.pl/", waiting until "domcontentloaded"
+ | ERROR | 2026-07-07 19:12:36
+PLAYWRIGHT https://60mln.pl/kontakt — Page.goto: net::ERR_CONNECTION_RESET at https://60mln.pl/kontakt
+Call log:
+  - navigating to "https://60mln.pl/kontakt", waiting until "domcontentloaded"
+ | ERROR | 2026-07-07 19:12:53
+PLAYWRIGHT https://60mln.pl/kontakty — Page.goto: net::ERR_CONNECTION_RESET at https://60mln.pl/kontakty
+Call log:
+  - navigating to "https://60mln.pl/kontakty", waiting until "domcontentloaded"
+ | ERROR | 2026-07-07 19:13:10
+PLAYWRIGHT https://60mln.pl/o-nas — Page.goto: net::ERR_CONNECTION_RESET at https://60mln.pl/o-nas
+Call log:
+  - navigating to "https://60mln.pl/o-nas", waiting until "domcontentloaded"
+ | ERROR | 2026-07-07 19:13:27
+PLAYWRIGHT https://60mln.pl/contact — Page.goto: net::ERR_CONNECTION_RESET at https://60mln.pl/contact
+Call log:
+  - navigating to "https://60mln.pl/contact", waiting until "domcontentloaded"
+ | ERROR | 2026-07-07 19:13:44
+KONTAKT_SPRAWDZONY — 0000972710 — https://60mln.pl | INFO | 2026-07-07 19:13:47
+START_SKRYPTU — Zadanie: organizacje_polonijne | INFO | 2026-07-07 19:13:48
+KONTAKT_SPRAWDZONY — 0000973329 — https://activni.pl | INFO | 2026-07-07 19:13:51
+START_SKRYPTU — Zadanie: organizacje_polonijne | INFO | 2026-07-07 19:13:58
+PLAYWRIGHT https://60mln.pl/fundacja — Page.goto: net::ERR_CONNECTION_RESET at https://60mln.pl/fundacja
+Call log:
+  - navigating to "https://60mln.pl/fundacja", waiting until "domcontentloaded"
+ | ERROR | 2026-07-07 19:14:14
+PLAYWRIGHT https://60mln.pl/kontakt — Page.goto: net::ERR_CONNECTION_RESET at https://60mln.pl/kontakt
+Call log:
+  - navigating to "https://60mln.pl/kontakt", waiting until "domcontentloaded"
+ | ERROR | 2026-07-07 19:14:32
+PLAYWRIGHT https://60mln.pl/kontakty — Page.goto: net::ERR_CONNECTION_RESET at https://60mln.pl/kontakty
+Call log:
+  - navigating to "https://60mln.pl/kontakty", waiting until "domcontentloaded"
+ | ERROR | 2026-07-07 19:14:50
+PLAYWRIGHT https://60mln.pl/o-nas — Page.goto: net::ERR_CONNECTION_RESET at https://60mln.pl/o-nas
+Call log:
+  - navigating to "https://60mln.pl/o-nas", waiting until "domcontentloaded"
+ | ERROR | 2026-07-07 19:15:08
+PLAYWRIGHT https://60mln.pl/contact — Page.goto: net::ERR_CONNECTION_RESET at https://60mln.pl/contact
+Call log:
+  - navigating to "https://60mln.pl/contact", waiting until "domcontentloaded"
+ | ERROR | 2026-07-07 19:15:25
+KONTAKT_SPRAWDZONY — 0000972710 — https://60mln.pl/fundacja | INFO | 2026-07-07 19:15:27
