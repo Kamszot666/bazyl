@@ -21,6 +21,7 @@ import logging
 import random
 import re
 import sys
+import threading
 import time
 import urllib.parse
 from collections import defaultdict
@@ -79,13 +80,6 @@ CONFIG = {
         "facebook.com", "instagram.com", "linkedin.com",
         "youtube.com", "x.com", "twitter.com",
     ],
-    # Próg długości tekstu strony, poniżej którego uznajemy stronę za
-    # renderowaną przez JavaScript i sięgamy po selenium (patrz historia
-    # rozmowy — w tym środowisku deweloperskim selenium ma problem z
-    # serwerem proxy, ale na docelowym komputerze Windows bez proxy
-    # powinno działać bez przeszkód).
-    "prog_dlugosci_tekstu_js": 200,
-
     # Każdy adres poniżej zweryfikowano ręcznie przez realne pobranie strony
     # (patrz historia rozmowy — nazwa i podział konkursu zmienia się rok do
     # roku, więc NIE da się zbudować jednego wzorca adresu zależnego od roku).
@@ -1257,53 +1251,120 @@ def _tekst_i_soup_ze_strony(url: str, session: requests.Session) -> tuple[str, B
     return soup.get_text(" ", strip=True), soup
 
 
-def pobierz_dane_kontaktowe_selenium(url: str) -> tuple[str, str] | None:
+def _nowy_sterownik_selenium():
     """
-    Pobiera stronę renderowaną przez JavaScript przez headless Chrome (selenium).
-    Używane tylko jako zapasowa metoda, gdy zwykłe pobranie przez requests
-    zwraca podejrzanie mało tekstu (patrz prog_dlugosci_tekstu_js w CONFIG).
+    Uruchamia headless Chrome przez selenium — podstawowe narzędzie Etapu 4
+    (renderuje stronę tak jak zrobiłaby to przeglądarka, więc działa
+    niezależnie od tego, czy strona jest statyczna, czy ładowana przez
+    JavaScript — patrz CLAUDE.md, sekcja metodyki pozyskiwania danych).
 
-    UWAGA ze środowiska deweloperskiego: w tym środowisku (sandbox z
-    pośredniczącym serwerem proxy) połączenia HTTPS z poziomu Chrome przez
-    ten proxy się zrywają, mimo że requests przez ten sam proxy działa
-    poprawnie — to ograniczenie tego konkretnego środowiska testowego, nie
-    błąd w tym kodzie. Na docelowym komputerze Windows bez takiego proxy
-    ta funkcja powinna działać bez dodatkowej konfiguracji.
+    UWAGA ze środowiska deweloperskiego, w którym ten kod był pisany: w tym
+    konkretnym sandboksie połączenia HTTPS z poziomu Chrome przez tamtejszy
+    pośredniczący serwer proxy się zrywały, mimo że requests przez ten sam
+    proxy działał poprawnie — to ograniczenie tamtego środowiska testowego,
+    nie błąd w tym kodzie. Na docelowym komputerze Windows bez takiego
+    proxy selenium powinno uruchomić się bez dodatkowej konfiguracji.
     """
     from selenium import webdriver
     from selenium.webdriver.chrome.options import Options
-    from selenium.webdriver.common.by import By
 
     opcje = Options()
     opcje.add_argument("--headless=new")
     opcje.add_argument("--no-sandbox")
     opcje.add_argument("--disable-dev-shm-usage")
     opcje.add_argument(f"user-agent={HEADERS['User-Agent']}")
+    return webdriver.Chrome(options=opcje)
 
-    sterownik = webdriver.Chrome(options=opcje)
-    try:
-        sterownik.set_page_load_timeout(CONFIG["request_timeout"])
-        sterownik.get(url)
-        time.sleep(2)  # czas na dorenderowanie treści przez JavaScript
-        tekst = sterownik.find_element(By.TAG_NAME, "body").text
-        html = sterownik.page_source
-    except Exception as e:
-        log_event(f"SELENIUM {url[:60]}", False, str(e))
+
+def _zamknij_sterownik_w_tle(sterownik):
+    """
+    Zamyka sesję selenium w osobnym wątku-demonie, nie czekając na zakończenie.
+    Zwykłe sterownik.quit() potrafi się zawiesić razem z zawieszoną sesją
+    przeglądarki — a zamykanie przeglądarki nie powinno nigdy zablokować
+    reszty skryptu.
+    """
+    threading.Thread(target=sterownik.quit, daemon=True).start()
+
+
+def _tekst_i_html_selenium(sterownik, url: str) -> tuple[str, str] | None:
+    """
+    Pobiera jedną stronę już uruchomioną sesją selenium i zwraca (tekst, html).
+
+    set_page_load_timeout() bywa niewystarczające, gdy problem występuje
+    poniżej warstwy Selenium (np. sieć/proxy nigdy nie odpowiada) — dlatego
+    całe pobranie strony uruchamiamy w osobnym wątku z twardym limitem czasu
+    (działa niezależnie od systemu, w tym na Windows, w odróżnieniu od
+    sygnałów uniksowych). Jeśli wątek nie zdąży, zwracamy None — funkcja
+    wywołująca przechodzi wtedy na requests jako zapasową metodę.
+    """
+    from selenium.webdriver.common.by import By
+
+    wynik = {}
+
+    def _pobierz():
+        try:
+            sterownik.set_page_load_timeout(CONFIG["request_timeout"])
+            sterownik.get(url)
+            time.sleep(2)  # czas na dorenderowanie treści przez JavaScript
+            wynik["tekst"] = sterownik.find_element(By.TAG_NAME, "body").text
+            wynik["html"] = sterownik.page_source
+        except Exception as e:
+            wynik["blad"] = str(e)
+
+    watek = threading.Thread(target=_pobierz, daemon=True)
+    watek.start()
+    watek.join(timeout=CONFIG["request_timeout"] + 10)
+
+    if watek.is_alive():
+        log_event(f"SELENIUM {url[:60]}", False, "przekroczono twardy limit czasu — porzucam tę sesję selenium")
+        return "przerwano"  # sygnał dla wywołującego, żeby porzucić cała sesje, nie tylko te strone
+    if "blad" in wynik:
+        log_event(f"SELENIUM {url[:60]}", False, wynik["blad"])
         return None
-    finally:
-        sterownik.quit()
+    return wynik["tekst"], wynik["html"]
 
-    return tekst, html
+
+def _pobierz_jedna_podstrone(adres: str, session: requests.Session) -> tuple[str, BeautifulSoup, str] | None:
+    """
+    Pobiera jedną stronę selenium (podstawowe narzędzie — świeża sesja
+    przeglądarki na KAŻDĄ podstronę z osobna, celowo, żeby zawieszona
+    nawigacja na jednej stronie nie wykluczyła sprawdzenia kolejnych w tej
+    samej sesji — to znany problem selenium: sesja bywa niestabilna po
+    przekroczeniu limitu czasu ładowania strony). requests + BeautifulSoup
+    to zapasowa metoda, gdy selenium się nie uruchomi albo zawiesi.
+    Zwraca (tekst, soup, metoda) albo None.
+    """
+    try:
+        sterownik = _nowy_sterownik_selenium()
+    except Exception as e:
+        log_event("SELENIUM_START", False, f"nie udało się uruchomić przeglądarki — zapasowo requests: {e}")
+        sterownik = None
+
+    if sterownik is not None:
+        try:
+            wynik_selenium = _tekst_i_html_selenium(sterownik, adres)
+        finally:
+            _zamknij_sterownik_w_tle(sterownik)
+
+        if wynik_selenium not in (None, "przerwano"):
+            tekst, html = wynik_selenium
+            return tekst, BeautifulSoup(html, "lxml"), "selenium"
+
+    pobrane = _tekst_i_soup_ze_strony(adres, session)
+    if pobrane is None:
+        return None
+    tekst, soup = pobrane
+    return tekst, soup, "requests (zapasowo)"
 
 
 def zbierz_dane_kontaktowe_z_adresu(url: str, session: requests.Session) -> dict:
     """
     Pobiera stronę główną i typowe podstrony kontaktowe (kontakt/o nas/contact),
     wyciąga z nich e-maile, telefony i linki do mediów społecznościowych.
-    Jeśli zwykłe pobranie zwraca podejrzanie mało tekstu — prawdopodobnie
-    strona jest renderowana przez JavaScript — sięga po selenium.
+    Selenium jest podstawowym narzędziem (patrz CLAUDE.md), requests +
+    BeautifulSoup to zapasowa metoda na wypadek, gdyby selenium zawiodło.
     """
-    wynik = {"emaile": [], "telefony": [], "social": {}, "url_zrodlowy": url, "metoda": "requests"}
+    wynik = {"emaile": [], "telefony": [], "social": {}, "url_zrodlowy": url, "metoda": "selenium"}
 
     # Podstrony kontaktowe dobudowujemy od głównej domeny (schemat + host),
     # NIE od dokładnej ścieżki podanego URL-a — inaczej dla adresu typu
@@ -1318,18 +1379,13 @@ def zbierz_dane_kontaktowe_z_adresu(url: str, session: requests.Session) -> dict
         if adres_podstrony not in adresy_do_sprawdzenia:
             adresy_do_sprawdzenia.append(adres_podstrony)
 
+    metody_uzyte = set()
     for adres in adresy_do_sprawdzenia:
-        pobrane = _tekst_i_soup_ze_strony(adres, session)
+        pobrane = _pobierz_jedna_podstrone(adres, session)
         if pobrane is None:
             continue
-        tekst, soup = pobrane
-
-        if len(tekst) < CONFIG["prog_dlugosci_tekstu_js"]:
-            zapasowe = pobierz_dane_kontaktowe_selenium(adres)
-            if zapasowe is not None:
-                tekst, html = zapasowe
-                soup = BeautifulSoup(html, "lxml")
-                wynik["metoda"] = "selenium"
+        tekst, soup, metoda = pobrane
+        metody_uzyte.add(metoda)
 
         for email in _wyciagnij_emaile(tekst):
             if email not in wynik["emaile"]:
@@ -1340,12 +1396,13 @@ def zbierz_dane_kontaktowe_z_adresu(url: str, session: requests.Session) -> dict
         for domena, link in _wyciagnij_social_linki(soup).items():
             wynik["social"].setdefault(domena, link)
 
+        polite_delay()
+
         if wynik["emaile"] and wynik["telefony"]:
             wynik["url_zrodlowy"] = adres
             break
 
-        polite_delay()
-
+    wynik["metoda"] = " + ".join(sorted(metody_uzyte)) if metody_uzyte else "brak"
     return wynik
 
 
