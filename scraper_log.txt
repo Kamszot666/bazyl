@@ -3542,3 +3542,19 @@ Call log:
   - navigating to "https://60mln.pl/contact", waiting until "domcontentloaded"
  | ERROR | 2026-07-07 19:15:25
 KONTAKT_SPRAWDZONY — 0000972710 — https://60mln.pl/fundacja | INFO | 2026-07-07 19:15:27
+START_SKRYPTU — Zadanie: organizacje_polonijne | INFO | 2026-07-07 19:16:31
+KONTAKT_SPRAWDZONY — 0000981494 — http://fundacja-orlik.pl | INFO | 2026-07-07 19:16:33
+START_SKRYPTU — Zadanie: organizacje_polonijne | INFO | 2026-07-07 19:16:34
+KONTAKT_SPRAWDZONY — 0000986572 — https://wygrywamy.org | INFO | 2026-07-07 19:16:37
+START_SKRYPTU — Zadanie: organizacje_polonijne | INFO | 2026-07-07 19:17:22
+KONTAKT_SPRAWDZONY — 0000996924 — https://www.joannaszczepkowska.pl | INFO | 2026-07-07 19:17:24
+START_SKRYPTU — Zadanie: organizacje_polonijne | INFO | 2026-07-07 19:17:25
+POBIERANIE_KONTAKTU http://sportale.pl/kontakt — Client error '404 Not Found' for url 'http://sportale.pl/kontakt'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404 | ERROR | 2026-07-07 19:17:31
+POBIERANIE_KONTAKTU http://sportale.pl/kontakty — Client error '404 Not Found' for url 'http://sportale.pl/kontakty'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404 | ERROR | 2026-07-07 19:17:38
+POBIERANIE_KONTAKTU http://sportale.pl/o-nas — Client error '404 Not Found' for url 'http://sportale.pl/o-nas'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404 | ERROR | 2026-07-07 19:17:42
+POBIERANIE_KONTAKTU http://sportale.pl/contact — Client error '404 Not Found' for url 'http://sportale.pl/contact'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404 | ERROR | 2026-07-07 19:17:48
+KONTAKT_SPRAWDZONY — 0001007526 — http://sportale.pl | INFO | 2026-07-07 19:17:54
