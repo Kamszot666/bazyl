@@ -3592,3 +3592,53 @@ START_SKRYPTU — Zadanie: organizacje_polonijne | INFO | 2026-07-07 19:21:27
 KONTAKT_SPRAWDZONY — 0001054227 — http://openhearts.pl | INFO | 2026-07-07 19:21:32
 START_SKRYPTU — Zadanie: organizacje_polonijne | INFO | 2026-07-07 19:22:22
 KONTAKT_SPRAWDZONY — 0001054579 — https://www.harmoniawrelacji.pl | INFO | 2026-07-07 19:22:27
+START_SKRYPTU — Zadanie: organizacje_polonijne | INFO | 2026-07-07 19:23:11
+POBIERANIE_KONTAKTU https://aquilae.org.pl/kontakt — Server error '503 Service Unavailable' for url 'https://aquilae.org.pl/kontakt'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/503 | ERROR | 2026-07-07 19:23:14
+PLAYWRIGHT https://aquilae.org.pl/kontakt — Page.goto: net::ERR_CONNECTION_RESET at https://aquilae.org.pl/kontakt
+Call log:
+  - navigating to "https://aquilae.org.pl/kontakt", waiting until "domcontentloaded"
+ | ERROR | 2026-07-07 19:23:29
+POBIERANIE_KONTAKTU https://aquilae.org.pl/kontakty — Client error '404 Not Found' for url 'https://aquilae.org.pl/kontakty'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404 | ERROR | 2026-07-07 19:23:30
+PLAYWRIGHT https://aquilae.org.pl/kontakty — Page.goto: net::ERR_CONNECTION_RESET at https://aquilae.org.pl/kontakty
+Call log:
+  - navigating to "https://aquilae.org.pl/kontakty", waiting until "domcontentloaded"
+ | ERROR | 2026-07-07 19:23:44
+POBIERANIE_KONTAKTU https://aquilae.org.pl/o-nas — Client error '404 Not Found' for url 'https://aquilae.org.pl/o-nas'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404 | ERROR | 2026-07-07 19:23:46
+PLAYWRIGHT https://aquilae.org.pl/o-nas — Page.goto: net::ERR_CONNECTION_RESET at https://aquilae.org.pl/o-nas
+Call log:
+  - navigating to "https://aquilae.org.pl/o-nas", waiting until "domcontentloaded"
+ | ERROR | 2026-07-07 19:24:00
+KONTAKT_SPRAWDZONY — 0001069082 — https://aquilae.org.pl | INFO | 2026-07-07 19:24:03
+START_SKRYPTU — Zadanie: organizacje_polonijne | INFO | 2026-07-07 19:24:04
+KONTAKT_SPRAWDZONY — 0001082504 — https://www.kitsup.pl | INFO | 2026-07-07 19:24:08
+START_SKRYPTU — Zadanie: organizacje_polonijne | INFO | 2026-07-07 19:24:09
+KONTAKT_SPRAWDZONY — 0001083398 — https://poradniapolonijna.pl | INFO | 2026-07-07 19:24:12
+START_SKRYPTU — Zadanie: organizacje_polonijne | INFO | 2026-07-07 19:24:48
+PLAYWRIGHT https://przyszloscbezbarier.eu — Page.goto: net::ERR_CONNECTION_RESET at https://przyszloscbezbarier.eu/
+Call log:
+  - navigating to "https://przyszloscbezbarier.eu/", waiting until "domcontentloaded"
+ | ERROR | 2026-07-07 19:25:02
+PLAYWRIGHT https://przyszloscbezbarier.eu/kontakt — Page.goto: net::ERR_CONNECTION_RESET at https://przyszloscbezbarier.eu/kontakt
+Call log:
+  - navigating to "https://przyszloscbezbarier.eu/kontakt", waiting until "domcontentloaded"
+ | ERROR | 2026-07-07 19:25:23
+PLAYWRIGHT https://przyszloscbezbarier.eu/kontakty — Page.goto: net::ERR_CONNECTION_RESET at https://przyszloscbezbarier.eu/kontakty
+Call log:
+  - navigating to "https://przyszloscbezbarier.eu/kontakty", waiting until "domcontentloaded"
+ | ERROR | 2026-07-07 19:25:39
+PLAYWRIGHT https://przyszloscbezbarier.eu/o-nas — Page.goto: net::ERR_CONNECTION_RESET at https://przyszloscbezbarier.eu/o-nas
+Call log:
+  - navigating to "https://przyszloscbezbarier.eu/o-nas", waiting until "domcontentloaded"
+ | ERROR | 2026-07-07 19:25:57
+PLAYWRIGHT https://przyszloscbezbarier.eu/contact — Page.goto: net::ERR_CONNECTION_RESET at https://przyszloscbezbarier.eu/contact
+Call log:
+  - navigating to "https://przyszloscbezbarier.eu/contact", waiting until "domcontentloaded"
+ | ERROR | 2026-07-07 19:26:13
+KONTAKT_SPRAWDZONY — 0001086343 — https://przyszloscbezbarier.eu | INFO | 2026-07-07 19:26:15
+START_SKRYPTU — Zadanie: organizacje_polonijne | INFO | 2026-07-07 19:26:16
+KONTAKT_SPRAWDZONY — 0001133422 — https://mlodepokolenia.pl | INFO | 2026-07-07 19:26:23
+START_SKRYPTU — Zadanie: organizacje_polonijne | INFO | 2026-07-07 19:26:50
+KONTAKT_SPRAWDZONY — 0001223849 — https://polsoc.eu | INFO | 2026-07-07 19:27:06
