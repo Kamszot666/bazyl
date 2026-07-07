@@ -2337,3 +2337,98 @@ START_SKRYPTU — Zadanie: organizacje_polonijne | INFO | 2026-07-07 10:47:10
 KONTAKT_SPRAWDZONY — 0000658614 — https://www.ambasadakultury.com | INFO | 2026-07-07 10:47:22
 START_SKRYPTU — Zadanie: organizacje_polonijne | INFO | 2026-07-07 10:48:02
 KONTAKT_SPRAWDZONY — 0000673936 — https://www.bratniadusza.org | INFO | 2026-07-07 10:48:07
+START_SKRYPTU — Zadanie: organizacje_polonijne | INFO | 2026-07-07 10:48:45
+DDGS_ZABLOKOWANE — Wyłączam automatyczne wyszukiwanie do końca uruchomienia — wymagane ręczne wyszukiwanie: error sending request for url (https://www.startpage.com/) > operation timed out | ERROR | 2026-07-07 10:49:06
+Nie znaleziono strony dla POLSKO-GRECKA IZBA PRZEMYSŁOWO-HANDLOWA (KRS 0000674193) — wyszukaj ręcznie | SUCCESS | 2026-07-07 10:49:06
+START_SKRYPTU — Zadanie: organizacje_polonijne | INFO | 2026-07-07 10:49:28
+KONTAKT_SPRAWDZONY — 0000674193 — https://pgizba.pl | INFO | 2026-07-07 10:49:32
+START_SKRYPTU — Zadanie: organizacje_polonijne | INFO | 2026-07-07 10:49:32
+KONTAKT_SPRAWDZONY — 0000675270 — https://fundacjasanttech.org | INFO | 2026-07-07 10:49:37
+START_SKRYPTU — Zadanie: organizacje_polonijne | INFO | 2026-07-07 10:49:38
+KONTAKT_SPRAWDZONY — 0000682444 — https://uniwersytetludowy.eu | INFO | 2026-07-07 10:49:42
+START_SKRYPTU — Zadanie: organizacje_polonijne | INFO | 2026-07-07 10:49:56
+KONTAKT_SPRAWDZONY — 0000683371 — https://www.futsal.leszno.pl | INFO | 2026-07-07 10:50:08
+START_SKRYPTU — Zadanie: organizacje_polonijne | INFO | 2026-07-07 10:50:08
+KONTAKT_SPRAWDZONY — 0000690041 — https://swiatowykongrespolakow.pl | INFO | 2026-07-07 10:50:14
+START_SKRYPTU — Zadanie: organizacje_polonijne | INFO | 2026-07-07 10:50:15
+KONTAKT_SPRAWDZONY — 0000693617 — https://pro-artis.com.pl | INFO | 2026-07-07 10:50:20
+START_SKRYPTU — Zadanie: organizacje_polonijne | INFO | 2026-07-07 10:50:20
+KONTAKT_SPRAWDZONY — 0000697193 — https://fundacjapolonika.pl | INFO | 2026-07-07 10:50:23
+START_SKRYPTU — Zadanie: organizacje_polonijne | INFO | 2026-07-07 10:50:24
+POBIERANIE_KONTAKTU https://fundacja.patrianostra.pl/kontakt — Client error '404 ' for url 'https://fundacja.patrianostra.pl/kontakt'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404 | ERROR | 2026-07-07 10:50:26
+PLAYWRIGHT https://fundacja.patrianostra.pl/kontakt — Page.goto: net::ERR_CONNECTION_RESET at https://fundacja.patrianostra.pl/kontakt
+Call log:
+  - navigating to "https://fundacja.patrianostra.pl/kontakt", waiting until "domcontentloaded"
+ | ERROR | 2026-07-07 10:50:39
+POBIERANIE_KONTAKTU https://fundacja.patrianostra.pl/kontakty — Client error '404 ' for url 'https://fundacja.patrianostra.pl/kontakty'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404 | ERROR | 2026-07-07 10:50:40
+PLAYWRIGHT https://fundacja.patrianostra.pl/kontakty — Page.goto: net::ERR_CONNECTION_RESET at https://fundacja.patrianostra.pl/kontakty
+Call log:
+  - navigating to "https://fundacja.patrianostra.pl/kontakty", waiting until "domcontentloaded"
+ | ERROR | 2026-07-07 10:50:54
+POBIERANIE_KONTAKTU https://fundacja.patrianostra.pl/o-nas — Client error '404 ' for url 'https://fundacja.patrianostra.pl/o-nas'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404 | ERROR | 2026-07-07 10:50:55
+PLAYWRIGHT https://fundacja.patrianostra.pl/o-nas — Page.goto: net::ERR_CONNECTION_RESET at https://fundacja.patrianostra.pl/o-nas
+Call log:
+  - navigating to "https://fundacja.patrianostra.pl/o-nas", waiting until "domcontentloaded"
+ | ERROR | 2026-07-07 10:51:08
+POBIERANIE_KONTAKTU https://fundacja.patrianostra.pl/contact — Client error '404 ' for url 'https://fundacja.patrianostra.pl/contact'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404 | ERROR | 2026-07-07 10:51:09
+PLAYWRIGHT https://fundacja.patrianostra.pl/contact — Page.goto: net::ERR_CONNECTION_RESET at https://fundacja.patrianostra.pl/contact
+Call log:
+  - navigating to "https://fundacja.patrianostra.pl/contact", waiting until "domcontentloaded"
+ | ERROR | 2026-07-07 10:51:22
+KONTAKT_SPRAWDZONY — 0000697399 — https://fundacja.patrianostra.pl | INFO | 2026-07-07 10:51:22
+START_SKRYPTU — Zadanie: organizacje_polonijne | INFO | 2026-07-07 10:51:23
+POBIERANIE_KONTAKTU https://polskiemaki.org/kontakt — Client error '404 Not Found' for url 'https://polskiemaki.org/kontakt'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404 | ERROR | 2026-07-07 10:51:25
+PLAYWRIGHT https://polskiemaki.org/kontakt — Page.goto: net::ERR_CONNECTION_RESET at https://polskiemaki.org/kontakt
+Call log:
+  - navigating to "https://polskiemaki.org/kontakt", waiting until "domcontentloaded"
+ | ERROR | 2026-07-07 10:51:40
+POBIERANIE_KONTAKTU https://polskiemaki.org/kontakty — Client error '404 Not Found' for url 'https://polskiemaki.org/kontakty'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404 | ERROR | 2026-07-07 10:51:40
+PLAYWRIGHT https://polskiemaki.org/kontakty — Page.goto: net::ERR_CONNECTION_RESET at https://polskiemaki.org/kontakty
+Call log:
+  - navigating to "https://polskiemaki.org/kontakty", waiting until "domcontentloaded"
+ | ERROR | 2026-07-07 10:51:54
+POBIERANIE_KONTAKTU https://polskiemaki.org/o-nas — Client error '404 Not Found' for url 'https://polskiemaki.org/o-nas'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404 | ERROR | 2026-07-07 10:51:55
+PLAYWRIGHT https://polskiemaki.org/o-nas — Page.goto: net::ERR_CONNECTION_RESET at https://polskiemaki.org/o-nas
+Call log:
+  - navigating to "https://polskiemaki.org/o-nas", waiting until "domcontentloaded"
+ | ERROR | 2026-07-07 10:52:09
+POBIERANIE_KONTAKTU https://polskiemaki.org/contact — Client error '404 Not Found' for url 'https://polskiemaki.org/contact'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404 | ERROR | 2026-07-07 10:52:10
+PLAYWRIGHT https://polskiemaki.org/contact — Page.goto: net::ERR_CONNECTION_RESET at https://polskiemaki.org/contact
+Call log:
+  - navigating to "https://polskiemaki.org/contact", waiting until "domcontentloaded"
+ | ERROR | 2026-07-07 10:52:25
+KONTAKT_SPRAWDZONY — 0000698336 — https://polskiemaki.org | INFO | 2026-07-07 10:52:25
+START_SKRYPTU — Zadanie: organizacje_polonijne | INFO | 2026-07-07 10:52:26
+POBIERANIE_KONTAKTU https://polskiemaki.org/kontakt — Client error '404 Not Found' for url 'https://polskiemaki.org/kontakt'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404 | ERROR | 2026-07-07 10:52:30
+PLAYWRIGHT https://polskiemaki.org/kontakt — Page.goto: net::ERR_CONNECTION_RESET at https://polskiemaki.org/kontakt
+Call log:
+  - navigating to "https://polskiemaki.org/kontakt", waiting until "domcontentloaded"
+ | ERROR | 2026-07-07 10:52:44
+POBIERANIE_KONTAKTU https://polskiemaki.org/kontakty — Client error '404 Not Found' for url 'https://polskiemaki.org/kontakty'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404 | ERROR | 2026-07-07 10:52:45
+PLAYWRIGHT https://polskiemaki.org/kontakty — Page.goto: net::ERR_CONNECTION_RESET at https://polskiemaki.org/kontakty
+Call log:
+  - navigating to "https://polskiemaki.org/kontakty", waiting until "domcontentloaded"
+ | ERROR | 2026-07-07 10:52:59
+POBIERANIE_KONTAKTU https://polskiemaki.org/o-nas — Client error '404 Not Found' for url 'https://polskiemaki.org/o-nas'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404 | ERROR | 2026-07-07 10:53:00
+PLAYWRIGHT https://polskiemaki.org/o-nas — Page.goto: net::ERR_CONNECTION_RESET at https://polskiemaki.org/o-nas
+Call log:
+  - navigating to "https://polskiemaki.org/o-nas", waiting until "domcontentloaded"
+ | ERROR | 2026-07-07 10:53:13
+POBIERANIE_KONTAKTU https://polskiemaki.org/contact — Client error '404 Not Found' for url 'https://polskiemaki.org/contact'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404 | ERROR | 2026-07-07 10:53:14
+PLAYWRIGHT https://polskiemaki.org/contact — Page.goto: net::ERR_CONNECTION_RESET at https://polskiemaki.org/contact
+Call log:
+  - navigating to "https://polskiemaki.org/contact", waiting until "domcontentloaded"
+ | ERROR | 2026-07-07 10:53:28
+KONTAKT_SPRAWDZONY — 0000698336 — https://polskiemaki.org | INFO | 2026-07-07 10:53:28
