@@ -3584,3 +3584,9 @@ START_SKRYPTU — Zadanie: organizacje_polonijne | INFO | 2026-07-07 19:20:10
 KONTAKT_SPRAWDZONY — 0001030592 — https://fundacjazagumnego.pl | INFO | 2026-07-07 19:20:19
 START_SKRYPTU — Zadanie: organizacje_polonijne | INFO | 2026-07-07 19:20:20
 KONTAKT_SPRAWDZONY — 0001039845 — https://konstantygorski.pl | INFO | 2026-07-07 19:20:25
+START_SKRYPTU — Zadanie: organizacje_polonijne | INFO | 2026-07-07 19:21:16
+KONTAKT_SPRAWDZONY — 0001054010 — https://odwaznekobiety.com | INFO | 2026-07-07 19:21:20
+START_SKRYPTU — Zadanie: organizacje_polonijne | INFO | 2026-07-07 19:21:20
+KONTAKT_SPRAWDZONY — 0001054164 — https://poloniaswiata.org | INFO | 2026-07-07 19:21:27
+START_SKRYPTU — Zadanie: organizacje_polonijne | INFO | 2026-07-07 19:21:27
+KONTAKT_SPRAWDZONY — 0001054227 — http://openhearts.pl | INFO | 2026-07-07 19:21:32
