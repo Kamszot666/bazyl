@@ -3254,3 +3254,186 @@ Call log:
   - navigating to "https://www.fiik.pl/contact", waiting until "domcontentloaded"
  | ERROR | 2026-07-07 19:01:27
 KONTAKT_SPRAWDZONY — 0000889819 — https://www.fiik.pl | INFO | 2026-07-07 19:01:27
+START_SKRYPTU — Zadanie: organizacje_polonijne | INFO | 2026-07-07 19:02:27
+POBIERANIE_KONTAKTU https://www.facebook.com/fundacja.grono.polskosci — Client error '400 Bad Request' for url 'https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2Ffundacja.grono.polskosci'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400 | ERROR | 2026-07-07 19:02:28
+PLAYWRIGHT https://www.facebook.com/fundacja.grono.polskosci — Page.goto: net::ERR_CONNECTION_RESET at https://www.facebook.com/fundacja.grono.polskosci
+Call log:
+  - navigating to "https://www.facebook.com/fundacja.grono.polskosci", waiting until "domcontentloaded"
+ | ERROR | 2026-07-07 19:02:41
+POBIERANIE_KONTAKTU https://www.facebook.com/kontakt — Client error '400 Bad Request' for url 'https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2Fkontakt'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400 | ERROR | 2026-07-07 19:02:42
+PLAYWRIGHT https://www.facebook.com/kontakt — Page.goto: net::ERR_CONNECTION_RESET at https://www.facebook.com/kontakt
+Call log:
+  - navigating to "https://www.facebook.com/kontakt", waiting until "domcontentloaded"
+ | ERROR | 2026-07-07 19:02:56
+POBIERANIE_KONTAKTU https://www.facebook.com/kontakty — Client error '400 Bad Request' for url 'https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2Fkontakty'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400 | ERROR | 2026-07-07 19:02:56
+PLAYWRIGHT https://www.facebook.com/kontakty — Page.goto: net::ERR_CONNECTION_RESET at https://www.facebook.com/kontakty
+Call log:
+  - navigating to "https://www.facebook.com/kontakty", waiting until "domcontentloaded"
+ | ERROR | 2026-07-07 19:03:10
+POBIERANIE_KONTAKTU https://www.facebook.com/o-nas — Client error '400 Bad Request' for url 'https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2Fo-nas'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400 | ERROR | 2026-07-07 19:03:11
+PLAYWRIGHT https://www.facebook.com/o-nas — Page.goto: net::ERR_CONNECTION_RESET at https://www.facebook.com/o-nas
+Call log:
+  - navigating to "https://www.facebook.com/o-nas", waiting until "domcontentloaded"
+ | ERROR | 2026-07-07 19:03:24
+POBIERANIE_KONTAKTU https://www.facebook.com/contact — Client error '400 Bad Request' for url 'https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2Fcontact'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400 | ERROR | 2026-07-07 19:03:25
+PLAYWRIGHT https://www.facebook.com/contact — Page.goto: net::ERR_CONNECTION_RESET at https://www.facebook.com/contact
+Call log:
+  - navigating to "https://www.facebook.com/contact", waiting until "domcontentloaded"
+ | ERROR | 2026-07-07 19:03:39
+KONTAKT_SPRAWDZONY — 0000895104 — https://www.facebook.com/fundacja.grono.polskosci | INFO | 2026-07-07 19:03:39
+START_SKRYPTU — Zadanie: organizacje_polonijne | INFO | 2026-07-07 19:03:40
+POBIERANIE_KONTAKTU https://frsk.pl/kontakt — Client error '404 Not Found' for url 'http://frsk.pl/o-nas/%23kontakt'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404 | ERROR | 2026-07-07 19:03:44
+PLAYWRIGHT https://frsk.pl/kontakt — Page.goto: net::ERR_CONNECTION_RESET at https://frsk.pl/kontakt
+Call log:
+  - navigating to "https://frsk.pl/kontakt", waiting until "domcontentloaded"
+ | ERROR | 2026-07-07 19:03:58
+POBIERANIE_KONTAKTU https://frsk.pl/kontakty — Client error '404 Not Found' for url 'https://frsk.pl/kontakty'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404 | ERROR | 2026-07-07 19:03:59
+PLAYWRIGHT https://frsk.pl/kontakty — Page.goto: net::ERR_CONNECTION_RESET at https://frsk.pl/kontakty
+Call log:
+  - navigating to "https://frsk.pl/kontakty", waiting until "domcontentloaded"
+ | ERROR | 2026-07-07 19:04:13
+POBIERANIE_KONTAKTU https://frsk.pl/contact — Client error '404 Not Found' for url 'https://frsk.pl/contact'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404 | ERROR | 2026-07-07 19:04:17
+PLAYWRIGHT https://frsk.pl/contact — Page.goto: net::ERR_CONNECTION_RESET at https://frsk.pl/contact
+Call log:
+  - navigating to "https://frsk.pl/contact", waiting until "domcontentloaded"
+ | ERROR | 2026-07-07 19:04:31
+KONTAKT_SPRAWDZONY — 0000900516 — https://frsk.pl | INFO | 2026-07-07 19:04:31
+START_SKRYPTU — Zadanie: organizacje_polonijne | INFO | 2026-07-07 19:04:31
+POBIERANIE_KONTAKTU https://jazzpopolsku.pl/kontakty — Client error '404 Not Found' for url 'https://jazzpopolsku.pl/kontakty'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404 | ERROR | 2026-07-07 19:04:37
+START_SKRYPTU — Zadanie: organizacje_polonijne | INFO | 2026-07-07 19:04:42
+POBIERANIE_KONTAKTU https://jazzpopolsku.pl/kontakty — Client error '404 Not Found' for url 'https://jazzpopolsku.pl/kontakty'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404 | ERROR | 2026-07-07 19:04:49
+PLAYWRIGHT https://jazzpopolsku.pl/kontakty — Page.goto: net::ERR_CONNECTION_RESET at https://jazzpopolsku.pl/kontakty
+Call log:
+  - navigating to "https://jazzpopolsku.pl/kontakty", waiting until "domcontentloaded"
+ | ERROR | 2026-07-07 19:04:51
+POBIERANIE_KONTAKTU https://jazzpopolsku.pl/o-nas — Client error '404 Not Found' for url 'https://jazzpopolsku.pl/o-nas'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404 | ERROR | 2026-07-07 19:04:53
+PLAYWRIGHT https://jazzpopolsku.pl/kontakty — Page.goto: net::ERR_CONNECTION_RESET at https://jazzpopolsku.pl/kontakty
+Call log:
+  - navigating to "https://jazzpopolsku.pl/kontakty", waiting until "domcontentloaded"
+ | ERROR | 2026-07-07 19:05:04
+POBIERANIE_KONTAKTU https://jazzpopolsku.pl/o-nas — Client error '404 Not Found' for url 'https://jazzpopolsku.pl/o-nas'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404 | ERROR | 2026-07-07 19:05:05
+PLAYWRIGHT https://jazzpopolsku.pl/o-nas — Page.goto: net::ERR_CONNECTION_RESET at https://jazzpopolsku.pl/o-nas
+Call log:
+  - navigating to "https://jazzpopolsku.pl/o-nas", waiting until "domcontentloaded"
+ | ERROR | 2026-07-07 19:05:06
+POBIERANIE_KONTAKTU https://jazzpopolsku.pl/contact — Client error '404 Not Found' for url 'https://jazzpopolsku.pl/contact'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404 | ERROR | 2026-07-07 19:05:07
+PLAYWRIGHT https://jazzpopolsku.pl/o-nas — Page.goto: net::ERR_CONNECTION_RESET at https://jazzpopolsku.pl/o-nas
+Call log:
+  - navigating to "https://jazzpopolsku.pl/o-nas", waiting until "domcontentloaded"
+ | ERROR | 2026-07-07 19:05:18
+POBIERANIE_KONTAKTU https://jazzpopolsku.pl/contact — Client error '404 Not Found' for url 'https://jazzpopolsku.pl/contact'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404 | ERROR | 2026-07-07 19:05:19
+PLAYWRIGHT https://jazzpopolsku.pl/contact — Page.goto: net::ERR_CONNECTION_RESET at https://jazzpopolsku.pl/contact
+Call log:
+  - navigating to "https://jazzpopolsku.pl/contact", waiting until "domcontentloaded"
+ | ERROR | 2026-07-07 19:05:22
+KONTAKT_SPRAWDZONY — 0000902616 — https://jazzpopolsku.pl | INFO | 2026-07-07 19:05:22
+START_SKRYPTU — Zadanie: organizacje_polonijne | INFO | 2026-07-07 19:05:22
+POBIERANIE_KONTAKTU https://republikapolonia.pl/kontakt — Client error '404 Not Found' for url 'https://republikapolonia.pl/kontakt'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404 | ERROR | 2026-07-07 19:05:26
+PLAYWRIGHT https://jazzpopolsku.pl/contact — Page.goto: net::ERR_CONNECTION_RESET at https://jazzpopolsku.pl/contact
+Call log:
+  - navigating to "https://jazzpopolsku.pl/contact", waiting until "domcontentloaded"
+ | ERROR | 2026-07-07 19:05:33
+KONTAKT_SPRAWDZONY — 0000902616 — https://jazzpopolsku.pl | INFO | 2026-07-07 19:05:33
+START_SKRYPTU — Zadanie: organizacje_polonijne | INFO | 2026-07-07 19:05:39
+PLAYWRIGHT https://republikapolonia.pl/kontakt — Page.goto: net::ERR_CONNECTION_RESET at https://republikapolonia.pl/kontakt
+Call log:
+  - navigating to "https://republikapolonia.pl/kontakt", waiting until "domcontentloaded"
+ | ERROR | 2026-07-07 19:05:40
+POBIERANIE_KONTAKTU https://republikapolonia.pl/kontakty — Client error '404 Not Found' for url 'https://republikapolonia.pl/kontakty'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404 | ERROR | 2026-07-07 19:05:41
+POBIERANIE_KONTAKTU https://republikapolonia.pl/kontakt — Client error '404 Not Found' for url 'https://republikapolonia.pl/kontakt'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404 | ERROR | 2026-07-07 19:05:44
+PLAYWRIGHT https://republikapolonia.pl/kontakty — Page.goto: net::ERR_CONNECTION_RESET at https://republikapolonia.pl/kontakty
+Call log:
+  - navigating to "https://republikapolonia.pl/kontakty", waiting until "domcontentloaded"
+ | ERROR | 2026-07-07 19:05:55
+POBIERANIE_KONTAKTU https://republikapolonia.pl/o-nas — Client error '404 Not Found' for url 'https://republikapolonia.pl/o-nas'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404 | ERROR | 2026-07-07 19:05:56
+PLAYWRIGHT https://republikapolonia.pl/kontakt — Page.goto: net::ERR_CONNECTION_RESET at https://republikapolonia.pl/kontakt
+Call log:
+  - navigating to "https://republikapolonia.pl/kontakt", waiting until "domcontentloaded"
+ | ERROR | 2026-07-07 19:05:58
+POBIERANIE_KONTAKTU https://republikapolonia.pl/kontakty — Client error '404 Not Found' for url 'https://republikapolonia.pl/kontakty'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404 | ERROR | 2026-07-07 19:05:59
+PLAYWRIGHT https://republikapolonia.pl/o-nas — Page.goto: net::ERR_CONNECTION_RESET at https://republikapolonia.pl/o-nas
+Call log:
+  - navigating to "https://republikapolonia.pl/o-nas", waiting until "domcontentloaded"
+ | ERROR | 2026-07-07 19:06:10
+KONTAKT_SPRAWDZONY — 0000911341 — https://republikapolonia.pl | INFO | 2026-07-07 19:06:13
+PLAYWRIGHT https://republikapolonia.pl/kontakty — Page.goto: net::ERR_CONNECTION_RESET at https://republikapolonia.pl/kontakty
+Call log:
+  - navigating to "https://republikapolonia.pl/kontakty", waiting until "domcontentloaded"
+ | ERROR | 2026-07-07 19:06:13
+POBIERANIE_KONTAKTU https://republikapolonia.pl/o-nas — Client error '404 Not Found' for url 'https://republikapolonia.pl/o-nas'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404 | ERROR | 2026-07-07 19:06:15
+PLAYWRIGHT https://republikapolonia.pl/o-nas — Page.goto: net::ERR_CONNECTION_RESET at https://republikapolonia.pl/o-nas
+Call log:
+  - navigating to "https://republikapolonia.pl/o-nas", waiting until "domcontentloaded"
+ | ERROR | 2026-07-07 19:06:29
+KONTAKT_SPRAWDZONY — 0000911341 — https://republikapolonia.pl | INFO | 2026-07-07 19:06:33
+START_SKRYPTU — Zadanie: organizacje_polonijne | INFO | 2026-07-07 19:06:54
+POBIERANIE_KONTAKTU https://cwd.info.pl/kontakty — Client error '404 Not Found' for url 'https://cwd.info.pl/kontakty'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404 | ERROR | 2026-07-07 19:07:15
+PLAYWRIGHT https://cwd.info.pl/kontakty — Page.goto: net::ERR_CONNECTION_RESET at https://cwd.info.pl/kontakty
+Call log:
+  - navigating to "https://cwd.info.pl/kontakty", waiting until "domcontentloaded"
+ | ERROR | 2026-07-07 19:07:29
+POBIERANIE_KONTAKTU https://cwd.info.pl/o-nas — Client error '404 Not Found' for url 'https://cwd.info.pl/o-nas'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404 | ERROR | 2026-07-07 19:07:31
+PLAYWRIGHT https://cwd.info.pl/o-nas — Page.goto: net::ERR_CONNECTION_RESET at https://cwd.info.pl/o-nas
+Call log:
+  - navigating to "https://cwd.info.pl/o-nas", waiting until "domcontentloaded"
+ | ERROR | 2026-07-07 19:07:45
+POBIERANIE_KONTAKTU https://cwd.info.pl/contact — Client error '404 Not Found' for url 'https://cwd.info.pl/contact'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404 | ERROR | 2026-07-07 19:07:47
+PLAYWRIGHT https://cwd.info.pl/contact — Page.goto: net::ERR_CONNECTION_RESET at https://cwd.info.pl/contact
+Call log:
+  - navigating to "https://cwd.info.pl/contact", waiting until "domcontentloaded"
+ | ERROR | 2026-07-07 19:08:01
+KONTAKT_SPRAWDZONY — 0000920643 — https://cwd.info.pl/baza-wiedzy/stowarzyszenie-aglomeracja-chrzanowska/ | INFO | 2026-07-07 19:08:01
+START_SKRYPTU — Zadanie: organizacje_polonijne | INFO | 2026-07-07 19:08:02
+KONTAKT_SPRAWDZONY — 0000923846 — https://droganaszczyt.com.pl | INFO | 2026-07-07 19:08:06
+START_SKRYPTU — Zadanie: organizacje_polonijne | INFO | 2026-07-07 19:08:07
+POBIERANIE_KONTAKTU https://fundacjaobronypraw.pl — 502 Bad Gateway | ERROR | 2026-07-07 19:08:07
+PLAYWRIGHT https://fundacjaobronypraw.pl — Page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://fundacjaobronypraw.pl/
+Call log:
+  - navigating to "https://fundacjaobronypraw.pl/", waiting until "domcontentloaded"
+ | ERROR | 2026-07-07 19:08:08
+POBIERANIE_KONTAKTU https://fundacjaobronypraw.pl/kontakt — 502 Bad Gateway | ERROR | 2026-07-07 19:08:09
+PLAYWRIGHT https://fundacjaobronypraw.pl/kontakt — Page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://fundacjaobronypraw.pl/kontakt
+Call log:
+  - navigating to "https://fundacjaobronypraw.pl/kontakt", waiting until "domcontentloaded"
+ | ERROR | 2026-07-07 19:08:10
+POBIERANIE_KONTAKTU https://fundacjaobronypraw.pl/kontakty — 502 Bad Gateway | ERROR | 2026-07-07 19:08:10
+PLAYWRIGHT https://fundacjaobronypraw.pl/kontakty — Page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://fundacjaobronypraw.pl/kontakty
+Call log:
+  - navigating to "https://fundacjaobronypraw.pl/kontakty", waiting until "domcontentloaded"
+ | ERROR | 2026-07-07 19:08:12
+POBIERANIE_KONTAKTU https://fundacjaobronypraw.pl/o-nas — 502 Bad Gateway | ERROR | 2026-07-07 19:08:13
+PLAYWRIGHT https://fundacjaobronypraw.pl/o-nas — Page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://fundacjaobronypraw.pl/o-nas
+Call log:
+  - navigating to "https://fundacjaobronypraw.pl/o-nas", waiting until "domcontentloaded"
+ | ERROR | 2026-07-07 19:08:14
+POBIERANIE_KONTAKTU https://fundacjaobronypraw.pl/contact — 502 Bad Gateway | ERROR | 2026-07-07 19:08:14
+PLAYWRIGHT https://fundacjaobronypraw.pl/contact — Page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://fundacjaobronypraw.pl/contact
+Call log:
+  - navigating to "https://fundacjaobronypraw.pl/contact", waiting until "domcontentloaded"
+ | ERROR | 2026-07-07 19:08:16
+KONTAKT_SPRAWDZONY — 0000935489 — https://fundacjaobronypraw.pl | INFO | 2026-07-07 19:08:16
+START_SKRYPTU — Zadanie: organizacje_polonijne | INFO | 2026-07-07 19:08:38
+KONTAKT_SPRAWDZONY — 0000949089 — https://www.fundacjarozwojuszkolnictwawyzszego.pl | INFO | 2026-07-07 19:08:46
