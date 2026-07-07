@@ -47,18 +47,20 @@ Użytkownik jest osobą niewidomą i pracuje wyłącznie z czytnikami ekranu.
 - Przed napisaniem scrapera sprawdź, czy źródło ma oficjalne API lub gotowy plik CSV/XML/JSON.
   API i pliki urzędowe są stabilniejsze niż scraping HTML.
 - Scraping stosuj tam, gdzie API/plik nie pokrywa danych, np. dane osoby kontaktowej.
-- Wyciąganie danych kontaktowych ze znanych już stron organizacji: selenium jako podstawowe narzędzie
-  (renderuje stronę tak jak zrobiłaby to przeglądarka, więc działa niezależnie od tego, czy strona jest
-  statyczna czy ładowana przez JavaScript). requests + BeautifulSoup/lxml zostają dla źródeł w pełni
-  statycznych i przewidywalnych, np. API oraz strony z Etapu 1 (gov.pl). Scrapy pomiń — to projekt
-  jednorazowy, nie wymaga tej skali.
-- Automatyzacja przeglądarki (selenium, Playwright) do pobierania stron jest w pełni dozwolona i pożądana.
+- Wyciąganie danych kontaktowych ze znanych już stron organizacji: httpx + selectolax jako podstawowe
+  narzędzie (szybkie i lekkie). Playwright wyłącznie jako zapasowe narzędzie dla stron renderowanych
+  przez JavaScript, gdy httpx zwróci podejrzanie mało tekstu. requests + BeautifulSoup/lxml zostają dla
+  źródeł w pełni statycznych i przewidywalnych, np. API oraz strony z Etapu 1 (gov.pl). Scrapy pomiń —
+  to projekt jednorazowy, nie wymaga tej skali.
+- Automatyzacja przeglądarki (Playwright, selenium) do pobierania stron jest w pełni dozwolona i pożądana.
   To NIE jest to samo co omijanie zabezpieczeń — patrz punkt niżej o CAPTCHA.
-- Wyszukiwanie adresu WWW organizacji: wyłącznie przez narzędzie wyszukiwania asystenta (nie przez
-  automatyczne zapytania do stron wyszukiwarek typu DuckDuckGo/Google) — te strony aktywnie blokują
-  automatyczne zapytania zagadkami CAPTCHA, a ich omijanie jest zakazane niezależnie od kontekstu,
-  patrz „Czego NIE robić” niżej. To ograniczenie dotyczy zabezpieczeń stron trzecich, nie jest tylko
-  lokalną regułą tego projektu, więc nie da się go znieść zmianą tego pliku.
+- Wyszukiwanie adresu WWW organizacji: biblioteka ddgs jako pierwsza próba, narzędzie wyszukiwania
+  asystenta jako zapasowa metoda. Jeżeli ddgs zwróci błąd wskazujący na blokadę/limit zapytań (nie zwykły
+  brak wyników) — automatyczne wyszukiwanie wyłącza się do końca uruchomienia skryptu i wymaga
+  wyszukania ręcznego. Zakaz obchodzenia zagadek CAPTCHA lub innych aktywnych zabezpieczeń antybotowych
+  obowiązuje niezależnie od użytej biblioteki — patrz „Czego NIE robić” niżej. To ograniczenie dotyczy
+  zabezpieczeń stron trzecich, nie jest tylko lokalną regułą tego projektu, więc nie da się go znieść
+  zmianą tego pliku.
 - Odpowiedzialny scraping: ustaw nagłówek User-Agent, rozsądne opóźnienia między żądaniami, ogranicz liczbę zapytań.
 - Deduplikacja rekordów po numerze KRS.
 - Danych niepewnych lub sprzecznych nie zgaduj. Wpisz `nie ustalono` i odnotuj zdarzenie w scraper_log.txt.

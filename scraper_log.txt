@@ -1521,3 +1521,103 @@ Stacktrace:
 #23 0x7f9251729c6c <unknown>
  | ERROR | 2026-07-07 05:11:45
 POBIERANIE_KONTAKTU https://www.manko.pl/contact — ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer')) | ERROR | 2026-07-07 05:11:51
+START_SKRYPTU — Zadanie: organizacje_polonijne | INFO | 2026-07-07 05:56:40
+POBIERANIE_KONTAKTU https://yandex.com/maps/org/227945438869/ — Client error '403 Forbidden' for url 'https://yandex.com/maps/org/227945438869/'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403 | ERROR | 2026-07-07 05:56:57
+PLAYWRIGHT https://yandex.com/maps/org/227945438869/ — BrowserType.launch: Executable doesn't exist at /opt/pw-browsers/chromium_headless_shell-1228/chrome-headless-shell-linux64/chrome-headless-shell
+╔════════════════════════════════════════════════════════════╗
+║ Looks like Playwright was just installed or updated.       ║
+║ Please run the following command to download new browsers: ║
+║                                                            ║
+║     playwright install                                     ║
+║                                                            ║
+║ <3 Playwright Team                                         ║
+╚════════════════════════════════════════════════════════════╝ | ERROR | 2026-07-07 05:56:58
+POBIERANIE_KONTAKTU https://yandex.com/kontakt — Client error '404 Not Found' for url 'https://yandex.com/kontakt'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404 | ERROR | 2026-07-07 05:56:58
+PLAYWRIGHT https://yandex.com/kontakt — BrowserType.launch: Executable doesn't exist at /opt/pw-browsers/chromium_headless_shell-1228/chrome-headless-shell-linux64/chrome-headless-shell
+╔════════════════════════════════════════════════════════════╗
+║ Looks like Playwright was just installed or updated.       ║
+║ Please run the following command to download new browsers: ║
+║                                                            ║
+║     playwright install                                     ║
+║                                                            ║
+║ <3 Playwright Team                                         ║
+╚════════════════════════════════════════════════════════════╝ | ERROR | 2026-07-07 05:56:58
+POBIERANIE_KONTAKTU https://yandex.com/kontakty — Client error '404 Not Found' for url 'https://yandex.com/kontakty'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404 | ERROR | 2026-07-07 05:56:59
+PLAYWRIGHT https://yandex.com/kontakty — BrowserType.launch: Executable doesn't exist at /opt/pw-browsers/chromium_headless_shell-1228/chrome-headless-shell-linux64/chrome-headless-shell
+╔════════════════════════════════════════════════════════════╗
+║ Looks like Playwright was just installed or updated.       ║
+║ Please run the following command to download new browsers: ║
+║                                                            ║
+║     playwright install                                     ║
+║                                                            ║
+║ <3 Playwright Team                                         ║
+╚════════════════════════════════════════════════════════════╝ | ERROR | 2026-07-07 05:56:59
+POBIERANIE_KONTAKTU https://yandex.com/o-nas — Client error '404 Not Found' for url 'https://yandex.com/o-nas'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404 | ERROR | 2026-07-07 05:56:59
+PLAYWRIGHT https://yandex.com/o-nas — BrowserType.launch: Executable doesn't exist at /opt/pw-browsers/chromium_headless_shell-1228/chrome-headless-shell-linux64/chrome-headless-shell
+╔════════════════════════════════════════════════════════════╗
+║ Looks like Playwright was just installed or updated.       ║
+║ Please run the following command to download new browsers: ║
+║                                                            ║
+║     playwright install                                     ║
+║                                                            ║
+║ <3 Playwright Team                                         ║
+╚════════════════════════════════════════════════════════════╝ | ERROR | 2026-07-07 05:57:00
+POBIERANIE_KONTAKTU https://yandex.com/contact — Client error '404 Not Found' for url 'https://yandex.com/contact'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404 | ERROR | 2026-07-07 05:57:00
+PLAYWRIGHT https://yandex.com/contact — BrowserType.launch: Executable doesn't exist at /opt/pw-browsers/chromium_headless_shell-1228/chrome-headless-shell-linux64/chrome-headless-shell
+╔════════════════════════════════════════════════════════════╗
+║ Looks like Playwright was just installed or updated.       ║
+║ Please run the following command to download new browsers: ║
+║                                                            ║
+║     playwright install                                     ║
+║                                                            ║
+║ <3 Playwright Team                                         ║
+╚════════════════════════════════════════════════════════════╝ | ERROR | 2026-07-07 05:57:01
+KONTAKT_SPRAWDZONY — 0000349151 — https://yandex.com/maps/org/227945438869/ | INFO | 2026-07-07 05:57:01
+START_SKRYPTU — Zadanie: organizacje_polonijne | INFO | 2026-07-07 05:58:00
+KONTAKT_SPRAWDZONY — 0000349151 — https://humandoc.pl/kontakt/ | INFO | 2026-07-07 05:58:19
+START_SKRYPTU — Zadanie: organizacje_polonijne | INFO | 2026-07-07 05:58:25
+DDGS_ZABLOKOWANE — Wyłączam automatyczne wyszukiwanie do końca uruchomienia — wymagane ręczne wyszukiwanie: error sending request for url (https://search.yahoo.com/search;_ylt=72cmCx0wb-Pqjpx9DwLugHsg;_ylu=LovGtcS98fMQPlBhffbl4-rh4C8NOMG_zQB_OgBByyRtcr0?p=%22STOWARZYSZENIE+PRZEWODNIK%C3%93W+TURYSTYCZNYCH+%22Z%C5%81OTA+KACZKA%22%22+kontakt) > operation timed out | ERROR | 2026-07-07 05:58:51
+Nie znaleziono strony dla STOWARZYSZENIE PRZEWODNIKÓW TURYSTYCZNYCH "ZŁOTA KACZKA" (KRS 0000342036) — wyszukaj ręcznie | SUCCESS | 2026-07-07 05:58:51
+START_SKRYPTU — Zadanie: organizacje_polonijne | INFO | 2026-07-07 05:59:08
+DDGS_ZABLOKOWANE — Wyłączam automatyczne wyszukiwanie do końca uruchomienia — wymagane ręczne wyszukiwanie: error sending request for url (https://www.google.com/search?q=%22STOWARZYSZENIE+PRZEWODNIK%C3%93W+TURYSTYCZNYCH+%22Z%C5%81OTA+KACZKA%22%22+kontakt&filter=1&start=0&hl=en-US&lr=lang_en&cr=countryUS) > operation timed out | ERROR | 2026-07-07 05:59:29
+Nie znaleziono strony dla STOWARZYSZENIE PRZEWODNIKÓW TURYSTYCZNYCH "ZŁOTA KACZKA" (KRS 0000342036) — wyszukaj ręcznie | SUCCESS | 2026-07-07 05:59:29
+START_SKRYPTU — Zadanie: organizacje_polonijne | INFO | 2026-07-07 06:00:23
+POBIERANIE_KONTAKTU https://www.cylex-polska.pl/firmy/polska-fundacja-kościuszko — Client error '403 Forbidden' for url 'https://www.cylex-polska.pl/firmy/polska-fundacja-ko%C5%9Bciuszkowska-10348789.html'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403 | ERROR | 2026-07-07 06:00:35
+PLAYWRIGHT https://www.cylex-polska.pl/firmy/polska-fundacja-kościuszko — Page.goto: net::ERR_CONNECTION_RESET at https://www.cylex-polska.pl/firmy/polska-fundacja-ko%C5%9Bciuszkowska-10348789.html
+Call log:
+  - navigating to "https://www.cylex-polska.pl/firmy/polska-fundacja-ko%C5%9Bciuszkowska-10348789.html", waiting until "domcontentloaded"
+ | ERROR | 2026-07-07 06:00:50
+POBIERANIE_KONTAKTU https://www.cylex-polska.pl/kontakt — Client error '403 Forbidden' for url 'https://www.cylex-polska.pl/kontakt'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403 | ERROR | 2026-07-07 06:00:50
+PLAYWRIGHT https://www.cylex-polska.pl/kontakt — Page.goto: net::ERR_CONNECTION_RESET at https://www.cylex-polska.pl/kontakt
+Call log:
+  - navigating to "https://www.cylex-polska.pl/kontakt", waiting until "domcontentloaded"
+ | ERROR | 2026-07-07 06:01:04
+POBIERANIE_KONTAKTU https://www.cylex-polska.pl/kontakty — Client error '403 Forbidden' for url 'https://www.cylex-polska.pl/kontakty'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403 | ERROR | 2026-07-07 06:01:04
+PLAYWRIGHT https://www.cylex-polska.pl/kontakty — Page.goto: net::ERR_CONNECTION_RESET at https://www.cylex-polska.pl/kontakty
+Call log:
+  - navigating to "https://www.cylex-polska.pl/kontakty", waiting until "domcontentloaded"
+ | ERROR | 2026-07-07 06:01:18
+POBIERANIE_KONTAKTU https://www.cylex-polska.pl/o-nas — Client error '403 Forbidden' for url 'https://www.cylex-polska.pl/o-nas'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403 | ERROR | 2026-07-07 06:01:18
+PLAYWRIGHT https://www.cylex-polska.pl/o-nas — Page.goto: net::ERR_CONNECTION_RESET at https://www.cylex-polska.pl/o-nas
+Call log:
+  - navigating to "https://www.cylex-polska.pl/o-nas", waiting until "domcontentloaded"
+ | ERROR | 2026-07-07 06:01:32
+POBIERANIE_KONTAKTU https://www.cylex-polska.pl/contact — Client error '403 Forbidden' for url 'https://www.cylex-polska.pl/contact'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403 | ERROR | 2026-07-07 06:01:32
+PLAYWRIGHT https://www.cylex-polska.pl/contact — Page.goto: net::ERR_CONNECTION_RESET at https://www.cylex-polska.pl/contact
+Call log:
+  - navigating to "https://www.cylex-polska.pl/contact", waiting until "domcontentloaded"
+ | ERROR | 2026-07-07 06:01:46
+KONTAKT_SPRAWDZONY — 0000346229 — https://www.cylex-polska.pl/firmy/polska-fundacja-kościuszkowska-10348789.html | INFO | 2026-07-07 06:01:46
+START_SKRYPTU — Zadanie: organizacje_polonijne | INFO | 2026-07-07 06:02:07
+DDGS_ZABLOKOWANE — Wyłączam automatyczne wyszukiwanie do końca uruchomienia — wymagane ręczne wyszukiwanie: error sending request for url (https://www.google.com/search?q=%22POLSKA+FUNDACJA+KO%C5%9ACIUSZKOWSKA%22+kontakt&filter=1&start=0&hl=en-US&lr=lang_en&cr=countryUS) > operation timed out | ERROR | 2026-07-07 06:02:27
+Nie znaleziono strony dla POLSKA FUNDACJA KOŚCIUSZKOWSKA (KRS 0000346229) — wyszukaj ręcznie | SUCCESS | 2026-07-07 06:02:27

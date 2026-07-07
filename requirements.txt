@@ -4,4 +4,8 @@ lxml
 openpyxl
 tqdm
 pdfplumber
-selenium
+httpx
+selectolax
+playwright
+ddgs
+phonenumbers

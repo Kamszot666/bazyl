@@ -21,18 +21,20 @@ import logging
 import random
 import re
 import sys
-import threading
 import time
 import urllib.parse
 from collections import defaultdict
 from datetime import datetime, timedelta
 from pathlib import Path
 
+import httpx
+import phonenumbers
 import requests
 import pdfplumber
 from bs4 import BeautifulSoup
 from io import BytesIO
 from openpyxl import Workbook, load_workbook
+from selectolax.parser import HTMLParser
 from openpyxl.styles import Alignment, Font, PatternFill
 from tqdm import tqdm
 
@@ -67,19 +69,25 @@ CONFIG = {
     "api_krs_url_wzor": "https://api-krs.ms.gov.pl/api/krs/OdpisAktualny/{krs}?rejestr={rejestr}&format=json",
 
     # --- ETAP 4: DANE KONTAKTOWE ZE STRON WWW ORGANIZACJI ---
-    # Adres strony każdej organizacji ustala się ręcznie (wyszukiwanie po
-    # nazwie z API KRS, patrz historia rozmowy — automatyczne odpytywanie
-    # wyszukiwarki z poziomu skryptu wymagałoby płatnego API albo
-    # scrapowania samej wyszukiwarki, czego CLAUDE.md każe unikać).
-    # To, co JEST zautomatyzowane: pobranie znanego adresu i wyciągnięcie
-    # z niego telefonu, e-maila i profilu social media uniwersalnymi
-    # wzorcami tekstowymi (nie selektorami CSS specyficznymi dla strony).
+    # Adres strony każdej organizacji ustala biblioteka ddgs (pierwsza próba)
+    # albo wyszukiwanie ręczne (zapasowa metoda) — patrz CLAUDE.md. Jeśli
+    # ddgs zgłosi blokadę/limit zapytań, automatyczne wyszukiwanie wyłącza
+    # się do końca uruchomienia i wymaga wyszukania ręcznego (nigdy nie
+    # próbujemy obchodzić zabezpieczeń antybotowych).
+    # Pobranie znanego adresu i wyciągnięcie z niego telefonu, e-maila i
+    # profilu social media odbywa się uniwersalnymi wzorcami tekstowymi
+    # (nie selektorami CSS specyficznymi dla konkretnej strony).
     "dane_kontaktowe_file": "output/dane_kontaktowe.json",
     "podstrony_kontaktowe": ["kontakt", "kontakty", "o-nas", "contact"],
     "domeny_social_media": [
         "facebook.com", "instagram.com", "linkedin.com",
         "youtube.com", "x.com", "twitter.com",
     ],
+    # Próg długości tekstu strony (po pobraniu httpx), poniżej którego
+    # uznajemy stronę za renderowaną przez JavaScript i sięgamy po
+    # Playwright jako zapasowe narzędzie.
+    "prog_dlugosci_tekstu_js": 200,
+
     # Każdy adres poniżej zweryfikowano ręcznie przez realne pobranie strony
     # (patrz historia rozmowy — nazwa i podział konkursu zmienia się rok do
     # roku, więc NIE da się zbudować jednego wzorca adresu zależnego od roku).
@@ -1150,13 +1158,6 @@ def zbuduj_wzbogacona_baze(progress: dict):
 
 WZORZEC_EMAIL = re.compile(r"[\w.+-]+@[\w-]+\.[\w.-]+")
 
-# Numer telefonu: opcjonalny prefiks +48/48, potem 9 cyfr w typowych
-# grupowaniach (spacje, myślniki, lub bez rozdzielenia).
-WZORZEC_TELEFON = re.compile(
-    r"(?:\+48[\s-]?|\b48[\s-]?)?"
-    r"(\d{2,3}[\s-]?\d{3}[\s-]?\d{2,3}[\s-]?\d{2,3})\b"
-)
-
 # Domeny, które ewidentnie NIE są własną stroną organizacji, tylko
 # rejestrem zbiorczym — pomijamy je przy wyborze adresu WWW.
 DOMENY_REJESTROW_DO_POMINIECIA = [
@@ -1164,6 +1165,13 @@ DOMENY_REJESTROW_DO_POMINIECIA = [
     "ngo.pl", "imsig.pl", "infoveriti.pl", "gowork.pl", "panoramafirm.pl",
     "bizraport.pl", "pitax.pl", "moc-danych.pl", "wyszukiwarkakrs.pl",
     "dnb.com", "emis.com",
+    # Mapy, katalogi firm, wyszukiwarki i wideo — nigdy nie są własną
+    # stroną organizacji, choć bywają wysoko w wynikach wyszukiwania.
+    "yandex.", "google.com/maps", "maps.google", "mapy.cz", "targeo.pl",
+    "bing.com", "duckduckgo.com", "wikipedia.org", "youtube.com",
+    "facebook.com", "instagram.com", "linkedin.com", "twitter.com", "x.com",
+    "cylex-polska.pl", "cylex.pl", "firmy.net", "biznes-firmy.pl",
+    "oferteo.pl", "panoramafirm.eu",
 ]
 
 
@@ -1197,38 +1205,25 @@ def _posortuj_wg_priorytetu(emaile: list[str]) -> list[str]:
     return sorted(emaile, key=klucz)
 
 
-# Etykiety, po których liczba prawie na pewno NIE jest numerem telefonu,
-# tylko numerem rejestrowym — sprawdzane w krótkim fragmencie tekstu
-# bezpośrednio przed dopasowaniem.
-ETYKIETY_NIE_TELEFON = ["regon", "nip", "krs", "kod pocztowy"]
-
-
 def _wyciagnij_telefony(tekst: str) -> list[str]:
     """
-    Zwraca unikalne, znormalizowane numery telefonu znalezione w tekście.
-    Odrzuca dopasowania będące fragmentem dłuższej sekwencji cyfr (np. NIP,
-    REGON, numer KRS) — prawdziwy numer telefonu nie ma cyfry bezpośrednio
-    przed ani po dopasowanym fragmencie — oraz dopasowania poprzedzone
-    etykietą rejestrową (np. "REGON: 123456789").
+    Zwraca unikalne numery telefonu znalezione w tekście, wyszukane i
+    sformatowane biblioteką phonenumbers (krajowy format polski). Biblioteka
+    waliduje numer wg rzeczywistego planu numeracji (poprawny kierunkowy,
+    poprawna długość), dzięki czemu odrzuca przypadkowe sekwencje cyfr typu
+    NIP, REGON czy numer KRS znacznie skuteczniej niż sam regex.
     """
     znalezione = []
-    for dopasowanie in WZORZEC_TELEFON.finditer(tekst):
-        przed = tekst[max(0, dopasowanie.start() - 1):dopasowanie.start()]
-        po = tekst[dopasowanie.end():dopasowanie.end() + 1]
-        if przed.isdigit() or po.isdigit():
-            continue
-        kontekst_przed = tekst[max(0, dopasowanie.start() - 20):dopasowanie.start()].lower()
-        if any(etykieta in kontekst_przed for etykieta in ETYKIETY_NIE_TELEFON):
-            continue
-        numer = normalize_phone(dopasowanie.group(1))
+    for dopasowanie in phonenumbers.PhoneNumberMatcher(tekst, "PL"):
+        numer = phonenumbers.format_number(dopasowanie.number, phonenumbers.PhoneNumberFormat.NATIONAL)
         if numer not in znalezione:
             znalezione.append(numer)
     return znalezione
 
 
-def _wyciagnij_social_linki(soup: BeautifulSoup) -> dict:
+def _wyciagnij_social_linki(parser: HTMLParser) -> dict:
     """Zwraca pierwszy znaleziony link do każdej platformy social media, wg kolejności priorytetu w CONFIG."""
-    linki = [a.get("href", "") for a in soup.select("a[href]")]
+    linki = [(a.attributes.get("href") or "") for a in parser.css("a[href]")]
     wynik = {}
     for domena in CONFIG["domeny_social_media"]:
         for link in linki:
@@ -1238,133 +1233,89 @@ def _wyciagnij_social_linki(soup: BeautifulSoup) -> dict:
     return wynik
 
 
-def _tekst_i_soup_ze_strony(url: str, session: requests.Session) -> tuple[str, BeautifulSoup] | None:
-    """Pobiera stronę i zwraca (czysty tekst, BeautifulSoup) albo None przy błędzie."""
+def _tekst_i_parser_ze_strony(url: str, client: httpx.Client) -> tuple[str, HTMLParser] | None:
+    """Pobiera stronę przez httpx (podstawowe narzędzie, patrz CLAUDE.md) i zwraca (czysty tekst, HTMLParser)."""
     try:
-        resp = session.get(url, headers=HEADERS, timeout=CONFIG["request_timeout"])
+        resp = client.get(url, headers=HEADERS, timeout=CONFIG["request_timeout"], follow_redirects=True)
         resp.raise_for_status()
-    except requests.RequestException as e:
+    except httpx.HTTPError as e:
         log_event(f"POBIERANIE_KONTAKTU {url[:60]}", False, str(e))
         return None
-    resp.encoding = resp.apparent_encoding or "utf-8"
-    soup = BeautifulSoup(resp.text, "lxml")
-    return soup.get_text(" ", strip=True), soup
+    parser = HTMLParser(resp.text)
+    return parser.text(separator=" ", deep=True, strip=True), parser
 
 
-def _nowy_sterownik_selenium():
+def _tekst_i_html_playwright(url: str) -> tuple[str, str] | None:
     """
-    Uruchamia headless Chrome przez selenium — podstawowe narzędzie Etapu 4
-    (renderuje stronę tak jak zrobiłaby to przeglądarka, więc działa
-    niezależnie od tego, czy strona jest statyczna, czy ładowana przez
-    JavaScript — patrz CLAUDE.md, sekcja metodyki pozyskiwania danych).
-
-    UWAGA ze środowiska deweloperskiego, w którym ten kod był pisany: w tym
-    konkretnym sandboksie połączenia HTTPS z poziomu Chrome przez tamtejszy
-    pośredniczący serwer proxy się zrywały, mimo że requests przez ten sam
-    proxy działał poprawnie — to ograniczenie tamtego środowiska testowego,
-    nie błąd w tym kodzie. Na docelowym komputerze Windows bez takiego
-    proxy selenium powinno uruchomić się bez dodatkowej konfiguracji.
+    Pobiera stronę renderowaną przez JavaScript przez Playwright (Chromium
+    headless) — zapasowe narzędzie, używane tylko gdy httpx zwróci
+    podejrzanie mało tekstu (patrz prog_dlugosci_tekstu_js w CONFIG).
     """
-    from selenium import webdriver
-    from selenium.webdriver.chrome.options import Options
+    from playwright.sync_api import sync_playwright
 
-    opcje = Options()
-    opcje.add_argument("--headless=new")
-    opcje.add_argument("--no-sandbox")
-    opcje.add_argument("--disable-dev-shm-usage")
-    opcje.add_argument(f"user-agent={HEADERS['User-Agent']}")
-    return webdriver.Chrome(options=opcje)
+    # Środowisko deweloperskie, w którym ten kod był pisany, ma preinstalowaną
+    # przeglądarkę pod tą ścieżką (patrz zmienna PLAYWRIGHT_BROWSERS_PATH) —
+    # używamy jej wtedy wprost, zamiast domyślnej (czasem niedopasowanej do
+    # wersji pakietu playwright). Na docelowym komputerze bez tej ścieżki
+    # Playwright samodzielnie zarządza własną, dopasowaną przeglądarką.
+    wbudowana_przegladarka = Path("/opt/pw-browsers/chromium")
+    argumenty_launch = {"headless": True}
+    if wbudowana_przegladarka.exists():
+        argumenty_launch["executable_path"] = str(wbudowana_przegladarka)
 
-
-def _zamknij_sterownik_w_tle(sterownik):
-    """
-    Zamyka sesję selenium w osobnym wątku-demonie, nie czekając na zakończenie.
-    Zwykłe sterownik.quit() potrafi się zawiesić razem z zawieszoną sesją
-    przeglądarki — a zamykanie przeglądarki nie powinno nigdy zablokować
-    reszty skryptu.
-    """
-    threading.Thread(target=sterownik.quit, daemon=True).start()
-
-
-def _tekst_i_html_selenium(sterownik, url: str) -> tuple[str, str] | None:
-    """
-    Pobiera jedną stronę już uruchomioną sesją selenium i zwraca (tekst, html).
-
-    set_page_load_timeout() bywa niewystarczające, gdy problem występuje
-    poniżej warstwy Selenium (np. sieć/proxy nigdy nie odpowiada) — dlatego
-    całe pobranie strony uruchamiamy w osobnym wątku z twardym limitem czasu
-    (działa niezależnie od systemu, w tym na Windows, w odróżnieniu od
-    sygnałów uniksowych). Jeśli wątek nie zdąży, zwracamy None — funkcja
-    wywołująca przechodzi wtedy na requests jako zapasową metodę.
-    """
-    from selenium.webdriver.common.by import By
-
-    wynik = {}
-
-    def _pobierz():
-        try:
-            sterownik.set_page_load_timeout(CONFIG["request_timeout"])
-            sterownik.get(url)
-            time.sleep(2)  # czas na dorenderowanie treści przez JavaScript
-            wynik["tekst"] = sterownik.find_element(By.TAG_NAME, "body").text
-            wynik["html"] = sterownik.page_source
-        except Exception as e:
-            wynik["blad"] = str(e)
-
-    watek = threading.Thread(target=_pobierz, daemon=True)
-    watek.start()
-    watek.join(timeout=CONFIG["request_timeout"] + 10)
-
-    if watek.is_alive():
-        log_event(f"SELENIUM {url[:60]}", False, "przekroczono twardy limit czasu — porzucam tę sesję selenium")
-        return "przerwano"  # sygnał dla wywołującego, żeby porzucić cała sesje, nie tylko te strone
-    if "blad" in wynik:
-        log_event(f"SELENIUM {url[:60]}", False, wynik["blad"])
-        return None
-    return wynik["tekst"], wynik["html"]
-
-
-def _pobierz_jedna_podstrone(adres: str, session: requests.Session) -> tuple[str, BeautifulSoup, str] | None:
-    """
-    Pobiera jedną stronę selenium (podstawowe narzędzie — świeża sesja
-    przeglądarki na KAŻDĄ podstronę z osobna, celowo, żeby zawieszona
-    nawigacja na jednej stronie nie wykluczyła sprawdzenia kolejnych w tej
-    samej sesji — to znany problem selenium: sesja bywa niestabilna po
-    przekroczeniu limitu czasu ładowania strony). requests + BeautifulSoup
-    to zapasowa metoda, gdy selenium się nie uruchomi albo zawiesi.
-    Zwraca (tekst, soup, metoda) albo None.
-    """
     try:
-        sterownik = _nowy_sterownik_selenium()
+        with sync_playwright() as p:
+            przegladarka = p.chromium.launch(**argumenty_launch)
+            try:
+                strona = przegladarka.new_page(user_agent=HEADERS["User-Agent"])
+                strona.set_default_timeout(CONFIG["request_timeout"] * 1000)
+                strona.goto(url, wait_until="domcontentloaded")
+                tekst = strona.inner_text("body")
+                html = strona.content()
+            finally:
+                przegladarka.close()
     except Exception as e:
-        log_event("SELENIUM_START", False, f"nie udało się uruchomić przeglądarki — zapasowo requests: {e}")
-        sterownik = None
-
-    if sterownik is not None:
-        try:
-            wynik_selenium = _tekst_i_html_selenium(sterownik, adres)
-        finally:
-            _zamknij_sterownik_w_tle(sterownik)
-
-        if wynik_selenium not in (None, "przerwano"):
-            tekst, html = wynik_selenium
-            return tekst, BeautifulSoup(html, "lxml"), "selenium"
-
-    pobrane = _tekst_i_soup_ze_strony(adres, session)
-    if pobrane is None:
+        log_event(f"PLAYWRIGHT {url[:60]}", False, str(e))
         return None
-    tekst, soup = pobrane
-    return tekst, soup, "requests (zapasowo)"
+    return tekst, html
 
 
-def zbierz_dane_kontaktowe_z_adresu(url: str, session: requests.Session) -> dict:
+def _pobierz_jedna_podstrone(adres: str, client: httpx.Client) -> tuple[str, HTMLParser, str] | None:
+    """
+    Pobiera jedną stronę httpx (podstawowe narzędzie — lekkie i szybkie).
+    Jeśli zwrócony tekst jest podejrzanie krótki — prawdopodobnie strona
+    jest renderowana przez JavaScript — sięga po Playwright jako zapasowe
+    narzędzie (patrz CLAUDE.md, sekcja metodyki pozyskiwania danych).
+    Zwraca (tekst, parser, metoda) albo None.
+    """
+    pobrane_httpx = _tekst_i_parser_ze_strony(adres, client)
+    if pobrane_httpx is not None:
+        tekst, parser = pobrane_httpx
+        if len(tekst) >= CONFIG["prog_dlugosci_tekstu_js"]:
+            return tekst, parser, "httpx"
+
+    pobrane_playwright = _tekst_i_html_playwright(adres)
+    if pobrane_playwright is not None:
+        tekst, html = pobrane_playwright
+        return tekst, HTMLParser(html), "playwright"
+
+    if pobrane_httpx is not None:
+        # httpx zwróciło niewiele tekstu, ale Playwright zawiódł —
+        # lepsze to niż nic.
+        tekst, parser = pobrane_httpx
+        return tekst, parser, "httpx (mało tekstu)"
+
+    return None
+
+
+def zbierz_dane_kontaktowe_z_adresu(url: str) -> dict:
     """
     Pobiera stronę główną i typowe podstrony kontaktowe (kontakt/o nas/contact),
     wyciąga z nich e-maile, telefony i linki do mediów społecznościowych.
-    Selenium jest podstawowym narzędziem (patrz CLAUDE.md), requests +
-    BeautifulSoup to zapasowa metoda na wypadek, gdyby selenium zawiodło.
+    httpx + selectolax to podstawowe narzędzie (szybkie, lekkie), Playwright
+    to zapasowe narzędzie dla stron renderowanych przez JavaScript.
     """
-    wynik = {"emaile": [], "telefony": [], "social": {}, "url_zrodlowy": url, "metoda": "selenium"}
+    wynik = {"emaile": [], "telefony": [], "social": {}, "url_zrodlowy": url, "metoda": "brak"}
 
     # Podstrony kontaktowe dobudowujemy od głównej domeny (schemat + host),
     # NIE od dokładnej ścieżki podanego URL-a — inaczej dla adresu typu
@@ -1380,39 +1331,78 @@ def zbierz_dane_kontaktowe_z_adresu(url: str, session: requests.Session) -> dict
             adresy_do_sprawdzenia.append(adres_podstrony)
 
     metody_uzyte = set()
-    for adres in adresy_do_sprawdzenia:
-        pobrane = _pobierz_jedna_podstrone(adres, session)
-        if pobrane is None:
-            continue
-        tekst, soup, metoda = pobrane
-        metody_uzyte.add(metoda)
+    with httpx.Client() as client:
+        for adres in adresy_do_sprawdzenia:
+            pobrane = _pobierz_jedna_podstrone(adres, client)
+            if pobrane is None:
+                continue
+            tekst, parser, metoda = pobrane
+            metody_uzyte.add(metoda)
 
-        for email in _wyciagnij_emaile(tekst):
-            if email not in wynik["emaile"]:
-                wynik["emaile"].append(email)
-        for telefon in _wyciagnij_telefony(tekst):
-            if telefon not in wynik["telefony"]:
-                wynik["telefony"].append(telefon)
-        for domena, link in _wyciagnij_social_linki(soup).items():
-            wynik["social"].setdefault(domena, link)
+            for email in _wyciagnij_emaile(tekst):
+                if email not in wynik["emaile"]:
+                    wynik["emaile"].append(email)
+            for telefon in _wyciagnij_telefony(tekst):
+                if telefon not in wynik["telefony"]:
+                    wynik["telefony"].append(telefon)
+            for domena, link in _wyciagnij_social_linki(parser).items():
+                wynik["social"].setdefault(domena, link)
 
-        polite_delay()
+            polite_delay()
 
-        if wynik["emaile"] and wynik["telefony"]:
-            wynik["url_zrodlowy"] = adres
-            break
+            if wynik["emaile"] and wynik["telefony"]:
+                wynik["url_zrodlowy"] = adres
+                break
 
     wynik["metoda"] = " + ".join(sorted(metody_uzyte)) if metody_uzyte else "brak"
     return wynik
 
 
-def sprawdz_kontakt_organizacji(numer_krs: str, url: str):
+# Flaga globalna — jeśli ddgs raz zwróci sygnał blokady/CAPTCHA, wyłączamy
+# automatyczne wyszukiwanie na resztę uruchomienia skryptu i wymuszamy
+# ręczne wyszukiwanie adresu WWW (patrz CLAUDE.md — nie omijamy zabezpieczeń
+# antybotowych, nawet pośrednio przez ponawianie prób).
+_ddgs_zablokowane = False
+
+
+def znajdz_strone_organizacji(nazwa: str) -> str | None:
     """
-    CLI: pobiera znany adres WWW organizacji, wyciąga dane kontaktowe i
+    Szuka oficjalnej strony organizacji przez bibliotekę ddgs, pomijając
+    strony zbiorczych rejestrów (patrz DOMENY_REJESTROW_DO_POMINIECIA).
+    Jeśli DuckDuckGo zwróci sygnał blokady/limitu zapytań — CO JEST INNE
+    NIŻ zwykły brak wyników — wyłącza automatyczne wyszukiwanie do końca
+    uruchomienia skryptu i zwraca None, żeby operator wyszukał stronę ręcznie.
+    """
+    global _ddgs_zablokowane
+    if _ddgs_zablokowane:
+        return None
+
+    from ddgs import DDGS
+    from ddgs.exceptions import DDGSException
+
+    try:
+        wyniki = list(DDGS().text(f'"{nazwa}" kontakt', max_results=8))
+    except DDGSException as e:
+        log_event(
+            "DDGS_ZABLOKOWANE", False,
+            f"Wyłączam automatyczne wyszukiwanie do końca uruchomienia — wymagane ręczne wyszukiwanie: {e}",
+        )
+        _ddgs_zablokowane = True
+        return None
+
+    for wynik in wyniki:
+        adres = wynik.get("href", "")
+        if adres and not czy_adres_to_rejestr(adres):
+            return adres
+    return None
+
+
+def sprawdz_kontakt_organizacji(numer_krs: str, url: str | None = None):
+    """
+    CLI: dla danego numeru KRS znajduje (jeśli url nie podano — przez ddgs,
+    z ręcznym wyszukiwaniem jako zapasową metodą, patrz znajdz_strone_organizacji)
+    i pobiera stronę WWW organizacji, wyciąga z niej dane kontaktowe i
     zapisuje je do output/dane_kontaktowe.json pod danym numerem KRS.
-    Adres URL trzeba znaleźć ręcznie wcześniej (wyszukiwanie po nazwie
-    organizacji, patrz komentarz w CONFIG) — ta funkcja tylko automatyzuje
-    pobranie strony i wyciągnięcie z niej danych.
     """
     path = Path(CONFIG["dane_kontaktowe_file"])
     with open(path, encoding="utf-8") as f:
@@ -1423,11 +1413,13 @@ def sprawdz_kontakt_organizacji(numer_krs: str, url: str):
         log.error(f"Nie znaleziono rekordu KRS {numer_krs} w {path}")
         return
 
-    session = requests.Session()
-    try:
-        wynik = zbierz_dane_kontaktowe_z_adresu(url, session)
-    finally:
-        session.close()
+    if url is None:
+        url = znajdz_strone_organizacji(rekord["nazwa"])
+        if url is None:
+            log.warning(f"Nie znaleziono strony dla {rekord['nazwa']} (KRS {numer_krs}) — wyszukaj ręcznie")
+            return
+
+    wynik = zbierz_dane_kontaktowe_z_adresu(url)
 
     emaile_posortowane = _posortuj_wg_priorytetu(wynik["emaile"])
 
@@ -1447,6 +1439,7 @@ def sprawdz_kontakt_organizacji(numer_krs: str, url: str):
         json.dump(dane, f, ensure_ascii=False, indent=2)
 
     print(f"KRS {numer_krs} ({wynik['metoda']}):")
+    print(f"  strona: {url}")
     print(f"  e-maile znalezione: {wynik['emaile']}")
     print(f"  telefony znalezione: {wynik['telefony']}")
     print(f"  social: {wynik['social']}")
@@ -1664,9 +1657,9 @@ def main():
     )
     parser.add_argument(
         "--sprawdz-kontakt",
-        nargs=2,
-        metavar=("KRS", "URL"),
-        help="Etap 4: pobierz znaną stronę organizacji i wyciągnij z niej telefon/e-mail/social (adres URL trzeba znaleźć ręcznie wcześniej)",
+        nargs="+",
+        metavar="KRS [URL]",
+        help="Etap 4: znajdź (przez ddgs, albo podany URL) i pobierz stronę organizacji, wyciągnij telefon/e-mail/social",
     )
     args = parser.parse_args()
 
@@ -1693,7 +1686,8 @@ def main():
         return
 
     if args.sprawdz_kontakt:
-        numer_krs, url = args.sprawdz_kontakt
+        numer_krs = args.sprawdz_kontakt[0]
+        url = args.sprawdz_kontakt[1] if len(args.sprawdz_kontakt) > 1 else None
         sprawdz_kontakt_organizacji(numer_krs, url)
         return
 
