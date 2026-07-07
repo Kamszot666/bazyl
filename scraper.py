@@ -22,6 +22,7 @@ import random
 import re
 import sys
 import time
+import urllib.parse
 from collections import defaultdict
 from datetime import datetime, timedelta
 from pathlib import Path
@@ -1186,6 +1187,22 @@ def _wyciagnij_emaile(tekst: str) -> list[str]:
     return znalezione
 
 
+# Kolejność priorytetu adresów e-mail organizacji: sekretariat > biuro > reszta
+# (zgodnie z zasadami CLAUDE.md i docs/zrodla_polonia.md).
+PRIORYTET_EMAIL = ["sekretariat", "biuro", "kontakt", "info", "office"]
+
+
+def _posortuj_wg_priorytetu(emaile: list[str]) -> list[str]:
+    """Sortuje e-maile tak, by sekretariat/biuro/kontakt/info trafiały na początek listy."""
+    def klucz(adres):
+        adres_maly = adres.lower()
+        for i, slowo in enumerate(PRIORYTET_EMAIL):
+            if slowo in adres_maly:
+                return i
+        return len(PRIORYTET_EMAIL)
+    return sorted(emaile, key=klucz)
+
+
 # Etykiety, po których liczba prawie na pewno NIE jest numerem telefonu,
 # tylko numerem rejestrowym — sprawdzane w krótkim fragmencie tekstu
 # bezpośrednio przed dopasowaniem.
@@ -1288,10 +1305,18 @@ def zbierz_dane_kontaktowe_z_adresu(url: str, session: requests.Session) -> dict
     """
     wynik = {"emaile": [], "telefony": [], "social": {}, "url_zrodlowy": url, "metoda": "requests"}
 
+    # Podstrony kontaktowe dobudowujemy od głównej domeny (schemat + host),
+    # NIE od dokładnej ścieżki podanego URL-a — inaczej dla adresu typu
+    # https://przyklad.pl/kontakt/ powstałaby błędna ścieżka
+    # https://przyklad.pl/kontakt/kontakty.
+    czesci_url = urllib.parse.urlsplit(url)
+    baza = f"{czesci_url.scheme}://{czesci_url.netloc}"
+
     adresy_do_sprawdzenia = [url]
-    baza = url.rstrip("/")
     for podstrona in CONFIG["podstrony_kontaktowe"]:
-        adresy_do_sprawdzenia.append(f"{baza}/{podstrona}")
+        adres_podstrony = f"{baza}/{podstrona}"
+        if adres_podstrony not in adresy_do_sprawdzenia:
+            adresy_do_sprawdzenia.append(adres_podstrony)
 
     for adres in adresy_do_sprawdzenia:
         pobrane = _tekst_i_soup_ze_strony(adres, session)
@@ -1347,9 +1372,11 @@ def sprawdz_kontakt_organizacji(numer_krs: str, url: str):
     finally:
         session.close()
 
+    emaile_posortowane = _posortuj_wg_priorytetu(wynik["emaile"])
+
     rekord["strona_www"] = url
     rekord["telefon_ogolny"] = wynik["telefony"][0] if wynik["telefony"] else "brak"
-    rekord["email_ogolny"] = wynik["emaile"][0] if wynik["emaile"] else "brak"
+    rekord["email_ogolny"] = emaile_posortowane[0] if emaile_posortowane else "brak"
     rekord["profil_social"] = next(iter(wynik["social"].values()), "brak")
     rekord["zrodlo_url"] = wynik["url_zrodlowy"]
     rekord["status"] = "znaleziono" if (wynik["telefony"] or wynik["emaile"]) else "znaleziono_czesciowo"
