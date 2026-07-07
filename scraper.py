@@ -1392,8 +1392,12 @@ def znajdz_strone_organizacji(nazwa: str) -> str | None:
 
     for wynik in wyniki:
         adres = wynik.get("href", "")
-        if adres and not czy_adres_to_rejestr(adres):
-            return adres
+        if not adres or czy_adres_to_rejestr(adres):
+            continue
+        czesci = urllib.parse.urlsplit(adres)
+        if czesci.scheme not in ("http", "https") or not czesci.netloc:
+            continue  # np. względny link śledzący wyszukiwarki, nie prawdziwy URL
+        return adres
     return None
 
 
