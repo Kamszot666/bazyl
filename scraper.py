@@ -1452,6 +1452,73 @@ def sprawdz_kontakt_organizacji(numer_krs: str, url: str | None = None):
     log_event("KONTAKT_SPRAWDZONY", True, f"{numer_krs} — {url}")
 
 
+# Mapowanie pól output/dane_kontaktowe.json na kolumny formatki (OUTPUT_COLUMNS).
+# Wartość "brak"/"nie ustalono" to fallback, gdy pole w JSON jest puste (None) —
+# zgodnie z zasadą projektu, że w komórce nigdy nie ma angielskiego "none".
+MAPOWANIE_KONTAKT_NA_KOLUMNY = {
+    "strona_www": ("Strona WWW", "brak"),
+    "telefon_ogolny": ("Numer telefonu", "brak"),
+    "email_ogolny": ("Adres e-mail", "brak"),
+    "profil_social": ("Profil w mediach społecznościowych", "brak"),
+    "osoba_kontaktowa": ("Osoba kontaktowa", "nie ustalono"),
+    "telefon_osoby_kontaktowej": ("Numer telefonu do osoby kontaktowej", "brak"),
+    "email_osoby_kontaktowej": ("Adres e-mail do osoby kontaktowej", "brak"),
+}
+
+
+def scal_dane_kontaktowe_do_bazy():
+    """
+    Etap 4 (scalanie): wczytuje output/dane_kontaktowe.json i wpisuje zebrane
+    dane kontaktowe do istniejących wierszy output/baza_organizacje_polonijne.xlsx,
+    dopasowując rekordy po numerze KRS. Operacja jest bezpieczna do wielokrotnego
+    uruchomienia — zawsze nadpisuje te same kolumny tymi samymi wartościami
+    z pliku JSON, więc wznowienie po awarii to po prostu ponowne uruchomienie.
+    """
+    dane_path = Path(CONFIG["dane_kontaktowe_file"])
+    with open(dane_path, encoding="utf-8") as f:
+        dane_kontaktowe = json.load(f)
+    dane_wg_krs = {r["krs"]: r for r in dane_kontaktowe}
+
+    output_path = Path(CONFIG["output_file"])
+    wb = load_workbook(output_path)
+    ws = wb.active
+
+    naglowki = [c.value for c in next(ws.iter_rows(min_row=1, max_row=1))]
+    idx_krs = naglowki.index("KRS") + 1
+    idx_branza = naglowki.index("Branża / Typ") + 1
+    idx_charakterystyka = naglowki.index("Krótka charakterystyka podmiotu") + 1
+
+    scalone = 0
+    for row in range(2, ws.max_row + 1):
+        numer_krs = ws.cell(row=row, column=idx_krs).value
+        rekord = dane_wg_krs.get(numer_krs)
+        if rekord is None:
+            continue
+
+        for pole_json, (nazwa_kolumny, domyslna) in MAPOWANIE_KONTAKT_NA_KOLUMNY.items():
+            idx_kolumny = naglowki.index(nazwa_kolumny) + 1
+            ws.cell(row=row, column=idx_kolumny, value=rekord.get(pole_json) or domyslna)
+
+        branza_typ = rekord.get("branza_typ")
+        if branza_typ:
+            ws.cell(row=row, column=idx_branza, value=branza_typ)
+
+        charakterystyka_realna = rekord.get("charakterystyka_realna")
+        if charakterystyka_realna:
+            komorka = ws.cell(row=row, column=idx_charakterystyka)
+            if charakterystyka_realna not in (komorka.value or ""):
+                komorka.value = f"{komorka.value} {charakterystyka_realna}".strip()
+
+        scalone += 1
+
+    wb.save(output_path)
+    log_event(
+        "SCALENIE_DANYCH_KONTAKTOWYCH", True,
+        f"Scalono dane kontaktowe dla {scalone}/{len(dane_kontaktowe)} organizacji do {output_path}",
+    )
+    log.info(f"Scalono dane kontaktowe dla {scalone}/{len(dane_kontaktowe)} organizacji.")
+
+
 # =============================================================================
 # ZAPIS DO XLSX
 # =============================================================================
@@ -1667,6 +1734,11 @@ def main():
         metavar="KRS [URL]",
         help="Etap 4: znajdź (przez ddgs, albo podany URL) i pobierz stronę organizacji, wyciągnij telefon/e-mail/social",
     )
+    parser.add_argument(
+        "--scal-kontakty",
+        action="store_true",
+        help="Etap 4 (scalanie): wpisz zebrane dane z output/dane_kontaktowe.json do formatki XLSX",
+    )
     args = parser.parse_args()
 
     if args.reset:
@@ -1695,6 +1767,10 @@ def main():
         numer_krs = args.sprawdz_kontakt[0]
         url = args.sprawdz_kontakt[1] if len(args.sprawdz_kontakt) > 1 else None
         sprawdz_kontakt_organizacji(numer_krs, url)
+        return
+
+    if args.scal_kontakty:
+        scal_dane_kontaktowe_do_bazy()
         return
 
     # Inicjalizuj pliki wyjściowe
