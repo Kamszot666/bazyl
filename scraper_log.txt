@@ -1943,3 +1943,194 @@ Call log:
 KONTAKT_SPRAWDZONY — 0000477637 — https://www.fdrp.org.pl/kontakt/ | INFO | 2026-07-07 06:43:32
 START_SKRYPTU — Zadanie: organizacje_polonijne | INFO | 2026-07-07 06:43:47
 KONTAKT_SPRAWDZONY — 0000478182 — https://fundacjavolens.pl/ | INFO | 2026-07-07 06:43:50
+START_SKRYPTU — Zadanie: organizacje_polonijne | INFO | 2026-07-07 06:46:49
+POBIERANIE_KONTAKTU https://zurawgdansk.pl/kontakty — Client error '404 Not Found' for url 'https://zurawgdansk.pl/kontakty'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404 | ERROR | 2026-07-07 06:46:57
+PLAYWRIGHT https://zurawgdansk.pl/kontakty — Page.goto: net::ERR_CONNECTION_RESET at https://zurawgdansk.pl/kontakty
+Call log:
+  - navigating to "https://zurawgdansk.pl/kontakty", waiting until "domcontentloaded"
+ | ERROR | 2026-07-07 06:47:11
+POBIERANIE_KONTAKTU https://zurawgdansk.pl/contact — Client error '404 Not Found' for url 'https://zurawgdansk.pl/contact'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404 | ERROR | 2026-07-07 06:47:17
+PLAYWRIGHT https://zurawgdansk.pl/contact — Page.goto: net::ERR_CONNECTION_RESET at https://zurawgdansk.pl/contact
+Call log:
+  - navigating to "https://zurawgdansk.pl/contact", waiting until "domcontentloaded"
+ | ERROR | 2026-07-07 06:47:32
+KONTAKT_SPRAWDZONY — 0000539836 — https://zurawgdansk.pl/ | INFO | 2026-07-07 06:47:32
+START_SKRYPTU — Zadanie: organizacje_polonijne | INFO | 2026-07-07 06:48:33
+POBIERANIE_KONTAKTU https://ava-arts.org/kontakt — Client error '404 Not Found' for url 'https://ava-arts.org/kontakt'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404 | ERROR | 2026-07-07 06:48:34
+PLAYWRIGHT https://ava-arts.org/kontakt — Page.goto: net::ERR_CONNECTION_RESET at https://ava-arts.org/kontakt
+Call log:
+  - navigating to "https://ava-arts.org/kontakt", waiting until "domcontentloaded"
+ | ERROR | 2026-07-07 06:48:47
+POBIERANIE_KONTAKTU https://ava-arts.org/kontakty — Client error '404 Not Found' for url 'https://ava-arts.org/kontakty'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404 | ERROR | 2026-07-07 06:48:48
+PLAYWRIGHT https://ava-arts.org/kontakty — Page.goto: net::ERR_CONNECTION_RESET at https://ava-arts.org/kontakty
+Call log:
+  - navigating to "https://ava-arts.org/kontakty", waiting until "domcontentloaded"
+ | ERROR | 2026-07-07 06:49:01
+POBIERANIE_KONTAKTU https://ava-arts.org/o-nas — Client error '404 Not Found' for url 'https://ava-arts.org/o-nas'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404 | ERROR | 2026-07-07 06:49:02
+PLAYWRIGHT https://ava-arts.org/o-nas — Page.goto: net::ERR_CONNECTION_RESET at https://ava-arts.org/o-nas
+Call log:
+  - navigating to "https://ava-arts.org/o-nas", waiting until "domcontentloaded"
+ | ERROR | 2026-07-07 06:49:15
+POBIERANIE_KONTAKTU https://ava-arts.org/contact — Client error '404 Not Found' for url 'https://ava-arts.org/contact'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404 | ERROR | 2026-07-07 06:49:16
+PLAYWRIGHT https://ava-arts.org/contact — Page.goto: net::ERR_CONNECTION_RESET at https://ava-arts.org/contact
+Call log:
+  - navigating to "https://ava-arts.org/contact", waiting until "domcontentloaded"
+ | ERROR | 2026-07-07 06:49:29
+KONTAKT_SPRAWDZONY — 0000551222 — https://ava-arts.org/kontakt | INFO | 2026-07-07 06:49:29
+START_SKRYPTU — Zadanie: organizacje_polonijne | INFO | 2026-07-07 06:49:47
+POBIERANIE_KONTAKTU https://artjunction.pl/ — Client error '403 Forbidden' for url 'https://artjunction.pl/'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403 | ERROR | 2026-07-07 06:49:48
+PLAYWRIGHT https://artjunction.pl/ — Page.goto: net::ERR_CONNECTION_RESET at https://artjunction.pl/
+Call log:
+  - navigating to "https://artjunction.pl/", waiting until "domcontentloaded"
+ | ERROR | 2026-07-07 06:50:02
+POBIERANIE_KONTAKTU https://artjunction.pl/kontakt — Client error '404 Not Found' for url 'https://artjunction.pl/kontakt'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404 | ERROR | 2026-07-07 06:50:03
+PLAYWRIGHT https://artjunction.pl/kontakt — Page.goto: net::ERR_CONNECTION_RESET at https://artjunction.pl/kontakt
+Call log:
+  - navigating to "https://artjunction.pl/kontakt", waiting until "domcontentloaded"
+ | ERROR | 2026-07-07 06:50:16
+POBIERANIE_KONTAKTU https://artjunction.pl/kontakty — Client error '404 Not Found' for url 'https://artjunction.pl/kontakty'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404 | ERROR | 2026-07-07 06:50:17
+PLAYWRIGHT https://artjunction.pl/kontakty — Page.goto: net::ERR_CONNECTION_RESET at https://artjunction.pl/kontakty
+Call log:
+  - navigating to "https://artjunction.pl/kontakty", waiting until "domcontentloaded"
+ | ERROR | 2026-07-07 06:50:31
+POBIERANIE_KONTAKTU https://artjunction.pl/o-nas — Client error '404 Not Found' for url 'https://artjunction.pl/o-nas'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404 | ERROR | 2026-07-07 06:50:32
+PLAYWRIGHT https://artjunction.pl/o-nas — Page.goto: net::ERR_CONNECTION_RESET at https://artjunction.pl/o-nas
+Call log:
+  - navigating to "https://artjunction.pl/o-nas", waiting until "domcontentloaded"
+ | ERROR | 2026-07-07 06:50:46
+POBIERANIE_KONTAKTU https://artjunction.pl/contact — Client error '404 Not Found' for url 'https://artjunction.pl/contact'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404 | ERROR | 2026-07-07 06:50:47
+PLAYWRIGHT https://artjunction.pl/contact — Page.goto: net::ERR_CONNECTION_RESET at https://artjunction.pl/contact
+Call log:
+  - navigating to "https://artjunction.pl/contact", waiting until "domcontentloaded"
+ | ERROR | 2026-07-07 06:51:02
+KONTAKT_SPRAWDZONY — 0000556033 — https://artjunction.pl/ | INFO | 2026-07-07 06:51:02
+START_SKRYPTU — Zadanie: organizacje_polonijne | INFO | 2026-07-07 06:51:40
+POBIERANIE_KONTAKTU https://teatrmlodych.pl/kontakt/ — [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016) | ERROR | 2026-07-07 06:51:41
+PLAYWRIGHT https://teatrmlodych.pl/kontakt/ — Page.goto: net::ERR_CONNECTION_RESET at https://teatrmlodych.pl/kontakt/
+Call log:
+  - navigating to "https://teatrmlodych.pl/kontakt/", waiting until "domcontentloaded"
+ | ERROR | 2026-07-07 06:51:54
+POBIERANIE_KONTAKTU https://teatrmlodych.pl/kontakt — [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016) | ERROR | 2026-07-07 06:51:55
+PLAYWRIGHT https://teatrmlodych.pl/kontakt — Page.goto: net::ERR_CONNECTION_RESET at https://teatrmlodych.pl/kontakt
+Call log:
+  - navigating to "https://teatrmlodych.pl/kontakt", waiting until "domcontentloaded"
+ | ERROR | 2026-07-07 06:52:08
+POBIERANIE_KONTAKTU https://teatrmlodych.pl/kontakty — [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016) | ERROR | 2026-07-07 06:52:09
+PLAYWRIGHT https://teatrmlodych.pl/kontakty — Page.goto: net::ERR_CONNECTION_RESET at https://teatrmlodych.pl/kontakty
+Call log:
+  - navigating to "https://teatrmlodych.pl/kontakty", waiting until "domcontentloaded"
+ | ERROR | 2026-07-07 06:52:23
+POBIERANIE_KONTAKTU https://teatrmlodych.pl/o-nas — [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016) | ERROR | 2026-07-07 06:52:23
+PLAYWRIGHT https://teatrmlodych.pl/o-nas — Page.goto: net::ERR_CONNECTION_RESET at https://teatrmlodych.pl/o-nas
+Call log:
+  - navigating to "https://teatrmlodych.pl/o-nas", waiting until "domcontentloaded"
+ | ERROR | 2026-07-07 06:52:37
+POBIERANIE_KONTAKTU https://teatrmlodych.pl/contact — [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016) | ERROR | 2026-07-07 06:52:37
+PLAYWRIGHT https://teatrmlodych.pl/contact — Page.goto: net::ERR_CONNECTION_RESET at https://teatrmlodych.pl/contact
+Call log:
+  - navigating to "https://teatrmlodych.pl/contact", waiting until "domcontentloaded"
+ | ERROR | 2026-07-07 06:52:51
+KONTAKT_SPRAWDZONY — 0000553932 — https://teatrmlodych.pl/kontakt/ | INFO | 2026-07-07 06:52:51
+START_SKRYPTU — Zadanie: organizacje_polonijne | INFO | 2026-07-07 06:54:13
+POBIERANIE_KONTAKTU https://fundacja100.pl/kontakty — Client error '404 Not Found' for url 'https://fundacja100.pl/kontakty'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404 | ERROR | 2026-07-07 06:54:17
+PLAYWRIGHT https://fundacja100.pl/kontakty — Page.goto: net::ERR_CONNECTION_RESET at https://fundacja100.pl/kontakty
+Call log:
+  - navigating to "https://fundacja100.pl/kontakty", waiting until "domcontentloaded"
+ | ERROR | 2026-07-07 06:54:30
+POBIERANIE_KONTAKTU https://fundacja100.pl/o-nas — Client error '404 Not Found' for url 'https://fundacja100.pl/o-nas'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404 | ERROR | 2026-07-07 06:54:31
+PLAYWRIGHT https://fundacja100.pl/o-nas — Page.goto: net::ERR_CONNECTION_RESET at https://fundacja100.pl/o-nas
+Call log:
+  - navigating to "https://fundacja100.pl/o-nas", waiting until "domcontentloaded"
+ | ERROR | 2026-07-07 06:54:45
+KONTAKT_SPRAWDZONY — 0000569399 — https://fundacja100.pl/kontakt | INFO | 2026-07-07 06:54:47
+START_SKRYPTU — Zadanie: organizacje_polonijne | INFO | 2026-07-07 06:55:03
+POBIERANIE_KONTAKTU http://communiocrucis.pl/kontakt/ — Client error '404 Not Found' for url 'http://communiocrucis.pl/kontakt/'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404 | ERROR | 2026-07-07 06:55:05
+POBIERANIE_KONTAKTU http://communiocrucis.pl/kontakt — Client error '404 Not Found' for url 'http://communiocrucis.pl/kontakt'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404 | ERROR | 2026-07-07 06:55:15
+POBIERANIE_KONTAKTU http://communiocrucis.pl/kontakty — Client error '404 Not Found' for url 'http://communiocrucis.pl/kontakty'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404 | ERROR | 2026-07-07 06:55:24
+POBIERANIE_KONTAKTU http://communiocrucis.pl/o-nas — Client error '404 Not Found' for url 'http://communiocrucis.pl/o-nas'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404 | ERROR | 2026-07-07 06:55:29
+POBIERANIE_KONTAKTU http://communiocrucis.pl/contact — Client error '404 Not Found' for url 'http://communiocrucis.pl/contact'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404 | ERROR | 2026-07-07 06:55:39
+KONTAKT_SPRAWDZONY — 0000570130 — http://communiocrucis.pl/kontakt/ | INFO | 2026-07-07 06:55:42
+START_SKRYPTU — Zadanie: organizacje_polonijne | INFO | 2026-07-07 06:56:05
+POBIERANIE_KONTAKTU https://kulturapl.org/kontakt/ — Client error '404 Not Found' for url 'https://kulturapl.org/kontakt/'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404 | ERROR | 2026-07-07 06:56:10
+PLAYWRIGHT https://kulturapl.org/kontakt/ — Page.goto: net::ERR_CONNECTION_RESET at https://kulturapl.org/kontakt/
+Call log:
+  - navigating to "https://kulturapl.org/kontakt/", waiting until "domcontentloaded"
+ | ERROR | 2026-07-07 06:56:24
+POBIERANIE_KONTAKTU https://kulturapl.org/kontakt — Client error '404 Not Found' for url 'https://kulturapl.org/kontakt'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404 | ERROR | 2026-07-07 06:56:25
+PLAYWRIGHT https://kulturapl.org/kontakt — Page.goto: net::ERR_CONNECTION_RESET at https://kulturapl.org/kontakt
+Call log:
+  - navigating to "https://kulturapl.org/kontakt", waiting until "domcontentloaded"
+ | ERROR | 2026-07-07 06:56:39
+POBIERANIE_KONTAKTU https://kulturapl.org/kontakty — Client error '404 Not Found' for url 'https://kulturapl.org/kontakty'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404 | ERROR | 2026-07-07 06:56:40
+PLAYWRIGHT https://kulturapl.org/kontakty — Page.goto: net::ERR_CONNECTION_RESET at https://kulturapl.org/kontakty
+Call log:
+  - navigating to "https://kulturapl.org/kontakty", waiting until "domcontentloaded"
+ | ERROR | 2026-07-07 06:56:54
+POBIERANIE_KONTAKTU https://kulturapl.org/o-nas — Client error '404 Not Found' for url 'https://kulturapl.org/o-nas'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404 | ERROR | 2026-07-07 06:56:55
+PLAYWRIGHT https://kulturapl.org/o-nas — Page.goto: net::ERR_CONNECTION_RESET at https://kulturapl.org/o-nas
+Call log:
+  - navigating to "https://kulturapl.org/o-nas", waiting until "domcontentloaded"
+ | ERROR | 2026-07-07 06:57:09
+POBIERANIE_KONTAKTU https://kulturapl.org/contact — Client error '404 Not Found' for url 'https://kulturapl.org/contact'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404 | ERROR | 2026-07-07 06:57:10
+PLAYWRIGHT https://kulturapl.org/contact — Page.goto: net::ERR_CONNECTION_RESET at https://kulturapl.org/contact
+Call log:
+  - navigating to "https://kulturapl.org/contact", waiting until "domcontentloaded"
+ | ERROR | 2026-07-07 06:57:24
+KONTAKT_SPRAWDZONY — 0000576132 — https://kulturapl.org/kontakt/ | INFO | 2026-07-07 06:57:24
+START_SKRYPTU — Zadanie: organizacje_polonijne | INFO | 2026-07-07 10:28:01
+POBIERANIE_KONTAKTU https://fundacjakurtyki.pl/kontakty — Client error '404 Not Found' for url 'https://fundacjakurtyki.pl/kontakty'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404 | ERROR | 2026-07-07 10:28:24
+PLAYWRIGHT https://fundacjakurtyki.pl/kontakty — Page.goto: net::ERR_CONNECTION_RESET at https://fundacjakurtyki.pl/kontakty
+Call log:
+  - navigating to "https://fundacjakurtyki.pl/kontakty", waiting until "domcontentloaded"
+ | ERROR | 2026-07-07 10:28:46
+POBIERANIE_KONTAKTU https://fundacjakurtyki.pl/o-nas — Client error '404 Not Found' for url 'https://fundacjakurtyki.pl/o-nas'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404 | ERROR | 2026-07-07 10:28:50
+PLAYWRIGHT https://fundacjakurtyki.pl/o-nas — Page.goto: net::ERR_CONNECTION_RESET at https://fundacjakurtyki.pl/o-nas
+Call log:
+  - navigating to "https://fundacjakurtyki.pl/o-nas", waiting until "domcontentloaded"
+ | ERROR | 2026-07-07 10:29:04
+KONTAKT_SPRAWDZONY — 0000598727 — https://fundacjakurtyki.pl/kontakt/ | INFO | 2026-07-07 10:29:13
+START_SKRYPTU — Zadanie: organizacje_polonijne | INFO | 2026-07-07 10:30:05
+POBIERANIE_KONTAKTU https://nowaprzestrzen.org/kontakty — Client error '404 Not Found' for url 'https://nowaprzestrzen.org/kontakty'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404 | ERROR | 2026-07-07 10:30:14
+PLAYWRIGHT https://nowaprzestrzen.org/kontakty — Page.goto: net::ERR_CONNECTION_RESET at https://nowaprzestrzen.org/kontakty
+Call log:
+  - navigating to "https://nowaprzestrzen.org/kontakty", waiting until "domcontentloaded"
+ | ERROR | 2026-07-07 10:30:29
+POBIERANIE_KONTAKTU https://nowaprzestrzen.org/o-nas — Client error '404 Not Found' for url 'https://nowaprzestrzen.org/o-nas'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404 | ERROR | 2026-07-07 10:30:30
+PLAYWRIGHT https://nowaprzestrzen.org/o-nas — Page.goto: net::ERR_CONNECTION_RESET at https://nowaprzestrzen.org/o-nas
+Call log:
+  - navigating to "https://nowaprzestrzen.org/o-nas", waiting until "domcontentloaded"
+ | ERROR | 2026-07-07 10:30:44
+POBIERANIE_KONTAKTU https://nowaprzestrzen.org/contact — Client error '404 Not Found' for url 'https://nowaprzestrzen.org/contact'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404 | ERROR | 2026-07-07 10:30:46
+PLAYWRIGHT https://nowaprzestrzen.org/contact — Page.goto: net::ERR_CONNECTION_RESET at https://nowaprzestrzen.org/contact
+Call log:
+  - navigating to "https://nowaprzestrzen.org/contact", waiting until "domcontentloaded"
+ | ERROR | 2026-07-07 10:30:59
+KONTAKT_SPRAWDZONY — 0000622287 — https://nowaprzestrzen.org/kontakt/ | INFO | 2026-07-07 10:30:59
