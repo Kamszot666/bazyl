@@ -3642,3 +3642,9 @@ START_SKRYPTU — Zadanie: organizacje_polonijne | INFO | 2026-07-07 19:26:16
 KONTAKT_SPRAWDZONY — 0001133422 — https://mlodepokolenia.pl | INFO | 2026-07-07 19:26:23
 START_SKRYPTU — Zadanie: organizacje_polonijne | INFO | 2026-07-07 19:26:50
 KONTAKT_SPRAWDZONY — 0001223849 — https://polsoc.eu | INFO | 2026-07-07 19:27:06
+START_SKRYPTU — Zadanie: organizacje_polonijne | INFO | 2026-07-07 19:45:12
+SCALENIE_DANYCH_KONTAKTOWYCH — Scalono dane kontaktowe dla 310/310 organizacji do output/baza_organizacje_polonijne.xlsx | INFO | 2026-07-07 19:45:13
+Scalono dane kontaktowe dla 310/310 organizacji. | INFO | 2026-07-07 19:45:13
+START_SKRYPTU — Zadanie: organizacje_polonijne | INFO | 2026-07-07 19:45:30
+SCALENIE_DANYCH_KONTAKTOWYCH — Scalono dane kontaktowe dla 310/310 organizacji do output/baza_organizacje_polonijne.xlsx | INFO | 2026-07-07 19:45:30
+Scalono dane kontaktowe dla 310/310 organizacji. | INFO | 2026-07-07 19:45:30
