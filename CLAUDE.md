@@ -31,7 +31,23 @@ Użytkownik jest osobą niewidomą i pracuje wyłącznie z czytnikami ekranu.
 
 ## Stos technologiczny
 - Python 3.14
-- requests, beautifulsoup4, lxml, openpyxl, tqdm (wszystkie biblioteki darmowe dozwolone)
+- requests, beautifulsoup4, lxml — pobieranie i parsowanie stron w pełni statycznych i przewidywalnych
+  (Etap 1, strony gov.pl).
+- pdfplumber — wyciąganie tabel z załączników PDF (Etap 1, wyniki konkursów polonijnych).
+- httpx, selectolax — podstawowe narzędzie do pobierania i parsowania stron kontaktowych organizacji
+  (Etap 4): lekkie i szybkie.
+- playwright — zapasowe narzędzie dla stron renderowanych przez JavaScript, gdy httpx zwróci podejrzanie
+  mało tekstu (Etap 4).
+- ddgs — automatyczne wyszukiwanie adresu WWW organizacji, z bezpiecznikiem przy blokadzie/CAPTCHA
+  (patrz metodyka pozyskiwania danych niżej); narzędzie wyszukiwania asystenta jako zapasowa metoda.
+- phonenumbers — wyszukiwanie i walidacja numerów telefonu w pobranym tekście (poprawny numer kierunkowy,
+  odrzucenie przypadkowych sekwencji cyfr typu NIP/REGON/KRS).
+- openpyxl — zapis do plików XLSX.
+- tqdm — pasek postępu dla długotrwałych operacji.
+- Wszystkie biblioteki darmowe dozwolone; przy dodawaniu kolejnej do wyboru wybieraj aktywnie rozwijaną
+  i z najlepszym stosunkiem niezawodności do złożoności — ale nie dodawaj bibliotek "na zapas", tylko
+  wtedy, gdy faktycznie rozwiązują problem w tym projekcie (patrz zasada braku abstrakcji na przyszłość
+  niżej).
 - Kodowanie wyjścia: `utf-8-sig` (UTF-8 z BOM — polskie znaki w Excel)
 
 ## Zasady pisania kodu (YOU MUST)
@@ -47,8 +63,20 @@ Użytkownik jest osobą niewidomą i pracuje wyłącznie z czytnikami ekranu.
 - Przed napisaniem scrapera sprawdź, czy źródło ma oficjalne API lub gotowy plik CSV/XML/JSON.
   API i pliki urzędowe są stabilniejsze niż scraping HTML.
 - Scraping stosuj tam, gdzie API/plik nie pokrywa danych, np. dane osoby kontaktowej.
-- Strony statyczne: requests + BeautifulSoup/lxml. Strony ładowane przez JavaScript: selenium lub Playwright.
-  Scrapy pomiń — to projekt jednorazowy, nie wymaga tej skali.
+- Wyciąganie danych kontaktowych ze znanych już stron organizacji: httpx + selectolax jako podstawowe
+  narzędzie (szybkie i lekkie). Playwright wyłącznie jako zapasowe narzędzie dla stron renderowanych
+  przez JavaScript, gdy httpx zwróci podejrzanie mało tekstu. requests + BeautifulSoup/lxml zostają dla
+  źródeł w pełni statycznych i przewidywalnych, np. API oraz strony z Etapu 1 (gov.pl). Scrapy pomiń —
+  to projekt jednorazowy, nie wymaga tej skali.
+- Automatyzacja przeglądarki (Playwright, selenium) do pobierania stron jest w pełni dozwolona i pożądana.
+  To NIE jest to samo co omijanie zabezpieczeń — patrz punkt niżej o CAPTCHA.
+- Wyszukiwanie adresu WWW organizacji: biblioteka ddgs jako pierwsza próba, narzędzie wyszukiwania
+  asystenta jako zapasowa metoda. Jeżeli ddgs zwróci błąd wskazujący na blokadę/limit zapytań (nie zwykły
+  brak wyników) — automatyczne wyszukiwanie wyłącza się do końca uruchomienia skryptu i wymaga
+  wyszukania ręcznego. Zakaz obchodzenia zagadek CAPTCHA lub innych aktywnych zabezpieczeń antybotowych
+  obowiązuje niezależnie od użytej biblioteki — patrz „Czego NIE robić” niżej. To ograniczenie dotyczy
+  zabezpieczeń stron trzecich, nie jest tylko lokalną regułą tego projektu, więc nie da się go znieść
+  zmianą tego pliku.
 - Odpowiedzialny scraping: ustaw nagłówek User-Agent, rozsądne opóźnienia między żądaniami, ogranicz liczbę zapytań.
 - Deduplikacja rekordów po numerze KRS.
 - Danych niepewnych lub sprzecznych nie zgaduj. Wpisz `nie ustalono` i odnotuj zdarzenie w scraper_log.txt.
@@ -80,7 +108,7 @@ config.py         # opcjonalnie: wydzielony CONFIG
 requirements.txt
 progress.json     # auto: stan postępu
 scraper_log.txt   # auto: logi
-output/           # auto: baza_*.xlsx, odrzucone.xlsx
+output/           # auto: baza_*.xlsx, odrzucone.xlsx, pliki pośrednie etapów (np. dane_kontaktowe.json)
 STAN_PROJEKTU.md  # auto: checkpoint pamięci, patrz docs/skleroza.md
 ```
 Szczegóły źródeł danych dla aktualnego zadania: @docs/zrodla_polonia.md

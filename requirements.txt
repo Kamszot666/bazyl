@@ -1,0 +1,11 @@
+requests
+beautifulsoup4
+lxml
+openpyxl
+tqdm
+pdfplumber
+httpx
+selectolax
+playwright
+ddgs
+phonenumbers
