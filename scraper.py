@@ -64,6 +64,27 @@ CONFIG = {
     "cache_dane_krs_file": "output/cache_dane_krs.json",
     "api_krs_url_wzor": "https://api-krs.ms.gov.pl/api/krs/OdpisAktualny/{krs}?rejestr={rejestr}&format=json",
 
+    # --- ETAP 4: DANE KONTAKTOWE ZE STRON WWW ORGANIZACJI ---
+    # Adres strony każdej organizacji ustala się ręcznie (wyszukiwanie po
+    # nazwie z API KRS, patrz historia rozmowy — automatyczne odpytywanie
+    # wyszukiwarki z poziomu skryptu wymagałoby płatnego API albo
+    # scrapowania samej wyszukiwarki, czego CLAUDE.md każe unikać).
+    # To, co JEST zautomatyzowane: pobranie znanego adresu i wyciągnięcie
+    # z niego telefonu, e-maila i profilu social media uniwersalnymi
+    # wzorcami tekstowymi (nie selektorami CSS specyficznymi dla strony).
+    "dane_kontaktowe_file": "output/dane_kontaktowe.json",
+    "podstrony_kontaktowe": ["kontakt", "kontakty", "o-nas", "contact"],
+    "domeny_social_media": [
+        "facebook.com", "instagram.com", "linkedin.com",
+        "youtube.com", "x.com", "twitter.com",
+    ],
+    # Próg długości tekstu strony, poniżej którego uznajemy stronę za
+    # renderowaną przez JavaScript i sięgamy po selenium (patrz historia
+    # rozmowy — w tym środowisku deweloperskim selenium ma problem z
+    # serwerem proxy, ale na docelowym komputerze Windows bez proxy
+    # powinno działać bez przeszkód).
+    "prog_dlugosci_tekstu_js": 200,
+
     # Każdy adres poniżej zweryfikowano ręcznie przez realne pobranie strony
     # (patrz historia rozmowy — nazwa i podział konkursu zmienia się rok do
     # roku, więc NIE da się zbudować jednego wzorca adresu zależnego od roku).
@@ -522,20 +543,33 @@ def extract_registry_number(soup: BeautifulSoup, reg_type: str) -> str | None:
     return None  # zastąp implementacją
 
 
+# Dwucyfrowe numery kierunkowe polskich telefonów stacjonarnych (numeracja
+# krajowa UKE) — jeśli pierwsze dwie cyfry numeru pasują do tej listy,
+# traktujemy numer jako stacjonarny i zapisujemy z kierunkowym oddzielnie,
+# zgodnie z przykładem z procedury ("33 874 22 33"). W przeciwnym razie
+# traktujemy numer jako komórkowy (grupowanie XXX XXX XXX).
+KIERUNKOWE_STACJONARNE = {
+    "12", "13", "14", "15", "16", "17", "18", "22", "23", "24", "25", "29",
+    "32", "33", "34", "41", "42", "43", "44", "46", "47", "48", "52", "54",
+    "55", "56", "58", "59", "61", "62", "63", "64", "65", "67", "68", "71",
+    "74", "75", "76", "77", "81", "82", "83", "84", "85", "86", "87", "89",
+    "91", "94", "95",
+}
+
+
 def normalize_phone(raw: str) -> str:
-    """Normalizuje numer telefonu do formatu XXX XXX XXX lub XX XXX XX XX."""
+    """Normalizuje numer telefonu do formatu XXX XXX XXX (komórkowy) lub XX XXX XX XX (stacjonarny z kierunkowym)."""
     digits = re.sub(r"\D", "", raw)
     # Usuń polskie prefiksy (+48, 0048)
     if digits.startswith("0048"):
         digits = digits[4:]
     elif digits.startswith("48") and len(digits) == 11:
         digits = digits[2:]
-    # 9 cyfr — komórkowy lub stacjonarny bez kierunkowego: XXX XXX XXX
+
     if len(digits) == 9:
+        if digits[0:2] in KIERUNKOWE_STACJONARNE:
+            return f"{digits[0:2]} {digits[2:5]} {digits[5:7]} {digits[7:9]}"
         return f"{digits[0:3]} {digits[3:6]} {digits[6:9]}"
-    # Stacjonarny z kierunkowym: 2 cyfry kierunkowy + 7 cyfr → XX XXX XX XX
-    if len(digits) == 9:
-        return f"{digits[0:2]} {digits[2:5]} {digits[5:7]} {digits[7:9]}"
     # Inne długości — zwróć cyfry ze spacjami co 3
     if len(digits) >= 7:
         parts = [digits[i:i+3] for i in range(0, len(digits), 3)]
@@ -1108,6 +1142,234 @@ def zbuduj_wzbogacona_baze(progress: dict):
 
 
 # =============================================================================
+# ETAP 4: DANE KONTAKTOWE ZE STRON WWW ORGANIZACJI
+# =============================================================================
+# Adres strony każdej organizacji znajdujemy ręcznie (wyszukiwanie po nazwie
+# z rejestru, nie po numerze KRS — numer KRS prawie nigdy nie występuje na
+# własnej stronie organizacji, za to bardzo często na stronach zbiorczych
+# typu rejestr.io czy aleo.com, których chcemy unikać). To, co JEST
+# zautomatyzowane poniżej, to pobranie znanego adresu i wyciągnięcie z niego
+# telefonu, e-maila i profilu social media uniwersalnymi wzorcami tekstowymi —
+# to działa niezależnie od struktury konkretnej strony, więc nie jest
+# "zgadywaniem selektorów CSS" zakazanym w CLAUDE.md.
+
+WZORZEC_EMAIL = re.compile(r"[\w.+-]+@[\w-]+\.[\w.-]+")
+
+# Numer telefonu: opcjonalny prefiks +48/48, potem 9 cyfr w typowych
+# grupowaniach (spacje, myślniki, lub bez rozdzielenia).
+WZORZEC_TELEFON = re.compile(
+    r"(?:\+48[\s-]?|\b48[\s-]?)?"
+    r"(\d{2,3}[\s-]?\d{3}[\s-]?\d{2,3}[\s-]?\d{2,3})\b"
+)
+
+# Domeny, które ewidentnie NIE są własną stroną organizacji, tylko
+# rejestrem zbiorczym — pomijamy je przy wyborze adresu WWW.
+DOMENY_REJESTROW_DO_POMINIECIA = [
+    "rejestr.io", "aleo.com", "krs-pobierz.pl", "krs-online.com.pl",
+    "ngo.pl", "imsig.pl", "infoveriti.pl", "gowork.pl", "panoramafirm.pl",
+    "bizraport.pl", "pitax.pl", "moc-danych.pl", "wyszukiwarkakrs.pl",
+    "dnb.com", "emis.com",
+]
+
+
+def czy_adres_to_rejestr(url: str) -> bool:
+    """Sprawdza, czy podany adres to strona zbiorczego rejestru, a nie własna strona organizacji."""
+    return any(domena in url.lower() for domena in DOMENY_REJESTROW_DO_POMINIECIA)
+
+
+def _wyciagnij_emaile(tekst: str) -> list[str]:
+    """Zwraca unikalne adresy e-mail znalezione w tekście, w kolejności występowania."""
+    znalezione = []
+    for dopasowanie in WZORZEC_EMAIL.findall(tekst):
+        if dopasowanie not in znalezione:
+            znalezione.append(dopasowanie)
+    return znalezione
+
+
+# Etykiety, po których liczba prawie na pewno NIE jest numerem telefonu,
+# tylko numerem rejestrowym — sprawdzane w krótkim fragmencie tekstu
+# bezpośrednio przed dopasowaniem.
+ETYKIETY_NIE_TELEFON = ["regon", "nip", "krs", "kod pocztowy"]
+
+
+def _wyciagnij_telefony(tekst: str) -> list[str]:
+    """
+    Zwraca unikalne, znormalizowane numery telefonu znalezione w tekście.
+    Odrzuca dopasowania będące fragmentem dłuższej sekwencji cyfr (np. NIP,
+    REGON, numer KRS) — prawdziwy numer telefonu nie ma cyfry bezpośrednio
+    przed ani po dopasowanym fragmencie — oraz dopasowania poprzedzone
+    etykietą rejestrową (np. "REGON: 123456789").
+    """
+    znalezione = []
+    for dopasowanie in WZORZEC_TELEFON.finditer(tekst):
+        przed = tekst[max(0, dopasowanie.start() - 1):dopasowanie.start()]
+        po = tekst[dopasowanie.end():dopasowanie.end() + 1]
+        if przed.isdigit() or po.isdigit():
+            continue
+        kontekst_przed = tekst[max(0, dopasowanie.start() - 20):dopasowanie.start()].lower()
+        if any(etykieta in kontekst_przed for etykieta in ETYKIETY_NIE_TELEFON):
+            continue
+        numer = normalize_phone(dopasowanie.group(1))
+        if numer not in znalezione:
+            znalezione.append(numer)
+    return znalezione
+
+
+def _wyciagnij_social_linki(soup: BeautifulSoup) -> dict:
+    """Zwraca pierwszy znaleziony link do każdej platformy social media, wg kolejności priorytetu w CONFIG."""
+    linki = [a.get("href", "") for a in soup.select("a[href]")]
+    wynik = {}
+    for domena in CONFIG["domeny_social_media"]:
+        for link in linki:
+            if domena in link.lower():
+                wynik[domena] = link
+                break
+    return wynik
+
+
+def _tekst_i_soup_ze_strony(url: str, session: requests.Session) -> tuple[str, BeautifulSoup] | None:
+    """Pobiera stronę i zwraca (czysty tekst, BeautifulSoup) albo None przy błędzie."""
+    try:
+        resp = session.get(url, headers=HEADERS, timeout=CONFIG["request_timeout"])
+        resp.raise_for_status()
+    except requests.RequestException as e:
+        log_event(f"POBIERANIE_KONTAKTU {url[:60]}", False, str(e))
+        return None
+    resp.encoding = resp.apparent_encoding or "utf-8"
+    soup = BeautifulSoup(resp.text, "lxml")
+    return soup.get_text(" ", strip=True), soup
+
+
+def pobierz_dane_kontaktowe_selenium(url: str) -> tuple[str, str] | None:
+    """
+    Pobiera stronę renderowaną przez JavaScript przez headless Chrome (selenium).
+    Używane tylko jako zapasowa metoda, gdy zwykłe pobranie przez requests
+    zwraca podejrzanie mało tekstu (patrz prog_dlugosci_tekstu_js w CONFIG).
+
+    UWAGA ze środowiska deweloperskiego: w tym środowisku (sandbox z
+    pośredniczącym serwerem proxy) połączenia HTTPS z poziomu Chrome przez
+    ten proxy się zrywają, mimo że requests przez ten sam proxy działa
+    poprawnie — to ograniczenie tego konkretnego środowiska testowego, nie
+    błąd w tym kodzie. Na docelowym komputerze Windows bez takiego proxy
+    ta funkcja powinna działać bez dodatkowej konfiguracji.
+    """
+    from selenium import webdriver
+    from selenium.webdriver.chrome.options import Options
+    from selenium.webdriver.common.by import By
+
+    opcje = Options()
+    opcje.add_argument("--headless=new")
+    opcje.add_argument("--no-sandbox")
+    opcje.add_argument("--disable-dev-shm-usage")
+    opcje.add_argument(f"user-agent={HEADERS['User-Agent']}")
+
+    sterownik = webdriver.Chrome(options=opcje)
+    try:
+        sterownik.set_page_load_timeout(CONFIG["request_timeout"])
+        sterownik.get(url)
+        time.sleep(2)  # czas na dorenderowanie treści przez JavaScript
+        tekst = sterownik.find_element(By.TAG_NAME, "body").text
+        html = sterownik.page_source
+    except Exception as e:
+        log_event(f"SELENIUM {url[:60]}", False, str(e))
+        return None
+    finally:
+        sterownik.quit()
+
+    return tekst, html
+
+
+def zbierz_dane_kontaktowe_z_adresu(url: str, session: requests.Session) -> dict:
+    """
+    Pobiera stronę główną i typowe podstrony kontaktowe (kontakt/o nas/contact),
+    wyciąga z nich e-maile, telefony i linki do mediów społecznościowych.
+    Jeśli zwykłe pobranie zwraca podejrzanie mało tekstu — prawdopodobnie
+    strona jest renderowana przez JavaScript — sięga po selenium.
+    """
+    wynik = {"emaile": [], "telefony": [], "social": {}, "url_zrodlowy": url, "metoda": "requests"}
+
+    adresy_do_sprawdzenia = [url]
+    baza = url.rstrip("/")
+    for podstrona in CONFIG["podstrony_kontaktowe"]:
+        adresy_do_sprawdzenia.append(f"{baza}/{podstrona}")
+
+    for adres in adresy_do_sprawdzenia:
+        pobrane = _tekst_i_soup_ze_strony(adres, session)
+        if pobrane is None:
+            continue
+        tekst, soup = pobrane
+
+        if len(tekst) < CONFIG["prog_dlugosci_tekstu_js"]:
+            zapasowe = pobierz_dane_kontaktowe_selenium(adres)
+            if zapasowe is not None:
+                tekst, html = zapasowe
+                soup = BeautifulSoup(html, "lxml")
+                wynik["metoda"] = "selenium"
+
+        for email in _wyciagnij_emaile(tekst):
+            if email not in wynik["emaile"]:
+                wynik["emaile"].append(email)
+        for telefon in _wyciagnij_telefony(tekst):
+            if telefon not in wynik["telefony"]:
+                wynik["telefony"].append(telefon)
+        for domena, link in _wyciagnij_social_linki(soup).items():
+            wynik["social"].setdefault(domena, link)
+
+        if wynik["emaile"] and wynik["telefony"]:
+            wynik["url_zrodlowy"] = adres
+            break
+
+        polite_delay()
+
+    return wynik
+
+
+def sprawdz_kontakt_organizacji(numer_krs: str, url: str):
+    """
+    CLI: pobiera znany adres WWW organizacji, wyciąga dane kontaktowe i
+    zapisuje je do output/dane_kontaktowe.json pod danym numerem KRS.
+    Adres URL trzeba znaleźć ręcznie wcześniej (wyszukiwanie po nazwie
+    organizacji, patrz komentarz w CONFIG) — ta funkcja tylko automatyzuje
+    pobranie strony i wyciągnięcie z niej danych.
+    """
+    path = Path(CONFIG["dane_kontaktowe_file"])
+    with open(path, encoding="utf-8") as f:
+        dane = json.load(f)
+
+    rekord = next((r for r in dane if r["krs"] == numer_krs), None)
+    if rekord is None:
+        log.error(f"Nie znaleziono rekordu KRS {numer_krs} w {path}")
+        return
+
+    session = requests.Session()
+    try:
+        wynik = zbierz_dane_kontaktowe_z_adresu(url, session)
+    finally:
+        session.close()
+
+    rekord["strona_www"] = url
+    rekord["telefon_ogolny"] = wynik["telefony"][0] if wynik["telefony"] else "brak"
+    rekord["email_ogolny"] = wynik["emaile"][0] if wynik["emaile"] else "brak"
+    rekord["profil_social"] = next(iter(wynik["social"].values()), "brak")
+    rekord["zrodlo_url"] = wynik["url_zrodlowy"]
+    rekord["status"] = "znaleziono" if (wynik["telefony"] or wynik["emaile"]) else "znaleziono_czesciowo"
+    rekord.setdefault("osoba_kontaktowa", "nie ustalono")
+    rekord.setdefault("telefon_osoby_kontaktowej", "brak")
+    rekord.setdefault("email_osoby_kontaktowej", "brak")
+    rekord.setdefault("charakterystyka_realna", None)
+    rekord.setdefault("branza_typ", None)
+
+    with open(path, "w", encoding="utf-8") as f:
+        json.dump(dane, f, ensure_ascii=False, indent=2)
+
+    print(f"KRS {numer_krs} ({wynik['metoda']}):")
+    print(f"  e-maile znalezione: {wynik['emaile']}")
+    print(f"  telefony znalezione: {wynik['telefony']}")
+    print(f"  social: {wynik['social']}")
+    log_event("KONTAKT_SPRAWDZONY", True, f"{numer_krs} — {url}")
+
+
+# =============================================================================
 # ZAPIS DO XLSX
 # =============================================================================
 
@@ -1316,6 +1578,12 @@ def main():
         action="store_true",
         help="Etap 3: wzbogać oferentów danymi z API KRS i zbuduj finalny plik wg formatki",
     )
+    parser.add_argument(
+        "--sprawdz-kontakt",
+        nargs=2,
+        metavar=("KRS", "URL"),
+        help="Etap 4: pobierz znaną stronę organizacji i wyciągnij z niej telefon/e-mail/social (adres URL trzeba znaleźć ręcznie wcześniej)",
+    )
     args = parser.parse_args()
 
     if args.reset:
@@ -1338,6 +1606,11 @@ def main():
 
     if args.zbuduj_baze:
         zbuduj_wzbogacona_baze(progress)
+        return
+
+    if args.sprawdz_kontakt:
+        numer_krs, url = args.sprawdz_kontakt
+        sprawdz_kontakt_organizacji(numer_krs, url)
         return
 
     # Inicjalizuj pliki wyjściowe
