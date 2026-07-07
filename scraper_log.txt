@@ -3590,3 +3590,5 @@ START_SKRYPTU — Zadanie: organizacje_polonijne | INFO | 2026-07-07 19:21:20
 KONTAKT_SPRAWDZONY — 0001054164 — https://poloniaswiata.org | INFO | 2026-07-07 19:21:27
 START_SKRYPTU — Zadanie: organizacje_polonijne | INFO | 2026-07-07 19:21:27
 KONTAKT_SPRAWDZONY — 0001054227 — http://openhearts.pl | INFO | 2026-07-07 19:21:32
+START_SKRYPTU — Zadanie: organizacje_polonijne | INFO | 2026-07-07 19:22:22
+KONTAKT_SPRAWDZONY — 0001054579 — https://www.harmoniawrelacji.pl | INFO | 2026-07-07 19:22:27
