@@ -1813,3 +1813,133 @@ Nie znaleziono strony dla "KAMIENICA 1 - FUNDACJA NA RZECZ ROZWOJU SZTUKI I PROM
 START_SKRYPTU — Zadanie: organizacje_polonijne | INFO | 2026-07-07 06:19:23
 DDGS_ZABLOKOWANE — Wyłączam automatyczne wyszukiwanie do końca uruchomienia — wymagane ręczne wyszukiwanie: error sending request for url (https://www.google.com/search?q=%22STOWARZYSZENIE+BEZPIECZNA+LUBELSZCZYZNA%22+kontakt&filter=1&start=0&hl=en-US&lr=lang_en&cr=countryUS) > operation timed out | ERROR | 2026-07-07 06:19:44
 Nie znaleziono strony dla STOWARZYSZENIE BEZPIECZNA LUBELSZCZYZNA (KRS 0000385808) — wyszukaj ręcznie | SUCCESS | 2026-07-07 06:19:44
+START_SKRYPTU — Zadanie: organizacje_polonijne | INFO | 2026-07-07 06:21:40
+KONTAKT_SPRAWDZONY — 0000414081 — https://www.fundacjazarys.com/ | INFO | 2026-07-07 06:22:03
+START_SKRYPTU — Zadanie: organizacje_polonijne | INFO | 2026-07-07 06:22:15
+KONTAKT_SPRAWDZONY — 0000414081 — https://akademiagornika.pl/fundacja-gornika-zabrze/ | INFO | 2026-07-07 06:22:21
+START_SKRYPTU — Zadanie: organizacje_polonijne | INFO | 2026-07-07 06:22:29
+DDGS_ZABLOKOWANE — Wyłączam automatyczne wyszukiwanie do końca uruchomienia — wymagane ręczne wyszukiwanie: error sending request for url (https://www.mojeek.com/search?q=%22FUNDACJA+KOSSAKOWSKIEGO%22+kontakt) > operation timed out | ERROR | 2026-07-07 06:22:54
+Nie znaleziono strony dla FUNDACJA KOSSAKOWSKIEGO (KRS 0000403745) — wyszukaj ręcznie | SUCCESS | 2026-07-07 06:22:54
+START_SKRYPTU — Zadanie: organizacje_polonijne | INFO | 2026-07-07 06:23:53
+DDGS_ZABLOKOWANE — Wyłączam automatyczne wyszukiwanie do końca uruchomienia — wymagane ręczne wyszukiwanie: error sending request for url (https://yandex.com/search/site/?text=%22FUNDACJA+%22TOWARZYSTWO+PROJEKT%C3%93W+EDUKACYJNYCH%22%22+kontakt&web=1&searchid=4351988) > operation timed out | ERROR | 2026-07-07 06:24:14
+Nie znaleziono strony dla FUNDACJA "TOWARZYSTWO PROJEKTÓW EDUKACYJNYCH" (KRS 0000405141) — wyszukaj ręcznie | SUCCESS | 2026-07-07 06:24:14
+START_SKRYPTU — Zadanie: organizacje_polonijne | INFO | 2026-07-07 06:25:08
+POBIERANIE_KONTAKTU https://www.artefundacja.pl/ — Client error '404 Not Found' for url 'https://www.artefundacja.pl/'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404 | ERROR | 2026-07-07 06:25:08
+PLAYWRIGHT https://www.artefundacja.pl/ — Page.goto: net::ERR_CONNECTION_RESET at https://www.artefundacja.pl/
+Call log:
+  - navigating to "https://www.artefundacja.pl/", waiting until "domcontentloaded"
+ | ERROR | 2026-07-07 06:25:22
+POBIERANIE_KONTAKTU https://www.artefundacja.pl/kontakt — Client error '404 Not Found' for url 'https://www.artefundacja.pl/kontakt'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404 | ERROR | 2026-07-07 06:25:22
+PLAYWRIGHT https://www.artefundacja.pl/kontakt — Page.goto: net::ERR_CONNECTION_RESET at https://www.artefundacja.pl/kontakt
+Call log:
+  - navigating to "https://www.artefundacja.pl/kontakt", waiting until "domcontentloaded"
+ | ERROR | 2026-07-07 06:25:36
+POBIERANIE_KONTAKTU https://www.artefundacja.pl/kontakty — Client error '404 Not Found' for url 'https://www.artefundacja.pl/kontakty'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404 | ERROR | 2026-07-07 06:25:37
+PLAYWRIGHT https://www.artefundacja.pl/kontakty — Page.goto: net::ERR_CONNECTION_RESET at https://www.artefundacja.pl/kontakty
+Call log:
+  - navigating to "https://www.artefundacja.pl/kontakty", waiting until "domcontentloaded"
+ | ERROR | 2026-07-07 06:25:50
+POBIERANIE_KONTAKTU https://www.artefundacja.pl/o-nas — Client error '404 Not Found' for url 'https://www.artefundacja.pl/o-nas'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404 | ERROR | 2026-07-07 06:25:51
+PLAYWRIGHT https://www.artefundacja.pl/o-nas — Page.goto: net::ERR_CONNECTION_RESET at https://www.artefundacja.pl/o-nas
+Call log:
+  - navigating to "https://www.artefundacja.pl/o-nas", waiting until "domcontentloaded"
+ | ERROR | 2026-07-07 06:26:04
+POBIERANIE_KONTAKTU https://www.artefundacja.pl/contact — Client error '404 Not Found' for url 'https://www.artefundacja.pl/contact'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404 | ERROR | 2026-07-07 06:26:05
+PLAYWRIGHT https://www.artefundacja.pl/contact — Page.goto: net::ERR_CONNECTION_RESET at https://www.artefundacja.pl/contact
+Call log:
+  - navigating to "https://www.artefundacja.pl/contact", waiting until "domcontentloaded"
+ | ERROR | 2026-07-07 06:26:19
+KONTAKT_SPRAWDZONY — 0000410110 — https://www.artefundacja.pl/ | INFO | 2026-07-07 06:26:19
+START_SKRYPTU — Zadanie: organizacje_polonijne | INFO | 2026-07-07 06:27:54
+POBIERANIE_KONTAKTU https://fundacjasztukkrytycznych.pl/kontakty — Client error '404 Not Found' for url 'https://fundacjasztukkrytycznych.pl/kontakty'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404 | ERROR | 2026-07-07 06:28:20
+PLAYWRIGHT https://fundacjasztukkrytycznych.pl/kontakty — Page.goto: net::ERR_CONNECTION_RESET at https://fundacjasztukkrytycznych.pl/kontakty
+Call log:
+  - navigating to "https://fundacjasztukkrytycznych.pl/kontakty", waiting until "domcontentloaded"
+ | ERROR | 2026-07-07 06:28:34
+POBIERANIE_KONTAKTU https://fundacjasztukkrytycznych.pl/o-nas — Client error '404 Not Found' for url 'https://fundacjasztukkrytycznych.pl/o-nas'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404 | ERROR | 2026-07-07 06:28:35
+PLAYWRIGHT https://fundacjasztukkrytycznych.pl/o-nas — Page.goto: net::ERR_CONNECTION_RESET at https://fundacjasztukkrytycznych.pl/o-nas
+Call log:
+  - navigating to "https://fundacjasztukkrytycznych.pl/o-nas", waiting until "domcontentloaded"
+ | ERROR | 2026-07-07 06:28:49
+POBIERANIE_KONTAKTU https://fundacjasztukkrytycznych.pl/contact — Client error '404 Not Found' for url 'https://fundacjasztukkrytycznych.pl/contact'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404 | ERROR | 2026-07-07 06:28:50
+PLAYWRIGHT https://fundacjasztukkrytycznych.pl/contact — Page.goto: net::ERR_CONNECTION_RESET at https://fundacjasztukkrytycznych.pl/contact
+Call log:
+  - navigating to "https://fundacjasztukkrytycznych.pl/contact", waiting until "domcontentloaded"
+ | ERROR | 2026-07-07 06:29:03
+KONTAKT_SPRAWDZONY — 0000439213 — https://fundacjasztukkrytycznych.pl/ | INFO | 2026-07-07 06:29:03
+START_SKRYPTU — Zadanie: organizacje_polonijne | INFO | 2026-07-07 06:37:55
+POBIERANIE_KONTAKTU https://muzeumzimnejwojny.com/kontakty — Client error '404 Not Found' for url 'https://muzeumzimnejwojny.com/kontakty'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404 | ERROR | 2026-07-07 06:38:04
+PLAYWRIGHT https://muzeumzimnejwojny.com/kontakty — Page.goto: net::ERR_CONNECTION_RESET at https://muzeumzimnejwojny.com/kontakty
+Call log:
+  - navigating to "https://muzeumzimnejwojny.com/kontakty", waiting until "domcontentloaded"
+ | ERROR | 2026-07-07 06:38:25
+POBIERANIE_KONTAKTU https://muzeumzimnejwojny.com/o-nas — Client error '404 Not Found' for url 'https://muzeumzimnejwojny.com/o-nas'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404 | ERROR | 2026-07-07 06:38:27
+PLAYWRIGHT https://muzeumzimnejwojny.com/o-nas — Page.goto: net::ERR_CONNECTION_RESET at https://muzeumzimnejwojny.com/o-nas
+Call log:
+  - navigating to "https://muzeumzimnejwojny.com/o-nas", waiting until "domcontentloaded"
+ | ERROR | 2026-07-07 06:38:41
+KONTAKT_SPRAWDZONY — 0000443664 — https://muzeumzimnejwojny.com/kontakt/ | INFO | 2026-07-07 06:38:45
+START_SKRYPTU — Zadanie: organizacje_polonijne | INFO | 2026-07-07 06:39:04
+POBIERANIE_KONTAKTU https://nzb.org.pl/kontakt/ — Client error '404 Not Found' for url 'https://nzb.org.pl/kontakt/'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404 | ERROR | 2026-07-07 06:39:05
+PLAYWRIGHT https://nzb.org.pl/kontakt/ — Page.goto: net::ERR_CONNECTION_RESET at https://nzb.org.pl/kontakt/
+Call log:
+  - navigating to "https://nzb.org.pl/kontakt/", waiting until "domcontentloaded"
+ | ERROR | 2026-07-07 06:39:20
+POBIERANIE_KONTAKTU https://nzb.org.pl/kontakt — Client error '404 Not Found' for url 'https://nzb.org.pl/kontakt'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404 | ERROR | 2026-07-07 06:39:21
+PLAYWRIGHT https://nzb.org.pl/kontakt — Page.goto: net::ERR_CONNECTION_RESET at https://nzb.org.pl/kontakt
+Call log:
+  - navigating to "https://nzb.org.pl/kontakt", waiting until "domcontentloaded"
+ | ERROR | 2026-07-07 06:39:34
+POBIERANIE_KONTAKTU https://nzb.org.pl/kontakty — Client error '404 Not Found' for url 'https://nzb.org.pl/kontakty'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404 | ERROR | 2026-07-07 06:39:35
+PLAYWRIGHT https://nzb.org.pl/kontakty — Page.goto: net::ERR_CONNECTION_RESET at https://nzb.org.pl/kontakty
+Call log:
+  - navigating to "https://nzb.org.pl/kontakty", waiting until "domcontentloaded"
+ | ERROR | 2026-07-07 06:39:49
+POBIERANIE_KONTAKTU https://nzb.org.pl/o-nas — Client error '404 Not Found' for url 'https://nzb.org.pl/o-nas'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404 | ERROR | 2026-07-07 06:39:50
+PLAYWRIGHT https://nzb.org.pl/o-nas — Page.goto: net::ERR_CONNECTION_RESET at https://nzb.org.pl/o-nas
+Call log:
+  - navigating to "https://nzb.org.pl/o-nas", waiting until "domcontentloaded"
+ | ERROR | 2026-07-07 06:40:04
+POBIERANIE_KONTAKTU https://nzb.org.pl/contact — Client error '404 Not Found' for url 'https://nzb.org.pl/contact'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404 | ERROR | 2026-07-07 06:40:05
+PLAYWRIGHT https://nzb.org.pl/contact — Page.goto: net::ERR_CONNECTION_RESET at https://nzb.org.pl/contact
+Call log:
+  - navigating to "https://nzb.org.pl/contact", waiting until "domcontentloaded"
+ | ERROR | 2026-07-07 06:40:18
+KONTAKT_SPRAWDZONY — 0000458144 — https://nzb.org.pl/kontakt/ | INFO | 2026-07-07 06:40:18
+START_SKRYPTU — Zadanie: organizacje_polonijne | INFO | 2026-07-07 06:42:41
+POBIERANIE_KONTAKTU https://www.fdrp.org.pl/kontakty — Client error '404 Not Found' for url 'https://www.fdrp.org.pl/kontakty'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404 | ERROR | 2026-07-07 06:42:49
+PLAYWRIGHT https://www.fdrp.org.pl/kontakty — Page.goto: net::ERR_CONNECTION_RESET at https://www.fdrp.org.pl/kontakty
+Call log:
+  - navigating to "https://www.fdrp.org.pl/kontakty", waiting until "domcontentloaded"
+ | ERROR | 2026-07-07 06:43:02
+POBIERANIE_KONTAKTU https://www.fdrp.org.pl/o-nas — Client error '404 Not Found' for url 'https://www.fdrp.org.pl/o-nas'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404 | ERROR | 2026-07-07 06:43:04
+PLAYWRIGHT https://www.fdrp.org.pl/o-nas — Page.goto: net::ERR_CONNECTION_RESET at https://www.fdrp.org.pl/o-nas
+Call log:
+  - navigating to "https://www.fdrp.org.pl/o-nas", waiting until "domcontentloaded"
+ | ERROR | 2026-07-07 06:43:17
+POBIERANIE_KONTAKTU https://www.fdrp.org.pl/contact — Client error '404 Not Found' for url 'https://www.fdrp.org.pl/contact'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404 | ERROR | 2026-07-07 06:43:19
+PLAYWRIGHT https://www.fdrp.org.pl/contact — Page.goto: net::ERR_CONNECTION_RESET at https://www.fdrp.org.pl/contact
+Call log:
+  - navigating to "https://www.fdrp.org.pl/contact", waiting until "domcontentloaded"
+ | ERROR | 2026-07-07 06:43:32
+KONTAKT_SPRAWDZONY — 0000477637 — https://www.fdrp.org.pl/kontakt/ | INFO | 2026-07-07 06:43:32
+START_SKRYPTU — Zadanie: organizacje_polonijne | INFO | 2026-07-07 06:43:47
+KONTAKT_SPRAWDZONY — 0000478182 — https://fundacjavolens.pl/ | INFO | 2026-07-07 06:43:50
