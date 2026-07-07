@@ -31,7 +31,23 @@ Użytkownik jest osobą niewidomą i pracuje wyłącznie z czytnikami ekranu.
 
 ## Stos technologiczny
 - Python 3.14
-- requests, beautifulsoup4, lxml, openpyxl, tqdm (wszystkie biblioteki darmowe dozwolone)
+- requests, beautifulsoup4, lxml — pobieranie i parsowanie stron w pełni statycznych i przewidywalnych
+  (Etap 1, strony gov.pl).
+- pdfplumber — wyciąganie tabel z załączników PDF (Etap 1, wyniki konkursów polonijnych).
+- httpx, selectolax — podstawowe narzędzie do pobierania i parsowania stron kontaktowych organizacji
+  (Etap 4): lekkie i szybkie.
+- playwright — zapasowe narzędzie dla stron renderowanych przez JavaScript, gdy httpx zwróci podejrzanie
+  mało tekstu (Etap 4).
+- ddgs — automatyczne wyszukiwanie adresu WWW organizacji, z bezpiecznikiem przy blokadzie/CAPTCHA
+  (patrz metodyka pozyskiwania danych niżej); narzędzie wyszukiwania asystenta jako zapasowa metoda.
+- phonenumbers — wyszukiwanie i walidacja numerów telefonu w pobranym tekście (poprawny numer kierunkowy,
+  odrzucenie przypadkowych sekwencji cyfr typu NIP/REGON/KRS).
+- openpyxl — zapis do plików XLSX.
+- tqdm — pasek postępu dla długotrwałych operacji.
+- Wszystkie biblioteki darmowe dozwolone; przy dodawaniu kolejnej do wyboru wybieraj aktywnie rozwijaną
+  i z najlepszym stosunkiem niezawodności do złożoności — ale nie dodawaj bibliotek "na zapas", tylko
+  wtedy, gdy faktycznie rozwiązują problem w tym projekcie (patrz zasada braku abstrakcji na przyszłość
+  niżej).
 - Kodowanie wyjścia: `utf-8-sig` (UTF-8 z BOM — polskie znaki w Excel)
 
 ## Zasady pisania kodu (YOU MUST)
@@ -92,7 +108,7 @@ config.py         # opcjonalnie: wydzielony CONFIG
 requirements.txt
 progress.json     # auto: stan postępu
 scraper_log.txt   # auto: logi
-output/           # auto: baza_*.xlsx, odrzucone.xlsx
+output/           # auto: baza_*.xlsx, odrzucone.xlsx, pliki pośrednie etapów (np. dane_kontaktowe.json)
 STAN_PROJEKTU.md  # auto: checkpoint pamięci, patrz docs/skleroza.md
 ```
 Szczegóły źródeł danych dla aktualnego zadania: @docs/zrodla_polonia.md
